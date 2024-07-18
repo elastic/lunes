@@ -80,8 +80,13 @@ var dayPeriodsStd = []string{
 	"PM",
 }
 
-// Parse translates the localized time value using the Translate method, and parses the
+// Parse translates the localized time value using the [Translate] method, and parses the
 // output to [time.Time] by using the [time.Parse] method.
+//
+// If the given locale does not support any layout element specified on the layout argument,
+// it results in an ErrUnsupportedLayoutElem error. On the other hand, if the values does
+// not match the layout, an ErrUnsupportedLayoutElem is returned.
+// In addition to that, it might return any [time.ParseInLocation] errors.
 func Parse(layout string, value string, locale Locale) (time.Time, error) {
 	pv, err := Translate(layout, value, locale)
 	if err != nil {
@@ -91,8 +96,13 @@ func Parse(layout string, value string, locale Locale) (time.Time, error) {
 	return time.Parse(layout, pv)
 }
 
-// ParseInLocation translates the localized time value using the Translate method, and parses
+// ParseInLocation translates the localized time value using the [Translate] method, and parses
 // the output to [time.Time] by using the [time.ParseInLocation] method.
+//
+// If the given locale does not support any layout element specified on the layout argument,
+// it results in an ErrUnsupportedLayoutElem error. On the other hand, if the values does
+// not match the layout, an ErrUnsupportedLayoutElem is returned.
+// In addition to that, it might return any [time.ParseInLocation] errors.
 func ParseInLocation(layout string, value string, locale Locale, location *time.Location) (time.Time, error) {
 	pv, err := Translate(layout, value, locale)
 	if err != nil {
@@ -107,6 +117,10 @@ func ParseInLocation(layout string, value string, locale Locale, location *time.
 // equivalents. The first argument must be a native Go time layout. The second argument
 // must be parseable using the format string (layout) provided as the first argument,
 // but in the foreign language.
+//
+// If the given locale does not support any layout element specified on the layout argument,
+// it results in an ErrUnsupportedLayoutElem error. On the other hand, if the values does
+// not match the layout, an ErrUnsupportedLayoutElem is returned.
 //
 // This function is meant to return a value that can be used with the Go standard
 // [time.Parse] or [time.ParseInLocation] methods. Although it maintains value's empty
