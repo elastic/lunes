@@ -21,7 +21,7 @@ steps:
       provider: "gcp"
       image: "${IMAGE_UBUNTU_X86_64}"
       machineType: "${GCP_DEFAULT_MACHINE_TYPE}"
-      
+
   - label: ":linux: Test Linux"
     key: test-lin
     command: |
@@ -54,7 +54,7 @@ steps:
       provider: "gcp"
       image: "${IMAGE_UBUNTU_X86_64}"
       machineType: "${GCP_DEFAULT_MACHINE_TYPE}"
-    artifact_paths: 
+    artifact_paths:
       "*-junit.xml"
     depends_on:
       - step: "test-lin"
