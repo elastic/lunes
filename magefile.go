@@ -22,9 +22,10 @@ package main
 
 import (
 	"fmt"
+	"path/filepath"
+
 	"github.com/magefile/mage/mg" // mg contains helpful utility functions, like Deps
 	"github.com/magefile/mage/sh"
-	"path/filepath"
 
 	// mage:import
 	"github.com/elastic/lunes/dev-tools/mage"
