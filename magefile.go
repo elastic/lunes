@@ -22,8 +22,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/magefile/mage/mg" // mg contains helpful utility functions, like Deps
 	"path/filepath"
+
+	"github.com/magefile/mage/mg" // mg contains helpful utility functions, like Deps
+	"github.com/magefile/mage/sh"
 
 	// mage:import
 	"github.com/elastic/lunes/dev-tools/mage"
@@ -85,5 +87,21 @@ func Notice() error {
 		filepath.Join("dev-tools", "templates", "notice", "overrides.json"),
 		filepath.Join("dev-tools", "templates", "notice", "rules.json"),
 		filepath.Join("dev-tools", "templates", "notice", "NOTICE.txt.tmpl"),
+	)
+}
+
+// Generate the tables.go file
+func GenerateTables() error {
+	if err := sh.Run("go", "generate"); err != nil {
+		return err
+	}
+
+	mg.Deps(devtools.InstallGoLicenser)
+
+	licenser := gotool.Licenser
+
+	return licenser(
+		licenser.License("ASL2"),
+		licenser.Path("tables.go"),
 	)
 }
