@@ -71,33 +71,33 @@ func TestLocaleTableEnAuOverrides(t *testing.T) {
 	lang := "en-AU"
 
 	// "en-AU" inherits "en-001" overriding the short month name (June July Aug Sept) and day periods to lowercase
-	testTableEquality(t, lang, localeTableEnAu, localeTableEn001, shortDayNamesField, 0, 0)
-	testTableEquality(t, lang, localeTableEnAu, localeTableEn001, longDayNamesField, 0, 0)
-	testTableEquality(t, lang, localeTableEnAu, localeTableEn001, shortMonthNamesField, 0, 5)
+	testTableEquality(t, lang, localeTableEnAU, localeTableEn001, shortDayNamesField, 0, 0)
+	testTableEquality(t, lang, localeTableEnAU, localeTableEn001, longDayNamesField, 0, 0)
+	testTableEquality(t, lang, localeTableEnAU, localeTableEn001, shortMonthNamesField, 0, 5)
 
-	if localeTableEnAu[shortMonthNamesField][5] != "June" {
-		t.Errorf("'%s' expected shortMonthNamesField][5] value: June, got: %v", lang, localeTableEnAu[shortMonthNamesField][5])
+	if localeTableEnAU[shortMonthNamesField][5] != "June" {
+		t.Errorf("'%s' expected shortMonthNamesField][5] value: June, got: %v", lang, localeTableEnAU[shortMonthNamesField][5])
 	}
 
-	if localeTableEnAu[shortMonthNamesField][6] != "July" {
-		t.Errorf("'%s' expected shortMonthNamesField][6] value: July, got: %v", lang, localeTableEnAu[shortMonthNamesField][6])
+	if localeTableEnAU[shortMonthNamesField][6] != "July" {
+		t.Errorf("'%s' expected shortMonthNamesField][6] value: July, got: %v", lang, localeTableEnAU[shortMonthNamesField][6])
 	}
 
-	testTableEquality(t, lang, localeTableEnAu, localeTableEn001, shortMonthNamesField, 7, 8)
+	testTableEquality(t, lang, localeTableEnAU, localeTableEn001, shortMonthNamesField, 7, 8)
 
-	if localeTableEnAu[shortMonthNamesField][8] != "Sept" {
-		t.Errorf("'%s' expected shortMonthNamesField][8] value: Sept, got: %v", lang, localeTableEnAu[shortMonthNamesField][8])
+	if localeTableEnAU[shortMonthNamesField][8] != "Sept" {
+		t.Errorf("'%s' expected shortMonthNamesField][8] value: Sept, got: %v", lang, localeTableEnAU[shortMonthNamesField][8])
 	}
 
-	testTableEquality(t, lang, localeTableEnAu, localeTableEn001, shortMonthNamesField, 9, 0)
-	testTableEquality(t, lang, localeTableEnAu, localeTableEn001, longMonthNamesField, 0, 0)
+	testTableEquality(t, lang, localeTableEnAU, localeTableEn001, shortMonthNamesField, 9, 0)
+	testTableEquality(t, lang, localeTableEnAU, localeTableEn001, longMonthNamesField, 0, 0)
 
-	if localeTableEnAu[dayPeriodsField][0] != "am" {
-		t.Errorf("'%s' expected dayPeriodsField[0] value: am, got: %v", lang, localeTableEnAu[dayPeriodsField][0])
+	if localeTableEnAU[dayPeriodsField][0] != "am" {
+		t.Errorf("'%s' expected dayPeriodsField[0] value: am, got: %v", lang, localeTableEnAU[dayPeriodsField][0])
 	}
 
-	if localeTableEnAu[dayPeriodsField][1] != "pm" {
-		t.Errorf("'%s' expected dayPeriodsField[1] value: pm, got: %v", lang, localeTableEnAu[dayPeriodsField][1])
+	if localeTableEnAU[dayPeriodsField][1] != "pm" {
+		t.Errorf("'%s' expected dayPeriodsField[1] value: pm, got: %v", lang, localeTableEnAU[dayPeriodsField][1])
 	}
 }
 

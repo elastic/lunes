@@ -38,7 +38,6 @@ import (
 	"strings"
 	"text/template"
 
-	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )
 
@@ -485,11 +484,11 @@ type tablesTmplDataItem struct {
 }
 
 func newTablesTmplDataItem(tag string, data *cldrLocaleData) *tablesTmplDataItem {
-	tableName := cases.Title(language.Und).String(tag)
-	tableName = "localeTable" + strings.ReplaceAll(tableName, "-", "")
+	name := strings.ReplaceAll(tag, "-", "")
+	name = strings.ToUpper(name[:1]) + name[1:]
 
 	return &tablesTmplDataItem{
-		Name:            tableName,
+		Name:            name,
 		Language:        tag,
 		ShortDaysNames:  sortTableValues(data.shortDayNames, shortDayNamesStd),
 		LongDaysNames:   sortTableValues(data.longDayNames, longDayNamesStd),

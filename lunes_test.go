@@ -24,8 +24,6 @@ import (
 	"strings"
 	"testing"
 	"time"
-
-	"golang.org/x/text/language"
 )
 
 type ParseTestLocale struct {
@@ -91,8 +89,7 @@ func genAllLocalesTests(valuePattern string, replacements []replacement, formatt
 	var tests []ParseTestLocale
 	for lang := range tables {
 		test := ParseTestLocale{lang: lang}
-		tag := language.Make(lang)
-		locale := genericLocale{lang: &tag, table: tables[lang]}
+		locale := genericLocale{lang: lang, table: tables[lang]}
 
 		args := make([]any, 0, len(replacements)/2)
 		var unsupportedElem string
@@ -667,19 +664,10 @@ var parseTests = []ParseTest{
 	},
 }
 
-var (
-	englishLocale   Locale
-	defaultLocation *time.Location
-)
+var defaultLocation *time.Location
 
 func init() {
 	var err error
-
-	englishLocale, err = NewDefaultLocale(&language.English)
-	if err != nil {
-		log.Fatal(err)
-	}
-
 	defaultLocation, err = time.LoadLocation("America/Los_Angeles")
 	if err != nil {
 		log.Fatal(err)
@@ -689,7 +677,7 @@ func init() {
 func TestParseInLocation(t *testing.T) {
 	testParseFunc(t, parseTests, func(format, stdValue string) (time.Time, error) {
 		return time.ParseInLocation(format, stdValue, defaultLocation)
-	}, func(format string, value string, locale Locale) (time.Time, error) {
+	}, func(format string, value string, locale string) (time.Time, error) {
 		return ParseInLocation(format, value, locale, defaultLocation)
 	})
 }
@@ -700,7 +688,7 @@ func TestParse(t *testing.T) {
 
 type stdParseFunction func(format, value string) (time.Time, error)
 
-type parseFunction func(format string, value string, locale Locale) (time.Time, error)
+type parseFunction func(format string, value string, locale string) (time.Time, error)
 
 func testParseFunc(t *testing.T, tests []ParseTest, stdFn stdParseFunction, parseFn parseFunction) {
 	var err error
@@ -720,7 +708,7 @@ func testParseFunc(t *testing.T, tests []ParseTest, stdFn stdParseFunction, pars
 				t.Errorf("%s error: failed to parse stdValue %s: %v", test.name, test.stdValue, err)
 			}
 
-			result, err = parseFn(test.format, test.stdValue, englishLocale)
+			result, err = parseFn(test.format, test.stdValue, LocaleEn)
 			if err != nil {
 				t.Errorf("%s error: %v", test.name, err)
 			} else {
@@ -730,15 +718,7 @@ func testParseFunc(t *testing.T, tests []ParseTest, stdFn stdParseFunction, pars
 			if test.locales != nil {
 				for _, lt := range *test.locales {
 					t.Run(lt.lang, func(t *testing.T) {
-						tag := language.Make(lt.lang)
-						var locale Locale
-						locale, err = NewDefaultLocale(&tag)
-						if err != nil {
-							t.Errorf("%s error: %v", test.name, err)
-							return
-						}
-
-						result, err = parseFn(test.format, lt.value, locale)
+						result, err = parseFn(test.format, lt.value, lt.lang)
 						if err != nil {
 							if lt.expectedErr == nil {
 								t.Errorf("%s error parsing '%v': %v", test.name, lt.value, err)
@@ -802,16 +782,38 @@ func TestLayoutMismatch(t *testing.T) {
 	expected := newLayoutMismatchError("Mon", value)
 
 	t.Run("Parse", func(t *testing.T) {
-		_, err := Parse(format, value, englishLocale)
+		_, err := Parse(format, value, LocaleEn)
 		if err == nil || !errors.Is(err, expected) {
 			t.Errorf("ErrLayoutMismatch expected, got %v", err)
 		}
 	})
 
 	t.Run("ParseInLocation", func(t *testing.T) {
-		_, err := ParseInLocation(format, value, englishLocale, defaultLocation)
+		_, err := ParseInLocation(format, value, LocaleEn, defaultLocation)
 		if err == nil || !errors.Is(err, expected) {
 			t.Errorf("ErrLayoutMismatch expected, got %v", err)
+		}
+	})
+}
+
+func TestParsingWithUnsupportedLocale(t *testing.T) {
+	lang := "ann"
+	format := "Mon January 03:04:05PM"
+	value := "Feb Monday 03:04:05PM"
+
+	t.Run("Parse", func(t *testing.T) {
+		_, err := Parse(format, value, lang)
+		var e *ErrUnsupportedLocale
+		if !errors.As(err, &e) {
+			t.Errorf("expected error: '%v', got: '%v'", &ErrUnsupportedLocale{lang}, err)
+		}
+	})
+
+	t.Run("ParseInLocation", func(t *testing.T) {
+		_, err := ParseInLocation(format, value, lang, defaultLocation)
+		var e *ErrUnsupportedLocale
+		if !errors.As(err, &e) {
+			t.Errorf("expected error: '%v', got: '%v'", &ErrUnsupportedLocale{lang}, err)
 		}
 	})
 }
@@ -855,7 +857,7 @@ func TestAllLocalesReplacements(t *testing.T) {
 	t.Run("ParseInLocationShortNames", func(t *testing.T) {
 		testParseFunc(t, longLayoutTests, func(format, value string) (time.Time, error) {
 			return time.ParseInLocation(format, value, defaultLocation)
-		}, func(format string, value string, locale Locale) (time.Time, error) {
+		}, func(format string, value string, locale string) (time.Time, error) {
 			return ParseInLocation(format, value, locale, defaultLocation)
 		})
 	})
@@ -863,7 +865,7 @@ func TestAllLocalesReplacements(t *testing.T) {
 	t.Run("ParseInLocationLongNames", func(t *testing.T) {
 		testParseFunc(t, longLayoutTests, func(format, value string) (time.Time, error) {
 			return time.ParseInLocation(format, value, defaultLocation)
-		}, func(format string, value string, locale Locale) (time.Time, error) {
+		}, func(format string, value string, locale string) (time.Time, error) {
 			return ParseInLocation(format, value, locale, defaultLocation)
 		})
 	})
@@ -871,7 +873,7 @@ func TestAllLocalesReplacements(t *testing.T) {
 
 func TestUnsupportedLayoutElements(t *testing.T) {
 	locale := genericLocale{
-		lang: &language.English,
+		lang: LocaleEn,
 		table: [5][]string{
 			{}, {}, {}, {}, {},
 		},
@@ -879,7 +881,7 @@ func TestUnsupportedLayoutElements(t *testing.T) {
 
 	doTest := func(t *testing.T, layout, elem string) {
 		expectedErr := newUnsupportedLayoutElemError(elem, &locale)
-		_, err := Parse(layout, layout, &locale)
+		_, err := ParseWithLocale(layout, layout, &locale)
 		if err == nil {
 			t.Errorf("expected error: '%v', got: nil", expectedErr)
 			return
@@ -911,18 +913,41 @@ func TestUnsupportedLayoutElements(t *testing.T) {
 	})
 }
 
-func TestTranslateSpacedValue(t *testing.T) {
-	locale, err := NewDefaultLocale(&language.EuropeanSpanish)
+func TestTranslate(t *testing.T) {
+	translate, err := Translate("Monday _2 2006 27", "viernes 15 2006 27", LocaleEsES)
 	if err != nil {
 		return
 	}
 
-	translate, err := Translate("Monday _2 2006 27", "    viernes   15  2006 27 ", locale)
+	if translate != "Friday 15 2006 27" {
+		t.Errorf("expected value \"Friday 15 2006 27\", got: \"%s\"", translate)
+	}
+}
+
+func TestTranslateSpacedValue(t *testing.T) {
+	locale, err := NewDefaultLocale(LocaleEsES)
+	if err != nil {
+		return
+	}
+
+	translate, err := TranslateWithLocale("Monday _2 2006 27", "    viernes   15  2006 27 ", locale)
 	if err != nil {
 		return
 	}
 
 	if translate != "    Friday   15  2006 27 " {
 		t.Errorf("expected spced value '    Friday   15  2006 27 ', got: '%s'", translate)
+	}
+}
+
+func TestTranslateWithUnsupportedLocale(t *testing.T) {
+	lang := "ann"
+	format := "Mon January 03:04:05PM"
+	value := "Feb Monday 03:04:05PM"
+
+	_, err := Translate(format, value, lang)
+	var e *ErrUnsupportedLocale
+	if !errors.As(err, &e) {
+		t.Errorf("expected error: '%v', got: '%v'", &ErrUnsupportedLocale{lang}, err)
 	}
 }

@@ -21,8 +21,6 @@ import (
 	"errors"
 	"strconv"
 	"testing"
-
-	"golang.org/x/text/language"
 )
 
 func TestLocaleTableFieldsLookups(t *testing.T) {
@@ -33,7 +31,7 @@ func TestLocaleTableFieldsLookups(t *testing.T) {
 	dayPeriodsVal := strconv.Itoa(dayPeriodsField)
 
 	locale := genericLocale{
-		lang: &language.English,
+		lang: LocaleEn,
 		table: [5][]string{
 			{shortDaysNameVal},
 			{longDayNamesVal},
@@ -43,8 +41,8 @@ func TestLocaleTableFieldsLookups(t *testing.T) {
 		},
 	}
 
-	if locale.Language() != &language.English {
-		t.Errorf("expected Language: %v, got: %v", language.English.String(), locale.Language().String())
+	if locale.Language() != LocaleEn {
+		t.Errorf("expected Language: %v, got: %v", LocaleEn, locale.Language())
 	}
 
 	if locale.ShortDayNames()[0] != shortDaysNameVal {
@@ -70,16 +68,16 @@ func TestLocaleTableFieldsLookups(t *testing.T) {
 }
 
 func TestUnsupportedLocale(t *testing.T) {
-	ann := language.Make("ann")
-	_, err := NewDefaultLocale(&ann)
+	lang := "ann"
+	_, err := NewDefaultLocale(lang)
 	if err == nil {
 		t.Error("expected ErrUnsupportedLocale error, got: nil")
 	}
 
-	expected := &ErrUnsupportedLocale{&ann}
+	expected := &ErrUnsupportedLocale{lang}
 
 	var e *ErrUnsupportedLocale
-	if !errors.As(err, &e) || e.lang != &ann {
+	if !errors.As(err, &e) || e.lang != lang {
 		t.Errorf("expected error: '%v', got: '%v'", expected, err)
 	}
 }

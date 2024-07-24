@@ -18,24 +18,37 @@
 package benchmarks_test
 
 import (
-	"github.com/elastic/lunes"
-	"github.com/goodsign/monday"
-	"golang.org/x/text/language"
 	"testing"
 	"time"
+
+	"github.com/goodsign/monday"
+
+	"github.com/elastic/lunes"
 )
 
 func BenchmarkTranslate(b *testing.B) {
 	b.ReportAllocs()
 	b.ResetTimer()
 
-	locale, err := lunes.NewDefaultLocale(&language.Spanish)
+	for i := 0; i < b.N; i++ {
+		_, err := lunes.Translate("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", lunes.LocaleEsES)
+		if err != nil {
+			b.Error(err)
+		}
+	}
+}
+
+func BenchmarkTranslateWithLocale(b *testing.B) {
+	b.ReportAllocs()
+	b.ResetTimer()
+
+	locale, err := lunes.NewDefaultLocale(lunes.LocaleEsES)
 	if err != nil {
 		b.Error(err)
 	}
 
 	for i := 0; i < b.N; i++ {
-		_, err = lunes.Translate("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", locale)
+		_, err = lunes.TranslateWithLocale("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", locale)
 		if err != nil {
 			b.Error(err)
 		}
@@ -46,13 +59,8 @@ func BenchmarkParse(b *testing.B) {
 	b.ReportAllocs()
 	b.ResetTimer()
 
-	locale, err := lunes.NewDefaultLocale(&language.EuropeanSpanish)
-	if err != nil {
-		b.Error(err)
-	}
-
 	for i := 0; i < b.N; i++ {
-		_, err = lunes.Parse("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", locale)
+		_, err := lunes.Parse("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", lunes.LocaleEsES)
 		if err != nil {
 			b.Error(err)
 		}
@@ -63,13 +71,42 @@ func BenchmarkParseInLocation(b *testing.B) {
 	b.ReportAllocs()
 	b.ResetTimer()
 
-	locale, err := lunes.NewDefaultLocale(&language.EuropeanSpanish)
+	for i := 0; i < b.N; i++ {
+		_, err := lunes.ParseInLocation("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", lunes.LocaleEsES, time.UTC)
+		if err != nil {
+			b.Error(err)
+		}
+	}
+}
+
+func BenchmarkParseWithLocale(b *testing.B) {
+	b.ReportAllocs()
+	b.ResetTimer()
+
+	locale, err := lunes.NewDefaultLocale(lunes.LocaleEsES)
 	if err != nil {
 		b.Error(err)
 	}
 
 	for i := 0; i < b.N; i++ {
-		_, err = lunes.ParseInLocation("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", locale, time.UTC)
+		_, err = lunes.ParseWithLocale("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", locale)
+		if err != nil {
+			b.Error(err)
+		}
+	}
+}
+
+func BenchmarkParseInLocationWithLocale(b *testing.B) {
+	b.ReportAllocs()
+	b.ResetTimer()
+
+	locale, err := lunes.NewDefaultLocale(lunes.LocaleEsES)
+	if err != nil {
+		b.Error(err)
+	}
+
+	for i := 0; i < b.N; i++ {
+		_, err = lunes.ParseInLocationWithLocale("Monday Jan _2 2006 15:04:05", "lunes oct 27 1988 11:53:29", time.UTC, locale)
 		if err != nil {
 			b.Error(err)
 		}

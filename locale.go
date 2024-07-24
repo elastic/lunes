@@ -21,15 +21,13 @@ package lunes
 
 import (
 	"fmt"
-
-	"golang.org/x/text/language"
 )
 
-// A Locale provides a collection of time layouts translations to a specific language.
-// It is used to provide a map of translations from this locale to English.
+// A Locale provides a collection of time layouts values in a specific language.
+// It is used to provide a map between the time layout elements in foreign language to English.
 type Locale interface {
-	// Language represents a BCP 47 language tag, specifying this locale language.
-	Language() *language.Tag
+	// Language represents a BCP 47 tag, specifying this locale language.
+	Language() string
 
 	// LongDayNames returns the long day names translations for the week days.
 	// It must be sorted, starting from Sunday to Saturday, and contains all 7 elements,
@@ -63,7 +61,7 @@ type Locale interface {
 }
 
 type genericLocale struct {
-	lang  *language.Tag
+	lang  string
 	table [5][]string
 }
 
@@ -87,27 +85,25 @@ func (g *genericLocale) DayPeriods() []string {
 	return g.table[dayPeriodsField]
 }
 
-func (g *genericLocale) Language() *language.Tag {
+func (g *genericLocale) Language() string {
 	return g.lang
 }
 
 // ErrUnsupportedLocale indicates that a provided language.Tag is not supported by the
 // default CLDR generic locales.
 type ErrUnsupportedLocale struct {
-	lang *language.Tag
+	lang string
 }
 
 func (e *ErrUnsupportedLocale) Error() string {
-	return fmt.Sprintf("locale %s not supported", e.lang.String())
+	return fmt.Sprintf("locale %s not supported", e.lang)
 }
 
-// NewDefaultLocale creates a new generic locale based on the CLDR gregorian calendar
-// translations, and on the provided BCP 47 language.Tag.
-//
-// If the language.Tag is unknown and no default data is found, it returns
-// ErrUnsupportedLocale.
-func NewDefaultLocale(lang *language.Tag) (Locale, error) {
-	table, ok := tables[lang.String()]
+// NewDefaultLocale creates a new generic locale for the given BCP 47 language tag, using
+// the default CLDR gregorian calendars data of the specified language.
+// If the language is unknown and no default data is found, it returns ErrUnsupportedLocale.
+func NewDefaultLocale(lang string) (Locale, error) {
+	table, ok := tables[lang]
 	if !ok {
 		return nil, &ErrUnsupportedLocale{lang}
 	}

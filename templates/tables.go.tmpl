@@ -22,7 +22,7 @@ package lunes
 var CLDRVersion = {{ .CLDRVersion }}
 
 {{ range .Tables -}}
-var {{ .Name }} = [5][]string{
+var localeTable{{ .Name }} = [5][]string{
     {{"{"}}{{if .ShortDaysNames}}{{StringSliceValue .ShortDaysNames}}{{end}}{{"}"}},
     {{"{"}}{{if .LongDaysNames}}{{StringSliceValue .LongDaysNames}}{{end}}{{"}"}},
     {{"{"}}{{if .ShortMonthNames}}{{StringSliceValue .ShortMonthNames}}{{end}}{{"}"}},
@@ -33,9 +33,16 @@ var {{ .Name }} = [5][]string{
 {{ end -}}
 
 
+const (
+    {{ range .Tables -}}
+	Locale{{  .Name }} = "{{ .Language }}"
+    {{ end -}}
+)
+
+
 var tables = map[string][5][]string{
     {{ range .Tables -}}
-	"{{ .Language }}": {{  .Name }},
+	Locale{{  .Name }}: localeTable{{  .Name }},
     {{ end -}}
 }
 

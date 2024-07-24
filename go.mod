@@ -7,7 +7,6 @@ require (
 	github.com/magefile/mage v1.15.0
 	go.elastic.co/go-licence-detector v0.6.1
 	go.uber.org/goleak v1.3.0
-	golang.org/x/text v0.16.0
 	golang.org/x/tools v0.23.0
 )
 

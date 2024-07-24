@@ -80,15 +80,35 @@ var dayPeriodsStd = []string{
 	"PM",
 }
 
-// Parse translates the localized time value using the [Translate] method, and parses the
-// output to [time.Time] by using the [time.Parse] method.
+// Parse parses a formatted string in foreign language and returns the [time.Time] value
+// it represents. See the documentation for the constant called [time.Layout] to see how to
+// represent the format.
 //
-// If the given locale does not support any layout element specified on the layout argument,
-// it results in an ErrUnsupportedLayoutElem error. On the other hand, if the values does
-// not match the layout, an ErrLayoutMismatch is returned.
-// In addition to that, it might return any [time.ParseInLocation] errors.
-func Parse(layout string, value string, locale Locale) (time.Time, error) {
-	pv, err := Translate(layout, value, locale)
+// After translating the foreign language value to English, it gets the time value by
+// calling the Go standard [time.Parse] function.
+//
+// The language argument must be a well-formed BCP 47 language tag, e.g ("en", "en-US") and
+// a known locale. If no data is found for the language, it returns ErrUnsupportedLocale.
+// If the given language does not support any [time.Layout] element specified on the layout
+// argument, it results in an ErrUnsupportedLayoutElem error. On the other hand, if the value
+// does not match the layout, an ErrLayoutMismatch is returned. See the documentation for
+// [time.Parse] for other possible errors it might return.
+//
+// To execute several parses for the same locale, use [ParseWithLocale] as it performs better.
+func Parse(layout string, value string, lang string) (time.Time, error) {
+	locale, err := NewDefaultLocale(lang)
+	if err != nil {
+		return time.Time{}, err
+	}
+
+	return ParseWithLocale(layout, value, locale)
+}
+
+// ParseWithLocale is like Parse, but instead of receiving a BCP 47 language tag argument,
+// it receives a built [lunes.Locale], avoiding looking up existing data in each operation
+// and allowing extensibility.
+func ParseWithLocale(layout string, value string, locale Locale) (time.Time, error) {
+	pv, err := TranslateWithLocale(layout, value, locale)
 	if err != nil {
 		return time.Time{}, err
 	}
@@ -96,15 +116,23 @@ func Parse(layout string, value string, locale Locale) (time.Time, error) {
 	return time.Parse(layout, pv)
 }
 
-// ParseInLocation translates the localized time value using the [Translate] method, and parses
-// the output to [time.Time] by using the [time.ParseInLocation] method.
-//
-// If the given locale does not support any layout element specified on the layout argument,
-// it results in an ErrUnsupportedLayoutElem error. On the other hand, if the values does
-// not match the layout, an ErrLayoutMismatch is returned.
-// In addition to that, it might return any [time.ParseInLocation] errors.
-func ParseInLocation(layout string, value string, locale Locale, location *time.Location) (time.Time, error) {
-	pv, err := Translate(layout, value, locale)
+// ParseInLocation is like Parse, but it interprets the time as in the given location.
+// In addition to the [Parse] errors, it might return any [time.ParseInLocation] possible errors.
+// To execute several parses for the same locale, use [ParseInLocationWithLocale] as it performs better.
+func ParseInLocation(layout string, value string, lang string, location *time.Location) (time.Time, error) {
+	locale, err := NewDefaultLocale(lang)
+	if err != nil {
+		return time.Time{}, err
+	}
+
+	return ParseInLocationWithLocale(layout, value, location, locale)
+}
+
+// ParseInLocationWithLocale is like ParseInLocation, but instead of receiving a BCP 47
+// language tag argument, it receives a built [lunes.Locale], avoiding looking up existing
+// data in each operation and allowing extensibility.
+func ParseInLocationWithLocale(layout string, value string, location *time.Location, locale Locale) (time.Time, error) {
+	pv, err := TranslateWithLocale(layout, value, locale)
 	if err != nil {
 		return time.Time{}, err
 	}
@@ -116,17 +144,31 @@ func ParseInLocation(layout string, value string, locale Locale, location *time.
 // It replaces short and long week days names, months names, and day periods by their
 // equivalents. The first argument must be a native Go time layout. The second argument
 // must be parseable using the format string (layout) provided as the first argument,
-// but in the foreign language.
+// but in the foreign language. The language argument must be a well-formed BCP 47
+// language tag, e.g ("en", "en-US") and a known locale. If no data is found for the
+// language, it returns ErrUnsupportedLocale.
 //
-// If the given locale does not support any layout element specified on the layout argument,
-// it results in an ErrUnsupportedLayoutElem error. On the other hand, if the values does
+// If the given locale does not support a layout element specified on the layout argument,
+// it results in an ErrUnsupportedLayoutElem error. On the other hand, if the value does
 // not match the layout, an ErrLayoutMismatch is returned.
 //
 // This function is meant to return a value that can be used with the Go standard
 // [time.Parse] or [time.ParseInLocation] methods. Although it maintains value's empty
 // spaces that are not present in the layout string, it might drop them in the future,
 // as they are ignored by both standard time parsings functions.
-func Translate(layout string, value string, locale Locale) (string, error) {
+func Translate(layout string, value string, lang string) (string, error) {
+	locale, err := NewDefaultLocale(lang)
+	if err != nil {
+		return value, err
+	}
+
+	return TranslateWithLocale(layout, value, locale)
+}
+
+// TranslateWithLocale is like Translate, but instead of receiving a BCP 47 language tag
+// argument, it receives a built [lunes.Locale], avoiding looking up existing data in each
+// operation and allowing extensibility.
+func TranslateWithLocale(layout string, value string, locale Locale) (string, error) {
 	var err error
 	var sb strings.Builder
 	var layoutOffset, valueOffset int
@@ -420,6 +462,6 @@ func (u *ErrUnsupportedLayoutElem) Is(err error) bool {
 func newUnsupportedLayoutElemError(elem string, locale Locale) error {
 	return &ErrUnsupportedLayoutElem{
 		LayoutElem: elem,
-		Language:   locale.Language().String(),
+		Language:   locale.Language(),
 	}
 }

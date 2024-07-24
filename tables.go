@@ -29,7 +29,7 @@ var localeTableAa = [5][]string{
 	{"saaku", "carra"},
 }
 
-var localeTableAaDj = [5][]string{
+var localeTableAaDJ = [5][]string{
 	{"Aca", "Etl", "Tal", "Arb", "Kam", "Gum", "Sab"},
 	{"Acaada", "Etleeni", "Talaata", "Arbaqa", "Kamiisi", "Gumqata", "Sabti"},
 	{"Qun", "Nah", "Cig", "Agd", "Cax", "Qas", "Qad", "Leq", "Way", "Dit", "Xim", "Kax"},
@@ -37,7 +37,7 @@ var localeTableAaDj = [5][]string{
 	{"saaku", "carra"},
 }
 
-var localeTableAaEr = [5][]string{
+var localeTableAaER = [5][]string{
 	{"Aca", "Etl", "Tal", "Arb", "Kam", "Gum", "Sab"},
 	{"Acaada", "Etleeni", "Talaata", "Arbaqa", "Kamiisi", "Gumqata", "Sabti"},
 	{"Qun", "Nah", "Cig", "Agd", "Cax", "Qas", "Qad", "Leq", "Way", "Dit", "Xim", "Kax"},
@@ -45,7 +45,7 @@ var localeTableAaEr = [5][]string{
 	{"saaku", "carra"},
 }
 
-var localeTableAaEt = [5][]string{
+var localeTableAaET = [5][]string{
 	{"Aca", "Etl", "Tal", "Arb", "Kam", "Gum", "Sab"},
 	{"Acaada", "Etleeni", "Talaata", "Arbaqa", "Kamiisi", "Gumqata", "Sabti"},
 	{"Qun", "Nah", "Cig", "Agd", "Cax", "Qas", "Qad", "Leq", "Way", "Dit", "Xim", "Kax"},
@@ -61,7 +61,7 @@ var localeTableAb = [5][]string{
 	{},
 }
 
-var localeTableAbGe = [5][]string{
+var localeTableAbGE = [5][]string{
 	{"Ам", "Ашә", "Аҩ", "Ах", "Аԥ", "Ахә", "Ас"},
 	{"Амҽыша", "Ашәахьа", "Аҩаша", "Ахаша", "Аԥшьаша", "Ахәаша", "Асабша"},
 	{"Ажь", "Жəаб", "Хəажә", "Мш", "Лаҵ", "Рашә", "Ԥхынгә", "Нанҳә", "Цəыб", "Жьҭ", "Абҵ", "Ԥхынҷ"},
@@ -77,7 +77,7 @@ var localeTableAf = [5][]string{
 	{"vm.", "nm."},
 }
 
-var localeTableAfNa = [5][]string{
+var localeTableAfNA = [5][]string{
 	{"So.", "Ma.", "Di.", "Wo.", "Do.", "Vr.", "Sa."},
 	{"Sondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrydag", "Saterdag"},
 	{"Jan.", "Feb.", "Mrt.", "Apr.", "Mei", "Jun.", "Jul.", "Aug.", "Sep.", "Okt.", "Nov.", "Des."},
@@ -85,7 +85,7 @@ var localeTableAfNa = [5][]string{
 	{"vm.", "nm."},
 }
 
-var localeTableAfZa = [5][]string{
+var localeTableAfZA = [5][]string{
 	{"So.", "Ma.", "Di.", "Wo.", "Do.", "Vr.", "Sa."},
 	{"Sondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrydag", "Saterdag"},
 	{"Jan.", "Feb.", "Mrt.", "Apr.", "Mei", "Jun.", "Jul.", "Aug.", "Sep.", "Okt.", "Nov.", "Des."},
@@ -101,7 +101,7 @@ var localeTableAgq = [5][]string{
 	{"a.g", "a.k"},
 }
 
-var localeTableAgqCm = [5][]string{
+var localeTableAgqCM = [5][]string{
 	{"nts", "kpa", "ghɔ", "tɔm", "ume", "ghɨ", "dzk"},
 	{"tsuʔntsɨ", "tsuʔukpà", "tsuʔughɔe", "tsuʔutɔ̀mlò", "tsuʔumè", "tsuʔughɨ̂m", "tsuʔndzɨkɔʔɔ"},
 	{"nùm", "kɨz", "tɨd", "taa", "see", "nzu", "dum", "fɔe", "dzu", "lɔm", "kaa", "fwo"},
@@ -117,7 +117,7 @@ var localeTableAk = [5][]string{
 	{"AN", "EW"},
 }
 
-var localeTableAkGh = [5][]string{
+var localeTableAkGH = [5][]string{
 	{"Kwe", "Dwo", "Ben", "Wuk", "Yaw", "Fia", "Mem"},
 	{"Kwesida", "Dwowda", "Benada", "Wukuda", "Yawda", "Fida", "Memeneda"},
 	{"S-Ɔ", "K-Ɔ", "E-Ɔ", "E-O", "E-K", "O-A", "A-K", "D-Ɔ", "F-Ɛ", "Ɔ-A", "Ɔ-O", "M-Ɔ"},
@@ -133,7 +133,7 @@ var localeTableAm = [5][]string{
 	{"ጥዋት", "ከሰዓት"},
 }
 
-var localeTableAmEt = [5][]string{
+var localeTableAmET = [5][]string{
 	{"እሑድ", "ሰኞ", "ማክሰ", "ረቡዕ", "ሐሙስ", "ዓርብ", "ቅዳሜ"},
 	{"እሑድ", "ሰኞ", "ማክሰኞ", "ረቡዕ", "ሐሙስ", "ዓርብ", "ቅዳሜ"},
 	{"ጃን", "ፌብ", "ማርች", "ኤፕሪ", "ሜይ", "ጁን", "ጁላይ", "ኦገስ", "ሴፕቴ", "ኦክቶ", "ኖቬም", "ዲሴም"},
@@ -149,7 +149,7 @@ var localeTableAn = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableAnEs = [5][]string{
+var localeTableAnES = [5][]string{
 	{"dom", "lun", "mar", "mie", "chu", "vie", "sab"},
 	{"dominche", "luns", "martz", "miercres", "chueves", "viernes", "sabado"},
 	{"chi.", "feb.", "mar.", "abr.", "may.", "chn.", "chl.", "ago.", "set.", "oct.", "nov.", "avi."},
@@ -165,7 +165,7 @@ var localeTableApc = [5][]string{
 	{},
 }
 
-var localeTableApcSy = [5][]string{
+var localeTableApcSY = [5][]string{
 	{},
 	{"الأحد", "التنين", "التلاتا", "الأربعا", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -189,7 +189,7 @@ var localeTableAr001 = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArAe = [5][]string{
+var localeTableArAE = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -197,7 +197,7 @@ var localeTableArAe = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArBh = [5][]string{
+var localeTableArBH = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -205,7 +205,7 @@ var localeTableArBh = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArDj = [5][]string{
+var localeTableArDJ = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -213,7 +213,7 @@ var localeTableArDj = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArDz = [5][]string{
+var localeTableArDZ = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -221,7 +221,7 @@ var localeTableArDz = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArEg = [5][]string{
+var localeTableArEG = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -229,7 +229,7 @@ var localeTableArEg = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArEh = [5][]string{
+var localeTableArEH = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -237,7 +237,7 @@ var localeTableArEh = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArEr = [5][]string{
+var localeTableArER = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -245,7 +245,7 @@ var localeTableArEr = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArIl = [5][]string{
+var localeTableArIL = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -253,7 +253,7 @@ var localeTableArIl = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArIq = [5][]string{
+var localeTableArIQ = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{"كانون الثاني", "شباط", "آذار", "نيسان", "أيار", "حزيران", "تموز", "آب", "أيلول", "تشرين الأول", "تشرين الثاني", "كانون الأول"},
@@ -261,7 +261,7 @@ var localeTableArIq = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArJo = [5][]string{
+var localeTableArJO = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -269,7 +269,7 @@ var localeTableArJo = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArKm = [5][]string{
+var localeTableArKM = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -277,7 +277,7 @@ var localeTableArKm = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArKw = [5][]string{
+var localeTableArKW = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -285,7 +285,7 @@ var localeTableArKw = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArLb = [5][]string{
+var localeTableArLB = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -293,7 +293,7 @@ var localeTableArLb = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArLy = [5][]string{
+var localeTableArLY = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -301,7 +301,7 @@ var localeTableArLy = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArMa = [5][]string{
+var localeTableArMA = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -309,7 +309,7 @@ var localeTableArMa = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArMr = [5][]string{
+var localeTableArMR = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -317,7 +317,7 @@ var localeTableArMr = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArOm = [5][]string{
+var localeTableArOM = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -325,7 +325,7 @@ var localeTableArOm = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArPs = [5][]string{
+var localeTableArPS = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -333,7 +333,7 @@ var localeTableArPs = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArQa = [5][]string{
+var localeTableArQA = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -341,7 +341,7 @@ var localeTableArQa = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArSa = [5][]string{
+var localeTableArSA = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -349,7 +349,7 @@ var localeTableArSa = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArSd = [5][]string{
+var localeTableArSD = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -357,7 +357,7 @@ var localeTableArSd = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArSo = [5][]string{
+var localeTableArSO = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -365,7 +365,7 @@ var localeTableArSo = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArSs = [5][]string{
+var localeTableArSS = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -373,7 +373,7 @@ var localeTableArSs = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArSy = [5][]string{
+var localeTableArSY = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -381,7 +381,7 @@ var localeTableArSy = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArTd = [5][]string{
+var localeTableArTD = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -389,7 +389,7 @@ var localeTableArTd = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArTn = [5][]string{
+var localeTableArTN = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -397,7 +397,7 @@ var localeTableArTn = [5][]string{
 	{"ص", "م"},
 }
 
-var localeTableArYe = [5][]string{
+var localeTableArYE = [5][]string{
 	{},
 	{"الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"},
 	{},
@@ -413,7 +413,7 @@ var localeTableAs = [5][]string{
 	{"পূৰ্বাহ্ন", "অপৰাহ্ন"},
 }
 
-var localeTableAsIn = [5][]string{
+var localeTableAsIN = [5][]string{
 	{"দেও", "সোম", "মঙ্গল", "বুধ", "বৃহ", "শুক্ৰ", "শনি"},
 	{"দেওবাৰ", "সোমবাৰ", "মঙ্গলবাৰ", "বুধবাৰ", "বৃহস্পতিবাৰ", "শুক্ৰবাৰ", "শনিবাৰ"},
 	{"জানু", "ফেব্ৰু", "মাৰ্চ", "এপ্ৰিল", "মে’", "জুন", "জুলাই", "আগ", "ছেপ্তে", "অক্টো", "নৱে", "ডিচে"},
@@ -429,7 +429,7 @@ var localeTableAsa = [5][]string{
 	{"icheheavo", "ichamthi"},
 }
 
-var localeTableAsaTz = [5][]string{
+var localeTableAsaTZ = [5][]string{
 	{"Jpi", "Jtt", "Jnn", "Jtn", "Alh", "Ijm", "Jmo"},
 	{"Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Dec"},
@@ -445,7 +445,7 @@ var localeTableAst = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableAstEs = [5][]string{
+var localeTableAstES = [5][]string{
 	{"dom", "llu", "mar", "mié", "xue", "vie", "sáb"},
 	{"domingu", "llunes", "martes", "miércoles", "xueves", "vienres", "sábadu"},
 	{"xin", "feb", "mar", "abr", "may", "xun", "xnt", "ago", "set", "och", "pay", "avi"},
@@ -469,7 +469,7 @@ var localeTableAzCyrl = [5][]string{
 	{"АМ", "ПМ"},
 }
 
-var localeTableAzCyrlAz = [5][]string{
+var localeTableAzCyrlAZ = [5][]string{
 	{"Б.", "Б.Е.", "Ч.А.", "Ч.", "Ҹ.А.", "Ҹ.", "Ш."},
 	{"базар", "базар ертәси", "чәршәнбә ахшамы", "чәршәнбә", "ҹүмә ахшамы", "ҹүмә", "шәнбә"},
 	{"јан", "фев", "мар", "апр", "май", "ијн", "ијл", "авг", "сен", "окт", "ној", "дек"},
@@ -485,7 +485,7 @@ var localeTableAzLatn = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableAzLatnAz = [5][]string{
+var localeTableAzLatnAZ = [5][]string{
 	{"B.", "B.e.", "Ç.a.", "Ç.", "C.a.", "C.", "Ş."},
 	{"bazar", "bazar ertəsi", "çərşənbə axşamı", "çərşənbə", "cümə axşamı", "cümə", "şənbə"},
 	{"yan", "fev", "mar", "apr", "may", "iyn", "iyl", "avq", "sen", "okt", "noy", "dek"},
@@ -509,7 +509,7 @@ var localeTableBalArab = [5][]string{
 	{},
 }
 
-var localeTableBalArabPk = [5][]string{
+var localeTableBalArabPK = [5][]string{
 	{"یک", "دو", "سئے", "چار", "پنچ", "جمه", "شم"},
 	{"یکشمبه", "دوشمبه", "سئیشمبه", "چارشمبه", "پنچشمبه", "جمه", "شمبه"},
 	{"جن", "پر", "مار", "اپر", "مئیی", "جون", "جۆل", "اگست", "ستم", "اکت", "نئوم", "دسم"},
@@ -525,7 +525,7 @@ var localeTableBalLatn = [5][]string{
 	{},
 }
 
-var localeTableBalLatnPk = [5][]string{
+var localeTableBalLatnPK = [5][]string{
 	{"Yak", "Do", "Say", "Chá", "Pan", "Jom", "Sha"},
 	{"Yakshambeh", "Doshambeh", "Sayshambeh", "Chárshambeh", "Panchshambeh", "Jomah", "Shambeh"},
 	{"Jan", "Par", "Már", "Apr", "Mai", "Jun", "Jól", "Aga", "Sat", "Akt", "Naw", "Das"},
@@ -541,7 +541,7 @@ var localeTableBas = [5][]string{
 	{"Ibikɛ̂glà", "Iɓugajɔp"},
 }
 
-var localeTableBasCm = [5][]string{
+var localeTableBasCM = [5][]string{
 	{"nɔy", "nja", "uum", "ŋge", "mbɔ", "kɔɔ", "jon"},
 	{"ŋgwà nɔ̂y", "ŋgwà njaŋgumba", "ŋgwà ûm", "ŋgwà ŋgê", "ŋgwà mbɔk", "ŋgwà kɔɔ", "ŋgwà jôn"},
 	{"kɔn", "mac", "mat", "mto", "mpu", "hil", "nje", "hik", "dip", "bio", "may", "liɓ"},
@@ -557,7 +557,7 @@ var localeTableBe = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableBeBy = [5][]string{
+var localeTableBeBY = [5][]string{
 	{"нд", "пн", "аў", "ср", "чц", "пт", "сб"},
 	{"нядзеля", "панядзелак", "аўторак", "серада", "чацвер", "пятніца", "субота"},
 	{"сту", "лют", "сак", "кра", "мая", "чэр", "ліп", "жні", "вер", "кас", "ліс", "сне"},
@@ -565,7 +565,7 @@ var localeTableBeBy = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableBeTarask = [5][]string{
+var localeTableBetarask = [5][]string{
 	{"няд", "пан", "аўт", "сер", "чац", "пят", "суб"},
 	{"нядзеля", "панядзелак", "аўторак", "серада", "чацьвер", "пятніца", "субота"},
 	{"сту", "лют", "сак", "кра", "тра", "чэр", "ліп", "жні", "вер", "кас", "ліс", "сьн"},
@@ -581,7 +581,7 @@ var localeTableBem = [5][]string{
 	{"uluchelo", "akasuba"},
 }
 
-var localeTableBemZm = [5][]string{
+var localeTableBemZM = [5][]string{
 	{},
 	{"Pa Mulungu", "Palichimo", "Palichibuli", "Palichitatu", "Palichine", "Palichisano", "Pachibelushi"},
 	{"Jan", "Feb", "Mac", "Epr", "Mei", "Jun", "Jul", "Oga", "Sep", "Okt", "Nov", "Dis"},
@@ -597,7 +597,7 @@ var localeTableBew = [5][]string{
 	{"pg/sg", "sr/mlm"},
 }
 
-var localeTableBewId = [5][]string{
+var localeTableBewID = [5][]string{
 	{"Min", "Sen", "Sel", "Reb", "Kem", "Jum", "Sap"},
 	{"Minggu", "Senèn", "Selasa", "Rebo", "Kemis", "Juma’at", "Saptu"},
 	{"Jan", "Pèb", "Mar", "Apr", "Méi", "Jun", "Jul", "Ags", "Sèp", "Okt", "Nop", "Dés"},
@@ -613,7 +613,7 @@ var localeTableBez = [5][]string{
 	{"pamilau", "pamunyi"},
 }
 
-var localeTableBezTz = [5][]string{
+var localeTableBezTZ = [5][]string{
 	{"Mul", "Vil", "Hiv", "Hid", "Hit", "Hih", "Lem"},
 	{"pa mulungu", "pa shahuviluha", "pa hivili", "pa hidatu", "pa hitayi", "pa hihanu", "pa shahulembela"},
 	{"Hut", "Vil", "Dat", "Tai", "Han", "Sit", "Sab", "Nan", "Tis", "Kum", "Kmj", "Kmb"},
@@ -629,7 +629,7 @@ var localeTableBg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableBgBg = [5][]string{
+var localeTableBgBG = [5][]string{
 	{"нд", "пн", "вт", "ср", "чт", "пт", "сб"},
 	{"неделя", "понеделник", "вторник", "сряда", "четвъртък", "петък", "събота"},
 	{"яну", "фев", "март", "апр", "май", "юни", "юли", "авг", "сеп", "окт", "ное", "дек"},
@@ -645,7 +645,7 @@ var localeTableBgc = [5][]string{
 	{},
 }
 
-var localeTableBgcIn = [5][]string{
+var localeTableBgcIN = [5][]string{
 	{},
 	{"ऐतवार", "सोमवार", "मंगलवार", "बुधवार", "बृहस्पतवार", "शुक्रवार", "शनिवार"},
 	{},
@@ -661,7 +661,7 @@ var localeTableBho = [5][]string{
 	{},
 }
 
-var localeTableBhoIn = [5][]string{
+var localeTableBhoIN = [5][]string{
 	{},
 	{"रबीबार", "सोमबार", "मंगलबार", "बुधबार", "बृहस्पतिबार", "शुक्रबार", "सनीचर"},
 	{},
@@ -677,7 +677,7 @@ var localeTableBlo = [5][]string{
 	{"1ka", "2ja"},
 }
 
-var localeTableBloBj = [5][]string{
+var localeTableBloBJ = [5][]string{
 	{"alah", "aɖɩt", "atal", "alar", "alam", "arɩs", "asib"},
 	{"alahaɖɩ", "aɖɩtɛnɛɛ", "atalaata", "alaarba", "alaamɩshɩ", "arɩsǝma", "asiibi"},
 	{"kaw", "kpa", "ci", "ɖʊ", "ɖu5", "ɖu6", "la", "kǝu", "fʊm", "cim", "pom", "bʊn"},
@@ -693,7 +693,7 @@ var localeTableBm = [5][]string{
 	{},
 }
 
-var localeTableBmMl = [5][]string{
+var localeTableBmML = [5][]string{
 	{"kar", "ntɛ", "tar", "ara", "ala", "jum", "sib"},
 	{"kari", "ntɛnɛ", "tarata", "araba", "alamisa", "juma", "sibiri"},
 	{"zan", "feb", "mar", "awi", "mɛ", "zuw", "zul", "uti", "sɛt", "ɔku", "now", "des"},
@@ -709,7 +709,7 @@ var localeTableBn = [5][]string{
 	{},
 }
 
-var localeTableBnBd = [5][]string{
+var localeTableBnBD = [5][]string{
 	{"রবি", "সোম", "মঙ্গল", "বুধ", "বৃহস্পতি", "শুক্র", "শনি"},
 	{"রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"},
 	{"জানু", "ফেব", "মার্চ", "এপ্রি", "মে", "জুন", "জুল", "আগ", "সেপ", "অক্টো", "নভে", "ডিসে"},
@@ -717,7 +717,7 @@ var localeTableBnBd = [5][]string{
 	{},
 }
 
-var localeTableBnIn = [5][]string{
+var localeTableBnIN = [5][]string{
 	{"রবি", "সোম", "মঙ্গল", "বুধ", "বৃহস্পতি", "শুক্র", "শনি"},
 	{"রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"},
 	{"জানু", "ফেব", "মার্চ", "এপ্রি", "মে", "জুন", "জুল", "আগ", "সেপ্টেঃ", "অক্টোঃ", "নভেঃ", "ডিসেঃ"},
@@ -733,7 +733,7 @@ var localeTableBo = [5][]string{
 	{"སྔ་དྲོ་", "ཕྱི་དྲོ་"},
 }
 
-var localeTableBoCn = [5][]string{
+var localeTableBoCN = [5][]string{
 	{"ཉི་མ་", "ཟླ་བ་", "མིག་དམར་", "ལྷག་པ་", "ཕུར་བུ་", "པ་སངས་", "སྤེན་པ་"},
 	{"གཟའ་ཉི་མ་", "གཟའ་ཟླ་བ་", "གཟའ་མིག་དམར་", "གཟའ་ལྷག་པ་", "གཟའ་ཕུར་བུ་", "གཟའ་པ་སངས་", "གཟའ་སྤེན་པ་"},
 	{"ཟླ་༡", "ཟླ་༢", "ཟླ་༣", "ཟླ་༤", "ཟླ་༥", "ཟླ་༦", "ཟླ་༧", "ཟླ་༨", "ཟླ་༩", "ཟླ་༡༠", "ཟླ་༡༡", "ཟླ་༡༢"},
@@ -741,7 +741,7 @@ var localeTableBoCn = [5][]string{
 	{"སྔ་དྲོ་", "ཕྱི་དྲོ་"},
 }
 
-var localeTableBoIn = [5][]string{
+var localeTableBoIN = [5][]string{
 	{"ཉི་མ་", "ཟླ་བ་", "མིག་དམར་", "ལྷག་པ་", "ཕུར་བུ་", "པ་སངས་", "སྤེན་པ་"},
 	{"གཟའ་ཉི་མ་", "གཟའ་ཟླ་བ་", "གཟའ་མིག་དམར་", "གཟའ་ལྷག་པ་", "གཟའ་ཕུར་བུ་", "གཟའ་པ་སངས་", "གཟའ་སྤེན་པ་"},
 	{"ཟླ་༡", "ཟླ་༢", "ཟླ་༣", "ཟླ་༤", "ཟླ་༥", "ཟླ་༦", "ཟླ་༧", "ཟླ་༨", "ཟླ་༩", "ཟླ་༡༠", "ཟླ་༡༡", "ཟླ་༡༢"},
@@ -757,7 +757,7 @@ var localeTableBr = [5][]string{
 	{"A.M.", "G.M."},
 }
 
-var localeTableBrFr = [5][]string{
+var localeTableBrFR = [5][]string{
 	{"Sul", "Lun", "Meu.", "Mer.", "Yaou", "Gwe.", "Sad."},
 	{"Sul", "Lun", "Meurzh", "Mercʼher", "Yaou", "Gwener", "Sadorn"},
 	{"Gen.", "Cʼhwe.", "Meur.", "Ebr.", "Mae", "Mezh.", "Goue.", "Eost", "Gwen.", "Here", "Du", "Kzu."},
@@ -773,7 +773,7 @@ var localeTableBrx = [5][]string{
 	{"फुं", "बेलासे"},
 }
 
-var localeTableBrxIn = [5][]string{
+var localeTableBrxIN = [5][]string{
 	{"रबि", "सम", "मंगल", "बुध", "बिस्थि", "सुखुर", "सनि"},
 	{"रबिबार", "समबार", "मंगलबार", "बुधबार", "बिस्थिबार", "सुखुरबार", "सनिबार"},
 	{"जान", "फेब", "मार्च", "एप्रि", "मे", "जुन", "जुल", "आग", "सेप", "अक्ट’", "नवे", "डिसे"},
@@ -797,7 +797,7 @@ var localeTableBsCyrl = [5][]string{
 	{"преподне", "поподне"},
 }
 
-var localeTableBsCyrlBa = [5][]string{
+var localeTableBsCyrlBA = [5][]string{
 	{"нед", "пон", "уто", "сри", "чет", "пет", "суб"},
 	{"недјеља", "понедјељак", "уторак", "сриједа", "четвртак", "петак", "субота"},
 	{"јан", "феб", "мар", "апр", "мај", "јун", "јул", "ауг", "сеп", "окт", "нов", "дец"},
@@ -813,7 +813,7 @@ var localeTableBsLatn = [5][]string{
 	{"prijepodne", "popodne"},
 }
 
-var localeTableBsLatnBa = [5][]string{
+var localeTableBsLatnBA = [5][]string{
 	{"ned", "pon", "uto", "sri", "čet", "pet", "sub"},
 	{"nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"},
 	{"jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
@@ -829,7 +829,7 @@ var localeTableByn = [5][]string{
 	{"ፋዱስጃብ", "ፋዱስደምቢ"},
 }
 
-var localeTableBynEr = [5][]string{
+var localeTableBynER = [5][]string{
 	{"ሰ/ቅ", "ሰኑ", "ሰሊጝ", "ለጓ", "ኣምድ", "ኣርብ", "ሰ/ሽ"},
 	{"ሰንበር ቅዳዅ", "ሰኑ", "ሰሊጝ", "ለጓ ወሪ ለብዋ", "ኣምድ", "ኣርብ", "ሰንበር ሽጓዅ"},
 	{"ልደት", "ካብኽ", "ክብላ", "ፋጅኺ", "ክቢቅ", "ም/ት", "ኰር", "ማርያ", "ያኸኒ", "መተሉ", "ም/ም", "ተሕሳ"},
@@ -845,7 +845,7 @@ var localeTableCa = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableCaAd = [5][]string{
+var localeTableCaAD = [5][]string{
 	{"dg.", "dl.", "dt.", "dc.", "dj.", "dv.", "ds."},
 	{"diumenge", "dilluns", "dimarts", "dimecres", "dijous", "divendres", "dissabte"},
 	{"de gen.", "de febr.", "de març", "d’abr.", "de maig", "de juny", "de jul.", "d’ag.", "de set.", "d’oct.", "de nov.", "de des."},
@@ -853,7 +853,7 @@ var localeTableCaAd = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableCaEs = [5][]string{
+var localeTableCaES = [5][]string{
 	{"dg.", "dl.", "dt.", "dc.", "dj.", "dv.", "ds."},
 	{"diumenge", "dilluns", "dimarts", "dimecres", "dijous", "divendres", "dissabte"},
 	{"de gen.", "de febr.", "de març", "d’abr.", "de maig", "de juny", "de jul.", "d’ag.", "de set.", "d’oct.", "de nov.", "de des."},
@@ -861,7 +861,7 @@ var localeTableCaEs = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableCaEsValencia = [5][]string{
+var localeTableCaESvalencia = [5][]string{
 	{"dg.", "dl.", "dt.", "dc.", "dj.", "dv.", "ds."},
 	{"diumenge", "dilluns", "dimarts", "dimecres", "dijous", "divendres", "dissabte"},
 	{"de gen.", "de febr.", "de març", "d’abr.", "de maig", "de juny", "de jul.", "d’ag.", "de set.", "d’oct.", "de nov.", "de des."},
@@ -869,7 +869,7 @@ var localeTableCaEsValencia = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableCaFr = [5][]string{
+var localeTableCaFR = [5][]string{
 	{"dg.", "dl.", "dt.", "dc.", "dj.", "dv.", "ds."},
 	{"diumenge", "dilluns", "dimarts", "dimecres", "dijous", "divendres", "dissabte"},
 	{"de gen.", "de febr.", "de març", "d’abr.", "de maig", "de juny", "de jul.", "d’ag.", "de set.", "d’oct.", "de nov.", "de des."},
@@ -877,7 +877,7 @@ var localeTableCaFr = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableCaIt = [5][]string{
+var localeTableCaIT = [5][]string{
 	{"dg.", "dl.", "dt.", "dc.", "dj.", "dv.", "ds."},
 	{"diumenge", "dilluns", "dimarts", "dimecres", "dijous", "divendres", "dissabte"},
 	{"de gen.", "de febr.", "de març", "d’abr.", "de maig", "de juny", "de jul.", "d’ag.", "de set.", "d’oct.", "de nov.", "de des."},
@@ -893,7 +893,7 @@ var localeTableCad = [5][]string{
 	{},
 }
 
-var localeTableCadUs = [5][]string{
+var localeTableCadUS = [5][]string{
 	{},
 	{"Inikuˀ", "Wísts’i hayashuh", "Bít hayashuh", "Dahó hayashuh", "Hiwí hayashuh", "Dissik’an hayashuh", "Inikuˀtiˀtiˀ"},
 	{},
@@ -909,7 +909,7 @@ var localeTableCch = [5][]string{
 	{},
 }
 
-var localeTableCchNg = [5][]string{
+var localeTableCchNG = [5][]string{
 	{"Yok", "Tung", "Gitung", "Tsan", "Nas", "Nat", "Chir"},
 	{"Wai Yoka Bawai", "Wai Tunga", "Toki Gitung", "Tsam Kasuwa", "Wai Na Nas", "Wai Na Tiyon", "Wai Na Chirim"},
 	{"Dyon", "Baa", "Atat", "Anas", "Atyo", "Achi", "Atar", "Awur", "Shad", "Shak", "Naba", "Nata"},
@@ -925,7 +925,7 @@ var localeTableCcp = [5][]string{
 	{},
 }
 
-var localeTableCcpBd = [5][]string{
+var localeTableCcpBD = [5][]string{
 	{"𑄢𑄧𑄝𑄨", "𑄥𑄧𑄟𑄴", "𑄟𑄧𑄁𑄉𑄧𑄣𑄴", "𑄝𑄪𑄖𑄴", "𑄝𑄳𑄢𑄨𑄥𑄪𑄛𑄴", "𑄥𑄪𑄇𑄴𑄇𑄮𑄢𑄴", "𑄥𑄧𑄚𑄨"},
 	{"𑄢𑄧𑄝𑄨𑄝𑄢𑄴", "𑄥𑄧𑄟𑄴𑄝𑄢𑄴", "𑄟𑄧𑄁𑄉𑄧𑄣𑄴𑄝𑄢𑄴", "𑄝𑄪𑄖𑄴𑄝𑄢𑄴", "𑄝𑄳𑄢𑄨𑄥𑄪𑄛𑄴𑄝𑄢𑄴", "𑄥𑄪𑄇𑄴𑄇𑄮𑄢𑄴𑄝𑄢𑄴", "𑄥𑄧𑄚𑄨𑄝𑄢𑄴"},
 	{"𑄎𑄚𑄪", "𑄜𑄬𑄛𑄴", "𑄟𑄢𑄴𑄌𑄧", "𑄃𑄬𑄛𑄳𑄢𑄨𑄣𑄴", "𑄟𑄬", "𑄎𑄪𑄚𑄴", "𑄎𑄪𑄣𑄭", "𑄃𑄉𑄧𑄌𑄴𑄑𑄴", "𑄥𑄬𑄛𑄴𑄑𑄬𑄟𑄴𑄝𑄧𑄢𑄴", "𑄃𑄧𑄇𑄴𑄑𑄮𑄝𑄧𑄢𑄴", "𑄚𑄧𑄞𑄬𑄟𑄴𑄝𑄧𑄢𑄴", "𑄓𑄨𑄥𑄬𑄟𑄴𑄝𑄢𑄴"},
@@ -933,7 +933,7 @@ var localeTableCcpBd = [5][]string{
 	{},
 }
 
-var localeTableCcpIn = [5][]string{
+var localeTableCcpIN = [5][]string{
 	{"𑄢𑄧𑄝𑄨", "𑄥𑄧𑄟𑄴", "𑄟𑄧𑄁𑄉𑄧𑄣𑄴", "𑄝𑄪𑄖𑄴", "𑄝𑄳𑄢𑄨𑄥𑄪𑄛𑄴", "𑄥𑄪𑄇𑄴𑄇𑄮𑄢𑄴", "𑄥𑄧𑄚𑄨"},
 	{"𑄢𑄧𑄝𑄨𑄝𑄢𑄴", "𑄥𑄧𑄟𑄴𑄝𑄢𑄴", "𑄟𑄧𑄁𑄉𑄧𑄣𑄴𑄝𑄢𑄴", "𑄝𑄪𑄖𑄴𑄝𑄢𑄴", "𑄝𑄳𑄢𑄨𑄥𑄪𑄛𑄴𑄝𑄢𑄴", "𑄥𑄪𑄇𑄴𑄇𑄮𑄢𑄴𑄝𑄢𑄴", "𑄥𑄧𑄚𑄨𑄝𑄢𑄴"},
 	{"𑄎𑄚𑄪", "𑄜𑄬𑄛𑄴", "𑄟𑄢𑄴𑄌𑄧", "𑄃𑄬𑄛𑄳𑄢𑄨𑄣𑄴", "𑄟𑄬", "𑄎𑄪𑄚𑄴", "𑄎𑄪𑄣𑄭", "𑄃𑄉𑄧𑄌𑄴𑄑𑄴", "𑄥𑄬𑄛𑄴𑄑𑄬𑄟𑄴𑄝𑄧𑄢𑄴", "𑄃𑄧𑄇𑄴𑄑𑄮𑄝𑄧𑄢𑄴", "𑄚𑄧𑄞𑄬𑄟𑄴𑄝𑄧𑄢𑄴", "𑄓𑄨𑄥𑄬𑄟𑄴𑄝𑄢𑄴"},
@@ -949,7 +949,7 @@ var localeTableCe = [5][]string{
 	{},
 }
 
-var localeTableCeRu = [5][]string{
+var localeTableCeRU = [5][]string{
 	{"кӀи", "ор", "ши", "кха", "еа", "пӀе", "шуо"},
 	{"кӀира", "оршот", "шинара", "кхаара", "еара", "пӀераска", "шуот"},
 	{"янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"},
@@ -965,7 +965,7 @@ var localeTableCeb = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableCebPh = [5][]string{
+var localeTableCebPH = [5][]string{
 	{"Dom", "Lun", "Mar", "Miy", "Huw", "Biy", "Sab"},
 	{"Domingo", "Lunes", "Martes", "Miyerkules", "Huwebes", "Biyernes", "Sabado"},
 	{"Ene", "Peb", "Mar", "Abr", "May", "Hun", "Hul", "Ago", "Sep", "Okt", "Nob", "Dis"},
@@ -981,7 +981,7 @@ var localeTableCgg = [5][]string{
 	{},
 }
 
-var localeTableCggUg = [5][]string{
+var localeTableCggUG = [5][]string{
 	{"SAN", "ORK", "OKB", "OKS", "OKN", "OKT", "OMK"},
 	{"Sande", "Orwokubanza", "Orwakabiri", "Orwakashatu", "Orwakana", "Orwakataano", "Orwamukaaga"},
 	{"KBZ", "KBR", "KST", "KKN", "KTN", "KMK", "KMS", "KMN", "KMW", "KKM", "KNK", "KNB"},
@@ -997,7 +997,7 @@ var localeTableChr = [5][]string{
 	{"ᏌᎾᎴ", "ᏒᎯᏱᎢ"},
 }
 
-var localeTableChrUs = [5][]string{
+var localeTableChrUS = [5][]string{
 	{"ᏆᏍᎬ", "ᏉᏅᎯ", "ᏔᎵᏁ", "ᏦᎢᏁ", "ᏅᎩᏁ", "ᏧᎾᎩ", "ᏈᏕᎾ"},
 	{"ᎤᎾᏙᏓᏆᏍᎬ", "ᎤᎾᏙᏓᏉᏅᎯ", "ᏔᎵᏁᎢᎦ", "ᏦᎢᏁᎢᎦ", "ᏅᎩᏁᎢᎦ", "ᏧᎾᎩᎶᏍᏗ", "ᎤᎾᏙᏓᏈᏕᎾ"},
 	{"ᎤᏃ", "ᎧᎦ", "ᎠᏅ", "ᎧᏬ", "ᎠᏂ", "ᏕᎭ", "ᎫᏰ", "ᎦᎶ", "ᏚᎵ", "ᏚᏂ", "ᏅᏓ", "ᎥᏍ"},
@@ -1013,7 +1013,7 @@ var localeTableCic = [5][]string{
 	{},
 }
 
-var localeTableCicUs = [5][]string{
+var localeTableCicUS = [5][]string{
 	{},
 	{"Nittak Holloʼ", "Mantiʼ", "Chostiʼ", "Winstiʼ", "Soistiʼ", "Nannalhchifaʼ Nittak", "Nittak Holloʼ Nakfish"},
 	{},
@@ -1029,7 +1029,7 @@ var localeTableCkb = [5][]string{
 	{"ب.ن", "د.ن"},
 }
 
-var localeTableCkbIq = [5][]string{
+var localeTableCkbIQ = [5][]string{
 	{},
 	{"یەکشەممە", "دووشەممە", "سێشەممە", "چوارشەممە", "پێنجشەممە", "ھەینی", "شەممە"},
 	{},
@@ -1037,7 +1037,7 @@ var localeTableCkbIq = [5][]string{
 	{"ب.ن", "د.ن"},
 }
 
-var localeTableCkbIr = [5][]string{
+var localeTableCkbIR = [5][]string{
 	{},
 	{"یەکشەممە", "دووشەممە", "سێشەممە", "چوارشەممە", "پێنجشەممە", "ھەینی", "شەممە"},
 	{},
@@ -1053,7 +1053,7 @@ var localeTableCo = [5][]string{
 	{},
 }
 
-var localeTableCoFr = [5][]string{
+var localeTableCoFR = [5][]string{
 	{"dum.", "lun.", "mar.", "mer.", "ghj.", "ven.", "sab."},
 	{"dumenica", "luni", "marti", "mercuri", "ghjovi", "venneri", "sabbatu"},
 	{"ghj.", "fer.", "mar.", "apr.", "mag.", "ghju.", "lug.", "aos.", "sit.", "ott.", "nuv.", "dic."},
@@ -1069,7 +1069,7 @@ var localeTableCs = [5][]string{
 	{"dop.", "odp."},
 }
 
-var localeTableCsCz = [5][]string{
+var localeTableCsCZ = [5][]string{
 	{"ne", "po", "út", "st", "čt", "pá", "so"},
 	{"neděle", "pondělí", "úterý", "středa", "čtvrtek", "pátek", "sobota"},
 	{"led", "úno", "bře", "dub", "kvě", "čvn", "čvc", "srp", "zář", "říj", "lis", "pro"},
@@ -1085,7 +1085,7 @@ var localeTableCsw = [5][]string{
 	{},
 }
 
-var localeTableCswCa = [5][]string{
+var localeTableCswCA = [5][]string{
 	{},
 	{"ᐊᔭᒥᐦᐁᐃ ᑭᓯᑲᐤ", "ᐯᔭᐠᑭᓯᑲᐤ", "ᓂᓱᑭᓯᑲᐤ", "ᐊᐱᐦᑕᐘᐣ", "ᓀᐓᑭᓯᑲᐤ", "ᓂᔭᓇᓄᑭᓯᑲᐤ", "ᒪᑎᓄᐏᑭᓯᑲᐤ"},
 	{},
@@ -1101,7 +1101,7 @@ var localeTableCu = [5][]string{
 	{"ДП", "ПП"},
 }
 
-var localeTableCuRu = [5][]string{
+var localeTableCuRU = [5][]string{
 	{"ндⷧ҇ѧ", "пнⷣе", "втоⷬ҇", "срⷣе", "чеⷦ҇", "пѧⷦ҇", "сꙋⷠ҇"},
 	{"недѣ́лѧ", "понедѣ́льникъ", "вто́рникъ", "среда̀", "четверто́къ", "пѧто́къ", "сꙋббѡ́та"},
 	{"і҆аⷩ҇", "феⷡ҇", "маⷬ҇", "а҆пⷬ҇", "маꙵ", "і҆ꙋⷩ҇", "і҆ꙋⷧ҇", "а҆́ѵⷢ҇", "сеⷫ҇", "ѻ҆кⷮ", "ноеⷨ", "деⷦ҇"},
@@ -1117,7 +1117,7 @@ var localeTableCv = [5][]string{
 	{},
 }
 
-var localeTableCvRu = [5][]string{
+var localeTableCvRU = [5][]string{
 	{"выр.", "тун.", "ытл.", "юн.", "кӗҫ.", "эр.", "шӑм."},
 	{"вырсарникун", "тунтикун", "ытларикун", "юнкун", "кӗҫнерникун", "эрнекун", "шӑматкун"},
 	{"кӑр.", "нар.", "пуш", "ака", "ҫу", "ҫӗр.", "утӑ", "ҫур.", "авӑн", "юпа", "чӳк", "раш."},
@@ -1133,7 +1133,7 @@ var localeTableCy = [5][]string{
 	{"b", "h"},
 }
 
-var localeTableCyGb = [5][]string{
+var localeTableCyGB = [5][]string{
 	{"Sul", "Llun", "Maw", "Mer", "Iau", "Gwen", "Sad"},
 	{"Dydd Sul", "Dydd Llun", "Dydd Mawrth", "Dydd Mercher", "Dydd Iau", "Dydd Gwener", "Dydd Sadwrn"},
 	{"Ion", "Chwef", "Maw", "Ebr", "Mai", "Meh", "Gorff", "Awst", "Medi", "Hyd", "Tach", "Rhag"},
@@ -1149,7 +1149,7 @@ var localeTableDa = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableDaDk = [5][]string{
+var localeTableDaDK = [5][]string{
 	{"søn.", "man.", "tirs.", "ons.", "tors.", "fre.", "lør."},
 	{"søndag", "mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag"},
 	{"jan.", "feb.", "mar.", "apr.", "maj", "jun.", "jul.", "aug.", "sep.", "okt.", "nov.", "dec."},
@@ -1157,7 +1157,7 @@ var localeTableDaDk = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableDaGl = [5][]string{
+var localeTableDaGL = [5][]string{
 	{"søn.", "man.", "tirs.", "ons.", "tors.", "fre.", "lør."},
 	{"søndag", "mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag"},
 	{"jan.", "feb.", "mar.", "apr.", "maj", "jun.", "jul.", "aug.", "sep.", "okt.", "nov.", "dec."},
@@ -1173,7 +1173,7 @@ var localeTableDav = [5][]string{
 	{"LumalwaK", "lumalwap"},
 }
 
-var localeTableDavKe = [5][]string{
+var localeTableDavKE = [5][]string{
 	{"Jum", "Jim", "Kaw", "Kad", "Kan", "Kas", "Ngu"},
 	{"Ituku ja jumwa", "Kuramuka jimweri", "Kuramuka kawi", "Kuramuka kadadu", "Kuramuka kana", "Kuramuka kasanu", "Kifula nguwo"},
 	{"Imb", "Kaw", "Kad", "Kan", "Kas", "Kar", "Mfu", "Wun", "Ike", "Iku", "Imw", "Iwi"},
@@ -1189,7 +1189,7 @@ var localeTableDe = [5][]string{
 	{},
 }
 
-var localeTableDeAt = [5][]string{
+var localeTableDeAT = [5][]string{
 	{"So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."},
 	{"Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"},
 	{"Jän.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."},
@@ -1197,7 +1197,7 @@ var localeTableDeAt = [5][]string{
 	{},
 }
 
-var localeTableDeBe = [5][]string{
+var localeTableDeBE = [5][]string{
 	{"So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."},
 	{"Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"},
 	{"Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sept.", "Okt.", "Nov.", "Dez."},
@@ -1205,7 +1205,7 @@ var localeTableDeBe = [5][]string{
 	{},
 }
 
-var localeTableDeCh = [5][]string{
+var localeTableDeCH = [5][]string{
 	{"So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."},
 	{"Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"},
 	{"Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sept.", "Okt.", "Nov.", "Dez."},
@@ -1213,7 +1213,7 @@ var localeTableDeCh = [5][]string{
 	{},
 }
 
-var localeTableDeDe = [5][]string{
+var localeTableDeDE = [5][]string{
 	{"So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."},
 	{"Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"},
 	{"Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sept.", "Okt.", "Nov.", "Dez."},
@@ -1221,7 +1221,7 @@ var localeTableDeDe = [5][]string{
 	{},
 }
 
-var localeTableDeIt = [5][]string{
+var localeTableDeIT = [5][]string{
 	{"So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."},
 	{"Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"},
 	{"Jän.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."},
@@ -1229,7 +1229,7 @@ var localeTableDeIt = [5][]string{
 	{},
 }
 
-var localeTableDeLi = [5][]string{
+var localeTableDeLI = [5][]string{
 	{"So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."},
 	{"Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"},
 	{"Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sept.", "Okt.", "Nov.", "Dez."},
@@ -1237,7 +1237,7 @@ var localeTableDeLi = [5][]string{
 	{},
 }
 
-var localeTableDeLu = [5][]string{
+var localeTableDeLU = [5][]string{
 	{"So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."},
 	{"Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"},
 	{"Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sept.", "Okt.", "Nov.", "Dez."},
@@ -1253,7 +1253,7 @@ var localeTableDje = [5][]string{
 	{"Subbaahi", "Zaarikayb"},
 }
 
-var localeTableDjeNe = [5][]string{
+var localeTableDjeNE = [5][]string{
 	{"Alh", "Ati", "Ata", "Ala", "Alm", "Alz", "Asi"},
 	{"Alhadi", "Atinni", "Atalaata", "Alarba", "Alhamisi", "Alzuma", "Asibti"},
 	{"Žan", "Fee", "Mar", "Awi", "Me", "Žuw", "Žuy", "Ut", "Sek", "Okt", "Noo", "Dee"},
@@ -1269,7 +1269,7 @@ var localeTableDoi = [5][]string{
 	{"सवेर", "स’ञ"},
 }
 
-var localeTableDoiIn = [5][]string{
+var localeTableDoiIN = [5][]string{
 	{"ऐत", "सोम", "मंगल", "बुध", "बीर", "शुक्र", "शनि"},
 	{"ऐतबार", "सोमबार", "मंगलबार", "बुधबार", "बीरबार", "शुक्रबार", "शनिबार"},
 	{"जन.", "फर.", "मार्च", "अप्रैल", "मेई", "जून", "जुलाई", "अग.", "सित.", "अक्तू.", "नव.", "दिस."},
@@ -1285,7 +1285,7 @@ var localeTableDsb = [5][]string{
 	{"dop.", "wótp."},
 }
 
-var localeTableDsbDe = [5][]string{
+var localeTableDsbDE = [5][]string{
 	{"nje", "pón", "wał", "srj", "stw", "pět", "sob"},
 	{"njeźela", "pónjeźele", "wałtora", "srjoda", "stwórtk", "pětk", "sobota"},
 	{"jan.", "feb.", "měr.", "apr.", "maj.", "jun.", "jul.", "awg.", "sep.", "okt.", "now.", "dec."},
@@ -1301,7 +1301,7 @@ var localeTableDua = [5][]string{
 	{"idiɓa", "ebyámu"},
 }
 
-var localeTableDuaCm = [5][]string{
+var localeTableDuaCM = [5][]string{
 	{"ét", "mɔ́s", "kwa", "muk", "ŋgi", "ɗón", "esa"},
 	{"éti", "mɔ́sú", "kwasú", "mukɔ́sú", "ŋgisú", "ɗónɛsú", "esaɓasú"},
 	{"di", "ŋgɔn", "sɔŋ", "diɓ", "emi", "esɔ", "mad", "diŋ", "nyɛt", "may", "tin", "elá"},
@@ -1317,7 +1317,7 @@ var localeTableDyo = [5][]string{
 	{},
 }
 
-var localeTableDyoSn = [5][]string{
+var localeTableDyoSN = [5][]string{
 	{"Dim", "Ten", "Tal", "Ala", "Ara", "Arj", "Sib"},
 	{"Dimas", "Teneŋ", "Talata", "Alarbay", "Aramisay", "Arjuma", "Sibiti"},
 	{"Sa", "Fe", "Ma", "Ab", "Me", "Su", "Sú", "Ut", "Se", "Ok", "No", "De"},
@@ -1333,7 +1333,7 @@ var localeTableDz = [5][]string{
 	{"སྔ་ཆ་", "ཕྱི་ཆ་"},
 }
 
-var localeTableDzBt = [5][]string{
+var localeTableDzBT = [5][]string{
 	{"ཟླ་", "མིར་", "ལྷག་", "ཕུར་", "སངས་", "སྤེན་", "ཉི་"},
 	{"གཟའ་ཟླ་བ་", "གཟའ་མིག་དམར་", "གཟའ་ལྷག་པ་", "གཟའ་ཕུར་བུ་", "གཟའ་པ་སངས་", "གཟའ་སྤེན་པ་", "གཟའ་ཉི་མ་"},
 	{"༡", "༢", "༣", "༤", "༥", "༦", "༧", "༨", "༩", "༡༠", "༡༡", "12"},
@@ -1349,7 +1349,7 @@ var localeTableEbu = [5][]string{
 	{"KI", "UT"},
 }
 
-var localeTableEbuKe = [5][]string{
+var localeTableEbuKE = [5][]string{
 	{"Kma", "Tat", "Ine", "Tan", "Arm", "Maa", "NMM"},
 	{"Kiumia", "Njumatatu", "Njumaine", "Njumatano", "Aramithi", "Njumaa", "NJumamothii"},
 	{"Mbe", "Kai", "Kat", "Kan", "Gat", "Gan", "Mug", "Knn", "Ken", "Iku", "Imw", "Igi"},
@@ -1365,7 +1365,7 @@ var localeTableEe = [5][]string{
 	{"ŋdi", "ɣetrɔ"},
 }
 
-var localeTableEeGh = [5][]string{
+var localeTableEeGH = [5][]string{
 	{"kɔs", "dzo", "bla", "kuɖ", "yaw", "fiɖ", "mem"},
 	{"kɔsiɖa", "dzoɖa", "blaɖa", "kuɖa", "yawoɖa", "fiɖa", "memleɖa"},
 	{"dzv", "dzd", "ted", "afɔ", "dam", "mas", "sia", "dea", "any", "kel", "ade", "dzm"},
@@ -1373,7 +1373,7 @@ var localeTableEeGh = [5][]string{
 	{"ŋdi", "ɣetrɔ"},
 }
 
-var localeTableEeTg = [5][]string{
+var localeTableEeTG = [5][]string{
 	{"kɔs", "dzo", "bla", "kuɖ", "yaw", "fiɖ", "mem"},
 	{"kɔsiɖa", "dzoɖa", "blaɖa", "kuɖa", "yawoɖa", "fiɖa", "memleɖa"},
 	{"dzv", "dzd", "ted", "afɔ", "dam", "mas", "sia", "dea", "any", "kel", "ade", "dzm"},
@@ -1389,7 +1389,7 @@ var localeTableEl = [5][]string{
 	{"π.μ.", "μ.μ."},
 }
 
-var localeTableElCy = [5][]string{
+var localeTableElCY = [5][]string{
 	{"Κυρ", "Δευ", "Τρί", "Τετ", "Πέμ", "Παρ", "Σάβ"},
 	{"Κυριακή", "Δευτέρα", "Τρίτη", "Τετάρτη", "Πέμπτη", "Παρασκευή", "Σάββατο"},
 	{"Ιαν", "Φεβ", "Μαρ", "Απρ", "Μαΐ", "Ιουν", "Ιουλ", "Αυγ", "Σεπ", "Οκτ", "Νοε", "Δεκ"},
@@ -1397,7 +1397,7 @@ var localeTableElCy = [5][]string{
 	{"π.μ.", "μ.μ."},
 }
 
-var localeTableElGr = [5][]string{
+var localeTableElGR = [5][]string{
 	{"Κυρ", "Δευ", "Τρί", "Τετ", "Πέμ", "Παρ", "Σάβ"},
 	{"Κυριακή", "Δευτέρα", "Τρίτη", "Τετάρτη", "Πέμπτη", "Παρασκευή", "Σάββατο"},
 	{"Ιαν", "Φεβ", "Μαρ", "Απρ", "Μαΐ", "Ιουν", "Ιουλ", "Αυγ", "Σεπ", "Οκτ", "Νοε", "Δεκ"},
@@ -1405,7 +1405,7 @@ var localeTableElGr = [5][]string{
 	{"π.μ.", "μ.μ."},
 }
 
-var localeTableElPolyton = [5][]string{
+var localeTableElpolyton = [5][]string{
 	{"Κυρ", "Δευ", "Τρί", "Τετ", "Πέμ", "Παρ", "Σάβ"},
 	{"Κυριακή", "Δευτέρα", "Τρίτη", "Τετάρτη", "Πέμπτη", "Παρασκευή", "Σάββατο"},
 	{"Ιαν", "Φεβ", "Μαρ", "Απρ", "Μαΐ", "Ιουν", "Ιουλ", "Αὐγ", "Σεπ", "Ὀκτ", "Νοε", "Δεκ"},
@@ -1437,7 +1437,7 @@ var localeTableEn150 = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnAe = [5][]string{
+var localeTableEnAE = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -1445,7 +1445,7 @@ var localeTableEnAe = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnAg = [5][]string{
+var localeTableEnAG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1453,7 +1453,7 @@ var localeTableEnAg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnAi = [5][]string{
+var localeTableEnAI = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1461,7 +1461,7 @@ var localeTableEnAi = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnAs = [5][]string{
+var localeTableEnAS = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -1469,7 +1469,7 @@ var localeTableEnAs = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnAt = [5][]string{
+var localeTableEnAT = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1477,7 +1477,7 @@ var localeTableEnAt = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnAu = [5][]string{
+var localeTableEnAU = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1485,7 +1485,7 @@ var localeTableEnAu = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnBb = [5][]string{
+var localeTableEnBB = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1493,7 +1493,7 @@ var localeTableEnBb = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnBe = [5][]string{
+var localeTableEnBE = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1501,7 +1501,7 @@ var localeTableEnBe = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnBi = [5][]string{
+var localeTableEnBI = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -1509,7 +1509,7 @@ var localeTableEnBi = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnBm = [5][]string{
+var localeTableEnBM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1517,7 +1517,7 @@ var localeTableEnBm = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnBs = [5][]string{
+var localeTableEnBS = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1525,7 +1525,7 @@ var localeTableEnBs = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnBw = [5][]string{
+var localeTableEnBW = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1533,7 +1533,7 @@ var localeTableEnBw = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnBz = [5][]string{
+var localeTableEnBZ = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1541,7 +1541,7 @@ var localeTableEnBz = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnCa = [5][]string{
+var localeTableEnCA = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1549,7 +1549,7 @@ var localeTableEnCa = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEnCc = [5][]string{
+var localeTableEnCC = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1557,7 +1557,7 @@ var localeTableEnCc = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnCh = [5][]string{
+var localeTableEnCH = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1565,7 +1565,7 @@ var localeTableEnCh = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnCk = [5][]string{
+var localeTableEnCK = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1573,7 +1573,7 @@ var localeTableEnCk = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnCm = [5][]string{
+var localeTableEnCM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1581,7 +1581,7 @@ var localeTableEnCm = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnCx = [5][]string{
+var localeTableEnCX = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1589,7 +1589,7 @@ var localeTableEnCx = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnCy = [5][]string{
+var localeTableEnCY = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1597,7 +1597,7 @@ var localeTableEnCy = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnDe = [5][]string{
+var localeTableEnDE = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1605,7 +1605,7 @@ var localeTableEnDe = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnDg = [5][]string{
+var localeTableEnDG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1613,7 +1613,7 @@ var localeTableEnDg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnDk = [5][]string{
+var localeTableEnDK = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1621,7 +1621,7 @@ var localeTableEnDk = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnDm = [5][]string{
+var localeTableEnDM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1637,7 +1637,7 @@ var localeTableEnDsrt = [5][]string{
 	{"𐐈𐐣", "𐐑𐐣"},
 }
 
-var localeTableEnDsrtUs = [5][]string{
+var localeTableEnDsrtUS = [5][]string{
 	{"𐐝𐐲𐑌", "𐐣𐐲𐑌", "𐐓𐐭𐑆", "𐐎𐐯𐑌", "𐐛𐐲𐑉", "𐐙𐑉𐐴", "𐐝𐐰𐐻"},
 	{"𐐝𐐲𐑌𐐼𐐩", "𐐣𐐲𐑌𐐼𐐩", "𐐓𐐭𐑆𐐼𐐩", "𐐎𐐯𐑌𐑆𐐼𐐩", "𐐛𐐲𐑉𐑆𐐼𐐩", "𐐙𐑉𐐴𐐼𐐩", "𐐝𐐰𐐻𐐲𐑉𐐼𐐩"},
 	{"𐐖𐐰𐑌", "𐐙𐐯𐐺", "𐐣𐐪𐑉", "𐐁𐐹𐑉", "𐐣𐐩", "𐐖𐐭𐑌", "𐐖𐐭𐑊", "𐐂𐑀", "𐐝𐐯𐐹", "𐐉𐐿𐐻", "𐐤𐐬𐑂", "𐐔𐐨𐑅"},
@@ -1645,7 +1645,7 @@ var localeTableEnDsrtUs = [5][]string{
 	{"𐐈𐐣", "𐐑𐐣"},
 }
 
-var localeTableEnEr = [5][]string{
+var localeTableEnER = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1653,7 +1653,7 @@ var localeTableEnEr = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnFi = [5][]string{
+var localeTableEnFI = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1661,7 +1661,7 @@ var localeTableEnFi = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnFj = [5][]string{
+var localeTableEnFJ = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1669,7 +1669,7 @@ var localeTableEnFj = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnFk = [5][]string{
+var localeTableEnFK = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1677,7 +1677,7 @@ var localeTableEnFk = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnFm = [5][]string{
+var localeTableEnFM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1685,7 +1685,7 @@ var localeTableEnFm = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnGb = [5][]string{
+var localeTableEnGB = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1693,7 +1693,7 @@ var localeTableEnGb = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnGd = [5][]string{
+var localeTableEnGD = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1701,7 +1701,7 @@ var localeTableEnGd = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnGg = [5][]string{
+var localeTableEnGG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1709,7 +1709,7 @@ var localeTableEnGg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnGh = [5][]string{
+var localeTableEnGH = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1717,7 +1717,7 @@ var localeTableEnGh = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnGi = [5][]string{
+var localeTableEnGI = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1725,7 +1725,7 @@ var localeTableEnGi = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnGm = [5][]string{
+var localeTableEnGM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1733,7 +1733,7 @@ var localeTableEnGm = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnGu = [5][]string{
+var localeTableEnGU = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -1741,7 +1741,7 @@ var localeTableEnGu = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnGy = [5][]string{
+var localeTableEnGY = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1749,7 +1749,7 @@ var localeTableEnGy = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnHk = [5][]string{
+var localeTableEnHK = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1757,7 +1757,7 @@ var localeTableEnHk = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnId = [5][]string{
+var localeTableEnID = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -1765,7 +1765,7 @@ var localeTableEnId = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnIe = [5][]string{
+var localeTableEnIE = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1773,7 +1773,7 @@ var localeTableEnIe = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnIl = [5][]string{
+var localeTableEnIL = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1781,7 +1781,7 @@ var localeTableEnIl = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnIm = [5][]string{
+var localeTableEnIM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1789,7 +1789,7 @@ var localeTableEnIm = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnIn = [5][]string{
+var localeTableEnIN = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1797,7 +1797,7 @@ var localeTableEnIn = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnIo = [5][]string{
+var localeTableEnIO = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1805,7 +1805,7 @@ var localeTableEnIo = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnJe = [5][]string{
+var localeTableEnJE = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1813,7 +1813,7 @@ var localeTableEnJe = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnJm = [5][]string{
+var localeTableEnJM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1821,7 +1821,7 @@ var localeTableEnJm = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnKe = [5][]string{
+var localeTableEnKE = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1829,7 +1829,7 @@ var localeTableEnKe = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnKi = [5][]string{
+var localeTableEnKI = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1837,7 +1837,7 @@ var localeTableEnKi = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnKn = [5][]string{
+var localeTableEnKN = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1845,7 +1845,7 @@ var localeTableEnKn = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnKy = [5][]string{
+var localeTableEnKY = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1853,7 +1853,7 @@ var localeTableEnKy = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnLc = [5][]string{
+var localeTableEnLC = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1861,7 +1861,7 @@ var localeTableEnLc = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnLr = [5][]string{
+var localeTableEnLR = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1869,7 +1869,7 @@ var localeTableEnLr = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnLs = [5][]string{
+var localeTableEnLS = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1877,7 +1877,7 @@ var localeTableEnLs = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnMg = [5][]string{
+var localeTableEnMG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1885,7 +1885,7 @@ var localeTableEnMg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnMh = [5][]string{
+var localeTableEnMH = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -1893,7 +1893,7 @@ var localeTableEnMh = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnMo = [5][]string{
+var localeTableEnMO = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1901,7 +1901,7 @@ var localeTableEnMo = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnMp = [5][]string{
+var localeTableEnMP = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -1909,7 +1909,7 @@ var localeTableEnMp = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnMs = [5][]string{
+var localeTableEnMS = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1917,7 +1917,7 @@ var localeTableEnMs = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnMt = [5][]string{
+var localeTableEnMT = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1925,7 +1925,7 @@ var localeTableEnMt = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnMu = [5][]string{
+var localeTableEnMU = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1933,7 +1933,7 @@ var localeTableEnMu = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnMv = [5][]string{
+var localeTableEnMV = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -1941,7 +1941,7 @@ var localeTableEnMv = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnMw = [5][]string{
+var localeTableEnMW = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1949,7 +1949,7 @@ var localeTableEnMw = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnMy = [5][]string{
+var localeTableEnMY = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1957,7 +1957,7 @@ var localeTableEnMy = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnNa = [5][]string{
+var localeTableEnNA = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1965,7 +1965,7 @@ var localeTableEnNa = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnNf = [5][]string{
+var localeTableEnNF = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1973,7 +1973,7 @@ var localeTableEnNf = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnNg = [5][]string{
+var localeTableEnNG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1981,7 +1981,7 @@ var localeTableEnNg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnNl = [5][]string{
+var localeTableEnNL = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1989,7 +1989,7 @@ var localeTableEnNl = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnNr = [5][]string{
+var localeTableEnNR = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -1997,7 +1997,7 @@ var localeTableEnNr = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnNu = [5][]string{
+var localeTableEnNU = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2005,7 +2005,7 @@ var localeTableEnNu = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnNz = [5][]string{
+var localeTableEnNZ = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2013,7 +2013,7 @@ var localeTableEnNz = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnPg = [5][]string{
+var localeTableEnPG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2021,7 +2021,7 @@ var localeTableEnPg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnPh = [5][]string{
+var localeTableEnPH = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2029,7 +2029,7 @@ var localeTableEnPh = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnPk = [5][]string{
+var localeTableEnPK = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2037,7 +2037,7 @@ var localeTableEnPk = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnPn = [5][]string{
+var localeTableEnPN = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2045,7 +2045,7 @@ var localeTableEnPn = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnPr = [5][]string{
+var localeTableEnPR = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -2053,7 +2053,7 @@ var localeTableEnPr = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnPw = [5][]string{
+var localeTableEnPW = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2061,7 +2061,7 @@ var localeTableEnPw = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnRw = [5][]string{
+var localeTableEnRW = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2069,7 +2069,7 @@ var localeTableEnRw = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSb = [5][]string{
+var localeTableEnSB = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2077,7 +2077,7 @@ var localeTableEnSb = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSc = [5][]string{
+var localeTableEnSC = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2085,7 +2085,7 @@ var localeTableEnSc = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSd = [5][]string{
+var localeTableEnSD = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2093,7 +2093,7 @@ var localeTableEnSd = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSe = [5][]string{
+var localeTableEnSE = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2101,7 +2101,7 @@ var localeTableEnSe = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSg = [5][]string{
+var localeTableEnSG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2109,7 +2109,7 @@ var localeTableEnSg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSh = [5][]string{
+var localeTableEnSH = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2117,7 +2117,7 @@ var localeTableEnSh = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSi = [5][]string{
+var localeTableEnSI = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2125,7 +2125,7 @@ var localeTableEnSi = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSl = [5][]string{
+var localeTableEnSL = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2133,7 +2133,7 @@ var localeTableEnSl = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSs = [5][]string{
+var localeTableEnSS = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2141,7 +2141,7 @@ var localeTableEnSs = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSx = [5][]string{
+var localeTableEnSX = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2149,7 +2149,7 @@ var localeTableEnSx = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnSz = [5][]string{
+var localeTableEnSZ = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2165,7 +2165,7 @@ var localeTableEnShaw = [5][]string{
 	{"𐑨𐑥", "𐑐𐑥"},
 }
 
-var localeTableEnShawGb = [5][]string{
+var localeTableEnShawGB = [5][]string{
 	{"·𐑕𐑭", "·𐑥𐑭", "·𐑑𐑵", "·𐑢𐑧", "·𐑔𐑻", "·𐑓𐑮", "·𐑕𐑨"},
 	{"·𐑕𐑭𐑙𐑛𐑱", "·𐑥𐑭𐑙𐑛𐑱", "·𐑑𐑵𐑟𐑛𐑱", "·𐑢𐑧𐑙𐑟𐑛𐑱", "·𐑔𐑻𐑟𐑛𐑱", "·𐑓𐑮𐑲𐑛𐑱", "·𐑕𐑨𐑛𐑻𐑛𐑱"},
 	{"·𐑡𐑨", "·𐑓𐑧", "·𐑥𐑸", "·𐑱𐑐", "·𐑥𐑱", "·𐑡𐑵", "·𐑡𐑫", "·𐑪𐑜", "·𐑕𐑧", "·𐑷𐑒", "·𐑯𐑴", "·𐑛𐑭"},
@@ -2173,7 +2173,7 @@ var localeTableEnShawGb = [5][]string{
 	{"𐑨𐑥", "𐑐𐑥"},
 }
 
-var localeTableEnTc = [5][]string{
+var localeTableEnTC = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2181,7 +2181,7 @@ var localeTableEnTc = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnTk = [5][]string{
+var localeTableEnTK = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2189,7 +2189,7 @@ var localeTableEnTk = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnTo = [5][]string{
+var localeTableEnTO = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2197,7 +2197,7 @@ var localeTableEnTo = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnTt = [5][]string{
+var localeTableEnTT = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2205,7 +2205,7 @@ var localeTableEnTt = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnTv = [5][]string{
+var localeTableEnTV = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2213,7 +2213,7 @@ var localeTableEnTv = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnTz = [5][]string{
+var localeTableEnTZ = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2221,7 +2221,7 @@ var localeTableEnTz = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnUg = [5][]string{
+var localeTableEnUG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2229,7 +2229,7 @@ var localeTableEnUg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnUm = [5][]string{
+var localeTableEnUM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -2237,7 +2237,7 @@ var localeTableEnUm = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnUs = [5][]string{
+var localeTableEnUS = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -2245,7 +2245,7 @@ var localeTableEnUs = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnUsUVaPosix = [5][]string{
+var localeTableEnUSuvaposix = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -2253,7 +2253,7 @@ var localeTableEnUsUVaPosix = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnVc = [5][]string{
+var localeTableEnVC = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2261,7 +2261,7 @@ var localeTableEnVc = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnVg = [5][]string{
+var localeTableEnVG = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2269,7 +2269,7 @@ var localeTableEnVg = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnVi = [5][]string{
+var localeTableEnVI = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -2277,7 +2277,7 @@ var localeTableEnVi = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableEnVu = [5][]string{
+var localeTableEnVU = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2285,7 +2285,7 @@ var localeTableEnVu = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnWs = [5][]string{
+var localeTableEnWS = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2293,7 +2293,7 @@ var localeTableEnWs = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnZa = [5][]string{
+var localeTableEnZA = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2301,7 +2301,7 @@ var localeTableEnZa = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnZm = [5][]string{
+var localeTableEnZM = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2309,7 +2309,7 @@ var localeTableEnZm = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableEnZw = [5][]string{
+var localeTableEnZW = [5][]string{
 	{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
 	{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
@@ -2349,7 +2349,7 @@ var localeTableEs419 = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsAr = [5][]string{
+var localeTableEsAR = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2357,7 +2357,7 @@ var localeTableEsAr = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsBo = [5][]string{
+var localeTableEsBO = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2365,7 +2365,7 @@ var localeTableEsBo = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsBr = [5][]string{
+var localeTableEsBR = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2373,7 +2373,7 @@ var localeTableEsBr = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsBz = [5][]string{
+var localeTableEsBZ = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2381,7 +2381,7 @@ var localeTableEsBz = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsCl = [5][]string{
+var localeTableEsCL = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2389,7 +2389,7 @@ var localeTableEsCl = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsCo = [5][]string{
+var localeTableEsCO = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2397,7 +2397,7 @@ var localeTableEsCo = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsCr = [5][]string{
+var localeTableEsCR = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2405,7 +2405,7 @@ var localeTableEsCr = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsCu = [5][]string{
+var localeTableEsCU = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2413,7 +2413,7 @@ var localeTableEsCu = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsDo = [5][]string{
+var localeTableEsDO = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2421,7 +2421,7 @@ var localeTableEsDo = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsEa = [5][]string{
+var localeTableEsEA = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2429,7 +2429,7 @@ var localeTableEsEa = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsEc = [5][]string{
+var localeTableEsEC = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2437,7 +2437,7 @@ var localeTableEsEc = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsEs = [5][]string{
+var localeTableEsES = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2445,7 +2445,7 @@ var localeTableEsEs = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsGq = [5][]string{
+var localeTableEsGQ = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2453,7 +2453,7 @@ var localeTableEsGq = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsGt = [5][]string{
+var localeTableEsGT = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2461,7 +2461,7 @@ var localeTableEsGt = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsHn = [5][]string{
+var localeTableEsHN = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2469,7 +2469,7 @@ var localeTableEsHn = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsIc = [5][]string{
+var localeTableEsIC = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2477,7 +2477,7 @@ var localeTableEsIc = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsMx = [5][]string{
+var localeTableEsMX = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"},
@@ -2485,7 +2485,7 @@ var localeTableEsMx = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsNi = [5][]string{
+var localeTableEsNI = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2493,7 +2493,7 @@ var localeTableEsNi = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsPa = [5][]string{
+var localeTableEsPA = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2501,7 +2501,7 @@ var localeTableEsPa = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsPe = [5][]string{
+var localeTableEsPE = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene.", "feb.", "mar.", "abr.", "may.", "jun.", "jul.", "ago.", "set.", "oct.", "nov.", "dic."},
@@ -2509,7 +2509,7 @@ var localeTableEsPe = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsPh = [5][]string{
+var localeTableEsPH = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2517,7 +2517,7 @@ var localeTableEsPh = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsPr = [5][]string{
+var localeTableEsPR = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2525,7 +2525,7 @@ var localeTableEsPr = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsPy = [5][]string{
+var localeTableEsPY = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene.", "feb.", "mar.", "abr.", "may.", "jun.", "jul.", "ago.", "sept.", "oct.", "nov.", "dic."},
@@ -2533,7 +2533,7 @@ var localeTableEsPy = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsSv = [5][]string{
+var localeTableEsSV = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2541,7 +2541,7 @@ var localeTableEsSv = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsUs = [5][]string{
+var localeTableEsUS = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sept", "oct", "nov", "dic"},
@@ -2549,7 +2549,7 @@ var localeTableEsUs = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsUy = [5][]string{
+var localeTableEsUY = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene.", "feb.", "mar.", "abr.", "may.", "jun.", "jul.", "ago.", "set.", "oct.", "nov.", "dic."},
@@ -2557,7 +2557,7 @@ var localeTableEsUy = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableEsVe = [5][]string{
+var localeTableEsVE = [5][]string{
 	{"dom", "lun", "mar", "mié", "jue", "vie", "sáb"},
 	{"domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"},
 	{"ene.", "feb.", "mar.", "abr.", "may.", "jun.", "jul.", "ago.", "sept.", "oct.", "nov.", "dic."},
@@ -2573,7 +2573,7 @@ var localeTableEt = [5][]string{
 	{},
 }
 
-var localeTableEtEe = [5][]string{
+var localeTableEtEE = [5][]string{
 	{"P", "E", "T", "K", "N", "R", "L"},
 	{"pühapäev", "esmaspäev", "teisipäev", "kolmapäev", "neljapäev", "reede", "laupäev"},
 	{"jaan", "veebr", "märts", "apr", "mai", "juuni", "juuli", "aug", "sept", "okt", "nov", "dets"},
@@ -2589,7 +2589,7 @@ var localeTableEu = [5][]string{
 	{"g", "a"},
 }
 
-var localeTableEuEs = [5][]string{
+var localeTableEuES = [5][]string{
 	{"ig.", "al.", "ar.", "az.", "og.", "or.", "lr."},
 	{"igandea", "astelehena", "asteartea", "asteazkena", "osteguna", "ostirala", "larunbata"},
 	{"urt.", "ots.", "mar.", "api.", "mai.", "eka.", "uzt.", "abu.", "ira.", "urr.", "aza.", "abe."},
@@ -2605,7 +2605,7 @@ var localeTableEwo = [5][]string{
 	{"kíkíríg", "ngəgógəle"},
 }
 
-var localeTableEwoCm = [5][]string{
+var localeTableEwoCM = [5][]string{
 	{"sɔ́n", "mɔ́n", "smb", "sml", "smn", "fúl", "sér"},
 	{"sɔ́ndɔ", "mɔ́ndi", "sɔ́ndɔ məlú mə́bɛ̌", "sɔ́ndɔ məlú mə́lɛ́", "sɔ́ndɔ məlú mə́nyi", "fúladé", "séradé"},
 	{"ngo", "ngb", "ngl", "ngn", "ngt", "ngs", "ngz", "ngm", "nge", "nga", "ngad", "ngab"},
@@ -2621,7 +2621,7 @@ var localeTableFa = [5][]string{
 	{"ق.ظ.", "ب.ظ."},
 }
 
-var localeTableFaAf = [5][]string{
+var localeTableFaAF = [5][]string{
 	{},
 	{"یکشنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنجشنبه", "جمعه", "شنبه"},
 	{"جنو", "فبروری", "مارچ", "اپریل", "می", "جون", "جول", "اگست", "سپتمبر", "اکتوبر", "نومبر", "دسم"},
@@ -2629,7 +2629,7 @@ var localeTableFaAf = [5][]string{
 	{"ق.ظ.", "ب.ظ."},
 }
 
-var localeTableFaIr = [5][]string{
+var localeTableFaIR = [5][]string{
 	{},
 	{"یکشنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنجشنبه", "جمعه", "شنبه"},
 	{"ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن", "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"},
@@ -2653,7 +2653,7 @@ var localeTableFfAdlm = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmBf = [5][]string{
+var localeTableFfAdlmBF = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2661,7 +2661,7 @@ var localeTableFfAdlmBf = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmCm = [5][]string{
+var localeTableFfAdlmCM = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2669,7 +2669,7 @@ var localeTableFfAdlmCm = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmGh = [5][]string{
+var localeTableFfAdlmGH = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2677,7 +2677,7 @@ var localeTableFfAdlmGh = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmGm = [5][]string{
+var localeTableFfAdlmGM = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2685,7 +2685,7 @@ var localeTableFfAdlmGm = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmGn = [5][]string{
+var localeTableFfAdlmGN = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2693,7 +2693,7 @@ var localeTableFfAdlmGn = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmGw = [5][]string{
+var localeTableFfAdlmGW = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2701,7 +2701,7 @@ var localeTableFfAdlmGw = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmLr = [5][]string{
+var localeTableFfAdlmLR = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2709,7 +2709,7 @@ var localeTableFfAdlmLr = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmMr = [5][]string{
+var localeTableFfAdlmMR = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2717,7 +2717,7 @@ var localeTableFfAdlmMr = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmNe = [5][]string{
+var localeTableFfAdlmNE = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2725,7 +2725,7 @@ var localeTableFfAdlmNe = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmNg = [5][]string{
+var localeTableFfAdlmNG = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2733,7 +2733,7 @@ var localeTableFfAdlmNg = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmSl = [5][]string{
+var localeTableFfAdlmSL = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2741,7 +2741,7 @@ var localeTableFfAdlmSl = [5][]string{
 	{"𞤀𞤎", "𞤇𞤎"},
 }
 
-var localeTableFfAdlmSn = [5][]string{
+var localeTableFfAdlmSN = [5][]string{
 	{"𞤈𞤫𞤬", "𞤀𞥄𞤩𞤵", "𞤃𞤢𞤦", "𞤔𞤫𞤧", "𞤐𞤢𞥄𞤧", "𞤃𞤢𞤣", "𞤖𞤮𞤪"},
 	{"𞤈𞤫𞤬𞤦𞤭𞤪𞥆𞤫", "𞤀𞥄𞤩𞤵𞤲𞥋𞤣𞤫", "𞤃𞤢𞤱𞤦𞤢𞥄𞤪𞤫", "𞤐𞤶𞤫𞤧𞤤𞤢𞥄𞤪𞤫", "𞤐𞤢𞥄𞤧𞤢𞥄𞤲𞤣𞤫", "𞤃𞤢𞤱𞤲𞤣𞤫", "𞤖𞤮𞤪𞤦𞤭𞤪𞥆𞤫"},
 	{},
@@ -2757,7 +2757,7 @@ var localeTableFfLatn = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnBf = [5][]string{
+var localeTableFfLatnBF = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2765,7 +2765,7 @@ var localeTableFfLatnBf = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnCm = [5][]string{
+var localeTableFfLatnCM = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2773,7 +2773,7 @@ var localeTableFfLatnCm = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnGh = [5][]string{
+var localeTableFfLatnGH = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2781,7 +2781,7 @@ var localeTableFfLatnGh = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnGm = [5][]string{
+var localeTableFfLatnGM = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2789,7 +2789,7 @@ var localeTableFfLatnGm = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnGn = [5][]string{
+var localeTableFfLatnGN = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2797,7 +2797,7 @@ var localeTableFfLatnGn = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnGw = [5][]string{
+var localeTableFfLatnGW = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2805,7 +2805,7 @@ var localeTableFfLatnGw = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnLr = [5][]string{
+var localeTableFfLatnLR = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2813,7 +2813,7 @@ var localeTableFfLatnLr = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnMr = [5][]string{
+var localeTableFfLatnMR = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2821,7 +2821,7 @@ var localeTableFfLatnMr = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnNe = [5][]string{
+var localeTableFfLatnNE = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2829,7 +2829,7 @@ var localeTableFfLatnNe = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnNg = [5][]string{
+var localeTableFfLatnNG = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2837,7 +2837,7 @@ var localeTableFfLatnNg = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnSl = [5][]string{
+var localeTableFfLatnSL = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2845,7 +2845,7 @@ var localeTableFfLatnSl = [5][]string{
 	{"subaka", "kikiiɗe"},
 }
 
-var localeTableFfLatnSn = [5][]string{
+var localeTableFfLatnSN = [5][]string{
 	{"dew", "aaɓ", "maw", "nje", "naa", "mwd", "hbi"},
 	{"dewo", "aaɓnde", "mawbaare", "njeslaare", "naasaande", "mawnde", "hoore-biir"},
 	{"sii", "col", "mbo", "see", "duu", "kor", "mor", "juk", "slt", "yar", "jol", "bow"},
@@ -2861,7 +2861,7 @@ var localeTableFi = [5][]string{
 	{"ap.", "ip."},
 }
 
-var localeTableFiFi = [5][]string{
+var localeTableFiFI = [5][]string{
 	{"su", "ma", "ti", "ke", "to", "pe", "la"},
 	{"sunnuntaina", "maanantaina", "tiistaina", "keskiviikkona", "torstaina", "perjantaina", "lauantaina"},
 	{"tammik.", "helmik.", "maalisk.", "huhtik.", "toukok.", "kesäk.", "heinäk.", "elok.", "syysk.", "lokak.", "marrask.", "jouluk."},
@@ -2877,7 +2877,7 @@ var localeTableFil = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableFilPh = [5][]string{
+var localeTableFilPH = [5][]string{
 	{"Lin", "Lun", "Mar", "Miy", "Huw", "Biy", "Sab"},
 	{"Linggo", "Lunes", "Martes", "Miyerkules", "Huwebes", "Biyernes", "Sabado"},
 	{"Ene", "Peb", "Mar", "Abr", "May", "Hun", "Hul", "Ago", "Set", "Okt", "Nob", "Dis"},
@@ -2893,7 +2893,7 @@ var localeTableFo = [5][]string{
 	{},
 }
 
-var localeTableFoDk = [5][]string{
+var localeTableFoDK = [5][]string{
 	{"sun.", "mán.", "týs.", "mik.", "hós.", "frí.", "ley."},
 	{"sunnudagur", "mánadagur", "týsdagur", "mikudagur", "hósdagur", "fríggjadagur", "leygardagur"},
 	{"jan.", "feb.", "mar.", "apr.", "mai", "jun.", "jul.", "aug.", "sep.", "okt.", "nov.", "des."},
@@ -2901,7 +2901,7 @@ var localeTableFoDk = [5][]string{
 	{},
 }
 
-var localeTableFoFo = [5][]string{
+var localeTableFoFO = [5][]string{
 	{"sun.", "mán.", "týs.", "mik.", "hós.", "frí.", "ley."},
 	{"sunnudagur", "mánadagur", "týsdagur", "mikudagur", "hósdagur", "fríggjadagur", "leygardagur"},
 	{"jan.", "feb.", "mar.", "apr.", "mai", "jun.", "jul.", "aug.", "sep.", "okt.", "nov.", "des."},
@@ -2917,7 +2917,7 @@ var localeTableFr = [5][]string{
 	{},
 }
 
-var localeTableFrBe = [5][]string{
+var localeTableFrBE = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2925,7 +2925,7 @@ var localeTableFrBe = [5][]string{
 	{},
 }
 
-var localeTableFrBf = [5][]string{
+var localeTableFrBF = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2933,7 +2933,7 @@ var localeTableFrBf = [5][]string{
 	{},
 }
 
-var localeTableFrBi = [5][]string{
+var localeTableFrBI = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2941,7 +2941,7 @@ var localeTableFrBi = [5][]string{
 	{},
 }
 
-var localeTableFrBj = [5][]string{
+var localeTableFrBJ = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2949,7 +2949,7 @@ var localeTableFrBj = [5][]string{
 	{},
 }
 
-var localeTableFrBl = [5][]string{
+var localeTableFrBL = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2957,7 +2957,7 @@ var localeTableFrBl = [5][]string{
 	{},
 }
 
-var localeTableFrCa = [5][]string{
+var localeTableFrCA = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juill.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2965,7 +2965,7 @@ var localeTableFrCa = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableFrCd = [5][]string{
+var localeTableFrCD = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2973,7 +2973,7 @@ var localeTableFrCd = [5][]string{
 	{},
 }
 
-var localeTableFrCf = [5][]string{
+var localeTableFrCF = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2981,7 +2981,7 @@ var localeTableFrCf = [5][]string{
 	{},
 }
 
-var localeTableFrCg = [5][]string{
+var localeTableFrCG = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2989,7 +2989,7 @@ var localeTableFrCg = [5][]string{
 	{},
 }
 
-var localeTableFrCh = [5][]string{
+var localeTableFrCH = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -2997,7 +2997,7 @@ var localeTableFrCh = [5][]string{
 	{},
 }
 
-var localeTableFrCi = [5][]string{
+var localeTableFrCI = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3005,7 +3005,7 @@ var localeTableFrCi = [5][]string{
 	{},
 }
 
-var localeTableFrCm = [5][]string{
+var localeTableFrCM = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3013,7 +3013,7 @@ var localeTableFrCm = [5][]string{
 	{"mat.", "soir"},
 }
 
-var localeTableFrDj = [5][]string{
+var localeTableFrDJ = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3021,7 +3021,7 @@ var localeTableFrDj = [5][]string{
 	{},
 }
 
-var localeTableFrDz = [5][]string{
+var localeTableFrDZ = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3029,7 +3029,7 @@ var localeTableFrDz = [5][]string{
 	{},
 }
 
-var localeTableFrFr = [5][]string{
+var localeTableFrFR = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3037,7 +3037,7 @@ var localeTableFrFr = [5][]string{
 	{},
 }
 
-var localeTableFrGa = [5][]string{
+var localeTableFrGA = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3045,7 +3045,7 @@ var localeTableFrGa = [5][]string{
 	{},
 }
 
-var localeTableFrGf = [5][]string{
+var localeTableFrGF = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3053,7 +3053,7 @@ var localeTableFrGf = [5][]string{
 	{},
 }
 
-var localeTableFrGn = [5][]string{
+var localeTableFrGN = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3061,7 +3061,7 @@ var localeTableFrGn = [5][]string{
 	{},
 }
 
-var localeTableFrGp = [5][]string{
+var localeTableFrGP = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3069,7 +3069,7 @@ var localeTableFrGp = [5][]string{
 	{},
 }
 
-var localeTableFrGq = [5][]string{
+var localeTableFrGQ = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3077,7 +3077,7 @@ var localeTableFrGq = [5][]string{
 	{},
 }
 
-var localeTableFrHt = [5][]string{
+var localeTableFrHT = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3085,7 +3085,7 @@ var localeTableFrHt = [5][]string{
 	{},
 }
 
-var localeTableFrKm = [5][]string{
+var localeTableFrKM = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3093,7 +3093,7 @@ var localeTableFrKm = [5][]string{
 	{},
 }
 
-var localeTableFrLu = [5][]string{
+var localeTableFrLU = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3101,7 +3101,7 @@ var localeTableFrLu = [5][]string{
 	{},
 }
 
-var localeTableFrMa = [5][]string{
+var localeTableFrMA = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"jan.", "fév.", "mar.", "avr.", "mai", "jui.", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3109,7 +3109,7 @@ var localeTableFrMa = [5][]string{
 	{},
 }
 
-var localeTableFrMc = [5][]string{
+var localeTableFrMC = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3117,7 +3117,7 @@ var localeTableFrMc = [5][]string{
 	{},
 }
 
-var localeTableFrMf = [5][]string{
+var localeTableFrMF = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3125,7 +3125,7 @@ var localeTableFrMf = [5][]string{
 	{},
 }
 
-var localeTableFrMg = [5][]string{
+var localeTableFrMG = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3133,7 +3133,7 @@ var localeTableFrMg = [5][]string{
 	{},
 }
 
-var localeTableFrMl = [5][]string{
+var localeTableFrML = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3141,7 +3141,7 @@ var localeTableFrMl = [5][]string{
 	{},
 }
 
-var localeTableFrMq = [5][]string{
+var localeTableFrMQ = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3149,7 +3149,7 @@ var localeTableFrMq = [5][]string{
 	{},
 }
 
-var localeTableFrMr = [5][]string{
+var localeTableFrMR = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3157,7 +3157,7 @@ var localeTableFrMr = [5][]string{
 	{},
 }
 
-var localeTableFrMu = [5][]string{
+var localeTableFrMU = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3165,7 +3165,7 @@ var localeTableFrMu = [5][]string{
 	{},
 }
 
-var localeTableFrNc = [5][]string{
+var localeTableFrNC = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3173,7 +3173,7 @@ var localeTableFrNc = [5][]string{
 	{},
 }
 
-var localeTableFrNe = [5][]string{
+var localeTableFrNE = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3181,7 +3181,7 @@ var localeTableFrNe = [5][]string{
 	{},
 }
 
-var localeTableFrPf = [5][]string{
+var localeTableFrPF = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3189,7 +3189,7 @@ var localeTableFrPf = [5][]string{
 	{},
 }
 
-var localeTableFrPm = [5][]string{
+var localeTableFrPM = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3197,7 +3197,7 @@ var localeTableFrPm = [5][]string{
 	{},
 }
 
-var localeTableFrRe = [5][]string{
+var localeTableFrRE = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3205,7 +3205,7 @@ var localeTableFrRe = [5][]string{
 	{},
 }
 
-var localeTableFrRw = [5][]string{
+var localeTableFrRW = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3213,7 +3213,7 @@ var localeTableFrRw = [5][]string{
 	{},
 }
 
-var localeTableFrSc = [5][]string{
+var localeTableFrSC = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3221,7 +3221,7 @@ var localeTableFrSc = [5][]string{
 	{},
 }
 
-var localeTableFrSn = [5][]string{
+var localeTableFrSN = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3229,7 +3229,7 @@ var localeTableFrSn = [5][]string{
 	{},
 }
 
-var localeTableFrSy = [5][]string{
+var localeTableFrSY = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3237,7 +3237,7 @@ var localeTableFrSy = [5][]string{
 	{},
 }
 
-var localeTableFrTd = [5][]string{
+var localeTableFrTD = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3245,7 +3245,7 @@ var localeTableFrTd = [5][]string{
 	{},
 }
 
-var localeTableFrTg = [5][]string{
+var localeTableFrTG = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3253,7 +3253,7 @@ var localeTableFrTg = [5][]string{
 	{},
 }
 
-var localeTableFrTn = [5][]string{
+var localeTableFrTN = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3261,7 +3261,7 @@ var localeTableFrTn = [5][]string{
 	{},
 }
 
-var localeTableFrVu = [5][]string{
+var localeTableFrVU = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3269,7 +3269,7 @@ var localeTableFrVu = [5][]string{
 	{},
 }
 
-var localeTableFrWf = [5][]string{
+var localeTableFrWF = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3277,7 +3277,7 @@ var localeTableFrWf = [5][]string{
 	{},
 }
 
-var localeTableFrYt = [5][]string{
+var localeTableFrYT = [5][]string{
 	{"dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."},
 	{"dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"},
 	{"janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."},
@@ -3293,7 +3293,7 @@ var localeTableFrr = [5][]string{
 	{"i/m", "e/m"},
 }
 
-var localeTableFrrDe = [5][]string{
+var localeTableFrrDE = [5][]string{
 	{"Sön", "Mun", "Tei", "Wed", "Tür", "Fre", "San"},
 	{"Söndai", "Mundai", "Teisdai", "Weedensdai", "Tüürsdai", "Freidai", "Saninj"},
 	{"Jan", "Feb", "Mar", "Apr", "Mei", "Jün", "Jül", "Aug", "Sep", "Okt", "Nof", "Det"},
@@ -3309,7 +3309,7 @@ var localeTableFur = [5][]string{
 	{"a.", "p."},
 }
 
-var localeTableFurIt = [5][]string{
+var localeTableFurIT = [5][]string{
 	{"dom", "lun", "mar", "mie", "joi", "vin", "sab"},
 	{"domenie", "lunis", "martars", "miercus", "joibe", "vinars", "sabide"},
 	{"Zen", "Fev", "Mar", "Avr", "Mai", "Jug", "Lui", "Avo", "Set", "Otu", "Nov", "Dic"},
@@ -3325,7 +3325,7 @@ var localeTableFy = [5][]string{
 	{},
 }
 
-var localeTableFyNl = [5][]string{
+var localeTableFyNL = [5][]string{
 	{"si", "mo", "ti", "wo", "to", "fr", "so"},
 	{"snein", "moandei", "tiisdei", "woansdei", "tongersdei", "freed", "sneon"},
 	{"Jan", "Feb", "Mrt", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Des"},
@@ -3341,7 +3341,7 @@ var localeTableGa = [5][]string{
 	{"r.n.", "i.n."},
 }
 
-var localeTableGaGb = [5][]string{
+var localeTableGaGB = [5][]string{
 	{"Domh", "Luan", "Máirt", "Céad", "Déar", "Aoine", "Sath"},
 	{"Dé Domhnaigh", "Dé Luain", "Dé Máirt", "Dé Céadaoin", "Déardaoin", "Dé hAoine", "Dé Sathairn"},
 	{"Ean", "Feabh", "Márta", "Aib", "Beal", "Meith", "Iúil", "Lún", "MFómh", "DFómh", "Samh", "Noll"},
@@ -3349,7 +3349,7 @@ var localeTableGaGb = [5][]string{
 	{"r.n.", "i.n."},
 }
 
-var localeTableGaIe = [5][]string{
+var localeTableGaIE = [5][]string{
 	{"Domh", "Luan", "Máirt", "Céad", "Déar", "Aoine", "Sath"},
 	{"Dé Domhnaigh", "Dé Luain", "Dé Máirt", "Dé Céadaoin", "Déardaoin", "Dé hAoine", "Dé Sathairn"},
 	{"Ean", "Feabh", "Márta", "Aib", "Beal", "Meith", "Iúil", "Lún", "MFómh", "DFómh", "Samh", "Noll"},
@@ -3365,7 +3365,7 @@ var localeTableGaa = [5][]string{
 	{"LB", "SN"},
 }
 
-var localeTableGaaGh = [5][]string{
+var localeTableGaaGH = [5][]string{
 	{"Hɔg", "Ju", "Juf", "Shɔ", "Soo", "Soh", "Hɔɔ"},
 	{"Hɔgbaa", "Ju", "Jufɔ", "Shɔ", "Soo", "Sohaa", "Hɔɔ"},
 	{"Aha", "Ofl", "Ots", "Abe", "Agb", "Otu", "Maa", "Man", "Gbo", "Ant", "Ale", "Afu"},
@@ -3381,7 +3381,7 @@ var localeTableGd = [5][]string{
 	{"m", "f"},
 }
 
-var localeTableGdGb = [5][]string{
+var localeTableGdGB = [5][]string{
 	{"DiD", "DiL", "DiM", "DiC", "Dia", "Dih", "DiS"},
 	{"DiDòmhnaich", "DiLuain", "DiMàirt", "DiCiadain", "DiarDaoin", "DihAoine", "DiSathairne"},
 	{"Faoi", "Gearr", "Màrt", "Gibl", "Cèit", "Ògmh", "Iuch", "Lùna", "Sult", "Dàmh", "Samh", "Dùbh"},
@@ -3397,7 +3397,7 @@ var localeTableGez = [5][]string{
 	{"ጽባሕ", "ምሴት"},
 }
 
-var localeTableGezEr = [5][]string{
+var localeTableGezER = [5][]string{
 	{},
 	{"እኁድ", "ሰኑይ", "ሠሉስ", "ራብዕ", "ሐሙስ", "ዓርበ", "ቀዳሚት"},
 	{},
@@ -3405,7 +3405,7 @@ var localeTableGezEr = [5][]string{
 	{"ጽባሕ", "ምሴት"},
 }
 
-var localeTableGezEt = [5][]string{
+var localeTableGezET = [5][]string{
 	{},
 	{"እኁድ", "ሰኑይ", "ሠሉስ", "ራብዕ", "ሐሙስ", "ዓርበ", "ቀዳሚት"},
 	{},
@@ -3421,7 +3421,7 @@ var localeTableGl = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableGlEs = [5][]string{
+var localeTableGlES = [5][]string{
 	{"dom.", "luns", "mar.", "mér.", "xov.", "ven.", "sáb."},
 	{"domingo", "luns", "martes", "mércores", "xoves", "venres", "sábado"},
 	{"xan.", "feb.", "mar.", "abr.", "maio", "xuño", "xul.", "ago.", "set.", "out.", "nov.", "dec."},
@@ -3437,7 +3437,7 @@ var localeTableGn = [5][]string{
 	{},
 }
 
-var localeTableGnPy = [5][]string{
+var localeTableGnPY = [5][]string{
 	{},
 	{"Arateĩ", "Arakõi", "Araapy", "Ararundy", "Arapo", "Arapoteĩ", "Arapokõi"},
 	{},
@@ -3453,7 +3453,7 @@ var localeTableGsw = [5][]string{
 	{"vorm.", "nam."},
 }
 
-var localeTableGswCh = [5][]string{
+var localeTableGswCH = [5][]string{
 	{"Su.", "Mä.", "Zi.", "Mi.", "Du.", "Fr.", "Sa."},
 	{"Sunntig", "Määntig", "Ziischtig", "Mittwuch", "Dunschtig", "Friitig", "Samschtig"},
 	{"Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"},
@@ -3461,7 +3461,7 @@ var localeTableGswCh = [5][]string{
 	{"vorm.", "nam."},
 }
 
-var localeTableGswFr = [5][]string{
+var localeTableGswFR = [5][]string{
 	{"Su.", "Mä.", "Zi.", "Mi.", "Du.", "Fr.", "Sa."},
 	{"Sunntig", "Määntig", "Ziischtig", "Mittwuch", "Dunschtig", "Friitig", "Samschtig"},
 	{"Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"},
@@ -3469,7 +3469,7 @@ var localeTableGswFr = [5][]string{
 	{"vorm.", "nam."},
 }
 
-var localeTableGswLi = [5][]string{
+var localeTableGswLI = [5][]string{
 	{"Su.", "Mä.", "Zi.", "Mi.", "Du.", "Fr.", "Sa."},
 	{"Sunntig", "Määntig", "Ziischtig", "Mittwuch", "Dunschtig", "Friitig", "Samschtig"},
 	{"Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"},
@@ -3485,7 +3485,7 @@ var localeTableGu = [5][]string{
 	{},
 }
 
-var localeTableGuIn = [5][]string{
+var localeTableGuIN = [5][]string{
 	{"રવિ", "સોમ", "મંગળ", "બુધ", "ગુરુ", "શુક્ર", "શનિ"},
 	{"રવિવાર", "સોમવાર", "મંગળવાર", "બુધવાર", "ગુરુવાર", "શુક્રવાર", "શનિવાર"},
 	{"જાન્યુ", "ફેબ્રુ", "માર્ચ", "એપ્રિલ", "મે", "જૂન", "જુલાઈ", "ઑગસ્ટ", "સપ્ટે", "ઑક્ટો", "નવે", "ડિસે"},
@@ -3501,7 +3501,7 @@ var localeTableGuz = [5][]string{
 	{"Ma", "Mo"},
 }
 
-var localeTableGuzKe = [5][]string{
+var localeTableGuzKE = [5][]string{
 	{"Cpr", "Ctt", "Cmn", "Cmt", "Ars", "Icm", "Est"},
 	{"Chumapiri", "Chumatato", "Chumaine", "Chumatano", "Aramisi", "Ichuma", "Esabato"},
 	{"Can", "Feb", "Mac", "Apr", "Mei", "Jun", "Cul", "Agt", "Sep", "Okt", "Nob", "Dis"},
@@ -3517,7 +3517,7 @@ var localeTableGv = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableGvIm = [5][]string{
+var localeTableGvIM = [5][]string{
 	{"Jed", "Jel", "Jem", "Jerc", "Jerd", "Jeh", "Jes"},
 	{"Jedoonee", "Jelhein", "Jemayrt", "Jercean", "Jerdein", "Jeheiney", "Jesarn"},
 	{"J-guer", "T-arree", "Mayrnt", "Avrril", "Boaldyn", "M-souree", "J-souree", "Luanistyn", "M-fouyir", "J-fouyir", "M-Houney", "M-Nollick"},
@@ -3541,7 +3541,7 @@ var localeTableHaArab = [5][]string{
 	{"A.M.", "P.M."},
 }
 
-var localeTableHaArabNg = [5][]string{
+var localeTableHaArabNG = [5][]string{
 	{"لَح", "لِت", "تَل", "لَر", "أَلْح", "جُم", "أَسَ"},
 	{"لَحَدِ", "لِتِنِنْ", "تَلَتَ", "لَرَبَ", "أَلْحَمِسْ", "جُمَعَ", "أَسَبَرْ"},
 	{"جَن", "ڢَب", "مَر", "أَڢْر", "مَي", "يُون", "يُول", "أَغُ", "سَت", "أُكْت", "نُو", "دِس"},
@@ -3549,7 +3549,7 @@ var localeTableHaArabNg = [5][]string{
 	{"A.M.", "P.M."},
 }
 
-var localeTableHaArabSd = [5][]string{
+var localeTableHaArabSD = [5][]string{
 	{"لَح", "لِت", "تَل", "لَر", "أَلْح", "جُم", "أَسَ"},
 	{"لَحَدِ", "لِتِنِنْ", "تَلَتَ", "لَرَبَ", "أَلْحَمِسْ", "جُمَعَ", "أَسَبَرْ"},
 	{"جَن", "ڢَب", "مَر", "أَڢْر", "مَي", "يُون", "يُول", "أَغُ", "سَت", "أُكْت", "نُو", "دِس"},
@@ -3557,7 +3557,7 @@ var localeTableHaArabSd = [5][]string{
 	{"A.M.", "P.M."},
 }
 
-var localeTableHaGh = [5][]string{
+var localeTableHaGH = [5][]string{
 	{"Lah", "Lit", "Tal", "Lar", "Alh", "Jum", "Asa"},
 	{"Lahadi", "Litinin", "Talata", "Laraba", "Alhamis", "Jummaʼa", "Asabar"},
 	{"Jan", "Fab", "Mar", "Afi", "May", "Yun", "Yul", "Agu", "Sat", "Okt", "Nuw", "Dis"},
@@ -3565,7 +3565,7 @@ var localeTableHaGh = [5][]string{
 	{"SF", "YM"},
 }
 
-var localeTableHaNe = [5][]string{
+var localeTableHaNE = [5][]string{
 	{"Lah", "Lit", "Tal", "Lar", "Alh", "Jum", "Asa"},
 	{"Lahadi", "Litinin", "Talata", "Laraba", "Alhamis", "Jummaʼa", "Asabar"},
 	{"Jan", "Fab", "Mar", "Afi", "May", "Yun", "Yul", "Agu", "Sat", "Okt", "Nuw", "Dis"},
@@ -3573,7 +3573,7 @@ var localeTableHaNe = [5][]string{
 	{"SF", "YM"},
 }
 
-var localeTableHaNg = [5][]string{
+var localeTableHaNG = [5][]string{
 	{"Lah", "Lit", "Tal", "Lar", "Alh", "Jum", "Asa"},
 	{"Lahadi", "Litinin", "Talata", "Laraba", "Alhamis", "Jummaʼa", "Asabar"},
 	{"Jan", "Fab", "Mar", "Afi", "May", "Yun", "Yul", "Agu", "Sat", "Okt", "Nuw", "Dis"},
@@ -3589,7 +3589,7 @@ var localeTableHaw = [5][]string{
 	{},
 }
 
-var localeTableHawUs = [5][]string{
+var localeTableHawUS = [5][]string{
 	{"LP", "P1", "P2", "P3", "P4", "P5", "P6"},
 	{"Lāpule", "Poʻakahi", "Poʻalua", "Poʻakolu", "Poʻahā", "Poʻalima", "Poʻaono"},
 	{"Ian.", "Pep.", "Mal.", "ʻAp.", "Mei", "Iun.", "Iul.", "ʻAu.", "Kep.", "ʻOk.", "Now.", "Kek."},
@@ -3605,7 +3605,7 @@ var localeTableHe = [5][]string{
 	{"לפנה״צ", "אחה״צ"},
 }
 
-var localeTableHeIl = [5][]string{
+var localeTableHeIL = [5][]string{
 	{"יום א׳", "יום ב׳", "יום ג׳", "יום ד׳", "יום ה׳", "יום ו׳", "שבת"},
 	{"יום ראשון", "יום שני", "יום שלישי", "יום רביעי", "יום חמישי", "יום שישי", "יום שבת"},
 	{"ינו׳", "פבר׳", "מרץ", "אפר׳", "מאי", "יוני", "יולי", "אוג׳", "ספט׳", "אוק׳", "נוב׳", "דצמ׳"},
@@ -3621,7 +3621,7 @@ var localeTableHi = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableHiIn = [5][]string{
+var localeTableHiIN = [5][]string{
 	{"रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"},
 	{"रविवार", "सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार"},
 	{"जन॰", "फ़र॰", "मार्च", "अप्रैल", "मई", "जून", "जुल॰", "अग॰", "सित॰", "अक्तू॰", "नव॰", "दिस॰"},
@@ -3637,7 +3637,7 @@ var localeTableHiLatn = [5][]string{
 	{"AM", "PM"},
 }
 
-var localeTableHiLatnIn = [5][]string{
+var localeTableHiLatnIN = [5][]string{
 	{"Ravi", "Som", "Mangal", "Budh", "Guru", "Shukra", "Shani"},
 	{"Raviwaar", "Somwaar", "Mangalwaar", "Budhwaar", "Guruwaar", "Shukrawaar", "Shaniwaar"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -3661,7 +3661,7 @@ var localeTableHr = [5][]string{
 	{},
 }
 
-var localeTableHrBa = [5][]string{
+var localeTableHrBA = [5][]string{
 	{"ned", "pon", "uto", "sri", "čet", "pet", "sub"},
 	{"nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"},
 	{"sij", "velj", "ožu", "tra", "svi", "lip", "srp", "kol", "ruj", "lis", "stu", "pro"},
@@ -3669,7 +3669,7 @@ var localeTableHrBa = [5][]string{
 	{},
 }
 
-var localeTableHrHr = [5][]string{
+var localeTableHrHR = [5][]string{
 	{"ned", "pon", "uto", "sri", "čet", "pet", "sub"},
 	{"nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"},
 	{"sij", "velj", "ožu", "tra", "svi", "lip", "srp", "kol", "ruj", "lis", "stu", "pro"},
@@ -3685,7 +3685,7 @@ var localeTableHsb = [5][]string{
 	{"dop.", "pop."},
 }
 
-var localeTableHsbDe = [5][]string{
+var localeTableHsbDE = [5][]string{
 	{"nje", "pón", "wut", "srj", "štw", "pja", "sob"},
 	{"njedźela", "póndźela", "wutora", "srjeda", "štwórtk", "pjatk", "sobota"},
 	{"jan.", "feb.", "měr.", "apr.", "mej.", "jun.", "jul.", "awg.", "sep.", "okt.", "now.", "dec."},
@@ -3701,7 +3701,7 @@ var localeTableHu = [5][]string{
 	{"de.", "du."},
 }
 
-var localeTableHuHu = [5][]string{
+var localeTableHuHU = [5][]string{
 	{"V", "H", "K", "Sze", "Cs", "P", "Szo"},
 	{"vasárnap", "hétfő", "kedd", "szerda", "csütörtök", "péntek", "szombat"},
 	{"jan.", "febr.", "márc.", "ápr.", "máj.", "jún.", "júl.", "aug.", "szept.", "okt.", "nov.", "dec."},
@@ -3717,7 +3717,7 @@ var localeTableHy = [5][]string{
 	{"ա", "հ"},
 }
 
-var localeTableHyAm = [5][]string{
+var localeTableHyAM = [5][]string{
 	{"կիր", "երկ", "երք", "չրք", "հնգ", "ուր", "շբթ"},
 	{"կիրակի", "երկուշաբթի", "երեքշաբթի", "չորեքշաբթի", "հինգշաբթի", "ուրբաթ", "շաբաթ"},
 	{"հնվ", "փտվ", "մրտ", "ապր", "մյս", "հնս", "հլս", "օգս", "սեպ", "հոկ", "նոյ", "դեկ"},
@@ -3749,7 +3749,7 @@ var localeTableId = [5][]string{
 	{},
 }
 
-var localeTableIdId = [5][]string{
+var localeTableIdID = [5][]string{
 	{"Min", "Sen", "Sel", "Rab", "Kam", "Jum", "Sab"},
 	{"Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"},
 	{"Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"},
@@ -3765,7 +3765,7 @@ var localeTableIe = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableIeEe = [5][]string{
+var localeTableIeEE = [5][]string{
 	{"sol.", "lun.", "mar.", "mer.", "jov.", "ven.", "sat."},
 	{"soledí", "lunedí", "mardí", "mercurdí", "jovedí", "venerdí", "saturdí"},
 	{"jan.", "febr.", "mar.", "apr.", "may", "jun.", "julí", "aug.", "sept.", "oct.", "nov.", "dec."},
@@ -3781,7 +3781,7 @@ var localeTableIg = [5][]string{
 	{"A.M.", "P.M."},
 }
 
-var localeTableIgNg = [5][]string{
+var localeTableIgNG = [5][]string{
 	{"Sọn", "Mọn", "Tiu", "Wen", "Tọọ", "Fraị", "Sat"},
 	{"Sọndee", "Mọnde", "Tiuzdee", "Wenezdee", "Tọọzdee", "Fraịdee", "Satọdee"},
 	{"Jen", "Feb", "Maa", "Epr", "Mee", "Juu", "Jul", "Ọgọ", "Sep", "Ọkt", "Nov", "Dis"},
@@ -3797,7 +3797,7 @@ var localeTableIi = [5][]string{
 	{"ꎸꄑ", "ꁯꋒ"},
 }
 
-var localeTableIiCn = [5][]string{
+var localeTableIiCN = [5][]string{
 	{"ꑭꆏ", "ꆏꋍ", "ꆏꑍ", "ꆏꌕ", "ꆏꇖ", "ꆏꉬ", "ꆏꃘ"},
 	{"ꑭꆏꑍ", "ꆏꊂꋍ", "ꆏꊂꑍ", "ꆏꊂꌕ", "ꆏꊂꇖ", "ꆏꊂꉬ", "ꆏꊂꃘ"},
 	{},
@@ -3813,7 +3813,7 @@ var localeTableIs = [5][]string{
 	{"f.h.", "e.h."},
 }
 
-var localeTableIsIs = [5][]string{
+var localeTableIsIS = [5][]string{
 	{"sun.", "mán.", "þri.", "mið.", "fim.", "fös.", "lau."},
 	{"sunnudagur", "mánudagur", "þriðjudagur", "miðvikudagur", "fimmtudagur", "föstudagur", "laugardagur"},
 	{"jan.", "feb.", "mar.", "apr.", "maí", "jún.", "júl.", "ágú.", "sep.", "okt.", "nóv.", "des."},
@@ -3829,7 +3829,7 @@ var localeTableIt = [5][]string{
 	{"m.", "p."},
 }
 
-var localeTableItCh = [5][]string{
+var localeTableItCH = [5][]string{
 	{"dom", "lun", "mar", "mer", "gio", "ven", "sab"},
 	{"domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato"},
 	{"gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"},
@@ -3837,7 +3837,7 @@ var localeTableItCh = [5][]string{
 	{"m.", "p."},
 }
 
-var localeTableItIt = [5][]string{
+var localeTableItIT = [5][]string{
 	{"dom", "lun", "mar", "mer", "gio", "ven", "sab"},
 	{"domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato"},
 	{"gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"},
@@ -3845,7 +3845,7 @@ var localeTableItIt = [5][]string{
 	{"m.", "p."},
 }
 
-var localeTableItSm = [5][]string{
+var localeTableItSM = [5][]string{
 	{"dom", "lun", "mar", "mer", "gio", "ven", "sab"},
 	{"domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato"},
 	{"gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"},
@@ -3853,7 +3853,7 @@ var localeTableItSm = [5][]string{
 	{"m.", "p."},
 }
 
-var localeTableItVa = [5][]string{
+var localeTableItVA = [5][]string{
 	{"dom", "lun", "mar", "mer", "gio", "ven", "sab"},
 	{"domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato"},
 	{"gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"},
@@ -3869,7 +3869,7 @@ var localeTableIu = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableIuCa = [5][]string{
+var localeTableIuCA = [5][]string{
 	{},
 	{"ᓈᑦᑏᖑᔭᖅ", "ᓇᒡᒐᔾᔭᐅ", "ᓇᒡᒐᔾᔭᐅᓕᖅᑭ", "ᐱᖓᑦᓯᖅ", "ᓯᑕᒻᒥᖅ", "ᑕᓪᓕᒻᒥᐅᑦ", "ᓈᑦᓰᖑᔭᓛᕐᓂᐊᖅ"},
 	{},
@@ -3885,7 +3885,7 @@ var localeTableJa = [5][]string{
 	{"午前", "午後"},
 }
 
-var localeTableJaJp = [5][]string{
+var localeTableJaJP = [5][]string{
 	{"日", "月", "火", "水", "木", "金", "土"},
 	{"日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"},
 	{},
@@ -3901,7 +3901,7 @@ var localeTableJgo = [5][]string{
 	{"mbaꞌmbaꞌ", "ŋkambɔ́tnji"},
 }
 
-var localeTableJgoCm = [5][]string{
+var localeTableJgoCM = [5][]string{
 	{},
 	{"Sɔ́ndi", "Mɔ́ndi", "Ápta Mɔ́ndi", "Wɛ́nɛsɛdɛ", "Tɔ́sɛdɛ", "Fɛlâyɛdɛ", "Sásidɛ"},
 	{},
@@ -3917,7 +3917,7 @@ var localeTableJmc = [5][]string{
 	{"utuko", "kyiukonyi"},
 }
 
-var localeTableJmcTz = [5][]string{
+var localeTableJmcTZ = [5][]string{
 	{"Jpi", "Jtt", "Jnn", "Jtn", "Alh", "Iju", "Jmo"},
 	{"Jumapilyi", "Jumatatuu", "Jumanne", "Jumatanu", "Alhamisi", "Ijumaa", "Jumamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -3933,7 +3933,7 @@ var localeTableJv = [5][]string{
 	{"Isuk", "Wengi"},
 }
 
-var localeTableJvId = [5][]string{
+var localeTableJvID = [5][]string{
 	{"Ahad", "Sen", "Sel", "Rab", "Kam", "Jum", "Sab"},
 	{"Ahad", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"},
 	{"Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agt", "Sep", "Okt", "Nov", "Des"},
@@ -3949,7 +3949,7 @@ var localeTableKa = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableKaGe = [5][]string{
+var localeTableKaGE = [5][]string{
 	{"კვი", "ორშ", "სამ", "ოთხ", "ხუთ", "პარ", "შაბ"},
 	{"კვირა", "ორშაბათი", "სამშაბათი", "ოთხშაბათი", "ხუთშაბათი", "პარასკევი", "შაბათი"},
 	{"იან", "თებ", "მარ", "აპრ", "მაი", "ივნ", "ივლ", "აგვ", "სექ", "ოქტ", "ნოე", "დეკ"},
@@ -3965,7 +3965,7 @@ var localeTableKab = [5][]string{
 	{"ntufat", "ntmeddit"},
 }
 
-var localeTableKabDz = [5][]string{
+var localeTableKabDZ = [5][]string{
 	{"Yan", "San", "Kraḍ", "Kuẓ", "Sam", "Sḍis", "Say"},
 	{"Yanass", "Sanass", "Kraḍass", "Kuẓass", "Samass", "Sḍisass", "Sayass"},
 	{"Yen", "Fur", "Meɣ", "Yeb", "May", "Yun", "Yul", "Ɣuc", "Cte", "Tub", "Nun", "Duǧ"},
@@ -3981,7 +3981,7 @@ var localeTableKaj = [5][]string{
 	{"A.M.", "P.M."},
 }
 
-var localeTableKajNg = [5][]string{
+var localeTableKajNG = [5][]string{
 	{"Lad", "Lin", "Tal", "Lar", "Lam", "Jum", "Asa"},
 	{"Ladi", "Lintani", "Talata", "Larba", "Lamit", "Juma", "Asabar"},
 	{"A̱yr", "A̱hw", "A̱ta", "A̱na", "A̱pf", "A̱ki", "A̱ty", "A̱ni", "A̱ku", "Swa", "Sby", "Sbh"},
@@ -3997,7 +3997,7 @@ var localeTableKam = [5][]string{
 	{"Ĩyakwakya", "Ĩyawĩoo"},
 }
 
-var localeTableKamKe = [5][]string{
+var localeTableKamKE = [5][]string{
 	{"Wky", "Wkw", "Wkl", "Wtũ", "Wkn", "Wtn", "Wth"},
 	{"Wa kyumwa", "Wa kwambĩlĩlya", "Wa kelĩ", "Wa katatũ", "Wa kana", "Wa katano", "Wa thanthatũ"},
 	{"Mbe", "Kel", "Ktũ", "Kan", "Ktn", "Tha", "Moo", "Nya", "Knd", "Ĩku", "Ĩkm", "Ĩkl"},
@@ -4013,7 +4013,7 @@ var localeTableKcg = [5][]string{
 	{},
 }
 
-var localeTableKcgNg = [5][]string{
+var localeTableKcgNG = [5][]string{
 	{"Lad", "Tan", "Tal", "Lar", "Lam", "Jum", "Asa"},
 	{"Ladi", "Tanii", "Talata", "Larba", "Lamit", "Juma", "Asabat"},
 	{"Juw", "Swi", "Tsa", "Nya", "Tsw", "Ata", "Ana", "Ari", "Aku", "Swa", "Man", "Mas"},
@@ -4029,7 +4029,7 @@ var localeTableKde = [5][]string{
 	{"Muhi", "Chilo"},
 }
 
-var localeTableKdeTz = [5][]string{
+var localeTableKdeTZ = [5][]string{
 	{"Ll2", "Ll3", "Ll4", "Ll5", "Ll6", "Ll7", "Ll1"},
 	{"Liduva lyapili", "Liduva lyatatu", "Liduva lyanchechi", "Liduva lyannyano", "Liduva lyannyano na linji", "Liduva lyannyano na mavili", "Liduva litandi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -4045,7 +4045,7 @@ var localeTableKea = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableKeaCv = [5][]string{
+var localeTableKeaCV = [5][]string{
 	{"dum", "sig", "ter", "kua", "kin", "ses", "sab"},
 	{"dumingu", "sigunda-fera", "tersa-fera", "kuarta-fera", "kinta-fera", "sesta-fera", "sábadu"},
 	{"Jan", "Feb", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Otu", "Nuv", "Diz"},
@@ -4061,7 +4061,7 @@ var localeTableKgp = [5][]string{
 	{},
 }
 
-var localeTableKgpBr = [5][]string{
+var localeTableKgpBR = [5][]string{
 	{"num.", "pir.", "rég.", "tẽg.", "vẽn.", "pén.", "sav."},
 	{"numĩggu", "pir-kurã-há", "régre-kurã-há", "tẽgtũ-kurã-há", "vẽnhkãgra-kurã-há", "pénkar-kurã-há", "savnu"},
 	{"1Ky.", "2Ky.", "3Ky.", "4Ky.", "5Ky.", "6Ky.", "7Ky.", "8Ky.", "9Ky.", "10Ky.", "11Ky.", "12Ky."},
@@ -4077,7 +4077,7 @@ var localeTableKhq = [5][]string{
 	{"Adduha", "Aluula"},
 }
 
-var localeTableKhqMl = [5][]string{
+var localeTableKhqML = [5][]string{
 	{"Alh", "Ati", "Ata", "Ala", "Alm", "Alj", "Ass"},
 	{"Alhadi", "Atini", "Atalata", "Alarba", "Alhamiisa", "Aljuma", "Assabdu"},
 	{"Žan", "Fee", "Mar", "Awi", "Me", "Žuw", "Žuy", "Ut", "Sek", "Okt", "Noo", "Dee"},
@@ -4093,7 +4093,7 @@ var localeTableKi = [5][]string{
 	{"Kiroko", "Hwaĩ-inĩ"},
 }
 
-var localeTableKiKe = [5][]string{
+var localeTableKiKE = [5][]string{
 	{"KMA", "NTT", "NMN", "NMT", "ART", "NMA", "NMM"},
 	{"Kiumia", "Njumatatũ", "Njumaine", "Njumatana", "Aramithi", "Njumaa", "Njumamothi"},
 	{"JEN", "WKR", "WGT", "WKN", "WTN", "WTD", "WMJ", "WNN", "WKD", "WIK", "WMW", "DIT"},
@@ -4109,7 +4109,7 @@ var localeTableKk = [5][]string{
 	{},
 }
 
-var localeTableKkKz = [5][]string{
+var localeTableKkKZ = [5][]string{
 	{"жс", "дс", "сс", "ср", "бс", "жм", "сб"},
 	{"жексенбі", "дүйсенбі", "сейсенбі", "сәрсенбі", "бейсенбі", "жұма", "сенбі"},
 	{"қаң.", "ақп.", "нау.", "сәу.", "мам.", "мау.", "шіл.", "там.", "қыр.", "қаз.", "қар.", "жел."},
@@ -4125,7 +4125,7 @@ var localeTableKkj = [5][]string{
 	{},
 }
 
-var localeTableKkjCm = [5][]string{
+var localeTableKkjCM = [5][]string{
 	{},
 	{"sɔndi", "lundi", "mardi", "mɛrkɛrɛdi", "yedi", "vaŋdɛrɛdi", "mɔnɔ sɔndi"},
 	{},
@@ -4141,7 +4141,7 @@ var localeTableKl = [5][]string{
 	{"u.t.", "u.k."},
 }
 
-var localeTableKlGl = [5][]string{
+var localeTableKlGL = [5][]string{
 	{"sap", "ata", "mar", "pin", "sis", "tal", "arf"},
 	{"sapaat", "ataasinngorneq", "marlunngorneq", "pingasunngorneq", "sisamanngorneq", "tallimanngorneq", "arfininngorneq"},
 	{"jan", "febr", "mar", "apr", "maj", "jun", "jul", "aug", "sept", "okt", "nov", "dec"},
@@ -4157,7 +4157,7 @@ var localeTableKln = [5][]string{
 	{"krn", "koosk"},
 }
 
-var localeTableKlnKe = [5][]string{
+var localeTableKlnKE = [5][]string{
 	{"Kts", "Kot", "Koo", "Kos", "Koa", "Kom", "Kol"},
 	{"Kotisap", "Kotaai", "Koaeng’", "Kosomok", "Koang’wan", "Komuut", "Kolo"},
 	{"Mul", "Ngat", "Taa", "Iwo", "Mam", "Paa", "Nge", "Roo", "Bur", "Epe", "Kpt", "Kpa"},
@@ -4173,7 +4173,7 @@ var localeTableKm = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableKmKh = [5][]string{
+var localeTableKmKH = [5][]string{
 	{"អាទិត្យ", "ចន្ទ", "អង្គារ", "ពុធ", "ព្រហ", "សុក្រ", "សៅរ៍"},
 	{"អាទិត្យ", "ច័ន្ទ", "អង្គារ", "ពុធ", "ព្រហស្បតិ៍", "សុក្រ", "សៅរ៍"},
 	{},
@@ -4189,7 +4189,7 @@ var localeTableKn = [5][]string{
 	{"ಪೂರ್ವಾಹ್ನ", "ಅಪರಾಹ್ನ"},
 }
 
-var localeTableKnIn = [5][]string{
+var localeTableKnIN = [5][]string{
 	{"ಭಾನು", "ಸೋಮ", "ಮಂಗಳ", "ಬುಧ", "ಗುರು", "ಶುಕ್ರ", "ಶನಿ"},
 	{"ಭಾನುವಾರ", "ಸೋಮವಾರ", "ಮಂಗಳವಾರ", "ಬುಧವಾರ", "ಗುರುವಾರ", "ಶುಕ್ರವಾರ", "ಶನಿವಾರ"},
 	{"ಜನವರಿ", "ಫೆಬ್ರವರಿ", "ಮಾರ್ಚ್", "ಏಪ್ರಿ", "ಮೇ", "ಜೂನ್", "ಜುಲೈ", "ಆಗಸ್ಟ್", "ಸೆಪ್ಟೆಂ", "ಅಕ್ಟೋ", "ನವೆಂ", "ಡಿಸೆಂ"},
@@ -4205,7 +4205,7 @@ var localeTableKo = [5][]string{
 	{},
 }
 
-var localeTableKoCn = [5][]string{
+var localeTableKoCN = [5][]string{
 	{"일", "월", "화", "수", "목", "금", "토"},
 	{"일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"},
 	{},
@@ -4213,7 +4213,7 @@ var localeTableKoCn = [5][]string{
 	{},
 }
 
-var localeTableKoKp = [5][]string{
+var localeTableKoKP = [5][]string{
 	{"일", "월", "화", "수", "목", "금", "토"},
 	{"일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"},
 	{},
@@ -4221,7 +4221,7 @@ var localeTableKoKp = [5][]string{
 	{},
 }
 
-var localeTableKoKr = [5][]string{
+var localeTableKoKR = [5][]string{
 	{"일", "월", "화", "수", "목", "금", "토"},
 	{"일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"},
 	{},
@@ -4237,7 +4237,7 @@ var localeTableKok = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableKokIn = [5][]string{
+var localeTableKokIN = [5][]string{
 	{},
 	{"आयतार", "सोमार", "मंगळार", "बुधवार", "बिरेस्तार", "शुक्रार", "शेनवार"},
 	{},
@@ -4261,7 +4261,7 @@ var localeTableKsArab = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableKsArabIn = [5][]string{
+var localeTableKsArabIN = [5][]string{
 	{"آتھوار", "ژٔندٕروار", "بۆموار", "بودوار", "برؠسوار", "جُمہ", "بٹوار"},
 	{"اَتھوار", "ژٔندرٕروار", "بۆموار", "بودوار", "برؠسوار", "جُمہ", "بٹوار"},
 	{"جنؤری", "فرؤری", "مارٕچ", "اپریل", "مئی", "جوٗن", "جُلَے", "اگست", "ستمبر", "اکتوٗبر", "نومبر", "دسمبر"},
@@ -4277,7 +4277,7 @@ var localeTableKsDeva = [5][]string{
 	{},
 }
 
-var localeTableKsDevaIn = [5][]string{
+var localeTableKsDevaIN = [5][]string{
 	{"आथवार", "चंदिरवार", "बुवार", "बोदवार", "ब्रेसवार", "जुमा", "बटवार"},
 	{"आथवार", "च़ंदिरवार", "बोमवार", "बोदवार", "ब्रेसवार", "जुमा", "बटवार"},
 	{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मे", "जून", "जुलाई", "अगस्त", "सतुंबर", "अक्तूबर", "नवूमबर", "दसूमबर"},
@@ -4293,7 +4293,7 @@ var localeTableKsb = [5][]string{
 	{"makeo", "nyiaghuo"},
 }
 
-var localeTableKsbTz = [5][]string{
+var localeTableKsbTZ = [5][]string{
 	{"Jpi", "Jtt", "Jmn", "Jtn", "Alh", "Iju", "Jmo"},
 	{"Jumaapii", "Jumaatatu", "Jumaane", "Jumaatano", "Alhamisi", "Ijumaa", "Jumaamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -4309,7 +4309,7 @@ var localeTableKsf = [5][]string{
 	{"sárúwá", "cɛɛ́nko"},
 }
 
-var localeTableKsfCm = [5][]string{
+var localeTableKsfCM = [5][]string{
 	{"sɔ́n", "lǝn", "maa", "mɛk", "jǝǝ", "júm", "sam"},
 	{"sɔ́ndǝ", "lǝndí", "maadí", "mɛkrɛdí", "jǝǝdí", "júmbá", "samdí"},
 	{"ŋ1", "ŋ2", "ŋ3", "ŋ4", "ŋ5", "ŋ6", "ŋ7", "ŋ8", "ŋ9", "ŋ10", "ŋ11", "ŋ12"},
@@ -4325,7 +4325,7 @@ var localeTableKsh = [5][]string{
 	{"v.M.", "n.M."},
 }
 
-var localeTableKshDe = [5][]string{
+var localeTableKshDE = [5][]string{
 	{"Su.", "Mo.", "Di.", "Me.", "Du.", "Fr.", "Sa."},
 	{"Sunndaach", "Mohndaach", "Dinnsdaach", "Metwoch", "Dunnersdaach", "Friidaach", "Samsdaach"},
 	{"Jan", "Fäb", "Mäz", "Apr", "Mai", "Jun", "Jul", "Ouj", "Säp", "Okt", "Nov", "Dez"},
@@ -4341,7 +4341,7 @@ var localeTableKu = [5][]string{
 	{"BN", "PN"},
 }
 
-var localeTableKuTr = [5][]string{
+var localeTableKuTR = [5][]string{
 	{"yşm", "dşm", "sşm", "çşm", "pşm", "înî", "şem"},
 	{"yekşem", "duşem", "sêşem", "çarşem", "pêncşem", "înî", "şemî"},
 	{"rbn", "sbt", "adr", "nsn", "gln", "hzr", "trm", "tbx", "îln", "cot", "mjd", "brf"},
@@ -4357,7 +4357,7 @@ var localeTableKw = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableKwGb = [5][]string{
+var localeTableKwGB = [5][]string{
 	{"Sul", "Lun", "Mth", "Mhr", "Yow", "Gwe", "Sad"},
 	{"dy Sul", "dy Lun", "dy Meurth", "dy Merher", "dy Yow", "dy Gwener", "dy Sadorn"},
 	{"Gen", "Hwe", "Meu", "Ebr", "Me", "Met", "Gor", "Est", "Gwn", "Hed", "Du", "Kev"},
@@ -4381,7 +4381,7 @@ var localeTableKxvDeva = [5][]string{
 	{},
 }
 
-var localeTableKxvDevaIn = [5][]string{
+var localeTableKxvDevaIN = [5][]string{
 	{},
 	{"आदि वारा", "साॅम्वारा", "मंगाड़ा", "पुद्दारा", "लाक्कि वारा", "सुकुरु वारा", "सान्नि वारा"},
 	{},
@@ -4397,7 +4397,7 @@ var localeTableKxvOrya = [5][]string{
 	{},
 }
 
-var localeTableKxvOryaIn = [5][]string{
+var localeTableKxvOryaIN = [5][]string{
 	{},
 	{"ଆଦି ୱାରା", "ସମ୍ବାରା", "ମାଙ୍ଗାଡ଼ା", "ପୁଦାରା", "ଲାକି ୱାରା", "ସୁକ୍ରୁ ୱାରା", "ସାନି ୱାରା"},
 	{},
@@ -4413,7 +4413,7 @@ var localeTableKxvTelu = [5][]string{
 	{},
 }
 
-var localeTableKxvTeluIn = [5][]string{
+var localeTableKxvTeluIN = [5][]string{
 	{},
 	{"వారమి", "నమారా", "మాంగాడా", "వుదారా", "లాకివరా", "నుక్ వరా", "సానివరా"},
 	{},
@@ -4429,7 +4429,7 @@ var localeTableKy = [5][]string{
 	{"тң", "тк"},
 }
 
-var localeTableKyKg = [5][]string{
+var localeTableKyKG = [5][]string{
 	{"жек.", "дүй.", "шейш.", "шарш.", "бейш.", "жума", "ишм."},
 	{"жекшемби", "дүйшөмбү", "шейшемби", "шаршемби", "бейшемби", "жума", "ишемби"},
 	{"янв.", "фев.", "мар.", "апр.", "май", "июн.", "июл.", "авг.", "сен.", "окт.", "ноя.", "дек."},
@@ -4445,7 +4445,7 @@ var localeTableLa = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableLaVa = [5][]string{
+var localeTableLaVA = [5][]string{
 	{"Dom", "Lun", "Mar", "Mer", "Iov", "Ven", "Sab"},
 	{"Dominica", "dies Lunae", "dies Martis", "dies Mercurii", "dies Iovis", "dies Veneris", "dies Sabbati"},
 	{"Ian", "Feb", "Mar", "Apr", "Mai", "Iun", "Iul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -4461,7 +4461,7 @@ var localeTableLag = [5][]string{
 	{"TOO", "MUU"},
 }
 
-var localeTableLagTz = [5][]string{
+var localeTableLagTZ = [5][]string{
 	{"Píili", "Táatu", "Íne", "Táano", "Alh", "Ijm", "Móosi"},
 	{"Jumapíiri", "Jumatátu", "Jumaíne", "Jumatáano", "Alamíisi", "Ijumáa", "Jumamóosi"},
 	{"Fúngatɨ", "Naanɨ", "Keenda", "Ikúmi", "Inyambala", "Idwaata", "Mʉʉnchɨ", "Vɨɨrɨ", "Saatʉ", "Inyi", "Saano", "Sasatʉ"},
@@ -4477,7 +4477,7 @@ var localeTableLb = [5][]string{
 	{"moies", "nomëttes"},
 }
 
-var localeTableLbLu = [5][]string{
+var localeTableLbLU = [5][]string{
 	{"Son.", "Méi.", "Dën.", "Mët.", "Don.", "Fre.", "Sam."},
 	{"Sonndeg", "Méindeg", "Dënschdeg", "Mëttwoch", "Donneschdeg", "Freideg", "Samschdeg"},
 	{"Jan.", "Feb.", "Mäe.", "Abr.", "Mee", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."},
@@ -4493,7 +4493,7 @@ var localeTableLg = [5][]string{
 	{},
 }
 
-var localeTableLgUg = [5][]string{
+var localeTableLgUG = [5][]string{
 	{"Sab", "Bal", "Lw2", "Lw3", "Lw4", "Lw5", "Lw6"},
 	{"Sabbiiti", "Balaza", "Lwakubiri", "Lwakusatu", "Lwakuna", "Lwakutaano", "Lwamukaaga"},
 	{"Jan", "Feb", "Mar", "Apu", "Maa", "Juu", "Jul", "Agu", "Seb", "Oki", "Nov", "Des"},
@@ -4509,7 +4509,7 @@ var localeTableLij = [5][]string{
 	{"m.", "p."},
 }
 
-var localeTableLijIt = [5][]string{
+var localeTableLijIT = [5][]string{
 	{"dom.", "lun.", "mät.", "mäc.", "zeu.", "ven.", "sab."},
 	{"domenega", "lunesdì", "mätesdì", "mäcordì", "zeuggia", "venardì", "sabbo"},
 	{"de zen.", "de fre.", "de mar.", "d’arv.", "de maz.", "de zug.", "de lug.", "d’ago.", "de set.", "d’ott.", "de nov.", "de dex."},
@@ -4525,7 +4525,7 @@ var localeTableLkt = [5][]string{
 	{},
 }
 
-var localeTableLktUs = [5][]string{
+var localeTableLktUS = [5][]string{
 	{},
 	{"Aŋpétuwakȟaŋ", "Aŋpétuwaŋži", "Aŋpétunuŋpa", "Aŋpétuyamni", "Aŋpétutopa", "Aŋpétuzaptaŋ", "Owáŋgyužažapi"},
 	{},
@@ -4541,7 +4541,7 @@ var localeTableLmo = [5][]string{
 	{},
 }
 
-var localeTableLmoIt = [5][]string{
+var localeTableLmoIT = [5][]string{
 	{},
 	{"domenega", "lundì", "mardì", "mercoldì", "sgiovedì", "venerdì", "sabet"},
 	{},
@@ -4557,7 +4557,7 @@ var localeTableLn = [5][]string{
 	{"ntɔ́ngɔ́", "mpókwa"},
 }
 
-var localeTableLnAo = [5][]string{
+var localeTableLnAO = [5][]string{
 	{"eye", "ybo", "mbl", "mst", "min", "mtn", "mps"},
 	{"eyenga", "mokɔlɔ mwa yambo", "mokɔlɔ mwa míbalé", "mokɔlɔ mwa mísáto", "mokɔlɔ ya mínéi", "mokɔlɔ ya mítáno", "mpɔ́sɔ"},
 	{"yan", "fbl", "msi", "apl", "mai", "yun", "yul", "agt", "stb", "ɔtb", "nvb", "dsb"},
@@ -4565,7 +4565,7 @@ var localeTableLnAo = [5][]string{
 	{"ntɔ́ngɔ́", "mpókwa"},
 }
 
-var localeTableLnCd = [5][]string{
+var localeTableLnCD = [5][]string{
 	{"eye", "ybo", "mbl", "mst", "min", "mtn", "mps"},
 	{"eyenga", "mokɔlɔ mwa yambo", "mokɔlɔ mwa míbalé", "mokɔlɔ mwa mísáto", "mokɔlɔ ya mínéi", "mokɔlɔ ya mítáno", "mpɔ́sɔ"},
 	{"yan", "fbl", "msi", "apl", "mai", "yun", "yul", "agt", "stb", "ɔtb", "nvb", "dsb"},
@@ -4573,7 +4573,7 @@ var localeTableLnCd = [5][]string{
 	{"ntɔ́ngɔ́", "mpókwa"},
 }
 
-var localeTableLnCf = [5][]string{
+var localeTableLnCF = [5][]string{
 	{"eye", "ybo", "mbl", "mst", "min", "mtn", "mps"},
 	{"eyenga", "mokɔlɔ mwa yambo", "mokɔlɔ mwa míbalé", "mokɔlɔ mwa mísáto", "mokɔlɔ ya mínéi", "mokɔlɔ ya mítáno", "mpɔ́sɔ"},
 	{"yan", "fbl", "msi", "apl", "mai", "yun", "yul", "agt", "stb", "ɔtb", "nvb", "dsb"},
@@ -4581,7 +4581,7 @@ var localeTableLnCf = [5][]string{
 	{"ntɔ́ngɔ́", "mpókwa"},
 }
 
-var localeTableLnCg = [5][]string{
+var localeTableLnCG = [5][]string{
 	{"eye", "ybo", "mbl", "mst", "min", "mtn", "mps"},
 	{"eyenga", "mokɔlɔ mwa yambo", "mokɔlɔ mwa míbalé", "mokɔlɔ mwa mísáto", "mokɔlɔ ya mínéi", "mokɔlɔ ya mítáno", "mpɔ́sɔ"},
 	{"yan", "fbl", "msi", "apl", "mai", "yun", "yul", "agt", "stb", "ɔtb", "nvb", "dsb"},
@@ -4597,7 +4597,7 @@ var localeTableLo = [5][]string{
 	{"ກ່ອນທ່ຽງ", "ຫຼັງທ່ຽງ"},
 }
 
-var localeTableLoLa = [5][]string{
+var localeTableLoLA = [5][]string{
 	{"ອາທິດ", "ຈັນ", "ອັງຄານ", "ພຸດ", "ພະຫັດ", "ສຸກ", "ເສົາ"},
 	{"ວັນອາທິດ", "ວັນຈັນ", "ວັນອັງຄານ", "ວັນພຸດ", "ວັນພະຫັດ", "ວັນສຸກ", "ວັນເສົາ"},
 	{"ມ.ກ.", "ກ.ພ.", "ມ.ນ.", "ມ.ສ.", "ພ.ພ.", "ມິ.ຖ.", "ກ.ລ.", "ສ.ຫ.", "ກ.ຍ.", "ຕ.ລ.", "ພ.ຈ.", "ທ.ວ."},
@@ -4613,7 +4613,7 @@ var localeTableLrc = [5][]string{
 	{},
 }
 
-var localeTableLrcIq = [5][]string{
+var localeTableLrcIQ = [5][]string{
 	{},
 	{},
 	{},
@@ -4621,7 +4621,7 @@ var localeTableLrcIq = [5][]string{
 	{},
 }
 
-var localeTableLrcIr = [5][]string{
+var localeTableLrcIR = [5][]string{
 	{},
 	{},
 	{},
@@ -4637,7 +4637,7 @@ var localeTableLt = [5][]string{
 	{"priešpiet", "popiet"},
 }
 
-var localeTableLtLt = [5][]string{
+var localeTableLtLT = [5][]string{
 	{"sk", "pr", "an", "tr", "kt", "pn", "št"},
 	{"sekmadienis", "pirmadienis", "antradienis", "trečiadienis", "ketvirtadienis", "penktadienis", "šeštadienis"},
 	{"saus.", "vas.", "kov.", "bal.", "geg.", "birž.", "liep.", "rugp.", "rugs.", "spal.", "lapkr.", "gruod."},
@@ -4653,7 +4653,7 @@ var localeTableLu = [5][]string{
 	{"Dinda", "Dilolo"},
 }
 
-var localeTableLuCd = [5][]string{
+var localeTableLuCD = [5][]string{
 	{"Lum", "Nko", "Ndy", "Ndg", "Njw", "Ngv", "Lub"},
 	{"Lumingu", "Nkodya", "Ndàayà", "Ndangù", "Njòwa", "Ngòvya", "Lubingu"},
 	{"Cio", "Lui", "Lus", "Muu", "Lum", "Luf", "Kab", "Lush", "Lut", "Lun", "Kas", "Cis"},
@@ -4669,7 +4669,7 @@ var localeTableLuo = [5][]string{
 	{"OD", "OT"},
 }
 
-var localeTableLuoKe = [5][]string{
+var localeTableLuoKE = [5][]string{
 	{"JMP", "WUT", "TAR", "TAD", "TAN", "TAB", "NGS"},
 	{"Jumapil", "Wuok Tich", "Tich Ariyo", "Tich Adek", "Tich Ang’wen", "Tich Abich", "Ngeso"},
 	{"DAC", "DAR", "DAD", "DAN", "DAH", "DAU", "DAO", "DAB", "DOC", "DAP", "DGI", "DAG"},
@@ -4685,7 +4685,7 @@ var localeTableLuy = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableLuyKe = [5][]string{
+var localeTableLuyKE = [5][]string{
 	{"J2", "J3", "J4", "J5", "Al", "Ij", "J1"},
 	{"Jumapiri", "Jumatatu", "Jumanne", "Jumatano", "Murwa wa Kanne", "Murwa wa Katano", "Jumamosi"},
 	{"Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -4701,7 +4701,7 @@ var localeTableLv = [5][]string{
 	{"priekšp.", "pēcp."},
 }
 
-var localeTableLvLv = [5][]string{
+var localeTableLvLV = [5][]string{
 	{"svētd.", "pirmd.", "otrd.", "trešd.", "ceturtd.", "piektd.", "sestd."},
 	{"svētdiena", "pirmdiena", "otrdiena", "trešdiena", "ceturtdiena", "piektdiena", "sestdiena"},
 	{"janv.", "febr.", "marts", "apr.", "maijs", "jūn.", "jūl.", "aug.", "sept.", "okt.", "nov.", "dec."},
@@ -4717,7 +4717,7 @@ var localeTableMai = [5][]string{
 	{"भोर", "सांझ"},
 }
 
-var localeTableMaiIn = [5][]string{
+var localeTableMaiIN = [5][]string{
 	{"रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"},
 	{"रवि दिन", "सोम दिन", "मंगल दिन", "बुध दिन", "बृहस्पति दिन", "शुक्र दिन", "शनि दिन"},
 	{"जन॰", "फ़र॰", "मार्च", "अप्रैल", "मई", "जून", "जुल॰", "अग॰", "सित॰", "अक्तू॰", "नव॰", "दिस॰"},
@@ -4733,7 +4733,7 @@ var localeTableMas = [5][]string{
 	{"Ɛnkakɛnyá", "Ɛndámâ"},
 }
 
-var localeTableMasKe = [5][]string{
+var localeTableMasKE = [5][]string{
 	{"Jpi", "Jtt", "Jnn", "Jtn", "Alh", "Iju", "Jmo"},
 	{"Jumapílí", "Jumatátu", "Jumane", "Jumatánɔ", "Alaámisi", "Jumáa", "Jumamósi"},
 	{"Dal", "Ará", "Ɔɛn", "Doy", "Lép", "Rok", "Sás", "Bɔ́r", "Kús", "Gís", "Shʉ́", "Ntʉ́"},
@@ -4741,7 +4741,7 @@ var localeTableMasKe = [5][]string{
 	{"Ɛnkakɛnyá", "Ɛndámâ"},
 }
 
-var localeTableMasTz = [5][]string{
+var localeTableMasTZ = [5][]string{
 	{"Jpi", "Jtt", "Jnn", "Jtn", "Alh", "Iju", "Jmo"},
 	{"Jumapílí", "Jumatátu", "Jumane", "Jumatánɔ", "Alaámisi", "Jumáa", "Jumamósi"},
 	{"Dal", "Ará", "Ɔɛn", "Doy", "Lép", "Rok", "Sás", "Bɔ́r", "Kús", "Gís", "Shʉ́", "Ntʉ́"},
@@ -4757,7 +4757,7 @@ var localeTableMer = [5][]string{
 	{"RŨ", "ŨG"},
 }
 
-var localeTableMerKe = [5][]string{
+var localeTableMerKE = [5][]string{
 	{"KIU", "MRA", "WAI", "WET", "WEN", "WTN", "JUM"},
 	{"Kiumia", "Muramuko", "Wairi", "Wethatu", "Wena", "Wetano", "Jumamosi"},
 	{"JAN", "FEB", "MAC", "ĨPU", "MĨĨ", "NJU", "NJR", "AGA", "SPT", "OKT", "NOV", "DEC"},
@@ -4773,7 +4773,7 @@ var localeTableMfe = [5][]string{
 	{},
 }
 
-var localeTableMfeMu = [5][]string{
+var localeTableMfeMU = [5][]string{
 	{"dim", "lin", "mar", "mer", "ze", "van", "sam"},
 	{"dimans", "lindi", "mardi", "merkredi", "zedi", "vandredi", "samdi"},
 	{"zan", "fev", "mar", "avr", "me", "zin", "zil", "out", "sep", "okt", "nov", "des"},
@@ -4789,7 +4789,7 @@ var localeTableMg = [5][]string{
 	{},
 }
 
-var localeTableMgMg = [5][]string{
+var localeTableMgMG = [5][]string{
 	{"Alah", "Alats", "Tal", "Alar", "Alak", "Zom", "Asab"},
 	{"Alahady", "Alatsinainy", "Talata", "Alarobia", "Alakamisy", "Zoma", "Asabotsy"},
 	{"Jan", "Feb", "Mar", "Apr", "Mey", "Jon", "Jol", "Aog", "Sep", "Okt", "Nov", "Des"},
@@ -4805,7 +4805,7 @@ var localeTableMgh = [5][]string{
 	{"wichishu", "mchochil’l"},
 }
 
-var localeTableMghMz = [5][]string{
+var localeTableMghMZ = [5][]string{
 	{"Sab", "Jtt", "Jnn", "Jtn", "Ara", "Iju", "Jmo"},
 	{"Sabato", "Jumatatu", "Jumanne", "Jumatano", "Arahamisi", "Ijumaa", "Jumamosi"},
 	{"Kwa", "Una", "Rar", "Che", "Tha", "Moc", "Sab", "Nan", "Tis", "Kum", "Moj", "Yel"},
@@ -4821,7 +4821,7 @@ var localeTableMgo = [5][]string{
 	{},
 }
 
-var localeTableMgoCm = [5][]string{
+var localeTableMgoCM = [5][]string{
 	{},
 	{"Aneg 1", "Aneg 2", "Aneg 3", "Aneg 4", "Aneg 5", "Aneg 6", "Aneg 7"},
 	{"mbegtug", "imeg àbùbì", "imeg mbəŋchubi", "iməg ngwə̀t", "iməg fog", "iməg ichiibɔd", "iməg àdùmbə̀ŋ", "iməg ichika", "iməg kud", "iməg tèsiʼe", "iməg zò", "iməg krizmed"},
@@ -4837,7 +4837,7 @@ var localeTableMi = [5][]string{
 	{},
 }
 
-var localeTableMiNz = [5][]string{
+var localeTableMiNZ = [5][]string{
 	{"Rāt", "Man", "Tūr", "Wen", "Tāi", "Par", "Rāh"},
 	{"Rātapu", "Mane", "Tūrei", "Wenerei", "Tāite", "Paraire", "Rāhoroi"},
 	{"Hān", "Pēp", "Māe", "Āpe", "Mei", "Hun", "Hūr", "Āku", "Hep", "Oke", "Noe", "Tīh"},
@@ -4853,7 +4853,7 @@ var localeTableMk = [5][]string{
 	{"претпл.", "попл."},
 }
 
-var localeTableMkMk = [5][]string{
+var localeTableMkMK = [5][]string{
 	{"нед.", "пон.", "вто.", "сре.", "чет.", "пет.", "саб."},
 	{"недела", "понеделник", "вторник", "среда", "четврток", "петок", "сабота"},
 	{"јан.", "фев.", "мар.", "апр.", "мај", "јун.", "јул.", "авг.", "сеп.", "окт.", "ное.", "дек."},
@@ -4869,7 +4869,7 @@ var localeTableMl = [5][]string{
 	{},
 }
 
-var localeTableMlIn = [5][]string{
+var localeTableMlIN = [5][]string{
 	{"ഞായർ", "തിങ്കൾ", "ചൊവ്വ", "ബുധൻ", "വ്യാഴം", "വെള്ളി", "ശനി"},
 	{"ഞായറാഴ്‌ച", "തിങ്കളാഴ്‌ച", "ചൊവ്വാഴ്ച", "ബുധനാഴ്‌ച", "വ്യാഴാഴ്‌ച", "വെള്ളിയാഴ്‌ച", "ശനിയാഴ്‌ച"},
 	{"ജനു", "ഫെബ്രു", "മാർ", "ഏപ്രി", "മേയ്", "ജൂൺ", "ജൂലൈ", "ഓഗ", "സെപ്റ്റം", "ഒക്ടോ", "നവം", "ഡിസം"},
@@ -4885,7 +4885,7 @@ var localeTableMn = [5][]string{
 	{"ү.ө.", "ү.х."},
 }
 
-var localeTableMnMn = [5][]string{
+var localeTableMnMN = [5][]string{
 	{"Ня", "Да", "Мя", "Лх", "Пү", "Ба", "Бя"},
 	{"ням", "даваа", "мягмар", "лхагва", "пүрэв", "баасан", "бямба"},
 	{"1-р сар", "2-р сар", "3-р сар", "4-р сар", "5-р сар", "6-р сар", "7-р сар", "8-р сар", "9-р сар", "10-р сар", "11-р сар", "12-р сар"},
@@ -4893,7 +4893,7 @@ var localeTableMnMn = [5][]string{
 	{"ү.ө.", "ү.х."},
 }
 
-var localeTableMnMongMn = [5][]string{
+var localeTableMnMongMN = [5][]string{
 	{"ᠨᠢ", "ᠲᠠ", "ᠮᠢᠭ", "ᡀᠠ", "ᠫᠥᠷ", "ᠪᠠ", "ᠪᠢᠮ"},
 	{"ᠨᠢᠮ᠎ᠠ", "ᠳᠠᠸᠠ", "ᠮᠢᠠᠠᠮᠠᠷ", "ᡀᠠᠭᠪᠠ", "ᠫᠦᠷᠪᠦ", "ᠪᠠᠰᠠᠩ", "ᠪᠢᠮᠪᠠ"},
 	{"1 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "2 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "3᠊ᠷ ᠰᠠᠷ᠎ᠠ", "4 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "5 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "6 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "7 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "8᠊ᠷ ᠰᠠᠷ᠎ᠠ", "9 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "10 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "11 ᠊ᠷ ᠰᠠᠷ᠎ᠠ", "12 ᠊ᠷ ᠰᠠᠷ᠎ᠠ"},
@@ -4917,7 +4917,7 @@ var localeTableMniBeng = [5][]string{
 	{"নুমাং", "PM"},
 }
 
-var localeTableMniBengIn = [5][]string{
+var localeTableMniBengIN = [5][]string{
 	{},
 	{"নোংমাইজিং", "নিংথৌকাবা", "লৈবাকপোকপা", "য়ুমশকৈশা", "শগোলশেন", "ইরাই", "থাংজ"},
 	{"জন", "ফেব্রুৱারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "ওগ", "সেপ্টেম্বর", "ওক্টোবর", "নভেম্বর", "ডিসেম্বর"},
@@ -4933,7 +4933,7 @@ var localeTableMr = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableMrIn = [5][]string{
+var localeTableMrIN = [5][]string{
 	{"रवि", "सोम", "मंगळ", "बुध", "गुरु", "शुक्र", "शनि"},
 	{"रविवार", "सोमवार", "मंगळवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार"},
 	{"जाने", "फेब्रु", "मार्च", "एप्रि", "मे", "जून", "जुलै", "ऑग", "सप्टें", "ऑक्टो", "नोव्हें", "डिसें"},
@@ -4957,7 +4957,7 @@ var localeTableMsArab = [5][]string{
 	{},
 }
 
-var localeTableMsArabBn = [5][]string{
+var localeTableMsArabBN = [5][]string{
 	{},
 	{"احد", "اثنين", "ثلاث", "رابو", "خميس", "جمعة", "سبتو"},
 	{},
@@ -4965,7 +4965,7 @@ var localeTableMsArabBn = [5][]string{
 	{},
 }
 
-var localeTableMsArabMy = [5][]string{
+var localeTableMsArabMY = [5][]string{
 	{},
 	{"احد", "اثنين", "ثلاث", "رابو", "خميس", "جمعة", "سبتو"},
 	{},
@@ -4973,7 +4973,7 @@ var localeTableMsArabMy = [5][]string{
 	{},
 }
 
-var localeTableMsBn = [5][]string{
+var localeTableMsBN = [5][]string{
 	{"Ahd", "Isn", "Sel", "Rab", "Kha", "Jum", "Sab"},
 	{"Ahad", "Isnin", "Selasa", "Rabu", "Khamis", "Jumaat", "Sabtu"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ogo", "Sep", "Okt", "Nov", "Dis"},
@@ -4981,7 +4981,7 @@ var localeTableMsBn = [5][]string{
 	{"PG", "PTG"},
 }
 
-var localeTableMsId = [5][]string{
+var localeTableMsID = [5][]string{
 	{},
 	{"احد", "اثنين", "ثلاث", "رابو", "خميس", "جمعة", "سبتو"},
 	{},
@@ -4989,7 +4989,7 @@ var localeTableMsId = [5][]string{
 	{},
 }
 
-var localeTableMsMy = [5][]string{
+var localeTableMsMY = [5][]string{
 	{"Ahd", "Isn", "Sel", "Rab", "Kha", "Jum", "Sab"},
 	{"Ahad", "Isnin", "Selasa", "Rabu", "Khamis", "Jumaat", "Sabtu"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ogo", "Sep", "Okt", "Nov", "Dis"},
@@ -4997,7 +4997,7 @@ var localeTableMsMy = [5][]string{
 	{"PG", "PTG"},
 }
 
-var localeTableMsSg = [5][]string{
+var localeTableMsSG = [5][]string{
 	{"Ahd", "Isn", "Sel", "Rab", "Kha", "Jum", "Sab"},
 	{"Ahad", "Isnin", "Selasa", "Rabu", "Khamis", "Jumaat", "Sabtu"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ogo", "Sep", "Okt", "Nov", "Dis"},
@@ -5013,7 +5013,7 @@ var localeTableMt = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableMtMt = [5][]string{
+var localeTableMtMT = [5][]string{
 	{"Ħad", "Tne", "Tli", "Erb", "Ħam", "Ġim", "Sib"},
 	{"Il-Ħadd", "It-Tnejn", "It-Tlieta", "L-Erbgħa", "Il-Ħamis", "Il-Ġimgħa", "Is-Sibt"},
 	{"Jan", "Fra", "Mar", "Apr", "Mej", "Ġun", "Lul", "Aww", "Set", "Ott", "Nov", "Diċ"},
@@ -5029,7 +5029,7 @@ var localeTableMua = [5][]string{
 	{"comme", "lilli"},
 }
 
-var localeTableMuaCm = [5][]string{
+var localeTableMuaCM = [5][]string{
 	{"Cya", "Cla", "Czi", "Cko", "Cka", "Cga", "Cze"},
 	{"Com’yakke", "Comlaaɗii", "Comzyiiɗii", "Comkolle", "Comkaldǝɓlii", "Comgaisuu", "Comzyeɓsuu"},
 	{"FLO", "CLA", "CKI", "FMF", "MAD", "MBI", "MLI", "MAM", "FDE", "FMU", "FGW", "FYU"},
@@ -5045,7 +5045,7 @@ var localeTableMus = [5][]string{
 	{},
 }
 
-var localeTableMusUs = [5][]string{
+var localeTableMusUS = [5][]string{
 	{},
 	{"Nettvʼcako", "Enhvteceskv", "Enhvteceskv Enhvyvtke", "Ennvrkvpv", "Ennvrkvpv Enhvyvtke", "Nak Okkoskv Nettv", "Nettv Cakʼcuse"},
 	{},
@@ -5061,7 +5061,7 @@ var localeTableMy = [5][]string{
 	{"နံနက်", "ညနေ"},
 }
 
-var localeTableMyMm = [5][]string{
+var localeTableMyMM = [5][]string{
 	{},
 	{"တနင်္ဂနွေ", "တနင်္လာ", "အင်္ဂါ", "ဗုဒ္ဓဟူး", "ကြာသပတေး", "သောကြာ", "စနေ"},
 	{"ဇန်", "ဖေ", "မတ်", "ဧ", "မေ", "ဇွန်", "ဇူ", "ဩ", "စက်", "အောက်", "နို", "ဒီ"},
@@ -5077,7 +5077,7 @@ var localeTableMyv = [5][]string{
 	{},
 }
 
-var localeTableMyvRu = [5][]string{
+var localeTableMyvRU = [5][]string{
 	{"тар", "атя", "вас", "кун", "кал", "сюк", "шля"},
 	{"таргочистэ", "атяньчистэ", "вастаньчистэ", "куншкачистэ", "калоньчистэ", "сюконьчистэ", "шлямочистэ"},
 	{},
@@ -5093,7 +5093,7 @@ var localeTableMzn = [5][]string{
 	{},
 }
 
-var localeTableMznIr = [5][]string{
+var localeTableMznIR = [5][]string{
 	{},
 	{},
 	{},
@@ -5109,7 +5109,7 @@ var localeTableNaq = [5][]string{
 	{"ǁgoagas", "ǃuias"},
 }
 
-var localeTableNaqNa = [5][]string{
+var localeTableNaqNA = [5][]string{
 	{"Son", "Ma", "De", "Wu", "Do", "Fr", "Sat"},
 	{"Sontaxtsees", "Mantaxtsees", "Denstaxtsees", "Wunstaxtsees", "Dondertaxtsees", "Fraitaxtsees", "Satertaxtsees"},
 	{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
@@ -5125,7 +5125,7 @@ var localeTableNd = [5][]string{
 	{},
 }
 
-var localeTableNdZw = [5][]string{
+var localeTableNdZW = [5][]string{
 	{"Son", "Mvu", "Sib", "Sit", "Sin", "Sih", "Mgq"},
 	{"Sonto", "Mvulo", "Sibili", "Sithathu", "Sine", "Sihlanu", "Mgqibelo"},
 	{"Zib", "Nhlo", "Mbi", "Mab", "Nkw", "Nhla", "Ntu", "Ncw", "Mpan", "Mfu", "Lwe", "Mpal"},
@@ -5141,7 +5141,7 @@ var localeTableNds = [5][]string{
 	{"vm", "nm"},
 }
 
-var localeTableNdsDe = [5][]string{
+var localeTableNdsDE = [5][]string{
 	{"Sü.", "Ma.", "Di.", "Mi.", "Du.", "Fr.", "Sa."},
 	{"Sünndag", "Maandag", "Dingsdag", "Middeweken", "Dunnersdag", "Freedag", "Sünnavend"},
 	{"Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."},
@@ -5149,7 +5149,7 @@ var localeTableNdsDe = [5][]string{
 	{"vm", "nm"},
 }
 
-var localeTableNdsNl = [5][]string{
+var localeTableNdsNL = [5][]string{
 	{"Sü.", "Ma.", "Di.", "Mi.", "Du.", "Fr.", "Sa."},
 	{"Sünndag", "Maandag", "Dingsdag", "Middeweken", "Dunnersdag", "Freedag", "Sünnavend"},
 	{"Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."},
@@ -5165,7 +5165,7 @@ var localeTableNe = [5][]string{
 	{"पूर्वाह्न", "अपराह्न"},
 }
 
-var localeTableNeIn = [5][]string{
+var localeTableNeIN = [5][]string{
 	{"आइत", "सोम", "मङ्गल", "बुध", "बिहि", "शुक्र", "शनि"},
 	{"आइतबार", "सोमबार", "मङ्गलबार", "बुधबार", "बिहिबार", "शुक्रबार", "शनिबार"},
 	{},
@@ -5173,7 +5173,7 @@ var localeTableNeIn = [5][]string{
 	{"पूर्वाह्न", "अपराह्न"},
 }
 
-var localeTableNeNp = [5][]string{
+var localeTableNeNP = [5][]string{
 	{"आइत", "सोम", "मङ्गल", "बुध", "बिहि", "शुक्र", "शनि"},
 	{"आइतबार", "सोमबार", "मङ्गलबार", "बुधबार", "बिहिबार", "शुक्रबार", "शनिबार"},
 	{},
@@ -5189,7 +5189,7 @@ var localeTableNl = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableNlAw = [5][]string{
+var localeTableNlAW = [5][]string{
 	{"zo", "ma", "di", "wo", "do", "vr", "za"},
 	{"zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"},
 	{"jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
@@ -5197,7 +5197,7 @@ var localeTableNlAw = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableNlBe = [5][]string{
+var localeTableNlBE = [5][]string{
 	{"zo", "ma", "di", "wo", "do", "vr", "za"},
 	{"zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"},
 	{"jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
@@ -5205,7 +5205,7 @@ var localeTableNlBe = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableNlBq = [5][]string{
+var localeTableNlBQ = [5][]string{
 	{"zo", "ma", "di", "wo", "do", "vr", "za"},
 	{"zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"},
 	{"jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
@@ -5213,7 +5213,7 @@ var localeTableNlBq = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableNlCw = [5][]string{
+var localeTableNlCW = [5][]string{
 	{"zo", "ma", "di", "wo", "do", "vr", "za"},
 	{"zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"},
 	{"jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
@@ -5221,7 +5221,7 @@ var localeTableNlCw = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableNlNl = [5][]string{
+var localeTableNlNL = [5][]string{
 	{"zo", "ma", "di", "wo", "do", "vr", "za"},
 	{"zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"},
 	{"jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
@@ -5229,7 +5229,7 @@ var localeTableNlNl = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableNlSr = [5][]string{
+var localeTableNlSR = [5][]string{
 	{"zo", "ma", "di", "wo", "do", "vr", "za"},
 	{"zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"},
 	{"jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
@@ -5237,7 +5237,7 @@ var localeTableNlSr = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableNlSx = [5][]string{
+var localeTableNlSX = [5][]string{
 	{"zo", "ma", "di", "wo", "do", "vr", "za"},
 	{"zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"},
 	{"jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
@@ -5253,7 +5253,7 @@ var localeTableNmg = [5][]string{
 	{"maná", "kugú"},
 }
 
-var localeTableNmgCm = [5][]string{
+var localeTableNmgCM = [5][]string{
 	{"sɔ́n", "mɔ́n", "smb", "sml", "smn", "mbs", "sas"},
 	{"sɔ́ndɔ", "mɔ́ndɔ", "sɔ́ndɔ mafú mába", "sɔ́ndɔ mafú málal", "sɔ́ndɔ mafú mána", "mabágá má sukul", "sásadi"},
 	{"ng1", "ng2", "ng3", "ng4", "ng5", "ng6", "ng7", "ng8", "ng9", "ng10", "ng11", "kris"},
@@ -5269,7 +5269,7 @@ var localeTableNn = [5][]string{
 	{"f.m.", "e.m."},
 }
 
-var localeTableNnNo = [5][]string{
+var localeTableNnNO = [5][]string{
 	{"sø.", "må.", "ty.", "on.", "to.", "fr.", "la."},
 	{"søndag", "måndag", "tysdag", "onsdag", "torsdag", "fredag", "laurdag"},
 	{},
@@ -5285,7 +5285,7 @@ var localeTableNnh = [5][]string{
 	{"mbaʼámbaʼ", "ncwònzém"},
 }
 
-var localeTableNnhCm = [5][]string{
+var localeTableNnhCM = [5][]string{
 	{},
 	{"lyɛʼɛ́ sẅíŋtè", "mvfò lyɛ̌ʼ", "mbɔ́ɔntè mvfò lyɛ̌ʼ", "tsètsɛ̀ɛ lyɛ̌ʼ", "mbɔ́ɔntè tsetsɛ̀ɛ lyɛ̌ʼ", "mvfò màga lyɛ̌ʼ", "màga lyɛ̌ʼ"},
 	{},
@@ -5309,7 +5309,7 @@ var localeTableNqo = [5][]string{
 	{"ߛ", "ߥ"},
 }
 
-var localeTableNqoGn = [5][]string{
+var localeTableNqoGN = [5][]string{
 	{"ߞߊ߯ߙ", "ߞߐ߬ߓ", "ߞߐ߬ߟߏ߲", "ߞߎߣ", "ߓߌߟ", "ߛߌ߬ߣ", "ߞߍ߲ߘ"},
 	{"ߞߊ߯ߙߌߟߏ߲", "ߞߐ߬ߓߊ߬ߟߏ߲", "ߞߐ߬ߟߏ߲", "ߞߎߣߎ߲ߟߏ߲", "ߓߌߟߏ߲", "ߛߌ߬ߣߌ߲߬ߟߏ߲", "ߞߍ߲ߘߍߟߏ߲"},
 	{"ߓߌ߲ߠ", "ߞߏ߲ߞ", "ߕߙߊ", "ߞߏ߲ߘ", "ߘߓߊ߬ߕ", "ߥߊ߬ߛ", "ߞߊ߬ߙ", "ߘߓߊ߬ߓ", "ߕߎߟߊߝߌ߲", "ߞߏ߲ߓ", "ߣߍߣ", "ߞߏߟ"},
@@ -5325,7 +5325,7 @@ var localeTableNr = [5][]string{
 	{},
 }
 
-var localeTableNrZa = [5][]string{
+var localeTableNrZA = [5][]string{
 	{"Son", "Mvu", "Bil", "Tha", "Ne", "Hla", "Gqi"},
 	{"uSonto", "uMvulo", "uLesibili", "Lesithathu", "uLesine", "ngoLesihlanu", "umGqibelo"},
 	{"Jan", "Feb", "Mat", "Apr", "Mey", "Jun", "Jul", "Arh", "Sep", "Okt", "Usi", "Dis"},
@@ -5341,7 +5341,7 @@ var localeTableNso = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableNsoZa = [5][]string{
+var localeTableNsoZA = [5][]string{
 	{"Lam", "Mos", "Bed", "Rar", "Ne", "Hla", "Mok"},
 	{"Lamorena", "Musopologo", "Labobedi", "Laboraro", "Labone", "Labohlano", "Mokibelo"},
 	{"Phere", "Dibo", "Hlak", "Mora", "Mopi", "Phupu", "Mose", "Phato", "Lewe", "Dipha", "Diba", "Manth"},
@@ -5357,7 +5357,7 @@ var localeTableNus = [5][]string{
 	{"RW", "TŊ"},
 }
 
-var localeTableNusSs = [5][]string{
+var localeTableNusSS = [5][]string{
 	{"Cäŋ", "Jiec", "Rɛw", "Diɔ̱k", "Ŋuaan", "Dhieec", "Bäkɛl"},
 	{"Cäŋ kuɔth", "Jiec la̱t", "Rɛw lätni", "Diɔ̱k lätni", "Ŋuaan lätni", "Dhieec lätni", "Bäkɛl lätni"},
 	{"Tiop", "Pɛt", "Duɔ̱ɔ̱", "Guak", "Duä", "Kor", "Pay", "Thoo", "Tɛɛ", "Laa", "Kur", "Tid"},
@@ -5373,7 +5373,7 @@ var localeTableNy = [5][]string{
 	{},
 }
 
-var localeTableNyMw = [5][]string{
+var localeTableNyMW = [5][]string{
 	{"Mul", "Lem", "Wir", "Tat", "Nai", "San", "Wer"},
 	{"Lamulungu", "Lolemba", "Lachiwiri", "Lachitatu", "Lachinayi", "Lachisanu", "Loweruka"},
 	{"Jan", "Feb", "Mal", "Epu", "Mei", "Jun", "Jul", "Oga", "Sep", "Oku", "Nov", "Dis"},
@@ -5389,7 +5389,7 @@ var localeTableNyn = [5][]string{
 	{},
 }
 
-var localeTableNynUg = [5][]string{
+var localeTableNynUG = [5][]string{
 	{"SAN", "ORK", "OKB", "OKS", "OKN", "OKT", "OMK"},
 	{"Sande", "Orwokubanza", "Orwakabiri", "Orwakashatu", "Orwakana", "Orwakataano", "Orwamukaaga"},
 	{"KBZ", "KBR", "KST", "KKN", "KTN", "KMK", "KMS", "KMN", "KMW", "KKM", "KNK", "KNB"},
@@ -5405,7 +5405,7 @@ var localeTableOc = [5][]string{
 	{},
 }
 
-var localeTableOcEs = [5][]string{
+var localeTableOcES = [5][]string{
 	{"dim", "del", "dma", "dmè", "dij", "diu", "dis"},
 	{"dimenge", "deluns", "dimars", "dimèrcles", "dijaus", "diuendres", "dissabte"},
 	{"gèr", "her", "mar", "abr", "mai", "jun", "jur", "ago", "set", "oct", "nov", "dec"},
@@ -5413,7 +5413,7 @@ var localeTableOcEs = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableOcFr = [5][]string{
+var localeTableOcFR = [5][]string{
 	{},
 	{"dimenge", "diluns", "dimars", "dimècres", "dijòus", "divendres", "dissabte"},
 	{"gen.", "feb.", "març", "abr.", "mai", "junh", "jul.", "ago.", "set.", "oct.", "nov.", "dec."},
@@ -5429,7 +5429,7 @@ var localeTableOm = [5][]string{
 	{"WD", "WB"},
 }
 
-var localeTableOmEt = [5][]string{
+var localeTableOmET = [5][]string{
 	{"Dil", "Wix", "Qib", "Rob", "Kam", "Jim", "San"},
 	{"Dilbata", "Wiixata", "Qibxata", "Roobii", "Kamiisa", "Jimaata", "Sanbata"},
 	{"Ama", "Gur", "Bit", "Elb", "Cam", "Wax", "Ado", "Hag", "Ful", "Onk", "Sad", "Mud"},
@@ -5437,7 +5437,7 @@ var localeTableOmEt = [5][]string{
 	{"WD", "WB"},
 }
 
-var localeTableOmKe = [5][]string{
+var localeTableOmKE = [5][]string{
 	{"Dil", "Wix", "Qib", "Rob", "Kam", "Jim", "San"},
 	{"Dilbata", "Wiixata", "Qibxata", "Roobii", "Kamiisa", "Jimaata", "Sanbata"},
 	{"Ama", "Gur", "Bit", "Elb", "Cam", "Wax", "Ado", "Hag", "Ful", "Onk", "Sad", "Mud"},
@@ -5453,7 +5453,7 @@ var localeTableOr = [5][]string{
 	{"ପୂ", "ଅ"},
 }
 
-var localeTableOrIn = [5][]string{
+var localeTableOrIN = [5][]string{
 	{"ରବି", "ସୋମ", "ମଙ୍ଗଳ", "ବୁଧ", "ଗୁରୁ", "ଶୁକ୍ର", "ଶନି"},
 	{"ରବିବାର", "ସୋମବାର", "ମଙ୍ଗଳବାର", "ବୁଧବାର", "ଗୁରୁବାର", "ଶୁକ୍ରବାର", "ଶନିବାର"},
 	{},
@@ -5469,7 +5469,7 @@ var localeTableOs = [5][]string{
 	{},
 }
 
-var localeTableOsGe = [5][]string{
+var localeTableOsGE = [5][]string{
 	{"хцб", "крс", "дцг", "ӕрт", "цпр", "мрб", "сбт"},
 	{"хуыцаубон", "къуырисӕр", "дыццӕг", "ӕртыццӕг", "цыппӕрӕм", "майрӕмбон", "сабат"},
 	{"янв.", "фев.", "мар.", "апр.", "майы", "июны", "июлы", "авг.", "сен.", "окт.", "ноя.", "дек."},
@@ -5477,7 +5477,7 @@ var localeTableOsGe = [5][]string{
 	{},
 }
 
-var localeTableOsRu = [5][]string{
+var localeTableOsRU = [5][]string{
 	{"хцб", "крс", "дцг", "ӕрт", "цпр", "мрб", "сбт"},
 	{"хуыцаубон", "къуырисӕр", "дыццӕг", "ӕртыццӕг", "цыппӕрӕм", "майрӕмбон", "сабат"},
 	{"янв.", "фев.", "мар.", "апр.", "майы", "июны", "июлы", "авг.", "сен.", "окт.", "ноя.", "дек."},
@@ -5493,7 +5493,7 @@ var localeTableOsa = [5][]string{
 	{},
 }
 
-var localeTableOsaUs = [5][]string{
+var localeTableOsaUS = [5][]string{
 	{},
 	{"𐒹𐓘͘𐓬𐓘 𐓏𐓘𐓤𐓘͘𐓰𐓘𐓤𐓣", "𐒹𐓘͘𐓬𐓘 𐓄𐓘𐓡𐓛͘𐓧𐓣", "𐒹𐓘͘𐓬𐓘 𐓏𐓟𐓵𐓪͘𐓬𐓘", "𐒹𐓘͘𐓬𐓘 𐓏𐓟𐓵𐓘𐓜𐓣", "𐒹𐓘͘𐓬𐓘 𐓏𐓟𐓰𐓪𐓬𐓘", "𐒹𐓘͘𐓬𐓘 𐓈𐓘 𐓵𐓘𐓲𐓘 𐓻𐓣͘", "𐒹𐓘͘𐓬𐓘 𐓂𐓤𐓘𐓸𐓟 𐓣͘𐓤𐓟"},
 	{"𐓄𐓘𐓡𐓛͘𐓧𐓟", "𐓵𐓪͘𐓬𐓘", "𐓵𐓘𐓜𐓣", "𐓰𐓪𐓬𐓘", "𐓮𐓘𐓰𐓘", "𐓯𐓘𐓬𐓟", "𐓄𐓟𐓵𐓪͘𐓬𐓘", "𐒼𐓣𐓟𐓰𐓪𐓬𐓘", "𐒿𐓟𐓜𐓛𐓲𐓟𐓷𐓣͘𐓤𐓟", "𐒿𐓟𐓜𐓛", "𐒰𐓧𐓣 𐓏𐓣͘𐓸𐓲𐓣", "𐒰𐓧𐓣 𐓍𐓪͘𐓬𐓘"},
@@ -5517,7 +5517,7 @@ var localeTablePaArab = [5][]string{
 	{},
 }
 
-var localeTablePaArabPk = [5][]string{
+var localeTablePaArabPK = [5][]string{
 	{},
 	{"اتوار", "پیر", "منگل", "بُدھ", "جمعرات", "جمعہ", "ہفتہ"},
 	{},
@@ -5533,7 +5533,7 @@ var localeTablePaGuru = [5][]string{
 	{"ਪੂ.ਦੁ.", "ਬਾ.ਦੁ."},
 }
 
-var localeTablePaGuruIn = [5][]string{
+var localeTablePaGuruIN = [5][]string{
 	{"ਐਤ", "ਸੋਮ", "ਮੰਗਲ", "ਬੁੱਧ", "ਵੀਰ", "ਸ਼ੁੱਕਰ", "ਸ਼ਨਿੱਚਰ"},
 	{"ਐਤਵਾਰ", "ਸੋਮਵਾਰ", "ਮੰਗਲਵਾਰ", "ਬੁੱਧਵਾਰ", "ਵੀਰਵਾਰ", "ਸ਼ੁੱਕਰਵਾਰ", "ਸ਼ਨਿੱਚਰਵਾਰ"},
 	{"ਜਨ", "ਫ਼ਰ", "ਮਾਰਚ", "ਅਪ੍ਰੈ", "ਮਈ", "ਜੂਨ", "ਜੁਲਾ", "ਅਗ", "ਸਤੰ", "ਅਕਤੂ", "ਨਵੰ", "ਦਸੰ"},
@@ -5549,7 +5549,7 @@ var localeTablePap = [5][]string{
 	{},
 }
 
-var localeTablePapAw = [5][]string{
+var localeTablePapAW = [5][]string{
 	{},
 	{"djadumingu", "djaluna", "djamars", "djarason", "djaweps", "djabièrnè", "djasabra"},
 	{"Yan", "Feb", "Mar", "Apr", "Mei", "Yün", "Yül", "Oug", "Sèp", "Òkt", "Nov", "Des"},
@@ -5557,7 +5557,7 @@ var localeTablePapAw = [5][]string{
 	{},
 }
 
-var localeTablePapCw = [5][]string{
+var localeTablePapCW = [5][]string{
 	{},
 	{"djadumingu", "djaluna", "djamars", "djarason", "djaweps", "djabièrnè", "djasabra"},
 	{"Yan", "Feb", "Mar", "Apr", "Mei", "Yün", "Yül", "Oug", "Sèp", "Òkt", "Nov", "Des"},
@@ -5573,7 +5573,7 @@ var localeTablePcm = [5][]string{
 	{"FM", "FI"},
 }
 
-var localeTablePcmNg = [5][]string{
+var localeTablePcmNG = [5][]string{
 	{"Sọ́n", "Mọ́n", "Tiú", "Wẹ́n", "Tọ́z", "Fraí", "Sát"},
 	{"Sọ́ndè", "Mọ́ndè", "Tiúzdè", "Wẹ́nẹ́zdè", "Tọ́zdè", "Fraídè", "Sátọdè"},
 	{"Jén", "Fẹ́b", "Mach", "Épr", "Mee", "Jun", "Jul", "Ọgọ", "Sẹp", "Ọkt", "Nọv", "Dis"},
@@ -5589,7 +5589,7 @@ var localeTablePis = [5][]string{
 	{},
 }
 
-var localeTablePisSb = [5][]string{
+var localeTablePisSB = [5][]string{
 	{},
 	{"Sande", "Mande", "Tiusde", "Wenesde", "Tosde", "Fraede", "Satade"},
 	{},
@@ -5605,7 +5605,7 @@ var localeTablePl = [5][]string{
 	{"a", "p"},
 }
 
-var localeTablePlPl = [5][]string{
+var localeTablePlPL = [5][]string{
 	{"niedz.", "pon.", "wt.", "śr.", "czw.", "pt.", "sob."},
 	{"niedziela", "poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota"},
 	{"sty", "lut", "mar", "kwi", "maj", "cze", "lip", "sie", "wrz", "paź", "lis", "gru"},
@@ -5621,7 +5621,7 @@ var localeTablePrg = [5][]string{
 	{},
 }
 
-var localeTablePrgPl = [5][]string{
+var localeTablePrgPL = [5][]string{
 	{"nad", "pan", "wis", "pus", "ket", "pēn", "sab"},
 	{"nadīli", "panadīli", "wisasīdis", "pussisawaiti", "ketwirtiks", "pēntniks", "sabattika"},
 	{"rag", "was", "pūl", "sak", "zal", "sīm", "līp", "dag", "sil", "spa", "lap", "sal"},
@@ -5637,7 +5637,7 @@ var localeTablePs = [5][]string{
 	{"غ.م.", "غ.و."},
 }
 
-var localeTablePsAf = [5][]string{
+var localeTablePsAF = [5][]string{
 	{},
 	{"يونۍ", "دونۍ", "درېنۍ", "څلرنۍ", "پينځنۍ", "جمعه", "اونۍ"},
 	{},
@@ -5645,7 +5645,7 @@ var localeTablePsAf = [5][]string{
 	{"غ.م.", "غ.و."},
 }
 
-var localeTablePsPk = [5][]string{
+var localeTablePsPK = [5][]string{
 	{},
 	{"يونۍ", "دونۍ", "درېنۍ", "څلرنۍ", "پينځنۍ", "جمعه", "اونۍ"},
 	{},
@@ -5661,7 +5661,7 @@ var localeTablePt = [5][]string{
 	{},
 }
 
-var localeTablePtAo = [5][]string{
+var localeTablePtAO = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5669,7 +5669,7 @@ var localeTablePtAo = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtBr = [5][]string{
+var localeTablePtBR = [5][]string{
 	{"dom.", "seg.", "ter.", "qua.", "qui.", "sex.", "sáb."},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5677,7 +5677,7 @@ var localeTablePtBr = [5][]string{
 	{},
 }
 
-var localeTablePtCh = [5][]string{
+var localeTablePtCH = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5685,7 +5685,7 @@ var localeTablePtCh = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtCv = [5][]string{
+var localeTablePtCV = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5693,7 +5693,7 @@ var localeTablePtCv = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtGq = [5][]string{
+var localeTablePtGQ = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5701,7 +5701,7 @@ var localeTablePtGq = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtGw = [5][]string{
+var localeTablePtGW = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5709,7 +5709,7 @@ var localeTablePtGw = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtLu = [5][]string{
+var localeTablePtLU = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5717,7 +5717,7 @@ var localeTablePtLu = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtMo = [5][]string{
+var localeTablePtMO = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5725,7 +5725,7 @@ var localeTablePtMo = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtMz = [5][]string{
+var localeTablePtMZ = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5733,7 +5733,7 @@ var localeTablePtMz = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtPt = [5][]string{
+var localeTablePtPT = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5741,7 +5741,7 @@ var localeTablePtPt = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtSt = [5][]string{
+var localeTablePtST = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5749,7 +5749,7 @@ var localeTablePtSt = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTablePtTl = [5][]string{
+var localeTablePtTL = [5][]string{
 	{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"},
 	{"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"},
 	{"jan.", "fev.", "mar.", "abr.", "mai.", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."},
@@ -5765,7 +5765,7 @@ var localeTableQu = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableQuBo = [5][]string{
+var localeTableQuBO = [5][]string{
 	{"Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sab"},
 	{"Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"},
 	{"Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Set", "Oct", "Nov", "Dic"},
@@ -5773,7 +5773,7 @@ var localeTableQuBo = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableQuEc = [5][]string{
+var localeTableQuEC = [5][]string{
 	{"Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sab"},
 	{"Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"},
 	{"Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Set", "Oct", "Nov", "Dic"},
@@ -5781,7 +5781,7 @@ var localeTableQuEc = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableQuPe = [5][]string{
+var localeTableQuPE = [5][]string{
 	{"Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sab"},
 	{"Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"},
 	{"Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Set", "Oct", "Nov", "Dic"},
@@ -5797,7 +5797,7 @@ var localeTableRaj = [5][]string{
 	{},
 }
 
-var localeTableRajIn = [5][]string{
+var localeTableRajIN = [5][]string{
 	{},
 	{"रविवार", "सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार"},
 	{},
@@ -5813,7 +5813,7 @@ var localeTableRif = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableRifMa = [5][]string{
+var localeTableRifMA = [5][]string{
 	{"lḥe", "let", "ttl", "lar", "lex", "jje", "sse"},
 	{"lḥed", "letnayen", "ttlat", "larbeɛ", "lexmis", "jjemɛa", "ssebt"},
 	{"yen", "feb", "mar", "yeb", "may", "yun", "yul", "ɣuc", "cut", "kṭu", "nuw", "duj"},
@@ -5829,7 +5829,7 @@ var localeTableRm = [5][]string{
 	{},
 }
 
-var localeTableRmCh = [5][]string{
+var localeTableRmCH = [5][]string{
 	{"du", "gli", "ma", "me", "gie", "ve", "so"},
 	{"dumengia", "glindesdi", "mardi", "mesemna", "gievgia", "venderdi", "sonda"},
 	{"schan.", "favr.", "mars", "avr.", "matg", "zercl.", "fan.", "avust", "sett.", "oct.", "nov.", "dec."},
@@ -5845,7 +5845,7 @@ var localeTableRn = [5][]string{
 	{"Z.MU.", "Z.MW."},
 }
 
-var localeTableRnBi = [5][]string{
+var localeTableRnBI = [5][]string{
 	{"cu.", "mbe.", "kab.", "gtu.", "kan.", "gnu.", "gnd."},
 	{"Ku w’indwi", "Ku wa mbere", "Ku wa kabiri", "Ku wa gatatu", "Ku wa kane", "Ku wa gatanu", "Ku wa gatandatu"},
 	{"Mut.", "Gas.", "Wer.", "Mat.", "Gic.", "Kam.", "Nya.", "Kan.", "Nze.", "Ukw.", "Ugu.", "Uku."},
@@ -5861,7 +5861,7 @@ var localeTableRo = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableRoMd = [5][]string{
+var localeTableRoMD = [5][]string{
 	{"Dum", "Lun", "Mar", "Mie", "Joi", "Vin", "Sâm"},
 	{"duminică", "luni", "marți", "miercuri", "joi", "vineri", "sâmbătă"},
 	{"ian.", "feb.", "mar.", "apr.", "mai", "iun.", "iul.", "aug.", "sept.", "oct.", "nov.", "dec."},
@@ -5869,7 +5869,7 @@ var localeTableRoMd = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableRoRo = [5][]string{
+var localeTableRoRO = [5][]string{
 	{"dum.", "lun.", "mar.", "mie.", "joi", "vin.", "sâm."},
 	{"duminică", "luni", "marți", "miercuri", "joi", "vineri", "sâmbătă"},
 	{"ian.", "feb.", "mar.", "apr.", "mai", "iun.", "iul.", "aug.", "sept.", "oct.", "nov.", "dec."},
@@ -5885,7 +5885,7 @@ var localeTableRof = [5][]string{
 	{"kang’ama", "kingoto"},
 }
 
-var localeTableRofTz = [5][]string{
+var localeTableRofTZ = [5][]string{
 	{"Ijp", "Ijt", "Ijn", "Ijtn", "Alh", "Iju", "Ijm"},
 	{"Ijumapili", "Ijumatatu", "Ijumanne", "Ijumatano", "Alhamisi", "Ijumaa", "Ijumamosi"},
 	{"M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10", "M11", "M12"},
@@ -5901,7 +5901,7 @@ var localeTableRu = [5][]string{
 	{},
 }
 
-var localeTableRuBy = [5][]string{
+var localeTableRuBY = [5][]string{
 	{"вс", "пн", "вт", "ср", "чт", "пт", "сб"},
 	{"воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"},
 	{"янв.", "февр.", "мар.", "апр.", "мая", "июн.", "июл.", "авг.", "сент.", "окт.", "нояб.", "дек."},
@@ -5909,7 +5909,7 @@ var localeTableRuBy = [5][]string{
 	{},
 }
 
-var localeTableRuKg = [5][]string{
+var localeTableRuKG = [5][]string{
 	{"вс", "пн", "вт", "ср", "чт", "пт", "сб"},
 	{"воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"},
 	{"янв.", "февр.", "мар.", "апр.", "мая", "июн.", "июл.", "авг.", "сент.", "окт.", "нояб.", "дек."},
@@ -5917,7 +5917,7 @@ var localeTableRuKg = [5][]string{
 	{},
 }
 
-var localeTableRuKz = [5][]string{
+var localeTableRuKZ = [5][]string{
 	{"вс", "пн", "вт", "ср", "чт", "пт", "сб"},
 	{"воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"},
 	{"янв.", "февр.", "мар.", "апр.", "мая", "июн.", "июл.", "авг.", "сент.", "окт.", "нояб.", "дек."},
@@ -5925,7 +5925,7 @@ var localeTableRuKz = [5][]string{
 	{},
 }
 
-var localeTableRuMd = [5][]string{
+var localeTableRuMD = [5][]string{
 	{"вс", "пн", "вт", "ср", "чт", "пт", "сб"},
 	{"воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"},
 	{"янв.", "февр.", "мар.", "апр.", "мая", "июн.", "июл.", "авг.", "сент.", "окт.", "нояб.", "дек."},
@@ -5933,7 +5933,7 @@ var localeTableRuMd = [5][]string{
 	{},
 }
 
-var localeTableRuRu = [5][]string{
+var localeTableRuRU = [5][]string{
 	{"вс", "пн", "вт", "ср", "чт", "пт", "сб"},
 	{"воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"},
 	{"янв.", "февр.", "мар.", "апр.", "мая", "июн.", "июл.", "авг.", "сент.", "окт.", "нояб.", "дек."},
@@ -5941,7 +5941,7 @@ var localeTableRuRu = [5][]string{
 	{},
 }
 
-var localeTableRuUa = [5][]string{
+var localeTableRuUA = [5][]string{
 	{"вс", "пн", "вт", "ср", "чт", "пт", "сб"},
 	{"воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"},
 	{"янв.", "февр.", "мар.", "апр.", "мая", "июн.", "июл.", "авг.", "сент.", "окт.", "нояб.", "дек."},
@@ -5957,7 +5957,7 @@ var localeTableRw = [5][]string{
 	{},
 }
 
-var localeTableRwRw = [5][]string{
+var localeTableRwRW = [5][]string{
 	{"cyu.", "mbe.", "kab.", "gtu.", "kan.", "gnu.", "gnd."},
 	{"Ku cyumweru", "Kuwa mbere", "Kuwa kabiri", "Kuwa gatatu", "Kuwa kane", "Kuwa gatanu", "Kuwa gatandatu"},
 	{"mut.", "gas.", "wer.", "mat.", "gic.", "kam.", "nya.", "kan.", "nze.", "ukw.", "ugu.", "uku."},
@@ -5973,7 +5973,7 @@ var localeTableRwk = [5][]string{
 	{"utuko", "kyiukonyi"},
 }
 
-var localeTableRwkTz = [5][]string{
+var localeTableRwkTZ = [5][]string{
 	{"Jpi", "Jtt", "Jnn", "Jtn", "Alh", "Iju", "Jmo"},
 	{"Jumapilyi", "Jumatatuu", "Jumanne", "Jumatanu", "Alhamisi", "Ijumaa", "Jumamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -5989,7 +5989,7 @@ var localeTableSa = [5][]string{
 	{},
 }
 
-var localeTableSaIn = [5][]string{
+var localeTableSaIN = [5][]string{
 	{"रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"},
 	{"रविवासरः", "सोमवासरः", "मंगलवासरः", "बुधवासरः", "गुरुवासर:", "शुक्रवासरः", "शनिवासरः"},
 	{"जनवरी:", "फरवरी:", "मार्च:", "अप्रैल:", "मई", "जून:", "जुलाई:", "अगस्त:", "सितंबर:", "अक्तूबर:", "नवंबर:", "दिसंबर:"},
@@ -6005,7 +6005,7 @@ var localeTableSah = [5][]string{
 	{"ЭИ", "ЭК"},
 }
 
-var localeTableSahRu = [5][]string{
+var localeTableSahRU = [5][]string{
 	{"бс", "бн", "оп", "сэ", "чп", "бэ", "сб"},
 	{"баскыһыанньа", "бэнидиэнньик", "оптуорунньук", "сэрэдэ", "чэппиэр", "Бээтиҥсэ", "субуота"},
 	{"Тохс", "Олун", "Клн", "Мсу", "Ыам", "Бэс", "Отй", "Атр", "Блҕ", "Алт", "Сэт", "Ахс"},
@@ -6021,7 +6021,7 @@ var localeTableSaq = [5][]string{
 	{"Tesiran", "Teipa"},
 }
 
-var localeTableSaqKe = [5][]string{
+var localeTableSaqKE = [5][]string{
 	{"Are", "Kun", "Ong", "Ine", "Ile", "Sap", "Kwe"},
 	{"Mderot ee are", "Mderot ee kuni", "Mderot ee ong’wan", "Mderot ee inet", "Mderot ee ile", "Mderot ee sapa", "Mderot ee kwe"},
 	{"Obo", "Waa", "Oku", "Ong", "Ime", "Ile", "Sap", "Isi", "Saa", "Tom", "Tob", "Tow"},
@@ -6045,7 +6045,7 @@ var localeTableSbp = [5][]string{
 	{"Lwamilawu", "Pashamihe"},
 }
 
-var localeTableSbpTz = [5][]string{
+var localeTableSbpTZ = [5][]string{
 	{"Mul", "Jtt", "Jnn", "Jtn", "Alh", "Iju", "Jmo"},
 	{"Mulungu", "Jumatatu", "Jumanne", "Jumatano", "Alahamisi", "Ijumaa", "Jumamosi"},
 	{"Mup", "Mwi", "Msh", "Mun", "Mag", "Muj", "Msp", "Mpg", "Mye", "Mok", "Mus", "Muh"},
@@ -6061,7 +6061,7 @@ var localeTableSc = [5][]string{
 	{"m.", "b."},
 }
 
-var localeTableScIt = [5][]string{
+var localeTableScIT = [5][]string{
 	{"dom", "lun", "mar", "mèr", "giò", "che", "sàb"},
 	{"domìniga", "lunis", "martis", "mèrcuris", "giòbia", "chenàbura", "sàbadu"},
 	{"ghe", "fre", "mar", "abr", "maj", "làm", "trì", "aus", "cab", "stG", "stA", "nad"},
@@ -6077,7 +6077,7 @@ var localeTableScn = [5][]string{
 	{},
 }
 
-var localeTableScnIt = [5][]string{
+var localeTableScnIT = [5][]string{
 	{},
 	{"dumìnica", "lunnidìa", "martidìa", "mercuridìa", "jovidìa", "vennidìa", "sàbbatu"},
 	{"jin", "fri", "mar", "apr", "maj", "giu", "gnt", "agu", "sit", "utt", "nuv", "dic"},
@@ -6101,7 +6101,7 @@ var localeTableSdArab = [5][]string{
 	{"صبح،منجهند", "شام،منجهند"},
 }
 
-var localeTableSdArabPk = [5][]string{
+var localeTableSdArabPK = [5][]string{
 	{},
 	{"آچر", "سومر", "اڱارو", "اربع", "خميس", "جمعو", "ڇنڇر"},
 	{},
@@ -6117,7 +6117,7 @@ var localeTableSdDeva = [5][]string{
 	{},
 }
 
-var localeTableSdDevaIn = [5][]string{
+var localeTableSdDevaIN = [5][]string{
 	{"आर्त", "सू", "मंग", "बु॒ध", "विस", "जुम", "छंछ"},
 	{"आर्तवार", "सूमर", "मंगलु", "बु॒धर", "विस्पत", "जुमो", "छंछर"},
 	{"जन", "फर", "मार्च", "अप्रै", "मई", "जून", "जु", "अग", "सप्टे", "ऑक्टो", "नवं", "डिसं"},
@@ -6133,7 +6133,7 @@ var localeTableSe = [5][]string{
 	{"i.b.", "e.b."},
 }
 
-var localeTableSeFi = [5][]string{
+var localeTableSeFI = [5][]string{
 	{"so", "má", "di", "ga", "du", "be", "lá"},
 	{"sotnabeaivi", "mánnodat", "disdat", "gaskavahkku", "duorastat", "bearjadat", "lávvordat"},
 	{"ođđj", "guov", "njuk", "cuoŋ", "mies", "geas", "suoi", "borg", "čakč", "golg", "skáb", "juov"},
@@ -6141,7 +6141,7 @@ var localeTableSeFi = [5][]string{
 	{"ib", "eb"},
 }
 
-var localeTableSeNo = [5][]string{
+var localeTableSeNO = [5][]string{
 	{"sotn", "vuos", "maŋ", "gask", "duor", "bear", "láv"},
 	{"sotnabeaivi", "vuossárga", "maŋŋebárga", "gaskavahkku", "duorasdat", "bearjadat", "lávvardat"},
 	{"ođđj", "guov", "njuk", "cuo", "mies", "geas", "suoi", "borg", "čakč", "golg", "skáb", "juov"},
@@ -6149,7 +6149,7 @@ var localeTableSeNo = [5][]string{
 	{"i.b.", "e.b."},
 }
 
-var localeTableSeSe = [5][]string{
+var localeTableSeSE = [5][]string{
 	{"sotn", "vuos", "maŋ", "gask", "duor", "bear", "láv"},
 	{"sotnabeaivi", "vuossárga", "maŋŋebárga", "gaskavahkku", "duorasdat", "bearjadat", "lávvardat"},
 	{"ođđj", "guov", "njuk", "cuo", "mies", "geas", "suoi", "borg", "čakč", "golg", "skáb", "juov"},
@@ -6165,7 +6165,7 @@ var localeTableSeh = [5][]string{
 	{},
 }
 
-var localeTableSehMz = [5][]string{
+var localeTableSehMZ = [5][]string{
 	{"Dim", "Pos", "Pir", "Tat", "Nai", "Sha", "Sab"},
 	{"Dimingu", "Chiposi", "Chipiri", "Chitatu", "Chinai", "Chishanu", "Sabudu"},
 	{"Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Aug", "Set", "Otu", "Nov", "Dec"},
@@ -6181,7 +6181,7 @@ var localeTableSes = [5][]string{
 	{"Adduha", "Aluula"},
 }
 
-var localeTableSesMl = [5][]string{
+var localeTableSesML = [5][]string{
 	{"Alh", "Ati", "Ata", "Ala", "Alm", "Alz", "Asi"},
 	{"Alhadi", "Atinni", "Atalaata", "Alarba", "Alhamiisa", "Alzuma", "Asibti"},
 	{"Žan", "Fee", "Mar", "Awi", "Me", "Žuw", "Žuy", "Ut", "Sek", "Okt", "Noo", "Dee"},
@@ -6197,7 +6197,7 @@ var localeTableSg = [5][]string{
 	{"ND", "LK"},
 }
 
-var localeTableSgCf = [5][]string{
+var localeTableSgCF = [5][]string{
 	{"Bk1", "Bk2", "Bk3", "Bk4", "Bk5", "Lâp", "Lây"},
 	{"Bikua-ôko", "Bïkua-ûse", "Bïkua-ptâ", "Bïkua-usïö", "Bïkua-okü", "Lâpôsö", "Lâyenga"},
 	{"Nye", "Ful", "Mbä", "Ngu", "Bêl", "Fön", "Len", "Kük", "Mvu", "Ngb", "Nab", "Kak"},
@@ -6221,7 +6221,7 @@ var localeTableShiLatn = [5][]string{
 	{"tifawt", "tadggʷat"},
 }
 
-var localeTableShiLatnMa = [5][]string{
+var localeTableShiLatnMA = [5][]string{
 	{"asa", "ayn", "asi", "akṛ", "akw", "asim", "asiḍ"},
 	{"asamas", "aynas", "asinas", "akṛas", "akwas", "asimwas", "asiḍyas"},
 	{"inn", "bṛa", "maṛ", "ibr", "may", "yun", "yul", "ɣuc", "cut", "ktu", "nuw", "duj"},
@@ -6237,7 +6237,7 @@ var localeTableShiTfng = [5][]string{
 	{"ⵜⵉⴼⴰⵡⵜ", "ⵜⴰⴷⴳⴳⵯⴰⵜ"},
 }
 
-var localeTableShiTfngMa = [5][]string{
+var localeTableShiTfngMA = [5][]string{
 	{"ⴰⵙⴰ", "ⴰⵢⵏ", "ⴰⵙⵉ", "ⴰⴽⵕ", "ⴰⴽⵡ", "ⴰⵙⵉⵎ", "ⴰⵙⵉⴹ"},
 	{"ⴰⵙⴰⵎⴰⵙ", "ⴰⵢⵏⴰⵙ", "ⴰⵙⵉⵏⴰⵙ", "ⴰⴽⵕⴰⵙ", "ⴰⴽⵡⴰⵙ", "ⵙⵉⵎⵡⴰⵙ", "ⴰⵙⵉⴹⵢⴰⵙ"},
 	{"ⵉⵏⵏ", "ⴱⵕⴰ", "ⵎⴰⵕ", "ⵉⴱⵔ", "ⵎⴰⵢ", "ⵢⵓⵏ", "ⵢⵓⵍ", "ⵖⵓⵛ", "ⵛⵓⵜ", "ⴽⵜⵓ", "ⵏⵓⵡ", "ⴷⵓⵊ"},
@@ -6253,7 +6253,7 @@ var localeTableSi = [5][]string{
 	{"පෙ.ව.", "ප.ව."},
 }
 
-var localeTableSiLk = [5][]string{
+var localeTableSiLK = [5][]string{
 	{"ඉරිදා", "සඳුදා", "අඟහ", "බදාදා", "බ්‍රහස්", "සිකු", "සෙන"},
 	{"ඉරිදා", "සඳුදා", "අඟහරුවාදා", "බදාදා", "බ්‍රහස්පතින්දා", "සිකුරාදා", "සෙනසුරාදා"},
 	{"ජන", "පෙබ", "මාර්තු", "අප්‍රේල්", "මැයි", "ජූනි", "ජූලි", "අගෝ", "සැප්", "ඔක්", "නොවැ", "දෙසැ"},
@@ -6269,7 +6269,7 @@ var localeTableSid = [5][]string{
 	{"soodo", "hawwaro"},
 }
 
-var localeTableSidEt = [5][]string{
+var localeTableSidET = [5][]string{
 	{"Sam", "San", "Mak", "Row", "Ham", "Arb", "Qid"},
 	{"Sambata", "Sanyo", "Maakisanyo", "Roowe", "Hamuse", "Arbe", "Qidaame"},
 	{},
@@ -6285,7 +6285,7 @@ var localeTableSk = [5][]string{
 	{},
 }
 
-var localeTableSkSk = [5][]string{
+var localeTableSkSK = [5][]string{
 	{"ne", "po", "ut", "st", "št", "pi", "so"},
 	{"nedeľa", "pondelok", "utorok", "streda", "štvrtok", "piatok", "sobota"},
 	{"jan", "feb", "mar", "apr", "máj", "jún", "júl", "aug", "sep", "okt", "nov", "dec"},
@@ -6301,7 +6301,7 @@ var localeTableSkr = [5][]string{
 	{},
 }
 
-var localeTableSkrPk = [5][]string{
+var localeTableSkrPK = [5][]string{
 	{},
 	{"اتوار", "سوموار", "منگل", "ٻدھ", "خمیس", "جمعہ", "چھݨ چھݨ"},
 	{},
@@ -6317,7 +6317,7 @@ var localeTableSl = [5][]string{
 	{"dop.", "pop."},
 }
 
-var localeTableSlSi = [5][]string{
+var localeTableSlSI = [5][]string{
 	{"ned.", "pon.", "tor.", "sre.", "čet.", "pet.", "sob."},
 	{"nedelja", "ponedeljek", "torek", "sreda", "četrtek", "petek", "sobota"},
 	{"jan.", "feb.", "mar.", "apr.", "maj", "jun.", "jul.", "avg.", "sep.", "okt.", "nov.", "dec."},
@@ -6333,7 +6333,7 @@ var localeTableSmn = [5][]string{
 	{"ip.", "ep."},
 }
 
-var localeTableSmnFi = [5][]string{
+var localeTableSmnFI = [5][]string{
 	{"pas", "vuo", "maj", "kos", "tuo", "vás", "láv"},
 	{"pasepeeivi", "vuossaargâ", "majebaargâ", "koskoho", "tuorâstuv", "vástuppeeivi", "lávurduv"},
 	{"uđiv", "kuovâ", "njuhčâ", "cuáŋui", "vyesi", "kesi", "syeini", "porge", "čohčâ", "roovvâd", "skammâ", "juovlâ"},
@@ -6349,7 +6349,7 @@ var localeTableSn = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableSnZw = [5][]string{
+var localeTableSnZW = [5][]string{
 	{"Svo", "Muv", "Chp", "Cht", "Chn", "Chs", "Mug"},
 	{"Svondo", "Muvhuro", "Chipiri", "Chitatu", "China", "Chishanu", "Mugovera"},
 	{"Ndi", "Kuk", "Kur", "Kub", "Chv", "Chk", "Chg", "Nya", "Gun", "Gum", "Mbu", "Zvi"},
@@ -6365,7 +6365,7 @@ var localeTableSo = [5][]string{
 	{"GH", "GD"},
 }
 
-var localeTableSoDj = [5][]string{
+var localeTableSoDJ = [5][]string{
 	{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 	{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 	{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
@@ -6373,7 +6373,7 @@ var localeTableSoDj = [5][]string{
 	{"GH", "GD"},
 }
 
-var localeTableSoEt = [5][]string{
+var localeTableSoET = [5][]string{
 	{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 	{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 	{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
@@ -6381,7 +6381,7 @@ var localeTableSoEt = [5][]string{
 	{"GH", "GD"},
 }
 
-var localeTableSoKe = [5][]string{
+var localeTableSoKE = [5][]string{
 	{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 	{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 	{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
@@ -6389,7 +6389,7 @@ var localeTableSoKe = [5][]string{
 	{"GH", "GD"},
 }
 
-var localeTableSoSo = [5][]string{
+var localeTableSoSO = [5][]string{
 	{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 	{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 	{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
@@ -6405,7 +6405,7 @@ var localeTableSq = [5][]string{
 	{"p.d.", "m.d."},
 }
 
-var localeTableSqAl = [5][]string{
+var localeTableSqAL = [5][]string{
 	{"die", "hën", "mar", "mër", "enj", "pre", "sht"},
 	{"e diel", "e hënë", "e martë", "e mërkurë", "e enjte", "e premte", "e shtunë"},
 	{"jan", "shk", "mar", "pri", "maj", "qer", "korr", "gush", "sht", "tet", "nën", "dhj"},
@@ -6413,7 +6413,7 @@ var localeTableSqAl = [5][]string{
 	{"p.d.", "m.d."},
 }
 
-var localeTableSqMk = [5][]string{
+var localeTableSqMK = [5][]string{
 	{"die", "hën", "mar", "mër", "enj", "pre", "sht"},
 	{"e diel", "e hënë", "e martë", "e mërkurë", "e enjte", "e premte", "e shtunë"},
 	{"jan", "shk", "mar", "pri", "maj", "qer", "korr", "gush", "sht", "tet", "nën", "dhj"},
@@ -6421,7 +6421,7 @@ var localeTableSqMk = [5][]string{
 	{"p.d.", "m.d."},
 }
 
-var localeTableSqXk = [5][]string{
+var localeTableSqXK = [5][]string{
 	{"die", "hën", "mar", "mër", "enj", "pre", "sht"},
 	{"e diel", "e hënë", "e martë", "e mërkurë", "e enjte", "e premte", "e shtunë"},
 	{"jan", "shk", "mar", "pri", "maj", "qer", "korr", "gush", "sht", "tet", "nën", "dhj"},
@@ -6445,7 +6445,7 @@ var localeTableSrCyrl = [5][]string{
 	{},
 }
 
-var localeTableSrCyrlBa = [5][]string{
+var localeTableSrCyrlBA = [5][]string{
 	{"нед", "пон", "уто", "сри", "чет", "пет", "суб"},
 	{"недјеља", "понедјељак", "уторак", "сриједа", "четвртак", "петак", "субота"},
 	{"јан", "феб", "мар", "апр", "мај", "јун", "јул", "авг", "сеп", "окт", "нов", "дец"},
@@ -6453,7 +6453,7 @@ var localeTableSrCyrlBa = [5][]string{
 	{"пријеподне", "поподне"},
 }
 
-var localeTableSrCyrlMe = [5][]string{
+var localeTableSrCyrlME = [5][]string{
 	{"нед", "пон", "уто", "сре", "чет", "пет", "суб"},
 	{"недјеља", "понедељак", "уторак", "сриједа", "четвртак", "петак", "субота"},
 	{"јан", "феб", "март", "апр", "мај", "јун", "јул", "авг", "септ", "окт", "нов", "дец"},
@@ -6461,7 +6461,7 @@ var localeTableSrCyrlMe = [5][]string{
 	{"пријеподне", "поподне"},
 }
 
-var localeTableSrCyrlRs = [5][]string{
+var localeTableSrCyrlRS = [5][]string{
 	{"нед", "пон", "уто", "сре", "чет", "пет", "суб"},
 	{"недеља", "понедељак", "уторак", "среда", "четвртак", "петак", "субота"},
 	{"јан", "феб", "мар", "апр", "мај", "јун", "јул", "авг", "сеп", "окт", "нов", "дец"},
@@ -6469,7 +6469,7 @@ var localeTableSrCyrlRs = [5][]string{
 	{},
 }
 
-var localeTableSrCyrlXk = [5][]string{
+var localeTableSrCyrlXK = [5][]string{
 	{"нед", "пон", "уто", "сре", "чет", "пет", "суб"},
 	{"недеља", "понедељак", "уторак", "среда", "четвртак", "петак", "субота"},
 	{"јан", "феб", "март", "апр", "мај", "јун", "јул", "авг", "септ", "окт", "нов", "дец"},
@@ -6485,7 +6485,7 @@ var localeTableSrLatn = [5][]string{
 	{},
 }
 
-var localeTableSrLatnBa = [5][]string{
+var localeTableSrLatnBA = [5][]string{
 	{"ned", "pon", "uto", "sri", "čet", "pet", "sub"},
 	{"nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"},
 	{"jan", "feb", "mar", "apr", "maj", "jun", "jul", "avg", "sep", "okt", "nov", "dec"},
@@ -6493,7 +6493,7 @@ var localeTableSrLatnBa = [5][]string{
 	{"prijepodne", "popodne"},
 }
 
-var localeTableSrLatnMe = [5][]string{
+var localeTableSrLatnME = [5][]string{
 	{"ned", "pon", "uto", "sre", "čet", "pet", "sub"},
 	{"nedjelja", "ponedeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"},
 	{"jan", "feb", "mart", "apr", "maj", "jun", "jul", "avg", "sept", "okt", "nov", "dec"},
@@ -6501,7 +6501,7 @@ var localeTableSrLatnMe = [5][]string{
 	{"prijepodne", "popodne"},
 }
 
-var localeTableSrLatnRs = [5][]string{
+var localeTableSrLatnRS = [5][]string{
 	{"ned", "pon", "uto", "sre", "čet", "pet", "sub"},
 	{"nedelja", "ponedeljak", "utorak", "sreda", "četvrtak", "petak", "subota"},
 	{"jan", "feb", "mar", "apr", "maj", "jun", "jul", "avg", "sep", "okt", "nov", "dec"},
@@ -6509,7 +6509,7 @@ var localeTableSrLatnRs = [5][]string{
 	{},
 }
 
-var localeTableSrLatnXk = [5][]string{
+var localeTableSrLatnXK = [5][]string{
 	{"ned", "pon", "uto", "sre", "čet", "pet", "sub"},
 	{"nedelja", "ponedeljak", "utorak", "sreda", "četvrtak", "petak", "subota"},
 	{"jan", "feb", "mart", "apr", "maj", "jun", "jul", "avg", "sept", "okt", "nov", "dec"},
@@ -6525,7 +6525,7 @@ var localeTableSs = [5][]string{
 	{},
 }
 
-var localeTableSsSz = [5][]string{
+var localeTableSsSZ = [5][]string{
 	{"Son", "Mso", "Bil", "Tsa", "Ne", "Hla", "Mgc"},
 	{"Lisontfo", "uMsombuluko", "Lesibili", "Lesitsatfu", "Lesine", "Lesihlanu", "uMgcibelo"},
 	{"Bhi", "Van", "Vol", "Mab", "Nkh", "Nhl", "Kho", "Ngc", "Nyo", "Mph", "Lwe", "Ngo"},
@@ -6533,7 +6533,7 @@ var localeTableSsSz = [5][]string{
 	{},
 }
 
-var localeTableSsZa = [5][]string{
+var localeTableSsZA = [5][]string{
 	{"Son", "Mso", "Bil", "Tsa", "Ne", "Hla", "Mgc"},
 	{"Lisontfo", "uMsombuluko", "Lesibili", "Lesitsatfu", "Lesine", "Lesihlanu", "uMgcibelo"},
 	{"Bhi", "Van", "Vol", "Mab", "Nkh", "Nhl", "Kho", "Ngc", "Nyo", "Mph", "Lwe", "Ngo"},
@@ -6549,7 +6549,7 @@ var localeTableSsy = [5][]string{
 	{"saaku", "carra"},
 }
 
-var localeTableSsyEr = [5][]string{
+var localeTableSsyER = [5][]string{
 	{"Nab", "San", "Sal", "Rab", "Cam", "Jum", "Qun"},
 	{"Naba Sambat", "Sani", "Salus", "Rabuq", "Camus", "Jumqata", "Qunxa Sambat"},
 	{"Qun", "Nah", "Cig", "Agd", "Cax", "Qas", "Qad", "Leq", "Way", "Dit", "Xim", "Kax"},
@@ -6565,7 +6565,7 @@ var localeTableSt = [5][]string{
 	{},
 }
 
-var localeTableStLs = [5][]string{
+var localeTableStLS = [5][]string{
 	{"Son", "Mma", "Bed", "Rar", "Ne", "Hla", "Moq"},
 	{"Sontaha", "Mmantaha", "Labobedi", "Laboraru", "Labone", "Labohlane", "Moqebelo"},
 	{"Phe", "Kol", "Ube", "Mme", "Mot", "Jan", "Upu", "Pha", "Leo", "Mph", "Pun", "Tsh"},
@@ -6573,7 +6573,7 @@ var localeTableStLs = [5][]string{
 	{},
 }
 
-var localeTableStZa = [5][]string{
+var localeTableStZA = [5][]string{
 	{"Son", "Mma", "Bed", "Rar", "Ne", "Hla", "Moq"},
 	{"Sontaha", "Mmantaha", "Labobedi", "Laboraru", "Labone", "Labohlane", "Moqebelo"},
 	{"Phe", "Kol", "Ube", "Mme", "Mot", "Jan", "Upu", "Pha", "Leo", "Mph", "Pun", "Tsh"},
@@ -6597,7 +6597,7 @@ var localeTableSuLatn = [5][]string{
 	{},
 }
 
-var localeTableSuLatnId = [5][]string{
+var localeTableSuLatnID = [5][]string{
 	{"Mng", "Sen", "Sal", "Reb", "Kem", "Jum", "Sap"},
 	{"Minggu", "Senén", "Salasa", "Rebo", "Kemis", "Jumaah", "Saptu"},
 	{"Jan", "Péb", "Mar", "Apr", "Méi", "Jun", "Jul", "Ags", "Sép", "Okt", "Nop", "Dés"},
@@ -6613,7 +6613,7 @@ var localeTableSv = [5][]string{
 	{"fm", "em"},
 }
 
-var localeTableSvAx = [5][]string{
+var localeTableSvAX = [5][]string{
 	{"sön", "mån", "tis", "ons", "tors", "fre", "lör"},
 	{"söndag", "måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag"},
 	{"jan.", "feb.", "mars", "apr.", "maj", "juni", "juli", "aug.", "sep.", "okt.", "nov.", "dec."},
@@ -6621,7 +6621,7 @@ var localeTableSvAx = [5][]string{
 	{"fm", "em"},
 }
 
-var localeTableSvFi = [5][]string{
+var localeTableSvFI = [5][]string{
 	{"sön", "mån", "tis", "ons", "tors", "fre", "lör"},
 	{"söndag", "måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag"},
 	{"jan.", "feb.", "mars", "apr.", "maj", "juni", "juli", "aug.", "sep.", "okt.", "nov.", "dec."},
@@ -6629,7 +6629,7 @@ var localeTableSvFi = [5][]string{
 	{"fm", "em"},
 }
 
-var localeTableSvSe = [5][]string{
+var localeTableSvSE = [5][]string{
 	{"sön", "mån", "tis", "ons", "tors", "fre", "lör"},
 	{"söndag", "måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag"},
 	{"jan.", "feb.", "mars", "apr.", "maj", "juni", "juli", "aug.", "sep.", "okt.", "nov.", "dec."},
@@ -6645,7 +6645,7 @@ var localeTableSw = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableSwCd = [5][]string{
+var localeTableSwCD = [5][]string{
 	{},
 	{"Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -6653,7 +6653,7 @@ var localeTableSwCd = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableSwKe = [5][]string{
+var localeTableSwKE = [5][]string{
 	{},
 	{"Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -6661,7 +6661,7 @@ var localeTableSwKe = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableSwTz = [5][]string{
+var localeTableSwTZ = [5][]string{
 	{},
 	{"Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -6669,7 +6669,7 @@ var localeTableSwTz = [5][]string{
 	{"am", "pm"},
 }
 
-var localeTableSwUg = [5][]string{
+var localeTableSwUG = [5][]string{
 	{},
 	{"Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -6685,7 +6685,7 @@ var localeTableSyr = [5][]string{
 	{"܏ܩܛ‌", "܏ܒܛ‌"},
 }
 
-var localeTableSyrIq = [5][]string{
+var localeTableSyrIQ = [5][]string{
 	{"ܚܕ", "ܬܪܝܢ", "ܬܠܬ", "ܐܪܒܥ", "ܚܡܫ", "ܥܪܘ", "ܫܒܬܐ"},
 	{"ܚܕܒܫܒܐ", "ܬܪܝܢܒܫܒܐ", "ܬܠܬܒܫܒܐ", "ܐܪܒܥܒܫܒܐ", "ܚܡܫܒܫܒܐ", "ܥܪܘܒܬܐ", "ܫܒܬܐ"},
 	{"ܟܢܘܢ ܒ", "ܫܒܛ", "ܐܕܪ", "ܢܝܣܢ", "ܐܝܪ", "ܚܙܝܪܢ", "ܬܡܘܙ", "ܐܒ", "ܐܝܠܘܠ", "ܬܫܪܝܢ ܐ", "ܬܫܪܝܢ ܒ", "ܟܢܘܢ ܐ"},
@@ -6693,7 +6693,7 @@ var localeTableSyrIq = [5][]string{
 	{"܏ܩܛ‌", "܏ܒܛ‌"},
 }
 
-var localeTableSyrSy = [5][]string{
+var localeTableSyrSY = [5][]string{
 	{"ܚܕ", "ܬܪܝܢ", "ܬܠܬ", "ܐܪܒܥ", "ܚܡܫ", "ܥܪܘ", "ܫܒܬܐ"},
 	{"ܚܕܒܫܒܐ", "ܬܪܝܢܒܫܒܐ", "ܬܠܬܒܫܒܐ", "ܐܪܒܥܒܫܒܐ", "ܚܡܫܒܫܒܐ", "ܥܪܘܒܬܐ", "ܫܒܬܐ"},
 	{"ܟܢܘܢ ܒ", "ܫܒܛ", "ܐܕܪ", "ܢܝܣܢ", "ܐܝܪ", "ܚܙܝܪܢ", "ܬܡܘܙ", "ܐܒ", "ܐܝܠܘܠ", "ܬܫܪܝܢ ܐ", "ܬܫܪܝܢ ܒ", "ܟܢܘܢ ܐ"},
@@ -6709,7 +6709,7 @@ var localeTableSzl = [5][]string{
 	{"dopołedniŏ", "popołedniu"},
 }
 
-var localeTableSzlPl = [5][]string{
+var localeTableSzlPL = [5][]string{
 	{"niy", "pyń", "wto", "str", "szt", "piō", "sob"},
 	{"niydziela", "pyńdziałek", "wtorek", "strzoda", "sztwortek", "piōntek", "sobota"},
 	{"sty", "lut", "mar", "kwi", "moj", "czy", "lip", "siy", "wrz", "paź", "lis", "gru"},
@@ -6725,7 +6725,7 @@ var localeTableTa = [5][]string{
 	{},
 }
 
-var localeTableTaIn = [5][]string{
+var localeTableTaIN = [5][]string{
 	{"ஞாயி.", "திங்.", "செவ்.", "புத.", "வியா.", "வெள்.", "சனி"},
 	{"ஞாயிறு", "திங்கள்", "செவ்வாய்", "புதன்", "வியாழன்", "வெள்ளி", "சனி"},
 	{"ஜன.", "பிப்.", "மார்.", "ஏப்.", "மே", "ஜூன்", "ஜூலை", "ஆக.", "செப்.", "அக்.", "நவ.", "டிச."},
@@ -6733,7 +6733,7 @@ var localeTableTaIn = [5][]string{
 	{},
 }
 
-var localeTableTaLk = [5][]string{
+var localeTableTaLK = [5][]string{
 	{"ஞாயி.", "திங்.", "செவ்.", "புத.", "வியா.", "வெள்.", "சனி"},
 	{"ஞாயிறு", "திங்கள்", "செவ்வாய்", "புதன்", "வியாழன்", "வெள்ளி", "சனி"},
 	{"ஜன.", "பிப்.", "மார்.", "ஏப்.", "மே", "ஜூன்", "ஜூலை", "ஆக.", "செப்.", "அக்.", "நவ.", "டிச."},
@@ -6741,7 +6741,7 @@ var localeTableTaLk = [5][]string{
 	{},
 }
 
-var localeTableTaMy = [5][]string{
+var localeTableTaMY = [5][]string{
 	{"ஞாயி.", "திங்.", "செவ்.", "புத.", "வியா.", "வெள்.", "சனி"},
 	{"ஞாயிறு", "திங்கள்", "செவ்வாய்", "புதன்", "வியாழன்", "வெள்ளி", "சனி"},
 	{"ஜன.", "பிப்.", "மார்.", "ஏப்.", "மே", "ஜூன்", "ஜூலை", "ஆக.", "செப்.", "அக்.", "நவ.", "டிச."},
@@ -6749,7 +6749,7 @@ var localeTableTaMy = [5][]string{
 	{},
 }
 
-var localeTableTaSg = [5][]string{
+var localeTableTaSG = [5][]string{
 	{"ஞாயி.", "திங்.", "செவ்.", "புத.", "வியா.", "வெள்.", "சனி"},
 	{"ஞாயிறு", "திங்கள்", "செவ்வாய்", "புதன்", "வியாழன்", "வெள்ளி", "சனி"},
 	{"ஜன.", "பிப்.", "மார்.", "ஏப்.", "மே", "ஜூன்", "ஜூலை", "ஆக.", "செப்.", "அக்.", "நவ.", "டிச."},
@@ -6765,7 +6765,7 @@ var localeTableTe = [5][]string{
 	{"ఉ", "సా"},
 }
 
-var localeTableTeIn = [5][]string{
+var localeTableTeIN = [5][]string{
 	{"ఆది", "సోమ", "మంగళ", "బుధ", "గురు", "శుక్ర", "శని"},
 	{"ఆదివారం", "సోమవారం", "మంగళవారం", "బుధవారం", "గురువారం", "శుక్రవారం", "శనివారం"},
 	{"జన", "ఫిబ్ర", "మార్చి", "ఏప్రి", "మే", "జూన్", "జులై", "ఆగ", "సెప్టెం", "అక్టో", "నవం", "డిసెం"},
@@ -6781,7 +6781,7 @@ var localeTableTeo = [5][]string{
 	{"Taparachu", "Ebongi"},
 }
 
-var localeTableTeoKe = [5][]string{
+var localeTableTeoKE = [5][]string{
 	{"Jum", "Bar", "Aar", "Uni", "Ung", "Kan", "Sab"},
 	{"Nakaejuma", "Nakaebarasa", "Nakaare", "Nakauni", "Nakaung’on", "Nakakany", "Nakasabiti"},
 	{"Rar", "Muk", "Kwa", "Dun", "Mar", "Mod", "Jol", "Ped", "Sok", "Tib", "Lab", "Poo"},
@@ -6789,7 +6789,7 @@ var localeTableTeoKe = [5][]string{
 	{"Taparachu", "Ebongi"},
 }
 
-var localeTableTeoUg = [5][]string{
+var localeTableTeoUG = [5][]string{
 	{"Jum", "Bar", "Aar", "Uni", "Ung", "Kan", "Sab"},
 	{"Nakaejuma", "Nakaebarasa", "Nakaare", "Nakauni", "Nakaung’on", "Nakakany", "Nakasabiti"},
 	{"Rar", "Muk", "Kwa", "Dun", "Mar", "Mod", "Jol", "Ped", "Sok", "Tib", "Lab", "Poo"},
@@ -6805,7 +6805,7 @@ var localeTableTg = [5][]string{
 	{},
 }
 
-var localeTableTgTj = [5][]string{
+var localeTableTgTJ = [5][]string{
 	{"Яшб", "Дшб", "Сшб", "Чшб", "Пшб", "Ҷмъ", "Шнб"},
 	{"Якшанбе", "Душанбе", "Сешанбе", "Чоршанбе", "Панҷшанбе", "Ҷумъа", "Шанбе"},
 	{"Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"},
@@ -6821,7 +6821,7 @@ var localeTableTh = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableThTh = [5][]string{
+var localeTableThTH = [5][]string{
 	{"อา.", "จ.", "อ.", "พ.", "พฤ.", "ศ.", "ส."},
 	{"วันอาทิตย์", "วันจันทร์", "วันอังคาร", "วันพุธ", "วันพฤหัสบดี", "วันศุกร์", "วันเสาร์"},
 	{"ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."},
@@ -6837,7 +6837,7 @@ var localeTableTi = [5][]string{
 	{"ቅ.ቀ.", "ድ.ቀ."},
 }
 
-var localeTableTiEr = [5][]string{
+var localeTableTiER = [5][]string{
 	{"ሰን", "ሰኑ", "ሰሉ", "ረቡ", "ሓሙ", "ዓር", "ቀዳ"},
 	{"ሰንበት", "ሰኑይ", "ሰሉስ", "ረቡዕ", "ሓሙስ", "ዓርቢ", "ቀዳም"},
 	{"ጥሪ", "ለካ", "መጋ", "ሚያ", "ግን", "ሰነ", "ሓም", "ነሓ", "መስ", "ጥቅ", "ሕዳ", "ታሕ"},
@@ -6845,7 +6845,7 @@ var localeTableTiEr = [5][]string{
 	{"ቅ.ቀ.", "ድ.ቀ."},
 }
 
-var localeTableTiEt = [5][]string{
+var localeTableTiET = [5][]string{
 	{"ሰን", "ሰኑ", "ሰሉ", "ረቡ", "ሓሙ", "ዓር", "ቀዳ"},
 	{"ሰንበት", "ሰኑይ", "ሰሉስ", "ረቡዕ", "ሓሙስ", "ዓርቢ", "ቀዳም"},
 	{"ጥሪ", "ለካ", "መጋ", "ሚያ", "ግን", "ሰነ", "ሓም", "ነሓ", "መስ", "ጥቅ", "ሕዳ", "ታሕ"},
@@ -6861,7 +6861,7 @@ var localeTableTig = [5][]string{
 	{"ቀደምሰርምዕል", "ሓቆስርምዕል"},
 }
 
-var localeTableTigEr = [5][]string{
+var localeTableTigER = [5][]string{
 	{"ሰ/ዓ", "ሰኖ", "ታላሸ", "ኣረር", "ከሚሽ", "ጅምዓ", "ሰ/ን"},
 	{"ሰንበት ዓባይ", "ሰኖ", "ታላሸኖ", "ኣረርባዓ", "ከሚሽ", "ጅምዓት", "ሰንበት ንኢሽ"},
 	{"ጃንዩ", "ፌብሩ", "ማርች", "ኤፕረ", "ሜይ", "ጁን", "ጁላይ", "ኦገስ", "ሴፕቴ", "ኦክተ", "ኖቬም", "ዲሴም"},
@@ -6877,7 +6877,7 @@ var localeTableTk = [5][]string{
 	{"go.öň", "go.soň"},
 }
 
-var localeTableTkTm = [5][]string{
+var localeTableTkTM = [5][]string{
 	{"ýek", "duş", "siş", "çar", "pen", "ann", "şen"},
 	{"ýekşenbe", "duşenbe", "sişenbe", "çarşenbe", "penşenbe", "anna", "şenbe"},
 	{"ýan", "few", "mart", "apr", "maý", "iýun", "iýul", "awg", "sen", "okt", "noý", "dek"},
@@ -6893,7 +6893,7 @@ var localeTableTn = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableTnBw = [5][]string{
+var localeTableTnBW = [5][]string{
 	{"Tsh", "Mos", "Labb", "Labr", "Labn", "Labt", "Mat"},
 	{"Tshipi", "Mosopulogo", "Labobedi", "Laboraro", "Labone", "Labotlhano", "Matlhatso"},
 	{"Fer", "Tlh", "Mop", "Mor", "Mot", "See", "Phu", "Pha", "Lwe", "Dip", "Ngw", "Sed"},
@@ -6901,7 +6901,7 @@ var localeTableTnBw = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableTnZa = [5][]string{
+var localeTableTnZA = [5][]string{
 	{"Tsh", "Mos", "Labb", "Labr", "Labn", "Labt", "Mat"},
 	{"Tshipi", "Mosopulogo", "Labobedi", "Laboraro", "Labone", "Labotlhano", "Matlhatso"},
 	{"Fer", "Tlh", "Mop", "Mor", "Mot", "See", "Phu", "Pha", "Lwe", "Dip", "Ngw", "Sed"},
@@ -6917,7 +6917,7 @@ var localeTableTo = [5][]string{
 	{"HH", "EA"},
 }
 
-var localeTableToTo = [5][]string{
+var localeTableToTO = [5][]string{
 	{"Sāp", "Mōn", "Tūs", "Pul", "Tuʻa", "Fal", "Tok"},
 	{"Sāpate", "Mōnite", "Tūsite", "Pulelulu", "Tuʻapulelulu", "Falaite", "Tokonaki"},
 	{"Sān", "Fēp", "Maʻa", "ʻEpe", "Mē", "Sun", "Siu", "ʻAok", "Sēp", "ʻOka", "Nōv", "Tīs"},
@@ -6949,7 +6949,7 @@ var localeTableTpi = [5][]string{
 	{},
 }
 
-var localeTableTpiPg = [5][]string{
+var localeTableTpiPG = [5][]string{
 	{"San", "Man", "Tun", "Tri", "Fon", "Fra", "Sar"},
 	{"Sande", "Mande", "Tunde", "Trinde", "Fonde", "Fraide", "Sarere"},
 	{"Jan", "Feb", "Mas", "Epr", "Me", "Jun", "Jul", "Oga", "Sep", "Okt", "Nov", "Des"},
@@ -6965,7 +6965,7 @@ var localeTableTr = [5][]string{
 	{"ÖÖ", "ÖS"},
 }
 
-var localeTableTrCy = [5][]string{
+var localeTableTrCY = [5][]string{
 	{"Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"},
 	{"Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"},
 	{"Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"},
@@ -6973,7 +6973,7 @@ var localeTableTrCy = [5][]string{
 	{"ÖÖ", "ÖS"},
 }
 
-var localeTableTrTr = [5][]string{
+var localeTableTrTR = [5][]string{
 	{"Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"},
 	{"Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"},
 	{"Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"},
@@ -6989,7 +6989,7 @@ var localeTableTrv = [5][]string{
 	{},
 }
 
-var localeTableTrvTw = [5][]string{
+var localeTableTrvTW = [5][]string{
 	{"Emp", "Kin", "Dha", "Tru", "Spa", "Rim", "Mat"},
 	{"Jiyax sngayan", "tgKingal jiyax iyax sngayan", "tgDha jiyax iyax sngayan", "tgTru jiyax iyax sngayan", "tgSpac jiyax iyax sngayan", "tgRima jiyax iyax sngayan", "tgMataru jiyax iyax sngayan"},
 	{"Kii", "Dhi", "Tri", "Spi", "Rii", "Mti", "Emi", "Mai", "Mni", "Mxi", "Mxk", "Mxd"},
@@ -7005,7 +7005,7 @@ var localeTableTrw = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableTrwPk = [5][]string{
+var localeTableTrwPK = [5][]string{
 	{},
 	{"ایکشیمے", "دُوشیمے", "گھن آنگا", "چارشیمے", "پَئ شیمے", "شُوگار", "لَو آنگا"},
 	{},
@@ -7021,7 +7021,7 @@ var localeTableTs = [5][]string{
 	{},
 }
 
-var localeTableTsZa = [5][]string{
+var localeTableTsZA = [5][]string{
 	{"Son", "Mus", "Bir", "Har", "Ne", "Tlh", "Mug"},
 	{"Sonta", "Musumbhunuku", "Ravumbirhi", "Ravunharhu", "Ravumune", "Ravuntlhanu", "Mugqivela"},
 	{"Sun", "Yan", "Kul", "Dzi", "Mud", "Kho", "Maw", "Mha", "Ndz", "Nhl", "Huk", "N’w"},
@@ -7037,7 +7037,7 @@ var localeTableTt = [5][]string{
 	{},
 }
 
-var localeTableTtRu = [5][]string{
+var localeTableTtRU = [5][]string{
 	{"якш.", "дүш.", "сиш.", "чәр.", "пәнҗ.", "җом.", "шим."},
 	{"якшәмбе", "дүшәмбе", "сишәмбе", "чәршәмбе", "пәнҗешәмбе", "җомга", "шимбә"},
 	{"гыйн.", "фев.", "мар.", "апр.", "май", "июнь", "июль", "авг.", "сент.", "окт.", "нояб.", "дек."},
@@ -7053,7 +7053,7 @@ var localeTableTwq = [5][]string{
 	{"Subbaahi", "Zaarikayb"},
 }
 
-var localeTableTwqNe = [5][]string{
+var localeTableTwqNE = [5][]string{
 	{"Alh", "Ati", "Ata", "Ala", "Alm", "Alz", "Asi"},
 	{"Alhadi", "Atinni", "Atalaata", "Alarba", "Alhamiisa", "Alzuma", "Asibti"},
 	{"Žan", "Fee", "Mar", "Awi", "Me", "Žuw", "Žuy", "Ut", "Sek", "Okt", "Noo", "Dee"},
@@ -7069,7 +7069,7 @@ var localeTableTzm = [5][]string{
 	{"Zdatazal", "Ḍeffiraza"},
 }
 
-var localeTableTzmMa = [5][]string{
+var localeTableTzmMA = [5][]string{
 	{"Asa", "Ayn", "Asn", "Akr", "Akw", "Asm", "Asḍ"},
 	{"Asamas", "Aynas", "Asinas", "Akras", "Akwas", "Asimwas", "Asiḍyas"},
 	{"Yen", "Yeb", "Mar", "Ibr", "May", "Yun", "Yul", "Ɣuc", "Cut", "Kṭu", "Nwa", "Duj"},
@@ -7085,7 +7085,7 @@ var localeTableUg = [5][]string{
 	{"چ.ب", "چ.ك"},
 }
 
-var localeTableUgCn = [5][]string{
+var localeTableUgCN = [5][]string{
 	{"يە", "دۈ", "سە", "چا", "پە", "جۈ", "شە"},
 	{"يەكشەنبە", "دۈشەنبە", "سەيشەنبە", "چارشەنبە", "پەيشەنبە", "جۈمە", "شەنبە"},
 	{},
@@ -7101,7 +7101,7 @@ var localeTableUk = [5][]string{
 	{"дп", "пп"},
 }
 
-var localeTableUkUa = [5][]string{
+var localeTableUkUA = [5][]string{
 	{"нд", "пн", "вт", "ср", "чт", "пт", "сб"},
 	{"неділю", "понеділок", "вівторок", "середу", "четвер", "пʼятницю", "суботу"},
 	{"січ.", "лют.", "бер.", "квіт.", "трав.", "черв.", "лип.", "серп.", "вер.", "жовт.", "лист.", "груд."},
@@ -7125,7 +7125,7 @@ var localeTableUr = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableUrIn = [5][]string{
+var localeTableUrIN = [5][]string{
 	{},
 	{"اتوار", "پیر", "منگل", "بدھ", "جمعرات", "جمعہ", "ہفتہ"},
 	{},
@@ -7133,7 +7133,7 @@ var localeTableUrIn = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableUrPk = [5][]string{
+var localeTableUrPK = [5][]string{
 	{},
 	{"اتوار", "پیر", "منگل", "بدھ", "جمعرات", "جمعہ", "ہفتہ"},
 	{},
@@ -7157,7 +7157,7 @@ var localeTableUzArab = [5][]string{
 	{},
 }
 
-var localeTableUzArabAf = [5][]string{
+var localeTableUzArabAF = [5][]string{
 	{"ی.", "د.", "س.", "چ.", "پ.", "ج.", "ش."},
 	{"یکشنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنجشنبه", "جمعه", "شنبه"},
 	{"جنو", "فبر", "مار", "اپر", "می", "جون", "جول", "اگس", "سپت", "اکت", "نوم", "دسم"},
@@ -7173,7 +7173,7 @@ var localeTableUzCyrl = [5][]string{
 	{"ТО", "ТК"},
 }
 
-var localeTableUzCyrlUz = [5][]string{
+var localeTableUzCyrlUZ = [5][]string{
 	{"якш", "душ", "сеш", "чор", "пай", "жум", "шан"},
 	{"якшанба", "душанба", "сешанба", "чоршанба", "пайшанба", "жума", "шанба"},
 	{"янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"},
@@ -7189,7 +7189,7 @@ var localeTableUzLatn = [5][]string{
 	{"TO", "TK"},
 }
 
-var localeTableUzLatnUz = [5][]string{
+var localeTableUzLatnUZ = [5][]string{
 	{"Yak", "Dush", "Sesh", "Chor", "Pay", "Jum", "Shan"},
 	{"yakshanba", "dushanba", "seshanba", "chorshanba", "payshanba", "juma", "shanba"},
 	{"yan", "fev", "mar", "apr", "may", "iyn", "iyl", "avg", "sen", "okt", "noy", "dek"},
@@ -7213,7 +7213,7 @@ var localeTableVaiLatn = [5][]string{
 	{},
 }
 
-var localeTableVaiLatnLr = [5][]string{
+var localeTableVaiLatnLR = [5][]string{
 	{},
 	{"lahadi", "tɛɛnɛɛ", "talata", "alaba", "aimisa", "aijima", "siɓiti"},
 	{},
@@ -7229,7 +7229,7 @@ var localeTableVaiVaii = [5][]string{
 	{},
 }
 
-var localeTableVaiVaiiLr = [5][]string{
+var localeTableVaiVaiiLR = [5][]string{
 	{},
 	{"ꕞꕌꔵ", "ꗳꗡꘉ", "ꕚꕞꕚ", "ꕉꕞꕒ", "ꕉꔤꕆꕢ", "ꕉꔤꕀꕮ", "ꔻꔬꔳ"},
 	{"ꖨꖕꔞ", "ꕒꕡ", "ꕾꖺ", "ꖢꖕ", "ꖑꕱ", "ꖱꘋ", "ꖱꕞ", "ꗛꔕ", "ꕢꕌ", "ꕭꖃ", "ꔞꘋ", "ꖨꖕꗏ"},
@@ -7245,7 +7245,7 @@ var localeTableVe = [5][]string{
 	{},
 }
 
-var localeTableVeZa = [5][]string{
+var localeTableVeZA = [5][]string{
 	{"Swo", "Mus", "Vhi", "Rar", "Ṋa", "Ṱan", "Mug"},
 	{"Swondaha", "Musumbuluwo", "Ḽavhuvhili", "Ḽavhuraru", "Ḽavhuṋa", "Ḽavhuṱanu", "Mugivhela"},
 	{"Pha", "Luh", "Ṱhf", "Lam", "Shu", "Lwi", "Lwa", "Ṱha", "Khu", "Tsh", "Ḽar", "Nye"},
@@ -7261,7 +7261,7 @@ var localeTableVec = [5][]string{
 	{},
 }
 
-var localeTableVecIt = [5][]string{
+var localeTableVecIT = [5][]string{
 	{"dom", "lun", "mar", "mer", "zob", "vèn", "sab"},
 	{"doménega", "luni", "marti", "mèrcore", "zoba", "vènare", "sabo"},
 	{"jen", "feb", "mar", "apr", "maj", "jug", "luj", "ago", "set", "oto", "nov", "des"},
@@ -7277,7 +7277,7 @@ var localeTableVi = [5][]string{
 	{"SA", "CH"},
 }
 
-var localeTableViVn = [5][]string{
+var localeTableViVN = [5][]string{
 	{"CN", "Th 2", "Th 3", "Th 4", "Th 5", "Th 6", "Th 7"},
 	{"Chủ Nhật", "Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy"},
 	{"thg 1", "thg 2", "thg 3", "thg 4", "thg 5", "thg 6", "thg 7", "thg 8", "thg 9", "thg 10", "thg 11", "thg 12"},
@@ -7293,7 +7293,7 @@ var localeTableVmw = [5][]string{
 	{},
 }
 
-var localeTableVmwMz = [5][]string{
+var localeTableVmwMZ = [5][]string{
 	{},
 	{"ettiminku", "nihiku noolempwa", "namaanli", "namararu", "namaxexe", "namathanu", "esaabadu"},
 	{},
@@ -7325,7 +7325,7 @@ var localeTableVun = [5][]string{
 	{"utuko", "kyiukonyi"},
 }
 
-var localeTableVunTz = [5][]string{
+var localeTableVunTZ = [5][]string{
 	{"Jpi", "Jtt", "Jnn", "Jtn", "Alh", "Iju", "Jmo"},
 	{"Jumapilyi", "Jumatatuu", "Jumanne", "Jumatanu", "Alhamisi", "Ijumaa", "Jumamosi"},
 	{"Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nov", "Des"},
@@ -7341,7 +7341,7 @@ var localeTableWae = [5][]string{
 	{},
 }
 
-var localeTableWaeCh = [5][]string{
+var localeTableWaeCH = [5][]string{
 	{"Sun", "Män", "Ziš", "Mit", "Fró", "Fri", "Sam"},
 	{"Sunntag", "Mäntag", "Zištag", "Mittwuč", "Fróntag", "Fritag", "Samštag"},
 	{"Jen", "Hor", "Mär", "Abr", "Mei", "Brá", "Hei", "Öig", "Her", "Wím", "Win", "Chr"},
@@ -7357,7 +7357,7 @@ var localeTableWal = [5][]string{
 	{"ማለዶ", "ቃማ"},
 }
 
-var localeTableWalEt = [5][]string{
+var localeTableWalET = [5][]string{
 	{},
 	{"ወጋ", "ሳይኖ", "ማቆሳኛ", "አሩዋ", "ሃሙሳ", "አርባ", "ቄራ"},
 	{"ጃንዩ", "ፌብሩ", "ማርች", "ኤፕረ", "ሜይ", "ጁን", "ጁላይ", "ኦገስ", "ሴፕቴ", "ኦክተ", "ኖቬም", "ዲሴም"},
@@ -7373,7 +7373,7 @@ var localeTableWo = [5][]string{
 	{"Sub", "Ngo"},
 }
 
-var localeTableWoSn = [5][]string{
+var localeTableWoSN = [5][]string{
 	{"Dib", "Alt", "Tal", "Àla", "Alx", "Àjj", "Ase"},
 	{"Dibéer", "Altine", "Talaata", "Àlarba", "Alxamis", "Àjjuma", "Aseer"},
 	{"Sam", "Few", "Mar", "Awr", "Mee", "Suw", "Sul", "Ut", "Sàt", "Okt", "Now", "Des"},
@@ -7389,7 +7389,7 @@ var localeTableXh = [5][]string{
 	{},
 }
 
-var localeTableXhZa = [5][]string{
+var localeTableXhZA = [5][]string{
 	{"Caw", "Mvu", "Lwesb", "Tha", "Sin", "Hla", "Mgq"},
 	{"Cawe", "Mvulo", "Lwesibini", "Lwesithathu", "Lwesine", "Lwesihlanu", "Mgqibelo"},
 	{"Jan", "Feb", "Mat", "Epr", "Mey", "Jun", "Jul", "Aga", "Sept", "Okt", "Nov", "Dis"},
@@ -7405,7 +7405,7 @@ var localeTableXnr = [5][]string{
 	{"भ्यागा", "दपेहरा/संजा"},
 }
 
-var localeTableXnrIn = [5][]string{
+var localeTableXnrIN = [5][]string{
 	{"तोआर", "सोआर", "मंगल", "बुध", "वीर", "शुक्कर", "शनि"},
 	{"तोआर", "सोआर", "मंगलवार", "बुधवार", "वीरवार", "शुक्करवार", "शनिच्चरवार"},
 	{"जन॰", "फ़र॰", "मार्च", "अप्रैल", "मई", "जून", "जुल॰", "अग॰", "सित॰", "अक्तू॰", "नव॰", "दिस॰"},
@@ -7421,7 +7421,7 @@ var localeTableXog = [5][]string{
 	{"Munkyo", "Eigulo"},
 }
 
-var localeTableXogUg = [5][]string{
+var localeTableXogUG = [5][]string{
 	{"Sabi", "Bala", "Kubi", "Kusa", "Kuna", "Kuta", "Muka"},
 	{"Sabiiti", "Balaza", "Owokubili", "Owokusatu", "Olokuna", "Olokutaanu", "Olomukaaga"},
 	{"Jan", "Feb", "Mar", "Apu", "Maa", "Juu", "Jul", "Agu", "Seb", "Oki", "Nov", "Des"},
@@ -7437,7 +7437,7 @@ var localeTableYav = [5][]string{
 	{"kiɛmɛ́ɛm", "kisɛ́ndɛ"},
 }
 
-var localeTableYavCm = [5][]string{
+var localeTableYavCM = [5][]string{
 	{"sd", "md", "mw", "et", "kl", "fl", "ss"},
 	{"sɔ́ndiɛ", "móndie", "muányáŋmóndie", "metúkpíápɛ", "kúpélimetúkpiapɛ", "feléte", "séselé"},
 	{"o.1", "o.2", "o.3", "o.4", "o.5", "o.6", "o.7", "o.8", "o.9", "o.10", "o.11", "o.12"},
@@ -7453,7 +7453,7 @@ var localeTableYi = [5][]string{
 	{"פֿאַרמיטאָג", "נאָכמיטאָג"},
 }
 
-var localeTableYiUa = [5][]string{
+var localeTableYiUA = [5][]string{
 	{},
 	{"זונטיק", "מאָנטיק", "דינסטיק", "מיטוואך", "דאנערשטיק", "פֿרײַטיק", "שבת"},
 	{},
@@ -7469,7 +7469,7 @@ var localeTableYo = [5][]string{
 	{"Àárọ̀", "Ọ̀sán"},
 }
 
-var localeTableYoBj = [5][]string{
+var localeTableYoBJ = [5][]string{
 	{"Àìk", "Aj", "Ìsɛ́g", "Ɔjɔ́r", "Ɔjɔ́b", "Ɛt", "Àbám"},
 	{"Ɔjɔ́ Àìkú", "Ɔjɔ́ Ajé", "Ɔjɔ́ Ìsɛ́gun", "Ɔjɔ́rú", "Ɔjɔ́bɔ", "Ɔjɔ́ Ɛtì", "Ɔjɔ́ Àbámɛ́ta"},
 	{"Shɛ́r", "Èrèl", "Ɛrɛ̀n", "Ìgb", "Ɛ̀bi", "Òkú", "Agɛ", "Ògú", "Owe", "Ɔ̀wà", "Bél", "Ɔ̀pɛ"},
@@ -7477,7 +7477,7 @@ var localeTableYoBj = [5][]string{
 	{"Àárɔ̀", "Ɔ̀sán"},
 }
 
-var localeTableYoNg = [5][]string{
+var localeTableYoNG = [5][]string{
 	{"Àìk", "Aj", "Ìsẹ́g", "Ọjọ́r", "Ọjọ́b", "Ẹt", "Àbám"},
 	{"Ọjọ́ Àìkú", "Ọjọ́ Ajé", "Ọjọ́ Ìsẹ́gun", "Ọjọ́rú", "Ọjọ́bọ", "Ọjọ́ Ẹtì", "Ọjọ́ Àbámẹ́ta"},
 	{"Ṣẹ́r", "Èrèl", "Ẹrẹ̀n", "Ìgb", "Ẹ̀bi", "Òkú", "Agẹ", "Ògú", "Owe", "Ọ̀wà", "Bél", "Ọ̀pẹ"},
@@ -7493,7 +7493,7 @@ var localeTableYrl = [5][]string{
 	{},
 }
 
-var localeTableYrlBr = [5][]string{
+var localeTableYrlBR = [5][]string{
 	{"mit", "mur", "mmk", "mms", "sup", "yuk", "sau"},
 	{"mituú", "murakipí", "murakí-mukũi", "murakí-musapíri", "supapá", "yukuakú", "saurú"},
 	{"ye", "mk", "ms", "id", "pu", "py", "pm", "ps", "pi", "yp", "yy", "ym"},
@@ -7501,7 +7501,7 @@ var localeTableYrlBr = [5][]string{
 	{},
 }
 
-var localeTableYrlCo = [5][]string{
+var localeTableYrlCO = [5][]string{
 	{"mit", "mur", "mmk", "mms", "sup", "yuk", "sau"},
 	{"mituú", "murakipí", "murakí-mukũi", "murakí-musapíri", "supapá", "yukuakú", "saurú"},
 	{"ye", "mk", "ms", "id", "pu", "py", "pm", "ps", "pi", "yp", "yy", "ym"},
@@ -7509,7 +7509,7 @@ var localeTableYrlCo = [5][]string{
 	{"a.m.", "p.m."},
 }
 
-var localeTableYrlVe = [5][]string{
+var localeTableYrlVE = [5][]string{
 	{"mit", "mur", "mmk", "mms", "sup", "yuk", "sau"},
 	{"mituú", "murakipí", "murakí-mukũi", "murakí-musapíri", "supapá", "yukuakú", "saurú"},
 	{"ye", "mk", "ms", "id", "pu", "py", "pm", "ps", "pi", "yp", "yy", "ym"},
@@ -7533,7 +7533,7 @@ var localeTableYueHans = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableYueHansCn = [5][]string{
+var localeTableYueHansCN = [5][]string{
 	{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
@@ -7549,7 +7549,7 @@ var localeTableYueHant = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableYueHantHk = [5][]string{
+var localeTableYueHantHK = [5][]string{
 	{},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{},
@@ -7565,7 +7565,7 @@ var localeTableZa = [5][]string{
 	{},
 }
 
-var localeTableZaCn = [5][]string{
+var localeTableZaCN = [5][]string{
 	{},
 	{"ngoenzsinghgiz", "singhgizit", "singhgizngeih", "singhgizsam", "singhgizseiq", "singhgizhaj", "singhgizroek"},
 	{},
@@ -7581,7 +7581,7 @@ var localeTableZgh = [5][]string{
 	{"ⵜⵉⴼⴰⵡⵜ", "ⵜⴰⴷⴳⴳⵯⴰⵜ"},
 }
 
-var localeTableZghMa = [5][]string{
+var localeTableZghMA = [5][]string{
 	{"ⴰⵙⴰ", "ⴰⵢⵏ", "ⴰⵙⵉ", "ⴰⴽⵕ", "ⴰⴽⵡ", "ⴰⵙⵉⵎ", "ⴰⵙⵉⴹ"},
 	{"ⴰⵙⴰⵎⴰⵙ", "ⴰⵢⵏⴰⵙ", "ⴰⵙⵉⵏⴰⵙ", "ⴰⴽⵕⴰⵙ", "ⴰⴽⵡⴰⵙ", "ⴰⵙⵉⵎⵡⴰⵙ", "ⴰⵙⵉⴹⵢⴰⵙ"},
 	{"ⵉⵏⵏ", "ⴱⵕⴰ", "ⵎⴰⵕ", "ⵉⴱⵔ", "ⵎⴰⵢ", "ⵢⵓⵏ", "ⵢⵓⵍ", "ⵖⵓⵛ", "ⵛⵓⵜ", "ⴽⵜⵓ", "ⵏⵓⵡ", "ⴷⵓⵊ"},
@@ -7605,7 +7605,7 @@ var localeTableZhHans = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableZhHansCn = [5][]string{
+var localeTableZhHansCN = [5][]string{
 	{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
@@ -7613,7 +7613,7 @@ var localeTableZhHansCn = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableZhHansHk = [5][]string{
+var localeTableZhHansHK = [5][]string{
 	{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
@@ -7621,7 +7621,7 @@ var localeTableZhHansHk = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableZhHansMo = [5][]string{
+var localeTableZhHansMO = [5][]string{
 	{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
@@ -7629,7 +7629,7 @@ var localeTableZhHansMo = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableZhHansSg = [5][]string{
+var localeTableZhHansSG = [5][]string{
 	{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
@@ -7645,7 +7645,7 @@ var localeTableZhHant = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableZhHantHk = [5][]string{
+var localeTableZhHantHK = [5][]string{
 	{"週日", "週一", "週二", "週三", "週四", "週五", "週六"},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{},
@@ -7653,7 +7653,7 @@ var localeTableZhHantHk = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableZhHantMo = [5][]string{
+var localeTableZhHantMO = [5][]string{
 	{"週日", "週一", "週二", "週三", "週四", "週五", "週六"},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{},
@@ -7661,7 +7661,7 @@ var localeTableZhHantMo = [5][]string{
 	{"上午", "下午"},
 }
 
-var localeTableZhHantTw = [5][]string{
+var localeTableZhHantTW = [5][]string{
 	{"週日", "週一", "週二", "週三", "週四", "週五", "週六"},
 	{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 	{},
@@ -7677,7 +7677,7 @@ var localeTableZu = [5][]string{
 	{"a", "p"},
 }
 
-var localeTableZuZa = [5][]string{
+var localeTableZuZA = [5][]string{
 	{"Son", "Mso", "Bil", "Tha", "Sin", "Hla", "Mgq"},
 	{"ISonto", "UMsombuluko", "ULwesibili", "ULwesithathu", "ULwesine", "ULwesihlanu", "UMgqibelo"},
 	{"Jan", "Feb", "Mas", "Eph", "Mey", "Jun", "Jul", "Aga", "Sep", "Okt", "Nov", "Dis"},
@@ -7685,965 +7685,1926 @@ var localeTableZuZa = [5][]string{
 	{"a", "p"},
 }
 
+const (
+	LocaleAa           = "aa"
+	LocaleAaDJ         = "aa-DJ"
+	LocaleAaER         = "aa-ER"
+	LocaleAaET         = "aa-ET"
+	LocaleAb           = "ab"
+	LocaleAbGE         = "ab-GE"
+	LocaleAf           = "af"
+	LocaleAfNA         = "af-NA"
+	LocaleAfZA         = "af-ZA"
+	LocaleAgq          = "agq"
+	LocaleAgqCM        = "agq-CM"
+	LocaleAk           = "ak"
+	LocaleAkGH         = "ak-GH"
+	LocaleAm           = "am"
+	LocaleAmET         = "am-ET"
+	LocaleAn           = "an"
+	LocaleAnES         = "an-ES"
+	LocaleApc          = "apc"
+	LocaleApcSY        = "apc-SY"
+	LocaleAr           = "ar"
+	LocaleAr001        = "ar-001"
+	LocaleArAE         = "ar-AE"
+	LocaleArBH         = "ar-BH"
+	LocaleArDJ         = "ar-DJ"
+	LocaleArDZ         = "ar-DZ"
+	LocaleArEG         = "ar-EG"
+	LocaleArEH         = "ar-EH"
+	LocaleArER         = "ar-ER"
+	LocaleArIL         = "ar-IL"
+	LocaleArIQ         = "ar-IQ"
+	LocaleArJO         = "ar-JO"
+	LocaleArKM         = "ar-KM"
+	LocaleArKW         = "ar-KW"
+	LocaleArLB         = "ar-LB"
+	LocaleArLY         = "ar-LY"
+	LocaleArMA         = "ar-MA"
+	LocaleArMR         = "ar-MR"
+	LocaleArOM         = "ar-OM"
+	LocaleArPS         = "ar-PS"
+	LocaleArQA         = "ar-QA"
+	LocaleArSA         = "ar-SA"
+	LocaleArSD         = "ar-SD"
+	LocaleArSO         = "ar-SO"
+	LocaleArSS         = "ar-SS"
+	LocaleArSY         = "ar-SY"
+	LocaleArTD         = "ar-TD"
+	LocaleArTN         = "ar-TN"
+	LocaleArYE         = "ar-YE"
+	LocaleAs           = "as"
+	LocaleAsIN         = "as-IN"
+	LocaleAsa          = "asa"
+	LocaleAsaTZ        = "asa-TZ"
+	LocaleAst          = "ast"
+	LocaleAstES        = "ast-ES"
+	LocaleAz           = "az"
+	LocaleAzCyrl       = "az-Cyrl"
+	LocaleAzCyrlAZ     = "az-Cyrl-AZ"
+	LocaleAzLatn       = "az-Latn"
+	LocaleAzLatnAZ     = "az-Latn-AZ"
+	LocaleBal          = "bal"
+	LocaleBalArab      = "bal-Arab"
+	LocaleBalArabPK    = "bal-Arab-PK"
+	LocaleBalLatn      = "bal-Latn"
+	LocaleBalLatnPK    = "bal-Latn-PK"
+	LocaleBas          = "bas"
+	LocaleBasCM        = "bas-CM"
+	LocaleBe           = "be"
+	LocaleBeBY         = "be-BY"
+	LocaleBetarask     = "be-tarask"
+	LocaleBem          = "bem"
+	LocaleBemZM        = "bem-ZM"
+	LocaleBew          = "bew"
+	LocaleBewID        = "bew-ID"
+	LocaleBez          = "bez"
+	LocaleBezTZ        = "bez-TZ"
+	LocaleBg           = "bg"
+	LocaleBgBG         = "bg-BG"
+	LocaleBgc          = "bgc"
+	LocaleBgcIN        = "bgc-IN"
+	LocaleBho          = "bho"
+	LocaleBhoIN        = "bho-IN"
+	LocaleBlo          = "blo"
+	LocaleBloBJ        = "blo-BJ"
+	LocaleBm           = "bm"
+	LocaleBmML         = "bm-ML"
+	LocaleBn           = "bn"
+	LocaleBnBD         = "bn-BD"
+	LocaleBnIN         = "bn-IN"
+	LocaleBo           = "bo"
+	LocaleBoCN         = "bo-CN"
+	LocaleBoIN         = "bo-IN"
+	LocaleBr           = "br"
+	LocaleBrFR         = "br-FR"
+	LocaleBrx          = "brx"
+	LocaleBrxIN        = "brx-IN"
+	LocaleBs           = "bs"
+	LocaleBsCyrl       = "bs-Cyrl"
+	LocaleBsCyrlBA     = "bs-Cyrl-BA"
+	LocaleBsLatn       = "bs-Latn"
+	LocaleBsLatnBA     = "bs-Latn-BA"
+	LocaleByn          = "byn"
+	LocaleBynER        = "byn-ER"
+	LocaleCa           = "ca"
+	LocaleCaAD         = "ca-AD"
+	LocaleCaES         = "ca-ES"
+	LocaleCaESvalencia = "ca-ES-valencia"
+	LocaleCaFR         = "ca-FR"
+	LocaleCaIT         = "ca-IT"
+	LocaleCad          = "cad"
+	LocaleCadUS        = "cad-US"
+	LocaleCch          = "cch"
+	LocaleCchNG        = "cch-NG"
+	LocaleCcp          = "ccp"
+	LocaleCcpBD        = "ccp-BD"
+	LocaleCcpIN        = "ccp-IN"
+	LocaleCe           = "ce"
+	LocaleCeRU         = "ce-RU"
+	LocaleCeb          = "ceb"
+	LocaleCebPH        = "ceb-PH"
+	LocaleCgg          = "cgg"
+	LocaleCggUG        = "cgg-UG"
+	LocaleChr          = "chr"
+	LocaleChrUS        = "chr-US"
+	LocaleCic          = "cic"
+	LocaleCicUS        = "cic-US"
+	LocaleCkb          = "ckb"
+	LocaleCkbIQ        = "ckb-IQ"
+	LocaleCkbIR        = "ckb-IR"
+	LocaleCo           = "co"
+	LocaleCoFR         = "co-FR"
+	LocaleCs           = "cs"
+	LocaleCsCZ         = "cs-CZ"
+	LocaleCsw          = "csw"
+	LocaleCswCA        = "csw-CA"
+	LocaleCu           = "cu"
+	LocaleCuRU         = "cu-RU"
+	LocaleCv           = "cv"
+	LocaleCvRU         = "cv-RU"
+	LocaleCy           = "cy"
+	LocaleCyGB         = "cy-GB"
+	LocaleDa           = "da"
+	LocaleDaDK         = "da-DK"
+	LocaleDaGL         = "da-GL"
+	LocaleDav          = "dav"
+	LocaleDavKE        = "dav-KE"
+	LocaleDe           = "de"
+	LocaleDeAT         = "de-AT"
+	LocaleDeBE         = "de-BE"
+	LocaleDeCH         = "de-CH"
+	LocaleDeDE         = "de-DE"
+	LocaleDeIT         = "de-IT"
+	LocaleDeLI         = "de-LI"
+	LocaleDeLU         = "de-LU"
+	LocaleDje          = "dje"
+	LocaleDjeNE        = "dje-NE"
+	LocaleDoi          = "doi"
+	LocaleDoiIN        = "doi-IN"
+	LocaleDsb          = "dsb"
+	LocaleDsbDE        = "dsb-DE"
+	LocaleDua          = "dua"
+	LocaleDuaCM        = "dua-CM"
+	LocaleDyo          = "dyo"
+	LocaleDyoSN        = "dyo-SN"
+	LocaleDz           = "dz"
+	LocaleDzBT         = "dz-BT"
+	LocaleEbu          = "ebu"
+	LocaleEbuKE        = "ebu-KE"
+	LocaleEe           = "ee"
+	LocaleEeGH         = "ee-GH"
+	LocaleEeTG         = "ee-TG"
+	LocaleEl           = "el"
+	LocaleElCY         = "el-CY"
+	LocaleElGR         = "el-GR"
+	LocaleElpolyton    = "el-polyton"
+	LocaleEn           = "en"
+	LocaleEn001        = "en-001"
+	LocaleEn150        = "en-150"
+	LocaleEnAE         = "en-AE"
+	LocaleEnAG         = "en-AG"
+	LocaleEnAI         = "en-AI"
+	LocaleEnAS         = "en-AS"
+	LocaleEnAT         = "en-AT"
+	LocaleEnAU         = "en-AU"
+	LocaleEnBB         = "en-BB"
+	LocaleEnBE         = "en-BE"
+	LocaleEnBI         = "en-BI"
+	LocaleEnBM         = "en-BM"
+	LocaleEnBS         = "en-BS"
+	LocaleEnBW         = "en-BW"
+	LocaleEnBZ         = "en-BZ"
+	LocaleEnCA         = "en-CA"
+	LocaleEnCC         = "en-CC"
+	LocaleEnCH         = "en-CH"
+	LocaleEnCK         = "en-CK"
+	LocaleEnCM         = "en-CM"
+	LocaleEnCX         = "en-CX"
+	LocaleEnCY         = "en-CY"
+	LocaleEnDE         = "en-DE"
+	LocaleEnDG         = "en-DG"
+	LocaleEnDK         = "en-DK"
+	LocaleEnDM         = "en-DM"
+	LocaleEnDsrt       = "en-Dsrt"
+	LocaleEnDsrtUS     = "en-Dsrt-US"
+	LocaleEnER         = "en-ER"
+	LocaleEnFI         = "en-FI"
+	LocaleEnFJ         = "en-FJ"
+	LocaleEnFK         = "en-FK"
+	LocaleEnFM         = "en-FM"
+	LocaleEnGB         = "en-GB"
+	LocaleEnGD         = "en-GD"
+	LocaleEnGG         = "en-GG"
+	LocaleEnGH         = "en-GH"
+	LocaleEnGI         = "en-GI"
+	LocaleEnGM         = "en-GM"
+	LocaleEnGU         = "en-GU"
+	LocaleEnGY         = "en-GY"
+	LocaleEnHK         = "en-HK"
+	LocaleEnID         = "en-ID"
+	LocaleEnIE         = "en-IE"
+	LocaleEnIL         = "en-IL"
+	LocaleEnIM         = "en-IM"
+	LocaleEnIN         = "en-IN"
+	LocaleEnIO         = "en-IO"
+	LocaleEnJE         = "en-JE"
+	LocaleEnJM         = "en-JM"
+	LocaleEnKE         = "en-KE"
+	LocaleEnKI         = "en-KI"
+	LocaleEnKN         = "en-KN"
+	LocaleEnKY         = "en-KY"
+	LocaleEnLC         = "en-LC"
+	LocaleEnLR         = "en-LR"
+	LocaleEnLS         = "en-LS"
+	LocaleEnMG         = "en-MG"
+	LocaleEnMH         = "en-MH"
+	LocaleEnMO         = "en-MO"
+	LocaleEnMP         = "en-MP"
+	LocaleEnMS         = "en-MS"
+	LocaleEnMT         = "en-MT"
+	LocaleEnMU         = "en-MU"
+	LocaleEnMV         = "en-MV"
+	LocaleEnMW         = "en-MW"
+	LocaleEnMY         = "en-MY"
+	LocaleEnNA         = "en-NA"
+	LocaleEnNF         = "en-NF"
+	LocaleEnNG         = "en-NG"
+	LocaleEnNL         = "en-NL"
+	LocaleEnNR         = "en-NR"
+	LocaleEnNU         = "en-NU"
+	LocaleEnNZ         = "en-NZ"
+	LocaleEnPG         = "en-PG"
+	LocaleEnPH         = "en-PH"
+	LocaleEnPK         = "en-PK"
+	LocaleEnPN         = "en-PN"
+	LocaleEnPR         = "en-PR"
+	LocaleEnPW         = "en-PW"
+	LocaleEnRW         = "en-RW"
+	LocaleEnSB         = "en-SB"
+	LocaleEnSC         = "en-SC"
+	LocaleEnSD         = "en-SD"
+	LocaleEnSE         = "en-SE"
+	LocaleEnSG         = "en-SG"
+	LocaleEnSH         = "en-SH"
+	LocaleEnSI         = "en-SI"
+	LocaleEnSL         = "en-SL"
+	LocaleEnSS         = "en-SS"
+	LocaleEnSX         = "en-SX"
+	LocaleEnSZ         = "en-SZ"
+	LocaleEnShaw       = "en-Shaw"
+	LocaleEnShawGB     = "en-Shaw-GB"
+	LocaleEnTC         = "en-TC"
+	LocaleEnTK         = "en-TK"
+	LocaleEnTO         = "en-TO"
+	LocaleEnTT         = "en-TT"
+	LocaleEnTV         = "en-TV"
+	LocaleEnTZ         = "en-TZ"
+	LocaleEnUG         = "en-UG"
+	LocaleEnUM         = "en-UM"
+	LocaleEnUS         = "en-US"
+	LocaleEnUSuvaposix = "en-US-u-va-posix"
+	LocaleEnVC         = "en-VC"
+	LocaleEnVG         = "en-VG"
+	LocaleEnVI         = "en-VI"
+	LocaleEnVU         = "en-VU"
+	LocaleEnWS         = "en-WS"
+	LocaleEnZA         = "en-ZA"
+	LocaleEnZM         = "en-ZM"
+	LocaleEnZW         = "en-ZW"
+	LocaleEo           = "eo"
+	LocaleEo001        = "eo-001"
+	LocaleEs           = "es"
+	LocaleEs419        = "es-419"
+	LocaleEsAR         = "es-AR"
+	LocaleEsBO         = "es-BO"
+	LocaleEsBR         = "es-BR"
+	LocaleEsBZ         = "es-BZ"
+	LocaleEsCL         = "es-CL"
+	LocaleEsCO         = "es-CO"
+	LocaleEsCR         = "es-CR"
+	LocaleEsCU         = "es-CU"
+	LocaleEsDO         = "es-DO"
+	LocaleEsEA         = "es-EA"
+	LocaleEsEC         = "es-EC"
+	LocaleEsES         = "es-ES"
+	LocaleEsGQ         = "es-GQ"
+	LocaleEsGT         = "es-GT"
+	LocaleEsHN         = "es-HN"
+	LocaleEsIC         = "es-IC"
+	LocaleEsMX         = "es-MX"
+	LocaleEsNI         = "es-NI"
+	LocaleEsPA         = "es-PA"
+	LocaleEsPE         = "es-PE"
+	LocaleEsPH         = "es-PH"
+	LocaleEsPR         = "es-PR"
+	LocaleEsPY         = "es-PY"
+	LocaleEsSV         = "es-SV"
+	LocaleEsUS         = "es-US"
+	LocaleEsUY         = "es-UY"
+	LocaleEsVE         = "es-VE"
+	LocaleEt           = "et"
+	LocaleEtEE         = "et-EE"
+	LocaleEu           = "eu"
+	LocaleEuES         = "eu-ES"
+	LocaleEwo          = "ewo"
+	LocaleEwoCM        = "ewo-CM"
+	LocaleFa           = "fa"
+	LocaleFaAF         = "fa-AF"
+	LocaleFaIR         = "fa-IR"
+	LocaleFf           = "ff"
+	LocaleFfAdlm       = "ff-Adlm"
+	LocaleFfAdlmBF     = "ff-Adlm-BF"
+	LocaleFfAdlmCM     = "ff-Adlm-CM"
+	LocaleFfAdlmGH     = "ff-Adlm-GH"
+	LocaleFfAdlmGM     = "ff-Adlm-GM"
+	LocaleFfAdlmGN     = "ff-Adlm-GN"
+	LocaleFfAdlmGW     = "ff-Adlm-GW"
+	LocaleFfAdlmLR     = "ff-Adlm-LR"
+	LocaleFfAdlmMR     = "ff-Adlm-MR"
+	LocaleFfAdlmNE     = "ff-Adlm-NE"
+	LocaleFfAdlmNG     = "ff-Adlm-NG"
+	LocaleFfAdlmSL     = "ff-Adlm-SL"
+	LocaleFfAdlmSN     = "ff-Adlm-SN"
+	LocaleFfLatn       = "ff-Latn"
+	LocaleFfLatnBF     = "ff-Latn-BF"
+	LocaleFfLatnCM     = "ff-Latn-CM"
+	LocaleFfLatnGH     = "ff-Latn-GH"
+	LocaleFfLatnGM     = "ff-Latn-GM"
+	LocaleFfLatnGN     = "ff-Latn-GN"
+	LocaleFfLatnGW     = "ff-Latn-GW"
+	LocaleFfLatnLR     = "ff-Latn-LR"
+	LocaleFfLatnMR     = "ff-Latn-MR"
+	LocaleFfLatnNE     = "ff-Latn-NE"
+	LocaleFfLatnNG     = "ff-Latn-NG"
+	LocaleFfLatnSL     = "ff-Latn-SL"
+	LocaleFfLatnSN     = "ff-Latn-SN"
+	LocaleFi           = "fi"
+	LocaleFiFI         = "fi-FI"
+	LocaleFil          = "fil"
+	LocaleFilPH        = "fil-PH"
+	LocaleFo           = "fo"
+	LocaleFoDK         = "fo-DK"
+	LocaleFoFO         = "fo-FO"
+	LocaleFr           = "fr"
+	LocaleFrBE         = "fr-BE"
+	LocaleFrBF         = "fr-BF"
+	LocaleFrBI         = "fr-BI"
+	LocaleFrBJ         = "fr-BJ"
+	LocaleFrBL         = "fr-BL"
+	LocaleFrCA         = "fr-CA"
+	LocaleFrCD         = "fr-CD"
+	LocaleFrCF         = "fr-CF"
+	LocaleFrCG         = "fr-CG"
+	LocaleFrCH         = "fr-CH"
+	LocaleFrCI         = "fr-CI"
+	LocaleFrCM         = "fr-CM"
+	LocaleFrDJ         = "fr-DJ"
+	LocaleFrDZ         = "fr-DZ"
+	LocaleFrFR         = "fr-FR"
+	LocaleFrGA         = "fr-GA"
+	LocaleFrGF         = "fr-GF"
+	LocaleFrGN         = "fr-GN"
+	LocaleFrGP         = "fr-GP"
+	LocaleFrGQ         = "fr-GQ"
+	LocaleFrHT         = "fr-HT"
+	LocaleFrKM         = "fr-KM"
+	LocaleFrLU         = "fr-LU"
+	LocaleFrMA         = "fr-MA"
+	LocaleFrMC         = "fr-MC"
+	LocaleFrMF         = "fr-MF"
+	LocaleFrMG         = "fr-MG"
+	LocaleFrML         = "fr-ML"
+	LocaleFrMQ         = "fr-MQ"
+	LocaleFrMR         = "fr-MR"
+	LocaleFrMU         = "fr-MU"
+	LocaleFrNC         = "fr-NC"
+	LocaleFrNE         = "fr-NE"
+	LocaleFrPF         = "fr-PF"
+	LocaleFrPM         = "fr-PM"
+	LocaleFrRE         = "fr-RE"
+	LocaleFrRW         = "fr-RW"
+	LocaleFrSC         = "fr-SC"
+	LocaleFrSN         = "fr-SN"
+	LocaleFrSY         = "fr-SY"
+	LocaleFrTD         = "fr-TD"
+	LocaleFrTG         = "fr-TG"
+	LocaleFrTN         = "fr-TN"
+	LocaleFrVU         = "fr-VU"
+	LocaleFrWF         = "fr-WF"
+	LocaleFrYT         = "fr-YT"
+	LocaleFrr          = "frr"
+	LocaleFrrDE        = "frr-DE"
+	LocaleFur          = "fur"
+	LocaleFurIT        = "fur-IT"
+	LocaleFy           = "fy"
+	LocaleFyNL         = "fy-NL"
+	LocaleGa           = "ga"
+	LocaleGaGB         = "ga-GB"
+	LocaleGaIE         = "ga-IE"
+	LocaleGaa          = "gaa"
+	LocaleGaaGH        = "gaa-GH"
+	LocaleGd           = "gd"
+	LocaleGdGB         = "gd-GB"
+	LocaleGez          = "gez"
+	LocaleGezER        = "gez-ER"
+	LocaleGezET        = "gez-ET"
+	LocaleGl           = "gl"
+	LocaleGlES         = "gl-ES"
+	LocaleGn           = "gn"
+	LocaleGnPY         = "gn-PY"
+	LocaleGsw          = "gsw"
+	LocaleGswCH        = "gsw-CH"
+	LocaleGswFR        = "gsw-FR"
+	LocaleGswLI        = "gsw-LI"
+	LocaleGu           = "gu"
+	LocaleGuIN         = "gu-IN"
+	LocaleGuz          = "guz"
+	LocaleGuzKE        = "guz-KE"
+	LocaleGv           = "gv"
+	LocaleGvIM         = "gv-IM"
+	LocaleHa           = "ha"
+	LocaleHaArab       = "ha-Arab"
+	LocaleHaArabNG     = "ha-Arab-NG"
+	LocaleHaArabSD     = "ha-Arab-SD"
+	LocaleHaGH         = "ha-GH"
+	LocaleHaNE         = "ha-NE"
+	LocaleHaNG         = "ha-NG"
+	LocaleHaw          = "haw"
+	LocaleHawUS        = "haw-US"
+	LocaleHe           = "he"
+	LocaleHeIL         = "he-IL"
+	LocaleHi           = "hi"
+	LocaleHiIN         = "hi-IN"
+	LocaleHiLatn       = "hi-Latn"
+	LocaleHiLatnIN     = "hi-Latn-IN"
+	LocaleHnj          = "hnj"
+	LocaleHr           = "hr"
+	LocaleHrBA         = "hr-BA"
+	LocaleHrHR         = "hr-HR"
+	LocaleHsb          = "hsb"
+	LocaleHsbDE        = "hsb-DE"
+	LocaleHu           = "hu"
+	LocaleHuHU         = "hu-HU"
+	LocaleHy           = "hy"
+	LocaleHyAM         = "hy-AM"
+	LocaleIa           = "ia"
+	LocaleIa001        = "ia-001"
+	LocaleId           = "id"
+	LocaleIdID         = "id-ID"
+	LocaleIe           = "ie"
+	LocaleIeEE         = "ie-EE"
+	LocaleIg           = "ig"
+	LocaleIgNG         = "ig-NG"
+	LocaleIi           = "ii"
+	LocaleIiCN         = "ii-CN"
+	LocaleIs           = "is"
+	LocaleIsIS         = "is-IS"
+	LocaleIt           = "it"
+	LocaleItCH         = "it-CH"
+	LocaleItIT         = "it-IT"
+	LocaleItSM         = "it-SM"
+	LocaleItVA         = "it-VA"
+	LocaleIu           = "iu"
+	LocaleIuCA         = "iu-CA"
+	LocaleJa           = "ja"
+	LocaleJaJP         = "ja-JP"
+	LocaleJgo          = "jgo"
+	LocaleJgoCM        = "jgo-CM"
+	LocaleJmc          = "jmc"
+	LocaleJmcTZ        = "jmc-TZ"
+	LocaleJv           = "jv"
+	LocaleJvID         = "jv-ID"
+	LocaleKa           = "ka"
+	LocaleKaGE         = "ka-GE"
+	LocaleKab          = "kab"
+	LocaleKabDZ        = "kab-DZ"
+	LocaleKaj          = "kaj"
+	LocaleKajNG        = "kaj-NG"
+	LocaleKam          = "kam"
+	LocaleKamKE        = "kam-KE"
+	LocaleKcg          = "kcg"
+	LocaleKcgNG        = "kcg-NG"
+	LocaleKde          = "kde"
+	LocaleKdeTZ        = "kde-TZ"
+	LocaleKea          = "kea"
+	LocaleKeaCV        = "kea-CV"
+	LocaleKgp          = "kgp"
+	LocaleKgpBR        = "kgp-BR"
+	LocaleKhq          = "khq"
+	LocaleKhqML        = "khq-ML"
+	LocaleKi           = "ki"
+	LocaleKiKE         = "ki-KE"
+	LocaleKk           = "kk"
+	LocaleKkKZ         = "kk-KZ"
+	LocaleKkj          = "kkj"
+	LocaleKkjCM        = "kkj-CM"
+	LocaleKl           = "kl"
+	LocaleKlGL         = "kl-GL"
+	LocaleKln          = "kln"
+	LocaleKlnKE        = "kln-KE"
+	LocaleKm           = "km"
+	LocaleKmKH         = "km-KH"
+	LocaleKn           = "kn"
+	LocaleKnIN         = "kn-IN"
+	LocaleKo           = "ko"
+	LocaleKoCN         = "ko-CN"
+	LocaleKoKP         = "ko-KP"
+	LocaleKoKR         = "ko-KR"
+	LocaleKok          = "kok"
+	LocaleKokIN        = "kok-IN"
+	LocaleKs           = "ks"
+	LocaleKsArab       = "ks-Arab"
+	LocaleKsArabIN     = "ks-Arab-IN"
+	LocaleKsDeva       = "ks-Deva"
+	LocaleKsDevaIN     = "ks-Deva-IN"
+	LocaleKsb          = "ksb"
+	LocaleKsbTZ        = "ksb-TZ"
+	LocaleKsf          = "ksf"
+	LocaleKsfCM        = "ksf-CM"
+	LocaleKsh          = "ksh"
+	LocaleKshDE        = "ksh-DE"
+	LocaleKu           = "ku"
+	LocaleKuTR         = "ku-TR"
+	LocaleKw           = "kw"
+	LocaleKwGB         = "kw-GB"
+	LocaleKxv          = "kxv"
+	LocaleKxvDeva      = "kxv-Deva"
+	LocaleKxvDevaIN    = "kxv-Deva-IN"
+	LocaleKxvOrya      = "kxv-Orya"
+	LocaleKxvOryaIN    = "kxv-Orya-IN"
+	LocaleKxvTelu      = "kxv-Telu"
+	LocaleKxvTeluIN    = "kxv-Telu-IN"
+	LocaleKy           = "ky"
+	LocaleKyKG         = "ky-KG"
+	LocaleLa           = "la"
+	LocaleLaVA         = "la-VA"
+	LocaleLag          = "lag"
+	LocaleLagTZ        = "lag-TZ"
+	LocaleLb           = "lb"
+	LocaleLbLU         = "lb-LU"
+	LocaleLg           = "lg"
+	LocaleLgUG         = "lg-UG"
+	LocaleLij          = "lij"
+	LocaleLijIT        = "lij-IT"
+	LocaleLkt          = "lkt"
+	LocaleLktUS        = "lkt-US"
+	LocaleLmo          = "lmo"
+	LocaleLmoIT        = "lmo-IT"
+	LocaleLn           = "ln"
+	LocaleLnAO         = "ln-AO"
+	LocaleLnCD         = "ln-CD"
+	LocaleLnCF         = "ln-CF"
+	LocaleLnCG         = "ln-CG"
+	LocaleLo           = "lo"
+	LocaleLoLA         = "lo-LA"
+	LocaleLrc          = "lrc"
+	LocaleLrcIQ        = "lrc-IQ"
+	LocaleLrcIR        = "lrc-IR"
+	LocaleLt           = "lt"
+	LocaleLtLT         = "lt-LT"
+	LocaleLu           = "lu"
+	LocaleLuCD         = "lu-CD"
+	LocaleLuo          = "luo"
+	LocaleLuoKE        = "luo-KE"
+	LocaleLuy          = "luy"
+	LocaleLuyKE        = "luy-KE"
+	LocaleLv           = "lv"
+	LocaleLvLV         = "lv-LV"
+	LocaleMai          = "mai"
+	LocaleMaiIN        = "mai-IN"
+	LocaleMas          = "mas"
+	LocaleMasKE        = "mas-KE"
+	LocaleMasTZ        = "mas-TZ"
+	LocaleMer          = "mer"
+	LocaleMerKE        = "mer-KE"
+	LocaleMfe          = "mfe"
+	LocaleMfeMU        = "mfe-MU"
+	LocaleMg           = "mg"
+	LocaleMgMG         = "mg-MG"
+	LocaleMgh          = "mgh"
+	LocaleMghMZ        = "mgh-MZ"
+	LocaleMgo          = "mgo"
+	LocaleMgoCM        = "mgo-CM"
+	LocaleMi           = "mi"
+	LocaleMiNZ         = "mi-NZ"
+	LocaleMk           = "mk"
+	LocaleMkMK         = "mk-MK"
+	LocaleMl           = "ml"
+	LocaleMlIN         = "ml-IN"
+	LocaleMn           = "mn"
+	LocaleMnMN         = "mn-MN"
+	LocaleMnMongMN     = "mn-Mong-MN"
+	LocaleMni          = "mni"
+	LocaleMniBeng      = "mni-Beng"
+	LocaleMniBengIN    = "mni-Beng-IN"
+	LocaleMr           = "mr"
+	LocaleMrIN         = "mr-IN"
+	LocaleMs           = "ms"
+	LocaleMsArab       = "ms-Arab"
+	LocaleMsArabBN     = "ms-Arab-BN"
+	LocaleMsArabMY     = "ms-Arab-MY"
+	LocaleMsBN         = "ms-BN"
+	LocaleMsID         = "ms-ID"
+	LocaleMsMY         = "ms-MY"
+	LocaleMsSG         = "ms-SG"
+	LocaleMt           = "mt"
+	LocaleMtMT         = "mt-MT"
+	LocaleMua          = "mua"
+	LocaleMuaCM        = "mua-CM"
+	LocaleMus          = "mus"
+	LocaleMusUS        = "mus-US"
+	LocaleMy           = "my"
+	LocaleMyMM         = "my-MM"
+	LocaleMyv          = "myv"
+	LocaleMyvRU        = "myv-RU"
+	LocaleMzn          = "mzn"
+	LocaleMznIR        = "mzn-IR"
+	LocaleNaq          = "naq"
+	LocaleNaqNA        = "naq-NA"
+	LocaleNd           = "nd"
+	LocaleNdZW         = "nd-ZW"
+	LocaleNds          = "nds"
+	LocaleNdsDE        = "nds-DE"
+	LocaleNdsNL        = "nds-NL"
+	LocaleNe           = "ne"
+	LocaleNeIN         = "ne-IN"
+	LocaleNeNP         = "ne-NP"
+	LocaleNl           = "nl"
+	LocaleNlAW         = "nl-AW"
+	LocaleNlBE         = "nl-BE"
+	LocaleNlBQ         = "nl-BQ"
+	LocaleNlCW         = "nl-CW"
+	LocaleNlNL         = "nl-NL"
+	LocaleNlSR         = "nl-SR"
+	LocaleNlSX         = "nl-SX"
+	LocaleNmg          = "nmg"
+	LocaleNmgCM        = "nmg-CM"
+	LocaleNn           = "nn"
+	LocaleNnNO         = "nn-NO"
+	LocaleNnh          = "nnh"
+	LocaleNnhCM        = "nnh-CM"
+	LocaleNo           = "no"
+	LocaleNqo          = "nqo"
+	LocaleNqoGN        = "nqo-GN"
+	LocaleNr           = "nr"
+	LocaleNrZA         = "nr-ZA"
+	LocaleNso          = "nso"
+	LocaleNsoZA        = "nso-ZA"
+	LocaleNus          = "nus"
+	LocaleNusSS        = "nus-SS"
+	LocaleNy           = "ny"
+	LocaleNyMW         = "ny-MW"
+	LocaleNyn          = "nyn"
+	LocaleNynUG        = "nyn-UG"
+	LocaleOc           = "oc"
+	LocaleOcES         = "oc-ES"
+	LocaleOcFR         = "oc-FR"
+	LocaleOm           = "om"
+	LocaleOmET         = "om-ET"
+	LocaleOmKE         = "om-KE"
+	LocaleOr           = "or"
+	LocaleOrIN         = "or-IN"
+	LocaleOs           = "os"
+	LocaleOsGE         = "os-GE"
+	LocaleOsRU         = "os-RU"
+	LocaleOsa          = "osa"
+	LocaleOsaUS        = "osa-US"
+	LocalePa           = "pa"
+	LocalePaArab       = "pa-Arab"
+	LocalePaArabPK     = "pa-Arab-PK"
+	LocalePaGuru       = "pa-Guru"
+	LocalePaGuruIN     = "pa-Guru-IN"
+	LocalePap          = "pap"
+	LocalePapAW        = "pap-AW"
+	LocalePapCW        = "pap-CW"
+	LocalePcm          = "pcm"
+	LocalePcmNG        = "pcm-NG"
+	LocalePis          = "pis"
+	LocalePisSB        = "pis-SB"
+	LocalePl           = "pl"
+	LocalePlPL         = "pl-PL"
+	LocalePrg          = "prg"
+	LocalePrgPL        = "prg-PL"
+	LocalePs           = "ps"
+	LocalePsAF         = "ps-AF"
+	LocalePsPK         = "ps-PK"
+	LocalePt           = "pt"
+	LocalePtAO         = "pt-AO"
+	LocalePtBR         = "pt-BR"
+	LocalePtCH         = "pt-CH"
+	LocalePtCV         = "pt-CV"
+	LocalePtGQ         = "pt-GQ"
+	LocalePtGW         = "pt-GW"
+	LocalePtLU         = "pt-LU"
+	LocalePtMO         = "pt-MO"
+	LocalePtMZ         = "pt-MZ"
+	LocalePtPT         = "pt-PT"
+	LocalePtST         = "pt-ST"
+	LocalePtTL         = "pt-TL"
+	LocaleQu           = "qu"
+	LocaleQuBO         = "qu-BO"
+	LocaleQuEC         = "qu-EC"
+	LocaleQuPE         = "qu-PE"
+	LocaleRaj          = "raj"
+	LocaleRajIN        = "raj-IN"
+	LocaleRif          = "rif"
+	LocaleRifMA        = "rif-MA"
+	LocaleRm           = "rm"
+	LocaleRmCH         = "rm-CH"
+	LocaleRn           = "rn"
+	LocaleRnBI         = "rn-BI"
+	LocaleRo           = "ro"
+	LocaleRoMD         = "ro-MD"
+	LocaleRoRO         = "ro-RO"
+	LocaleRof          = "rof"
+	LocaleRofTZ        = "rof-TZ"
+	LocaleRu           = "ru"
+	LocaleRuBY         = "ru-BY"
+	LocaleRuKG         = "ru-KG"
+	LocaleRuKZ         = "ru-KZ"
+	LocaleRuMD         = "ru-MD"
+	LocaleRuRU         = "ru-RU"
+	LocaleRuUA         = "ru-UA"
+	LocaleRw           = "rw"
+	LocaleRwRW         = "rw-RW"
+	LocaleRwk          = "rwk"
+	LocaleRwkTZ        = "rwk-TZ"
+	LocaleSa           = "sa"
+	LocaleSaIN         = "sa-IN"
+	LocaleSah          = "sah"
+	LocaleSahRU        = "sah-RU"
+	LocaleSaq          = "saq"
+	LocaleSaqKE        = "saq-KE"
+	LocaleSat          = "sat"
+	LocaleSbp          = "sbp"
+	LocaleSbpTZ        = "sbp-TZ"
+	LocaleSc           = "sc"
+	LocaleScIT         = "sc-IT"
+	LocaleScn          = "scn"
+	LocaleScnIT        = "scn-IT"
+	LocaleSd           = "sd"
+	LocaleSdArab       = "sd-Arab"
+	LocaleSdArabPK     = "sd-Arab-PK"
+	LocaleSdDeva       = "sd-Deva"
+	LocaleSdDevaIN     = "sd-Deva-IN"
+	LocaleSe           = "se"
+	LocaleSeFI         = "se-FI"
+	LocaleSeNO         = "se-NO"
+	LocaleSeSE         = "se-SE"
+	LocaleSeh          = "seh"
+	LocaleSehMZ        = "seh-MZ"
+	LocaleSes          = "ses"
+	LocaleSesML        = "ses-ML"
+	LocaleSg           = "sg"
+	LocaleSgCF         = "sg-CF"
+	LocaleShi          = "shi"
+	LocaleShiLatn      = "shi-Latn"
+	LocaleShiLatnMA    = "shi-Latn-MA"
+	LocaleShiTfng      = "shi-Tfng"
+	LocaleShiTfngMA    = "shi-Tfng-MA"
+	LocaleSi           = "si"
+	LocaleSiLK         = "si-LK"
+	LocaleSid          = "sid"
+	LocaleSidET        = "sid-ET"
+	LocaleSk           = "sk"
+	LocaleSkSK         = "sk-SK"
+	LocaleSkr          = "skr"
+	LocaleSkrPK        = "skr-PK"
+	LocaleSl           = "sl"
+	LocaleSlSI         = "sl-SI"
+	LocaleSmn          = "smn"
+	LocaleSmnFI        = "smn-FI"
+	LocaleSn           = "sn"
+	LocaleSnZW         = "sn-ZW"
+	LocaleSo           = "so"
+	LocaleSoDJ         = "so-DJ"
+	LocaleSoET         = "so-ET"
+	LocaleSoKE         = "so-KE"
+	LocaleSoSO         = "so-SO"
+	LocaleSq           = "sq"
+	LocaleSqAL         = "sq-AL"
+	LocaleSqMK         = "sq-MK"
+	LocaleSqXK         = "sq-XK"
+	LocaleSr           = "sr"
+	LocaleSrCyrl       = "sr-Cyrl"
+	LocaleSrCyrlBA     = "sr-Cyrl-BA"
+	LocaleSrCyrlME     = "sr-Cyrl-ME"
+	LocaleSrCyrlRS     = "sr-Cyrl-RS"
+	LocaleSrCyrlXK     = "sr-Cyrl-XK"
+	LocaleSrLatn       = "sr-Latn"
+	LocaleSrLatnBA     = "sr-Latn-BA"
+	LocaleSrLatnME     = "sr-Latn-ME"
+	LocaleSrLatnRS     = "sr-Latn-RS"
+	LocaleSrLatnXK     = "sr-Latn-XK"
+	LocaleSs           = "ss"
+	LocaleSsSZ         = "ss-SZ"
+	LocaleSsZA         = "ss-ZA"
+	LocaleSsy          = "ssy"
+	LocaleSsyER        = "ssy-ER"
+	LocaleSt           = "st"
+	LocaleStLS         = "st-LS"
+	LocaleStZA         = "st-ZA"
+	LocaleSu           = "su"
+	LocaleSuLatn       = "su-Latn"
+	LocaleSuLatnID     = "su-Latn-ID"
+	LocaleSv           = "sv"
+	LocaleSvAX         = "sv-AX"
+	LocaleSvFI         = "sv-FI"
+	LocaleSvSE         = "sv-SE"
+	LocaleSw           = "sw"
+	LocaleSwCD         = "sw-CD"
+	LocaleSwKE         = "sw-KE"
+	LocaleSwTZ         = "sw-TZ"
+	LocaleSwUG         = "sw-UG"
+	LocaleSyr          = "syr"
+	LocaleSyrIQ        = "syr-IQ"
+	LocaleSyrSY        = "syr-SY"
+	LocaleSzl          = "szl"
+	LocaleSzlPL        = "szl-PL"
+	LocaleTa           = "ta"
+	LocaleTaIN         = "ta-IN"
+	LocaleTaLK         = "ta-LK"
+	LocaleTaMY         = "ta-MY"
+	LocaleTaSG         = "ta-SG"
+	LocaleTe           = "te"
+	LocaleTeIN         = "te-IN"
+	LocaleTeo          = "teo"
+	LocaleTeoKE        = "teo-KE"
+	LocaleTeoUG        = "teo-UG"
+	LocaleTg           = "tg"
+	LocaleTgTJ         = "tg-TJ"
+	LocaleTh           = "th"
+	LocaleThTH         = "th-TH"
+	LocaleTi           = "ti"
+	LocaleTiER         = "ti-ER"
+	LocaleTiET         = "ti-ET"
+	LocaleTig          = "tig"
+	LocaleTigER        = "tig-ER"
+	LocaleTk           = "tk"
+	LocaleTkTM         = "tk-TM"
+	LocaleTn           = "tn"
+	LocaleTnBW         = "tn-BW"
+	LocaleTnZA         = "tn-ZA"
+	LocaleTo           = "to"
+	LocaleToTO         = "to-TO"
+	LocaleTok          = "tok"
+	LocaleTok001       = "tok-001"
+	LocaleTpi          = "tpi"
+	LocaleTpiPG        = "tpi-PG"
+	LocaleTr           = "tr"
+	LocaleTrCY         = "tr-CY"
+	LocaleTrTR         = "tr-TR"
+	LocaleTrv          = "trv"
+	LocaleTrvTW        = "trv-TW"
+	LocaleTrw          = "trw"
+	LocaleTrwPK        = "trw-PK"
+	LocaleTs           = "ts"
+	LocaleTsZA         = "ts-ZA"
+	LocaleTt           = "tt"
+	LocaleTtRU         = "tt-RU"
+	LocaleTwq          = "twq"
+	LocaleTwqNE        = "twq-NE"
+	LocaleTzm          = "tzm"
+	LocaleTzmMA        = "tzm-MA"
+	LocaleUg           = "ug"
+	LocaleUgCN         = "ug-CN"
+	LocaleUk           = "uk"
+	LocaleUkUA         = "uk-UA"
+	LocaleUnd          = "und"
+	LocaleUr           = "ur"
+	LocaleUrIN         = "ur-IN"
+	LocaleUrPK         = "ur-PK"
+	LocaleUz           = "uz"
+	LocaleUzArab       = "uz-Arab"
+	LocaleUzArabAF     = "uz-Arab-AF"
+	LocaleUzCyrl       = "uz-Cyrl"
+	LocaleUzCyrlUZ     = "uz-Cyrl-UZ"
+	LocaleUzLatn       = "uz-Latn"
+	LocaleUzLatnUZ     = "uz-Latn-UZ"
+	LocaleVai          = "vai"
+	LocaleVaiLatn      = "vai-Latn"
+	LocaleVaiLatnLR    = "vai-Latn-LR"
+	LocaleVaiVaii      = "vai-Vaii"
+	LocaleVaiVaiiLR    = "vai-Vaii-LR"
+	LocaleVe           = "ve"
+	LocaleVeZA         = "ve-ZA"
+	LocaleVec          = "vec"
+	LocaleVecIT        = "vec-IT"
+	LocaleVi           = "vi"
+	LocaleViVN         = "vi-VN"
+	LocaleVmw          = "vmw"
+	LocaleVmwMZ        = "vmw-MZ"
+	LocaleVo           = "vo"
+	LocaleVo001        = "vo-001"
+	LocaleVun          = "vun"
+	LocaleVunTZ        = "vun-TZ"
+	LocaleWae          = "wae"
+	LocaleWaeCH        = "wae-CH"
+	LocaleWal          = "wal"
+	LocaleWalET        = "wal-ET"
+	LocaleWo           = "wo"
+	LocaleWoSN         = "wo-SN"
+	LocaleXh           = "xh"
+	LocaleXhZA         = "xh-ZA"
+	LocaleXnr          = "xnr"
+	LocaleXnrIN        = "xnr-IN"
+	LocaleXog          = "xog"
+	LocaleXogUG        = "xog-UG"
+	LocaleYav          = "yav"
+	LocaleYavCM        = "yav-CM"
+	LocaleYi           = "yi"
+	LocaleYiUA         = "yi-UA"
+	LocaleYo           = "yo"
+	LocaleYoBJ         = "yo-BJ"
+	LocaleYoNG         = "yo-NG"
+	LocaleYrl          = "yrl"
+	LocaleYrlBR        = "yrl-BR"
+	LocaleYrlCO        = "yrl-CO"
+	LocaleYrlVE        = "yrl-VE"
+	LocaleYue          = "yue"
+	LocaleYueHans      = "yue-Hans"
+	LocaleYueHansCN    = "yue-Hans-CN"
+	LocaleYueHant      = "yue-Hant"
+	LocaleYueHantHK    = "yue-Hant-HK"
+	LocaleZa           = "za"
+	LocaleZaCN         = "za-CN"
+	LocaleZgh          = "zgh"
+	LocaleZghMA        = "zgh-MA"
+	LocaleZh           = "zh"
+	LocaleZhHans       = "zh-Hans"
+	LocaleZhHansCN     = "zh-Hans-CN"
+	LocaleZhHansHK     = "zh-Hans-HK"
+	LocaleZhHansMO     = "zh-Hans-MO"
+	LocaleZhHansSG     = "zh-Hans-SG"
+	LocaleZhHant       = "zh-Hant"
+	LocaleZhHantHK     = "zh-Hant-HK"
+	LocaleZhHantMO     = "zh-Hant-MO"
+	LocaleZhHantTW     = "zh-Hant-TW"
+	LocaleZu           = "zu"
+	LocaleZuZA         = "zu-ZA"
+)
+
 var tables = map[string][5][]string{
-	"aa":               localeTableAa,
-	"aa-DJ":            localeTableAaDj,
-	"aa-ER":            localeTableAaEr,
-	"aa-ET":            localeTableAaEt,
-	"ab":               localeTableAb,
-	"ab-GE":            localeTableAbGe,
-	"af":               localeTableAf,
-	"af-NA":            localeTableAfNa,
-	"af-ZA":            localeTableAfZa,
-	"agq":              localeTableAgq,
-	"agq-CM":           localeTableAgqCm,
-	"ak":               localeTableAk,
-	"ak-GH":            localeTableAkGh,
-	"am":               localeTableAm,
-	"am-ET":            localeTableAmEt,
-	"an":               localeTableAn,
-	"an-ES":            localeTableAnEs,
-	"apc":              localeTableApc,
-	"apc-SY":           localeTableApcSy,
-	"ar":               localeTableAr,
-	"ar-001":           localeTableAr001,
-	"ar-AE":            localeTableArAe,
-	"ar-BH":            localeTableArBh,
-	"ar-DJ":            localeTableArDj,
-	"ar-DZ":            localeTableArDz,
-	"ar-EG":            localeTableArEg,
-	"ar-EH":            localeTableArEh,
-	"ar-ER":            localeTableArEr,
-	"ar-IL":            localeTableArIl,
-	"ar-IQ":            localeTableArIq,
-	"ar-JO":            localeTableArJo,
-	"ar-KM":            localeTableArKm,
-	"ar-KW":            localeTableArKw,
-	"ar-LB":            localeTableArLb,
-	"ar-LY":            localeTableArLy,
-	"ar-MA":            localeTableArMa,
-	"ar-MR":            localeTableArMr,
-	"ar-OM":            localeTableArOm,
-	"ar-PS":            localeTableArPs,
-	"ar-QA":            localeTableArQa,
-	"ar-SA":            localeTableArSa,
-	"ar-SD":            localeTableArSd,
-	"ar-SO":            localeTableArSo,
-	"ar-SS":            localeTableArSs,
-	"ar-SY":            localeTableArSy,
-	"ar-TD":            localeTableArTd,
-	"ar-TN":            localeTableArTn,
-	"ar-YE":            localeTableArYe,
-	"as":               localeTableAs,
-	"as-IN":            localeTableAsIn,
-	"asa":              localeTableAsa,
-	"asa-TZ":           localeTableAsaTz,
-	"ast":              localeTableAst,
-	"ast-ES":           localeTableAstEs,
-	"az":               localeTableAz,
-	"az-Cyrl":          localeTableAzCyrl,
-	"az-Cyrl-AZ":       localeTableAzCyrlAz,
-	"az-Latn":          localeTableAzLatn,
-	"az-Latn-AZ":       localeTableAzLatnAz,
-	"bal":              localeTableBal,
-	"bal-Arab":         localeTableBalArab,
-	"bal-Arab-PK":      localeTableBalArabPk,
-	"bal-Latn":         localeTableBalLatn,
-	"bal-Latn-PK":      localeTableBalLatnPk,
-	"bas":              localeTableBas,
-	"bas-CM":           localeTableBasCm,
-	"be":               localeTableBe,
-	"be-BY":            localeTableBeBy,
-	"be-tarask":        localeTableBeTarask,
-	"bem":              localeTableBem,
-	"bem-ZM":           localeTableBemZm,
-	"bew":              localeTableBew,
-	"bew-ID":           localeTableBewId,
-	"bez":              localeTableBez,
-	"bez-TZ":           localeTableBezTz,
-	"bg":               localeTableBg,
-	"bg-BG":            localeTableBgBg,
-	"bgc":              localeTableBgc,
-	"bgc-IN":           localeTableBgcIn,
-	"bho":              localeTableBho,
-	"bho-IN":           localeTableBhoIn,
-	"blo":              localeTableBlo,
-	"blo-BJ":           localeTableBloBj,
-	"bm":               localeTableBm,
-	"bm-ML":            localeTableBmMl,
-	"bn":               localeTableBn,
-	"bn-BD":            localeTableBnBd,
-	"bn-IN":            localeTableBnIn,
-	"bo":               localeTableBo,
-	"bo-CN":            localeTableBoCn,
-	"bo-IN":            localeTableBoIn,
-	"br":               localeTableBr,
-	"br-FR":            localeTableBrFr,
-	"brx":              localeTableBrx,
-	"brx-IN":           localeTableBrxIn,
-	"bs":               localeTableBs,
-	"bs-Cyrl":          localeTableBsCyrl,
-	"bs-Cyrl-BA":       localeTableBsCyrlBa,
-	"bs-Latn":          localeTableBsLatn,
-	"bs-Latn-BA":       localeTableBsLatnBa,
-	"byn":              localeTableByn,
-	"byn-ER":           localeTableBynEr,
-	"ca":               localeTableCa,
-	"ca-AD":            localeTableCaAd,
-	"ca-ES":            localeTableCaEs,
-	"ca-ES-valencia":   localeTableCaEsValencia,
-	"ca-FR":            localeTableCaFr,
-	"ca-IT":            localeTableCaIt,
-	"cad":              localeTableCad,
-	"cad-US":           localeTableCadUs,
-	"cch":              localeTableCch,
-	"cch-NG":           localeTableCchNg,
-	"ccp":              localeTableCcp,
-	"ccp-BD":           localeTableCcpBd,
-	"ccp-IN":           localeTableCcpIn,
-	"ce":               localeTableCe,
-	"ce-RU":            localeTableCeRu,
-	"ceb":              localeTableCeb,
-	"ceb-PH":           localeTableCebPh,
-	"cgg":              localeTableCgg,
-	"cgg-UG":           localeTableCggUg,
-	"chr":              localeTableChr,
-	"chr-US":           localeTableChrUs,
-	"cic":              localeTableCic,
-	"cic-US":           localeTableCicUs,
-	"ckb":              localeTableCkb,
-	"ckb-IQ":           localeTableCkbIq,
-	"ckb-IR":           localeTableCkbIr,
-	"co":               localeTableCo,
-	"co-FR":            localeTableCoFr,
-	"cs":               localeTableCs,
-	"cs-CZ":            localeTableCsCz,
-	"csw":              localeTableCsw,
-	"csw-CA":           localeTableCswCa,
-	"cu":               localeTableCu,
-	"cu-RU":            localeTableCuRu,
-	"cv":               localeTableCv,
-	"cv-RU":            localeTableCvRu,
-	"cy":               localeTableCy,
-	"cy-GB":            localeTableCyGb,
-	"da":               localeTableDa,
-	"da-DK":            localeTableDaDk,
-	"da-GL":            localeTableDaGl,
-	"dav":              localeTableDav,
-	"dav-KE":           localeTableDavKe,
-	"de":               localeTableDe,
-	"de-AT":            localeTableDeAt,
-	"de-BE":            localeTableDeBe,
-	"de-CH":            localeTableDeCh,
-	"de-DE":            localeTableDeDe,
-	"de-IT":            localeTableDeIt,
-	"de-LI":            localeTableDeLi,
-	"de-LU":            localeTableDeLu,
-	"dje":              localeTableDje,
-	"dje-NE":           localeTableDjeNe,
-	"doi":              localeTableDoi,
-	"doi-IN":           localeTableDoiIn,
-	"dsb":              localeTableDsb,
-	"dsb-DE":           localeTableDsbDe,
-	"dua":              localeTableDua,
-	"dua-CM":           localeTableDuaCm,
-	"dyo":              localeTableDyo,
-	"dyo-SN":           localeTableDyoSn,
-	"dz":               localeTableDz,
-	"dz-BT":            localeTableDzBt,
-	"ebu":              localeTableEbu,
-	"ebu-KE":           localeTableEbuKe,
-	"ee":               localeTableEe,
-	"ee-GH":            localeTableEeGh,
-	"ee-TG":            localeTableEeTg,
-	"el":               localeTableEl,
-	"el-CY":            localeTableElCy,
-	"el-GR":            localeTableElGr,
-	"el-polyton":       localeTableElPolyton,
-	"en":               localeTableEn,
-	"en-001":           localeTableEn001,
-	"en-150":           localeTableEn150,
-	"en-AE":            localeTableEnAe,
-	"en-AG":            localeTableEnAg,
-	"en-AI":            localeTableEnAi,
-	"en-AS":            localeTableEnAs,
-	"en-AT":            localeTableEnAt,
-	"en-AU":            localeTableEnAu,
-	"en-BB":            localeTableEnBb,
-	"en-BE":            localeTableEnBe,
-	"en-BI":            localeTableEnBi,
-	"en-BM":            localeTableEnBm,
-	"en-BS":            localeTableEnBs,
-	"en-BW":            localeTableEnBw,
-	"en-BZ":            localeTableEnBz,
-	"en-CA":            localeTableEnCa,
-	"en-CC":            localeTableEnCc,
-	"en-CH":            localeTableEnCh,
-	"en-CK":            localeTableEnCk,
-	"en-CM":            localeTableEnCm,
-	"en-CX":            localeTableEnCx,
-	"en-CY":            localeTableEnCy,
-	"en-DE":            localeTableEnDe,
-	"en-DG":            localeTableEnDg,
-	"en-DK":            localeTableEnDk,
-	"en-DM":            localeTableEnDm,
-	"en-Dsrt":          localeTableEnDsrt,
-	"en-Dsrt-US":       localeTableEnDsrtUs,
-	"en-ER":            localeTableEnEr,
-	"en-FI":            localeTableEnFi,
-	"en-FJ":            localeTableEnFj,
-	"en-FK":            localeTableEnFk,
-	"en-FM":            localeTableEnFm,
-	"en-GB":            localeTableEnGb,
-	"en-GD":            localeTableEnGd,
-	"en-GG":            localeTableEnGg,
-	"en-GH":            localeTableEnGh,
-	"en-GI":            localeTableEnGi,
-	"en-GM":            localeTableEnGm,
-	"en-GU":            localeTableEnGu,
-	"en-GY":            localeTableEnGy,
-	"en-HK":            localeTableEnHk,
-	"en-ID":            localeTableEnId,
-	"en-IE":            localeTableEnIe,
-	"en-IL":            localeTableEnIl,
-	"en-IM":            localeTableEnIm,
-	"en-IN":            localeTableEnIn,
-	"en-IO":            localeTableEnIo,
-	"en-JE":            localeTableEnJe,
-	"en-JM":            localeTableEnJm,
-	"en-KE":            localeTableEnKe,
-	"en-KI":            localeTableEnKi,
-	"en-KN":            localeTableEnKn,
-	"en-KY":            localeTableEnKy,
-	"en-LC":            localeTableEnLc,
-	"en-LR":            localeTableEnLr,
-	"en-LS":            localeTableEnLs,
-	"en-MG":            localeTableEnMg,
-	"en-MH":            localeTableEnMh,
-	"en-MO":            localeTableEnMo,
-	"en-MP":            localeTableEnMp,
-	"en-MS":            localeTableEnMs,
-	"en-MT":            localeTableEnMt,
-	"en-MU":            localeTableEnMu,
-	"en-MV":            localeTableEnMv,
-	"en-MW":            localeTableEnMw,
-	"en-MY":            localeTableEnMy,
-	"en-NA":            localeTableEnNa,
-	"en-NF":            localeTableEnNf,
-	"en-NG":            localeTableEnNg,
-	"en-NL":            localeTableEnNl,
-	"en-NR":            localeTableEnNr,
-	"en-NU":            localeTableEnNu,
-	"en-NZ":            localeTableEnNz,
-	"en-PG":            localeTableEnPg,
-	"en-PH":            localeTableEnPh,
-	"en-PK":            localeTableEnPk,
-	"en-PN":            localeTableEnPn,
-	"en-PR":            localeTableEnPr,
-	"en-PW":            localeTableEnPw,
-	"en-RW":            localeTableEnRw,
-	"en-SB":            localeTableEnSb,
-	"en-SC":            localeTableEnSc,
-	"en-SD":            localeTableEnSd,
-	"en-SE":            localeTableEnSe,
-	"en-SG":            localeTableEnSg,
-	"en-SH":            localeTableEnSh,
-	"en-SI":            localeTableEnSi,
-	"en-SL":            localeTableEnSl,
-	"en-SS":            localeTableEnSs,
-	"en-SX":            localeTableEnSx,
-	"en-SZ":            localeTableEnSz,
-	"en-Shaw":          localeTableEnShaw,
-	"en-Shaw-GB":       localeTableEnShawGb,
-	"en-TC":            localeTableEnTc,
-	"en-TK":            localeTableEnTk,
-	"en-TO":            localeTableEnTo,
-	"en-TT":            localeTableEnTt,
-	"en-TV":            localeTableEnTv,
-	"en-TZ":            localeTableEnTz,
-	"en-UG":            localeTableEnUg,
-	"en-UM":            localeTableEnUm,
-	"en-US":            localeTableEnUs,
-	"en-US-u-va-posix": localeTableEnUsUVaPosix,
-	"en-VC":            localeTableEnVc,
-	"en-VG":            localeTableEnVg,
-	"en-VI":            localeTableEnVi,
-	"en-VU":            localeTableEnVu,
-	"en-WS":            localeTableEnWs,
-	"en-ZA":            localeTableEnZa,
-	"en-ZM":            localeTableEnZm,
-	"en-ZW":            localeTableEnZw,
-	"eo":               localeTableEo,
-	"eo-001":           localeTableEo001,
-	"es":               localeTableEs,
-	"es-419":           localeTableEs419,
-	"es-AR":            localeTableEsAr,
-	"es-BO":            localeTableEsBo,
-	"es-BR":            localeTableEsBr,
-	"es-BZ":            localeTableEsBz,
-	"es-CL":            localeTableEsCl,
-	"es-CO":            localeTableEsCo,
-	"es-CR":            localeTableEsCr,
-	"es-CU":            localeTableEsCu,
-	"es-DO":            localeTableEsDo,
-	"es-EA":            localeTableEsEa,
-	"es-EC":            localeTableEsEc,
-	"es-ES":            localeTableEsEs,
-	"es-GQ":            localeTableEsGq,
-	"es-GT":            localeTableEsGt,
-	"es-HN":            localeTableEsHn,
-	"es-IC":            localeTableEsIc,
-	"es-MX":            localeTableEsMx,
-	"es-NI":            localeTableEsNi,
-	"es-PA":            localeTableEsPa,
-	"es-PE":            localeTableEsPe,
-	"es-PH":            localeTableEsPh,
-	"es-PR":            localeTableEsPr,
-	"es-PY":            localeTableEsPy,
-	"es-SV":            localeTableEsSv,
-	"es-US":            localeTableEsUs,
-	"es-UY":            localeTableEsUy,
-	"es-VE":            localeTableEsVe,
-	"et":               localeTableEt,
-	"et-EE":            localeTableEtEe,
-	"eu":               localeTableEu,
-	"eu-ES":            localeTableEuEs,
-	"ewo":              localeTableEwo,
-	"ewo-CM":           localeTableEwoCm,
-	"fa":               localeTableFa,
-	"fa-AF":            localeTableFaAf,
-	"fa-IR":            localeTableFaIr,
-	"ff":               localeTableFf,
-	"ff-Adlm":          localeTableFfAdlm,
-	"ff-Adlm-BF":       localeTableFfAdlmBf,
-	"ff-Adlm-CM":       localeTableFfAdlmCm,
-	"ff-Adlm-GH":       localeTableFfAdlmGh,
-	"ff-Adlm-GM":       localeTableFfAdlmGm,
-	"ff-Adlm-GN":       localeTableFfAdlmGn,
-	"ff-Adlm-GW":       localeTableFfAdlmGw,
-	"ff-Adlm-LR":       localeTableFfAdlmLr,
-	"ff-Adlm-MR":       localeTableFfAdlmMr,
-	"ff-Adlm-NE":       localeTableFfAdlmNe,
-	"ff-Adlm-NG":       localeTableFfAdlmNg,
-	"ff-Adlm-SL":       localeTableFfAdlmSl,
-	"ff-Adlm-SN":       localeTableFfAdlmSn,
-	"ff-Latn":          localeTableFfLatn,
-	"ff-Latn-BF":       localeTableFfLatnBf,
-	"ff-Latn-CM":       localeTableFfLatnCm,
-	"ff-Latn-GH":       localeTableFfLatnGh,
-	"ff-Latn-GM":       localeTableFfLatnGm,
-	"ff-Latn-GN":       localeTableFfLatnGn,
-	"ff-Latn-GW":       localeTableFfLatnGw,
-	"ff-Latn-LR":       localeTableFfLatnLr,
-	"ff-Latn-MR":       localeTableFfLatnMr,
-	"ff-Latn-NE":       localeTableFfLatnNe,
-	"ff-Latn-NG":       localeTableFfLatnNg,
-	"ff-Latn-SL":       localeTableFfLatnSl,
-	"ff-Latn-SN":       localeTableFfLatnSn,
-	"fi":               localeTableFi,
-	"fi-FI":            localeTableFiFi,
-	"fil":              localeTableFil,
-	"fil-PH":           localeTableFilPh,
-	"fo":               localeTableFo,
-	"fo-DK":            localeTableFoDk,
-	"fo-FO":            localeTableFoFo,
-	"fr":               localeTableFr,
-	"fr-BE":            localeTableFrBe,
-	"fr-BF":            localeTableFrBf,
-	"fr-BI":            localeTableFrBi,
-	"fr-BJ":            localeTableFrBj,
-	"fr-BL":            localeTableFrBl,
-	"fr-CA":            localeTableFrCa,
-	"fr-CD":            localeTableFrCd,
-	"fr-CF":            localeTableFrCf,
-	"fr-CG":            localeTableFrCg,
-	"fr-CH":            localeTableFrCh,
-	"fr-CI":            localeTableFrCi,
-	"fr-CM":            localeTableFrCm,
-	"fr-DJ":            localeTableFrDj,
-	"fr-DZ":            localeTableFrDz,
-	"fr-FR":            localeTableFrFr,
-	"fr-GA":            localeTableFrGa,
-	"fr-GF":            localeTableFrGf,
-	"fr-GN":            localeTableFrGn,
-	"fr-GP":            localeTableFrGp,
-	"fr-GQ":            localeTableFrGq,
-	"fr-HT":            localeTableFrHt,
-	"fr-KM":            localeTableFrKm,
-	"fr-LU":            localeTableFrLu,
-	"fr-MA":            localeTableFrMa,
-	"fr-MC":            localeTableFrMc,
-	"fr-MF":            localeTableFrMf,
-	"fr-MG":            localeTableFrMg,
-	"fr-ML":            localeTableFrMl,
-	"fr-MQ":            localeTableFrMq,
-	"fr-MR":            localeTableFrMr,
-	"fr-MU":            localeTableFrMu,
-	"fr-NC":            localeTableFrNc,
-	"fr-NE":            localeTableFrNe,
-	"fr-PF":            localeTableFrPf,
-	"fr-PM":            localeTableFrPm,
-	"fr-RE":            localeTableFrRe,
-	"fr-RW":            localeTableFrRw,
-	"fr-SC":            localeTableFrSc,
-	"fr-SN":            localeTableFrSn,
-	"fr-SY":            localeTableFrSy,
-	"fr-TD":            localeTableFrTd,
-	"fr-TG":            localeTableFrTg,
-	"fr-TN":            localeTableFrTn,
-	"fr-VU":            localeTableFrVu,
-	"fr-WF":            localeTableFrWf,
-	"fr-YT":            localeTableFrYt,
-	"frr":              localeTableFrr,
-	"frr-DE":           localeTableFrrDe,
-	"fur":              localeTableFur,
-	"fur-IT":           localeTableFurIt,
-	"fy":               localeTableFy,
-	"fy-NL":            localeTableFyNl,
-	"ga":               localeTableGa,
-	"ga-GB":            localeTableGaGb,
-	"ga-IE":            localeTableGaIe,
-	"gaa":              localeTableGaa,
-	"gaa-GH":           localeTableGaaGh,
-	"gd":               localeTableGd,
-	"gd-GB":            localeTableGdGb,
-	"gez":              localeTableGez,
-	"gez-ER":           localeTableGezEr,
-	"gez-ET":           localeTableGezEt,
-	"gl":               localeTableGl,
-	"gl-ES":            localeTableGlEs,
-	"gn":               localeTableGn,
-	"gn-PY":            localeTableGnPy,
-	"gsw":              localeTableGsw,
-	"gsw-CH":           localeTableGswCh,
-	"gsw-FR":           localeTableGswFr,
-	"gsw-LI":           localeTableGswLi,
-	"gu":               localeTableGu,
-	"gu-IN":            localeTableGuIn,
-	"guz":              localeTableGuz,
-	"guz-KE":           localeTableGuzKe,
-	"gv":               localeTableGv,
-	"gv-IM":            localeTableGvIm,
-	"ha":               localeTableHa,
-	"ha-Arab":          localeTableHaArab,
-	"ha-Arab-NG":       localeTableHaArabNg,
-	"ha-Arab-SD":       localeTableHaArabSd,
-	"ha-GH":            localeTableHaGh,
-	"ha-NE":            localeTableHaNe,
-	"ha-NG":            localeTableHaNg,
-	"haw":              localeTableHaw,
-	"haw-US":           localeTableHawUs,
-	"he":               localeTableHe,
-	"he-IL":            localeTableHeIl,
-	"hi":               localeTableHi,
-	"hi-IN":            localeTableHiIn,
-	"hi-Latn":          localeTableHiLatn,
-	"hi-Latn-IN":       localeTableHiLatnIn,
-	"hnj":              localeTableHnj,
-	"hr":               localeTableHr,
-	"hr-BA":            localeTableHrBa,
-	"hr-HR":            localeTableHrHr,
-	"hsb":              localeTableHsb,
-	"hsb-DE":           localeTableHsbDe,
-	"hu":               localeTableHu,
-	"hu-HU":            localeTableHuHu,
-	"hy":               localeTableHy,
-	"hy-AM":            localeTableHyAm,
-	"ia":               localeTableIa,
-	"ia-001":           localeTableIa001,
-	"id":               localeTableId,
-	"id-ID":            localeTableIdId,
-	"ie":               localeTableIe,
-	"ie-EE":            localeTableIeEe,
-	"ig":               localeTableIg,
-	"ig-NG":            localeTableIgNg,
-	"ii":               localeTableIi,
-	"ii-CN":            localeTableIiCn,
-	"is":               localeTableIs,
-	"is-IS":            localeTableIsIs,
-	"it":               localeTableIt,
-	"it-CH":            localeTableItCh,
-	"it-IT":            localeTableItIt,
-	"it-SM":            localeTableItSm,
-	"it-VA":            localeTableItVa,
-	"iu":               localeTableIu,
-	"iu-CA":            localeTableIuCa,
-	"ja":               localeTableJa,
-	"ja-JP":            localeTableJaJp,
-	"jgo":              localeTableJgo,
-	"jgo-CM":           localeTableJgoCm,
-	"jmc":              localeTableJmc,
-	"jmc-TZ":           localeTableJmcTz,
-	"jv":               localeTableJv,
-	"jv-ID":            localeTableJvId,
-	"ka":               localeTableKa,
-	"ka-GE":            localeTableKaGe,
-	"kab":              localeTableKab,
-	"kab-DZ":           localeTableKabDz,
-	"kaj":              localeTableKaj,
-	"kaj-NG":           localeTableKajNg,
-	"kam":              localeTableKam,
-	"kam-KE":           localeTableKamKe,
-	"kcg":              localeTableKcg,
-	"kcg-NG":           localeTableKcgNg,
-	"kde":              localeTableKde,
-	"kde-TZ":           localeTableKdeTz,
-	"kea":              localeTableKea,
-	"kea-CV":           localeTableKeaCv,
-	"kgp":              localeTableKgp,
-	"kgp-BR":           localeTableKgpBr,
-	"khq":              localeTableKhq,
-	"khq-ML":           localeTableKhqMl,
-	"ki":               localeTableKi,
-	"ki-KE":            localeTableKiKe,
-	"kk":               localeTableKk,
-	"kk-KZ":            localeTableKkKz,
-	"kkj":              localeTableKkj,
-	"kkj-CM":           localeTableKkjCm,
-	"kl":               localeTableKl,
-	"kl-GL":            localeTableKlGl,
-	"kln":              localeTableKln,
-	"kln-KE":           localeTableKlnKe,
-	"km":               localeTableKm,
-	"km-KH":            localeTableKmKh,
-	"kn":               localeTableKn,
-	"kn-IN":            localeTableKnIn,
-	"ko":               localeTableKo,
-	"ko-CN":            localeTableKoCn,
-	"ko-KP":            localeTableKoKp,
-	"ko-KR":            localeTableKoKr,
-	"kok":              localeTableKok,
-	"kok-IN":           localeTableKokIn,
-	"ks":               localeTableKs,
-	"ks-Arab":          localeTableKsArab,
-	"ks-Arab-IN":       localeTableKsArabIn,
-	"ks-Deva":          localeTableKsDeva,
-	"ks-Deva-IN":       localeTableKsDevaIn,
-	"ksb":              localeTableKsb,
-	"ksb-TZ":           localeTableKsbTz,
-	"ksf":              localeTableKsf,
-	"ksf-CM":           localeTableKsfCm,
-	"ksh":              localeTableKsh,
-	"ksh-DE":           localeTableKshDe,
-	"ku":               localeTableKu,
-	"ku-TR":            localeTableKuTr,
-	"kw":               localeTableKw,
-	"kw-GB":            localeTableKwGb,
-	"kxv":              localeTableKxv,
-	"kxv-Deva":         localeTableKxvDeva,
-	"kxv-Deva-IN":      localeTableKxvDevaIn,
-	"kxv-Orya":         localeTableKxvOrya,
-	"kxv-Orya-IN":      localeTableKxvOryaIn,
-	"kxv-Telu":         localeTableKxvTelu,
-	"kxv-Telu-IN":      localeTableKxvTeluIn,
-	"ky":               localeTableKy,
-	"ky-KG":            localeTableKyKg,
-	"la":               localeTableLa,
-	"la-VA":            localeTableLaVa,
-	"lag":              localeTableLag,
-	"lag-TZ":           localeTableLagTz,
-	"lb":               localeTableLb,
-	"lb-LU":            localeTableLbLu,
-	"lg":               localeTableLg,
-	"lg-UG":            localeTableLgUg,
-	"lij":              localeTableLij,
-	"lij-IT":           localeTableLijIt,
-	"lkt":              localeTableLkt,
-	"lkt-US":           localeTableLktUs,
-	"lmo":              localeTableLmo,
-	"lmo-IT":           localeTableLmoIt,
-	"ln":               localeTableLn,
-	"ln-AO":            localeTableLnAo,
-	"ln-CD":            localeTableLnCd,
-	"ln-CF":            localeTableLnCf,
-	"ln-CG":            localeTableLnCg,
-	"lo":               localeTableLo,
-	"lo-LA":            localeTableLoLa,
-	"lrc":              localeTableLrc,
-	"lrc-IQ":           localeTableLrcIq,
-	"lrc-IR":           localeTableLrcIr,
-	"lt":               localeTableLt,
-	"lt-LT":            localeTableLtLt,
-	"lu":               localeTableLu,
-	"lu-CD":            localeTableLuCd,
-	"luo":              localeTableLuo,
-	"luo-KE":           localeTableLuoKe,
-	"luy":              localeTableLuy,
-	"luy-KE":           localeTableLuyKe,
-	"lv":               localeTableLv,
-	"lv-LV":            localeTableLvLv,
-	"mai":              localeTableMai,
-	"mai-IN":           localeTableMaiIn,
-	"mas":              localeTableMas,
-	"mas-KE":           localeTableMasKe,
-	"mas-TZ":           localeTableMasTz,
-	"mer":              localeTableMer,
-	"mer-KE":           localeTableMerKe,
-	"mfe":              localeTableMfe,
-	"mfe-MU":           localeTableMfeMu,
-	"mg":               localeTableMg,
-	"mg-MG":            localeTableMgMg,
-	"mgh":              localeTableMgh,
-	"mgh-MZ":           localeTableMghMz,
-	"mgo":              localeTableMgo,
-	"mgo-CM":           localeTableMgoCm,
-	"mi":               localeTableMi,
-	"mi-NZ":            localeTableMiNz,
-	"mk":               localeTableMk,
-	"mk-MK":            localeTableMkMk,
-	"ml":               localeTableMl,
-	"ml-IN":            localeTableMlIn,
-	"mn":               localeTableMn,
-	"mn-MN":            localeTableMnMn,
-	"mn-Mong-MN":       localeTableMnMongMn,
-	"mni":              localeTableMni,
-	"mni-Beng":         localeTableMniBeng,
-	"mni-Beng-IN":      localeTableMniBengIn,
-	"mr":               localeTableMr,
-	"mr-IN":            localeTableMrIn,
-	"ms":               localeTableMs,
-	"ms-Arab":          localeTableMsArab,
-	"ms-Arab-BN":       localeTableMsArabBn,
-	"ms-Arab-MY":       localeTableMsArabMy,
-	"ms-BN":            localeTableMsBn,
-	"ms-ID":            localeTableMsId,
-	"ms-MY":            localeTableMsMy,
-	"ms-SG":            localeTableMsSg,
-	"mt":               localeTableMt,
-	"mt-MT":            localeTableMtMt,
-	"mua":              localeTableMua,
-	"mua-CM":           localeTableMuaCm,
-	"mus":              localeTableMus,
-	"mus-US":           localeTableMusUs,
-	"my":               localeTableMy,
-	"my-MM":            localeTableMyMm,
-	"myv":              localeTableMyv,
-	"myv-RU":           localeTableMyvRu,
-	"mzn":              localeTableMzn,
-	"mzn-IR":           localeTableMznIr,
-	"naq":              localeTableNaq,
-	"naq-NA":           localeTableNaqNa,
-	"nd":               localeTableNd,
-	"nd-ZW":            localeTableNdZw,
-	"nds":              localeTableNds,
-	"nds-DE":           localeTableNdsDe,
-	"nds-NL":           localeTableNdsNl,
-	"ne":               localeTableNe,
-	"ne-IN":            localeTableNeIn,
-	"ne-NP":            localeTableNeNp,
-	"nl":               localeTableNl,
-	"nl-AW":            localeTableNlAw,
-	"nl-BE":            localeTableNlBe,
-	"nl-BQ":            localeTableNlBq,
-	"nl-CW":            localeTableNlCw,
-	"nl-NL":            localeTableNlNl,
-	"nl-SR":            localeTableNlSr,
-	"nl-SX":            localeTableNlSx,
-	"nmg":              localeTableNmg,
-	"nmg-CM":           localeTableNmgCm,
-	"nn":               localeTableNn,
-	"nn-NO":            localeTableNnNo,
-	"nnh":              localeTableNnh,
-	"nnh-CM":           localeTableNnhCm,
-	"no":               localeTableNo,
-	"nqo":              localeTableNqo,
-	"nqo-GN":           localeTableNqoGn,
-	"nr":               localeTableNr,
-	"nr-ZA":            localeTableNrZa,
-	"nso":              localeTableNso,
-	"nso-ZA":           localeTableNsoZa,
-	"nus":              localeTableNus,
-	"nus-SS":           localeTableNusSs,
-	"ny":               localeTableNy,
-	"ny-MW":            localeTableNyMw,
-	"nyn":              localeTableNyn,
-	"nyn-UG":           localeTableNynUg,
-	"oc":               localeTableOc,
-	"oc-ES":            localeTableOcEs,
-	"oc-FR":            localeTableOcFr,
-	"om":               localeTableOm,
-	"om-ET":            localeTableOmEt,
-	"om-KE":            localeTableOmKe,
-	"or":               localeTableOr,
-	"or-IN":            localeTableOrIn,
-	"os":               localeTableOs,
-	"os-GE":            localeTableOsGe,
-	"os-RU":            localeTableOsRu,
-	"osa":              localeTableOsa,
-	"osa-US":           localeTableOsaUs,
-	"pa":               localeTablePa,
-	"pa-Arab":          localeTablePaArab,
-	"pa-Arab-PK":       localeTablePaArabPk,
-	"pa-Guru":          localeTablePaGuru,
-	"pa-Guru-IN":       localeTablePaGuruIn,
-	"pap":              localeTablePap,
-	"pap-AW":           localeTablePapAw,
-	"pap-CW":           localeTablePapCw,
-	"pcm":              localeTablePcm,
-	"pcm-NG":           localeTablePcmNg,
-	"pis":              localeTablePis,
-	"pis-SB":           localeTablePisSb,
-	"pl":               localeTablePl,
-	"pl-PL":            localeTablePlPl,
-	"prg":              localeTablePrg,
-	"prg-PL":           localeTablePrgPl,
-	"ps":               localeTablePs,
-	"ps-AF":            localeTablePsAf,
-	"ps-PK":            localeTablePsPk,
-	"pt":               localeTablePt,
-	"pt-AO":            localeTablePtAo,
-	"pt-BR":            localeTablePtBr,
-	"pt-CH":            localeTablePtCh,
-	"pt-CV":            localeTablePtCv,
-	"pt-GQ":            localeTablePtGq,
-	"pt-GW":            localeTablePtGw,
-	"pt-LU":            localeTablePtLu,
-	"pt-MO":            localeTablePtMo,
-	"pt-MZ":            localeTablePtMz,
-	"pt-PT":            localeTablePtPt,
-	"pt-ST":            localeTablePtSt,
-	"pt-TL":            localeTablePtTl,
-	"qu":               localeTableQu,
-	"qu-BO":            localeTableQuBo,
-	"qu-EC":            localeTableQuEc,
-	"qu-PE":            localeTableQuPe,
-	"raj":              localeTableRaj,
-	"raj-IN":           localeTableRajIn,
-	"rif":              localeTableRif,
-	"rif-MA":           localeTableRifMa,
-	"rm":               localeTableRm,
-	"rm-CH":            localeTableRmCh,
-	"rn":               localeTableRn,
-	"rn-BI":            localeTableRnBi,
-	"ro":               localeTableRo,
-	"ro-MD":            localeTableRoMd,
-	"ro-RO":            localeTableRoRo,
-	"rof":              localeTableRof,
-	"rof-TZ":           localeTableRofTz,
-	"ru":               localeTableRu,
-	"ru-BY":            localeTableRuBy,
-	"ru-KG":            localeTableRuKg,
-	"ru-KZ":            localeTableRuKz,
-	"ru-MD":            localeTableRuMd,
-	"ru-RU":            localeTableRuRu,
-	"ru-UA":            localeTableRuUa,
-	"rw":               localeTableRw,
-	"rw-RW":            localeTableRwRw,
-	"rwk":              localeTableRwk,
-	"rwk-TZ":           localeTableRwkTz,
-	"sa":               localeTableSa,
-	"sa-IN":            localeTableSaIn,
-	"sah":              localeTableSah,
-	"sah-RU":           localeTableSahRu,
-	"saq":              localeTableSaq,
-	"saq-KE":           localeTableSaqKe,
-	"sat":              localeTableSat,
-	"sbp":              localeTableSbp,
-	"sbp-TZ":           localeTableSbpTz,
-	"sc":               localeTableSc,
-	"sc-IT":            localeTableScIt,
-	"scn":              localeTableScn,
-	"scn-IT":           localeTableScnIt,
-	"sd":               localeTableSd,
-	"sd-Arab":          localeTableSdArab,
-	"sd-Arab-PK":       localeTableSdArabPk,
-	"sd-Deva":          localeTableSdDeva,
-	"sd-Deva-IN":       localeTableSdDevaIn,
-	"se":               localeTableSe,
-	"se-FI":            localeTableSeFi,
-	"se-NO":            localeTableSeNo,
-	"se-SE":            localeTableSeSe,
-	"seh":              localeTableSeh,
-	"seh-MZ":           localeTableSehMz,
-	"ses":              localeTableSes,
-	"ses-ML":           localeTableSesMl,
-	"sg":               localeTableSg,
-	"sg-CF":            localeTableSgCf,
-	"shi":              localeTableShi,
-	"shi-Latn":         localeTableShiLatn,
-	"shi-Latn-MA":      localeTableShiLatnMa,
-	"shi-Tfng":         localeTableShiTfng,
-	"shi-Tfng-MA":      localeTableShiTfngMa,
-	"si":               localeTableSi,
-	"si-LK":            localeTableSiLk,
-	"sid":              localeTableSid,
-	"sid-ET":           localeTableSidEt,
-	"sk":               localeTableSk,
-	"sk-SK":            localeTableSkSk,
-	"skr":              localeTableSkr,
-	"skr-PK":           localeTableSkrPk,
-	"sl":               localeTableSl,
-	"sl-SI":            localeTableSlSi,
-	"smn":              localeTableSmn,
-	"smn-FI":           localeTableSmnFi,
-	"sn":               localeTableSn,
-	"sn-ZW":            localeTableSnZw,
-	"so":               localeTableSo,
-	"so-DJ":            localeTableSoDj,
-	"so-ET":            localeTableSoEt,
-	"so-KE":            localeTableSoKe,
-	"so-SO":            localeTableSoSo,
-	"sq":               localeTableSq,
-	"sq-AL":            localeTableSqAl,
-	"sq-MK":            localeTableSqMk,
-	"sq-XK":            localeTableSqXk,
-	"sr":               localeTableSr,
-	"sr-Cyrl":          localeTableSrCyrl,
-	"sr-Cyrl-BA":       localeTableSrCyrlBa,
-	"sr-Cyrl-ME":       localeTableSrCyrlMe,
-	"sr-Cyrl-RS":       localeTableSrCyrlRs,
-	"sr-Cyrl-XK":       localeTableSrCyrlXk,
-	"sr-Latn":          localeTableSrLatn,
-	"sr-Latn-BA":       localeTableSrLatnBa,
-	"sr-Latn-ME":       localeTableSrLatnMe,
-	"sr-Latn-RS":       localeTableSrLatnRs,
-	"sr-Latn-XK":       localeTableSrLatnXk,
-	"ss":               localeTableSs,
-	"ss-SZ":            localeTableSsSz,
-	"ss-ZA":            localeTableSsZa,
-	"ssy":              localeTableSsy,
-	"ssy-ER":           localeTableSsyEr,
-	"st":               localeTableSt,
-	"st-LS":            localeTableStLs,
-	"st-ZA":            localeTableStZa,
-	"su":               localeTableSu,
-	"su-Latn":          localeTableSuLatn,
-	"su-Latn-ID":       localeTableSuLatnId,
-	"sv":               localeTableSv,
-	"sv-AX":            localeTableSvAx,
-	"sv-FI":            localeTableSvFi,
-	"sv-SE":            localeTableSvSe,
-	"sw":               localeTableSw,
-	"sw-CD":            localeTableSwCd,
-	"sw-KE":            localeTableSwKe,
-	"sw-TZ":            localeTableSwTz,
-	"sw-UG":            localeTableSwUg,
-	"syr":              localeTableSyr,
-	"syr-IQ":           localeTableSyrIq,
-	"syr-SY":           localeTableSyrSy,
-	"szl":              localeTableSzl,
-	"szl-PL":           localeTableSzlPl,
-	"ta":               localeTableTa,
-	"ta-IN":            localeTableTaIn,
-	"ta-LK":            localeTableTaLk,
-	"ta-MY":            localeTableTaMy,
-	"ta-SG":            localeTableTaSg,
-	"te":               localeTableTe,
-	"te-IN":            localeTableTeIn,
-	"teo":              localeTableTeo,
-	"teo-KE":           localeTableTeoKe,
-	"teo-UG":           localeTableTeoUg,
-	"tg":               localeTableTg,
-	"tg-TJ":            localeTableTgTj,
-	"th":               localeTableTh,
-	"th-TH":            localeTableThTh,
-	"ti":               localeTableTi,
-	"ti-ER":            localeTableTiEr,
-	"ti-ET":            localeTableTiEt,
-	"tig":              localeTableTig,
-	"tig-ER":           localeTableTigEr,
-	"tk":               localeTableTk,
-	"tk-TM":            localeTableTkTm,
-	"tn":               localeTableTn,
-	"tn-BW":            localeTableTnBw,
-	"tn-ZA":            localeTableTnZa,
-	"to":               localeTableTo,
-	"to-TO":            localeTableToTo,
-	"tok":              localeTableTok,
-	"tok-001":          localeTableTok001,
-	"tpi":              localeTableTpi,
-	"tpi-PG":           localeTableTpiPg,
-	"tr":               localeTableTr,
-	"tr-CY":            localeTableTrCy,
-	"tr-TR":            localeTableTrTr,
-	"trv":              localeTableTrv,
-	"trv-TW":           localeTableTrvTw,
-	"trw":              localeTableTrw,
-	"trw-PK":           localeTableTrwPk,
-	"ts":               localeTableTs,
-	"ts-ZA":            localeTableTsZa,
-	"tt":               localeTableTt,
-	"tt-RU":            localeTableTtRu,
-	"twq":              localeTableTwq,
-	"twq-NE":           localeTableTwqNe,
-	"tzm":              localeTableTzm,
-	"tzm-MA":           localeTableTzmMa,
-	"ug":               localeTableUg,
-	"ug-CN":            localeTableUgCn,
-	"uk":               localeTableUk,
-	"uk-UA":            localeTableUkUa,
-	"und":              localeTableUnd,
-	"ur":               localeTableUr,
-	"ur-IN":            localeTableUrIn,
-	"ur-PK":            localeTableUrPk,
-	"uz":               localeTableUz,
-	"uz-Arab":          localeTableUzArab,
-	"uz-Arab-AF":       localeTableUzArabAf,
-	"uz-Cyrl":          localeTableUzCyrl,
-	"uz-Cyrl-UZ":       localeTableUzCyrlUz,
-	"uz-Latn":          localeTableUzLatn,
-	"uz-Latn-UZ":       localeTableUzLatnUz,
-	"vai":              localeTableVai,
-	"vai-Latn":         localeTableVaiLatn,
-	"vai-Latn-LR":      localeTableVaiLatnLr,
-	"vai-Vaii":         localeTableVaiVaii,
-	"vai-Vaii-LR":      localeTableVaiVaiiLr,
-	"ve":               localeTableVe,
-	"ve-ZA":            localeTableVeZa,
-	"vec":              localeTableVec,
-	"vec-IT":           localeTableVecIt,
-	"vi":               localeTableVi,
-	"vi-VN":            localeTableViVn,
-	"vmw":              localeTableVmw,
-	"vmw-MZ":           localeTableVmwMz,
-	"vo":               localeTableVo,
-	"vo-001":           localeTableVo001,
-	"vun":              localeTableVun,
-	"vun-TZ":           localeTableVunTz,
-	"wae":              localeTableWae,
-	"wae-CH":           localeTableWaeCh,
-	"wal":              localeTableWal,
-	"wal-ET":           localeTableWalEt,
-	"wo":               localeTableWo,
-	"wo-SN":            localeTableWoSn,
-	"xh":               localeTableXh,
-	"xh-ZA":            localeTableXhZa,
-	"xnr":              localeTableXnr,
-	"xnr-IN":           localeTableXnrIn,
-	"xog":              localeTableXog,
-	"xog-UG":           localeTableXogUg,
-	"yav":              localeTableYav,
-	"yav-CM":           localeTableYavCm,
-	"yi":               localeTableYi,
-	"yi-UA":            localeTableYiUa,
-	"yo":               localeTableYo,
-	"yo-BJ":            localeTableYoBj,
-	"yo-NG":            localeTableYoNg,
-	"yrl":              localeTableYrl,
-	"yrl-BR":           localeTableYrlBr,
-	"yrl-CO":           localeTableYrlCo,
-	"yrl-VE":           localeTableYrlVe,
-	"yue":              localeTableYue,
-	"yue-Hans":         localeTableYueHans,
-	"yue-Hans-CN":      localeTableYueHansCn,
-	"yue-Hant":         localeTableYueHant,
-	"yue-Hant-HK":      localeTableYueHantHk,
-	"za":               localeTableZa,
-	"za-CN":            localeTableZaCn,
-	"zgh":              localeTableZgh,
-	"zgh-MA":           localeTableZghMa,
-	"zh":               localeTableZh,
-	"zh-Hans":          localeTableZhHans,
-	"zh-Hans-CN":       localeTableZhHansCn,
-	"zh-Hans-HK":       localeTableZhHansHk,
-	"zh-Hans-MO":       localeTableZhHansMo,
-	"zh-Hans-SG":       localeTableZhHansSg,
-	"zh-Hant":          localeTableZhHant,
-	"zh-Hant-HK":       localeTableZhHantHk,
-	"zh-Hant-MO":       localeTableZhHantMo,
-	"zh-Hant-TW":       localeTableZhHantTw,
-	"zu":               localeTableZu,
-	"zu-ZA":            localeTableZuZa,
+	LocaleAa:           localeTableAa,
+	LocaleAaDJ:         localeTableAaDJ,
+	LocaleAaER:         localeTableAaER,
+	LocaleAaET:         localeTableAaET,
+	LocaleAb:           localeTableAb,
+	LocaleAbGE:         localeTableAbGE,
+	LocaleAf:           localeTableAf,
+	LocaleAfNA:         localeTableAfNA,
+	LocaleAfZA:         localeTableAfZA,
+	LocaleAgq:          localeTableAgq,
+	LocaleAgqCM:        localeTableAgqCM,
+	LocaleAk:           localeTableAk,
+	LocaleAkGH:         localeTableAkGH,
+	LocaleAm:           localeTableAm,
+	LocaleAmET:         localeTableAmET,
+	LocaleAn:           localeTableAn,
+	LocaleAnES:         localeTableAnES,
+	LocaleApc:          localeTableApc,
+	LocaleApcSY:        localeTableApcSY,
+	LocaleAr:           localeTableAr,
+	LocaleAr001:        localeTableAr001,
+	LocaleArAE:         localeTableArAE,
+	LocaleArBH:         localeTableArBH,
+	LocaleArDJ:         localeTableArDJ,
+	LocaleArDZ:         localeTableArDZ,
+	LocaleArEG:         localeTableArEG,
+	LocaleArEH:         localeTableArEH,
+	LocaleArER:         localeTableArER,
+	LocaleArIL:         localeTableArIL,
+	LocaleArIQ:         localeTableArIQ,
+	LocaleArJO:         localeTableArJO,
+	LocaleArKM:         localeTableArKM,
+	LocaleArKW:         localeTableArKW,
+	LocaleArLB:         localeTableArLB,
+	LocaleArLY:         localeTableArLY,
+	LocaleArMA:         localeTableArMA,
+	LocaleArMR:         localeTableArMR,
+	LocaleArOM:         localeTableArOM,
+	LocaleArPS:         localeTableArPS,
+	LocaleArQA:         localeTableArQA,
+	LocaleArSA:         localeTableArSA,
+	LocaleArSD:         localeTableArSD,
+	LocaleArSO:         localeTableArSO,
+	LocaleArSS:         localeTableArSS,
+	LocaleArSY:         localeTableArSY,
+	LocaleArTD:         localeTableArTD,
+	LocaleArTN:         localeTableArTN,
+	LocaleArYE:         localeTableArYE,
+	LocaleAs:           localeTableAs,
+	LocaleAsIN:         localeTableAsIN,
+	LocaleAsa:          localeTableAsa,
+	LocaleAsaTZ:        localeTableAsaTZ,
+	LocaleAst:          localeTableAst,
+	LocaleAstES:        localeTableAstES,
+	LocaleAz:           localeTableAz,
+	LocaleAzCyrl:       localeTableAzCyrl,
+	LocaleAzCyrlAZ:     localeTableAzCyrlAZ,
+	LocaleAzLatn:       localeTableAzLatn,
+	LocaleAzLatnAZ:     localeTableAzLatnAZ,
+	LocaleBal:          localeTableBal,
+	LocaleBalArab:      localeTableBalArab,
+	LocaleBalArabPK:    localeTableBalArabPK,
+	LocaleBalLatn:      localeTableBalLatn,
+	LocaleBalLatnPK:    localeTableBalLatnPK,
+	LocaleBas:          localeTableBas,
+	LocaleBasCM:        localeTableBasCM,
+	LocaleBe:           localeTableBe,
+	LocaleBeBY:         localeTableBeBY,
+	LocaleBetarask:     localeTableBetarask,
+	LocaleBem:          localeTableBem,
+	LocaleBemZM:        localeTableBemZM,
+	LocaleBew:          localeTableBew,
+	LocaleBewID:        localeTableBewID,
+	LocaleBez:          localeTableBez,
+	LocaleBezTZ:        localeTableBezTZ,
+	LocaleBg:           localeTableBg,
+	LocaleBgBG:         localeTableBgBG,
+	LocaleBgc:          localeTableBgc,
+	LocaleBgcIN:        localeTableBgcIN,
+	LocaleBho:          localeTableBho,
+	LocaleBhoIN:        localeTableBhoIN,
+	LocaleBlo:          localeTableBlo,
+	LocaleBloBJ:        localeTableBloBJ,
+	LocaleBm:           localeTableBm,
+	LocaleBmML:         localeTableBmML,
+	LocaleBn:           localeTableBn,
+	LocaleBnBD:         localeTableBnBD,
+	LocaleBnIN:         localeTableBnIN,
+	LocaleBo:           localeTableBo,
+	LocaleBoCN:         localeTableBoCN,
+	LocaleBoIN:         localeTableBoIN,
+	LocaleBr:           localeTableBr,
+	LocaleBrFR:         localeTableBrFR,
+	LocaleBrx:          localeTableBrx,
+	LocaleBrxIN:        localeTableBrxIN,
+	LocaleBs:           localeTableBs,
+	LocaleBsCyrl:       localeTableBsCyrl,
+	LocaleBsCyrlBA:     localeTableBsCyrlBA,
+	LocaleBsLatn:       localeTableBsLatn,
+	LocaleBsLatnBA:     localeTableBsLatnBA,
+	LocaleByn:          localeTableByn,
+	LocaleBynER:        localeTableBynER,
+	LocaleCa:           localeTableCa,
+	LocaleCaAD:         localeTableCaAD,
+	LocaleCaES:         localeTableCaES,
+	LocaleCaESvalencia: localeTableCaESvalencia,
+	LocaleCaFR:         localeTableCaFR,
+	LocaleCaIT:         localeTableCaIT,
+	LocaleCad:          localeTableCad,
+	LocaleCadUS:        localeTableCadUS,
+	LocaleCch:          localeTableCch,
+	LocaleCchNG:        localeTableCchNG,
+	LocaleCcp:          localeTableCcp,
+	LocaleCcpBD:        localeTableCcpBD,
+	LocaleCcpIN:        localeTableCcpIN,
+	LocaleCe:           localeTableCe,
+	LocaleCeRU:         localeTableCeRU,
+	LocaleCeb:          localeTableCeb,
+	LocaleCebPH:        localeTableCebPH,
+	LocaleCgg:          localeTableCgg,
+	LocaleCggUG:        localeTableCggUG,
+	LocaleChr:          localeTableChr,
+	LocaleChrUS:        localeTableChrUS,
+	LocaleCic:          localeTableCic,
+	LocaleCicUS:        localeTableCicUS,
+	LocaleCkb:          localeTableCkb,
+	LocaleCkbIQ:        localeTableCkbIQ,
+	LocaleCkbIR:        localeTableCkbIR,
+	LocaleCo:           localeTableCo,
+	LocaleCoFR:         localeTableCoFR,
+	LocaleCs:           localeTableCs,
+	LocaleCsCZ:         localeTableCsCZ,
+	LocaleCsw:          localeTableCsw,
+	LocaleCswCA:        localeTableCswCA,
+	LocaleCu:           localeTableCu,
+	LocaleCuRU:         localeTableCuRU,
+	LocaleCv:           localeTableCv,
+	LocaleCvRU:         localeTableCvRU,
+	LocaleCy:           localeTableCy,
+	LocaleCyGB:         localeTableCyGB,
+	LocaleDa:           localeTableDa,
+	LocaleDaDK:         localeTableDaDK,
+	LocaleDaGL:         localeTableDaGL,
+	LocaleDav:          localeTableDav,
+	LocaleDavKE:        localeTableDavKE,
+	LocaleDe:           localeTableDe,
+	LocaleDeAT:         localeTableDeAT,
+	LocaleDeBE:         localeTableDeBE,
+	LocaleDeCH:         localeTableDeCH,
+	LocaleDeDE:         localeTableDeDE,
+	LocaleDeIT:         localeTableDeIT,
+	LocaleDeLI:         localeTableDeLI,
+	LocaleDeLU:         localeTableDeLU,
+	LocaleDje:          localeTableDje,
+	LocaleDjeNE:        localeTableDjeNE,
+	LocaleDoi:          localeTableDoi,
+	LocaleDoiIN:        localeTableDoiIN,
+	LocaleDsb:          localeTableDsb,
+	LocaleDsbDE:        localeTableDsbDE,
+	LocaleDua:          localeTableDua,
+	LocaleDuaCM:        localeTableDuaCM,
+	LocaleDyo:          localeTableDyo,
+	LocaleDyoSN:        localeTableDyoSN,
+	LocaleDz:           localeTableDz,
+	LocaleDzBT:         localeTableDzBT,
+	LocaleEbu:          localeTableEbu,
+	LocaleEbuKE:        localeTableEbuKE,
+	LocaleEe:           localeTableEe,
+	LocaleEeGH:         localeTableEeGH,
+	LocaleEeTG:         localeTableEeTG,
+	LocaleEl:           localeTableEl,
+	LocaleElCY:         localeTableElCY,
+	LocaleElGR:         localeTableElGR,
+	LocaleElpolyton:    localeTableElpolyton,
+	LocaleEn:           localeTableEn,
+	LocaleEn001:        localeTableEn001,
+	LocaleEn150:        localeTableEn150,
+	LocaleEnAE:         localeTableEnAE,
+	LocaleEnAG:         localeTableEnAG,
+	LocaleEnAI:         localeTableEnAI,
+	LocaleEnAS:         localeTableEnAS,
+	LocaleEnAT:         localeTableEnAT,
+	LocaleEnAU:         localeTableEnAU,
+	LocaleEnBB:         localeTableEnBB,
+	LocaleEnBE:         localeTableEnBE,
+	LocaleEnBI:         localeTableEnBI,
+	LocaleEnBM:         localeTableEnBM,
+	LocaleEnBS:         localeTableEnBS,
+	LocaleEnBW:         localeTableEnBW,
+	LocaleEnBZ:         localeTableEnBZ,
+	LocaleEnCA:         localeTableEnCA,
+	LocaleEnCC:         localeTableEnCC,
+	LocaleEnCH:         localeTableEnCH,
+	LocaleEnCK:         localeTableEnCK,
+	LocaleEnCM:         localeTableEnCM,
+	LocaleEnCX:         localeTableEnCX,
+	LocaleEnCY:         localeTableEnCY,
+	LocaleEnDE:         localeTableEnDE,
+	LocaleEnDG:         localeTableEnDG,
+	LocaleEnDK:         localeTableEnDK,
+	LocaleEnDM:         localeTableEnDM,
+	LocaleEnDsrt:       localeTableEnDsrt,
+	LocaleEnDsrtUS:     localeTableEnDsrtUS,
+	LocaleEnER:         localeTableEnER,
+	LocaleEnFI:         localeTableEnFI,
+	LocaleEnFJ:         localeTableEnFJ,
+	LocaleEnFK:         localeTableEnFK,
+	LocaleEnFM:         localeTableEnFM,
+	LocaleEnGB:         localeTableEnGB,
+	LocaleEnGD:         localeTableEnGD,
+	LocaleEnGG:         localeTableEnGG,
+	LocaleEnGH:         localeTableEnGH,
+	LocaleEnGI:         localeTableEnGI,
+	LocaleEnGM:         localeTableEnGM,
+	LocaleEnGU:         localeTableEnGU,
+	LocaleEnGY:         localeTableEnGY,
+	LocaleEnHK:         localeTableEnHK,
+	LocaleEnID:         localeTableEnID,
+	LocaleEnIE:         localeTableEnIE,
+	LocaleEnIL:         localeTableEnIL,
+	LocaleEnIM:         localeTableEnIM,
+	LocaleEnIN:         localeTableEnIN,
+	LocaleEnIO:         localeTableEnIO,
+	LocaleEnJE:         localeTableEnJE,
+	LocaleEnJM:         localeTableEnJM,
+	LocaleEnKE:         localeTableEnKE,
+	LocaleEnKI:         localeTableEnKI,
+	LocaleEnKN:         localeTableEnKN,
+	LocaleEnKY:         localeTableEnKY,
+	LocaleEnLC:         localeTableEnLC,
+	LocaleEnLR:         localeTableEnLR,
+	LocaleEnLS:         localeTableEnLS,
+	LocaleEnMG:         localeTableEnMG,
+	LocaleEnMH:         localeTableEnMH,
+	LocaleEnMO:         localeTableEnMO,
+	LocaleEnMP:         localeTableEnMP,
+	LocaleEnMS:         localeTableEnMS,
+	LocaleEnMT:         localeTableEnMT,
+	LocaleEnMU:         localeTableEnMU,
+	LocaleEnMV:         localeTableEnMV,
+	LocaleEnMW:         localeTableEnMW,
+	LocaleEnMY:         localeTableEnMY,
+	LocaleEnNA:         localeTableEnNA,
+	LocaleEnNF:         localeTableEnNF,
+	LocaleEnNG:         localeTableEnNG,
+	LocaleEnNL:         localeTableEnNL,
+	LocaleEnNR:         localeTableEnNR,
+	LocaleEnNU:         localeTableEnNU,
+	LocaleEnNZ:         localeTableEnNZ,
+	LocaleEnPG:         localeTableEnPG,
+	LocaleEnPH:         localeTableEnPH,
+	LocaleEnPK:         localeTableEnPK,
+	LocaleEnPN:         localeTableEnPN,
+	LocaleEnPR:         localeTableEnPR,
+	LocaleEnPW:         localeTableEnPW,
+	LocaleEnRW:         localeTableEnRW,
+	LocaleEnSB:         localeTableEnSB,
+	LocaleEnSC:         localeTableEnSC,
+	LocaleEnSD:         localeTableEnSD,
+	LocaleEnSE:         localeTableEnSE,
+	LocaleEnSG:         localeTableEnSG,
+	LocaleEnSH:         localeTableEnSH,
+	LocaleEnSI:         localeTableEnSI,
+	LocaleEnSL:         localeTableEnSL,
+	LocaleEnSS:         localeTableEnSS,
+	LocaleEnSX:         localeTableEnSX,
+	LocaleEnSZ:         localeTableEnSZ,
+	LocaleEnShaw:       localeTableEnShaw,
+	LocaleEnShawGB:     localeTableEnShawGB,
+	LocaleEnTC:         localeTableEnTC,
+	LocaleEnTK:         localeTableEnTK,
+	LocaleEnTO:         localeTableEnTO,
+	LocaleEnTT:         localeTableEnTT,
+	LocaleEnTV:         localeTableEnTV,
+	LocaleEnTZ:         localeTableEnTZ,
+	LocaleEnUG:         localeTableEnUG,
+	LocaleEnUM:         localeTableEnUM,
+	LocaleEnUS:         localeTableEnUS,
+	LocaleEnUSuvaposix: localeTableEnUSuvaposix,
+	LocaleEnVC:         localeTableEnVC,
+	LocaleEnVG:         localeTableEnVG,
+	LocaleEnVI:         localeTableEnVI,
+	LocaleEnVU:         localeTableEnVU,
+	LocaleEnWS:         localeTableEnWS,
+	LocaleEnZA:         localeTableEnZA,
+	LocaleEnZM:         localeTableEnZM,
+	LocaleEnZW:         localeTableEnZW,
+	LocaleEo:           localeTableEo,
+	LocaleEo001:        localeTableEo001,
+	LocaleEs:           localeTableEs,
+	LocaleEs419:        localeTableEs419,
+	LocaleEsAR:         localeTableEsAR,
+	LocaleEsBO:         localeTableEsBO,
+	LocaleEsBR:         localeTableEsBR,
+	LocaleEsBZ:         localeTableEsBZ,
+	LocaleEsCL:         localeTableEsCL,
+	LocaleEsCO:         localeTableEsCO,
+	LocaleEsCR:         localeTableEsCR,
+	LocaleEsCU:         localeTableEsCU,
+	LocaleEsDO:         localeTableEsDO,
+	LocaleEsEA:         localeTableEsEA,
+	LocaleEsEC:         localeTableEsEC,
+	LocaleEsES:         localeTableEsES,
+	LocaleEsGQ:         localeTableEsGQ,
+	LocaleEsGT:         localeTableEsGT,
+	LocaleEsHN:         localeTableEsHN,
+	LocaleEsIC:         localeTableEsIC,
+	LocaleEsMX:         localeTableEsMX,
+	LocaleEsNI:         localeTableEsNI,
+	LocaleEsPA:         localeTableEsPA,
+	LocaleEsPE:         localeTableEsPE,
+	LocaleEsPH:         localeTableEsPH,
+	LocaleEsPR:         localeTableEsPR,
+	LocaleEsPY:         localeTableEsPY,
+	LocaleEsSV:         localeTableEsSV,
+	LocaleEsUS:         localeTableEsUS,
+	LocaleEsUY:         localeTableEsUY,
+	LocaleEsVE:         localeTableEsVE,
+	LocaleEt:           localeTableEt,
+	LocaleEtEE:         localeTableEtEE,
+	LocaleEu:           localeTableEu,
+	LocaleEuES:         localeTableEuES,
+	LocaleEwo:          localeTableEwo,
+	LocaleEwoCM:        localeTableEwoCM,
+	LocaleFa:           localeTableFa,
+	LocaleFaAF:         localeTableFaAF,
+	LocaleFaIR:         localeTableFaIR,
+	LocaleFf:           localeTableFf,
+	LocaleFfAdlm:       localeTableFfAdlm,
+	LocaleFfAdlmBF:     localeTableFfAdlmBF,
+	LocaleFfAdlmCM:     localeTableFfAdlmCM,
+	LocaleFfAdlmGH:     localeTableFfAdlmGH,
+	LocaleFfAdlmGM:     localeTableFfAdlmGM,
+	LocaleFfAdlmGN:     localeTableFfAdlmGN,
+	LocaleFfAdlmGW:     localeTableFfAdlmGW,
+	LocaleFfAdlmLR:     localeTableFfAdlmLR,
+	LocaleFfAdlmMR:     localeTableFfAdlmMR,
+	LocaleFfAdlmNE:     localeTableFfAdlmNE,
+	LocaleFfAdlmNG:     localeTableFfAdlmNG,
+	LocaleFfAdlmSL:     localeTableFfAdlmSL,
+	LocaleFfAdlmSN:     localeTableFfAdlmSN,
+	LocaleFfLatn:       localeTableFfLatn,
+	LocaleFfLatnBF:     localeTableFfLatnBF,
+	LocaleFfLatnCM:     localeTableFfLatnCM,
+	LocaleFfLatnGH:     localeTableFfLatnGH,
+	LocaleFfLatnGM:     localeTableFfLatnGM,
+	LocaleFfLatnGN:     localeTableFfLatnGN,
+	LocaleFfLatnGW:     localeTableFfLatnGW,
+	LocaleFfLatnLR:     localeTableFfLatnLR,
+	LocaleFfLatnMR:     localeTableFfLatnMR,
+	LocaleFfLatnNE:     localeTableFfLatnNE,
+	LocaleFfLatnNG:     localeTableFfLatnNG,
+	LocaleFfLatnSL:     localeTableFfLatnSL,
+	LocaleFfLatnSN:     localeTableFfLatnSN,
+	LocaleFi:           localeTableFi,
+	LocaleFiFI:         localeTableFiFI,
+	LocaleFil:          localeTableFil,
+	LocaleFilPH:        localeTableFilPH,
+	LocaleFo:           localeTableFo,
+	LocaleFoDK:         localeTableFoDK,
+	LocaleFoFO:         localeTableFoFO,
+	LocaleFr:           localeTableFr,
+	LocaleFrBE:         localeTableFrBE,
+	LocaleFrBF:         localeTableFrBF,
+	LocaleFrBI:         localeTableFrBI,
+	LocaleFrBJ:         localeTableFrBJ,
+	LocaleFrBL:         localeTableFrBL,
+	LocaleFrCA:         localeTableFrCA,
+	LocaleFrCD:         localeTableFrCD,
+	LocaleFrCF:         localeTableFrCF,
+	LocaleFrCG:         localeTableFrCG,
+	LocaleFrCH:         localeTableFrCH,
+	LocaleFrCI:         localeTableFrCI,
+	LocaleFrCM:         localeTableFrCM,
+	LocaleFrDJ:         localeTableFrDJ,
+	LocaleFrDZ:         localeTableFrDZ,
+	LocaleFrFR:         localeTableFrFR,
+	LocaleFrGA:         localeTableFrGA,
+	LocaleFrGF:         localeTableFrGF,
+	LocaleFrGN:         localeTableFrGN,
+	LocaleFrGP:         localeTableFrGP,
+	LocaleFrGQ:         localeTableFrGQ,
+	LocaleFrHT:         localeTableFrHT,
+	LocaleFrKM:         localeTableFrKM,
+	LocaleFrLU:         localeTableFrLU,
+	LocaleFrMA:         localeTableFrMA,
+	LocaleFrMC:         localeTableFrMC,
+	LocaleFrMF:         localeTableFrMF,
+	LocaleFrMG:         localeTableFrMG,
+	LocaleFrML:         localeTableFrML,
+	LocaleFrMQ:         localeTableFrMQ,
+	LocaleFrMR:         localeTableFrMR,
+	LocaleFrMU:         localeTableFrMU,
+	LocaleFrNC:         localeTableFrNC,
+	LocaleFrNE:         localeTableFrNE,
+	LocaleFrPF:         localeTableFrPF,
+	LocaleFrPM:         localeTableFrPM,
+	LocaleFrRE:         localeTableFrRE,
+	LocaleFrRW:         localeTableFrRW,
+	LocaleFrSC:         localeTableFrSC,
+	LocaleFrSN:         localeTableFrSN,
+	LocaleFrSY:         localeTableFrSY,
+	LocaleFrTD:         localeTableFrTD,
+	LocaleFrTG:         localeTableFrTG,
+	LocaleFrTN:         localeTableFrTN,
+	LocaleFrVU:         localeTableFrVU,
+	LocaleFrWF:         localeTableFrWF,
+	LocaleFrYT:         localeTableFrYT,
+	LocaleFrr:          localeTableFrr,
+	LocaleFrrDE:        localeTableFrrDE,
+	LocaleFur:          localeTableFur,
+	LocaleFurIT:        localeTableFurIT,
+	LocaleFy:           localeTableFy,
+	LocaleFyNL:         localeTableFyNL,
+	LocaleGa:           localeTableGa,
+	LocaleGaGB:         localeTableGaGB,
+	LocaleGaIE:         localeTableGaIE,
+	LocaleGaa:          localeTableGaa,
+	LocaleGaaGH:        localeTableGaaGH,
+	LocaleGd:           localeTableGd,
+	LocaleGdGB:         localeTableGdGB,
+	LocaleGez:          localeTableGez,
+	LocaleGezER:        localeTableGezER,
+	LocaleGezET:        localeTableGezET,
+	LocaleGl:           localeTableGl,
+	LocaleGlES:         localeTableGlES,
+	LocaleGn:           localeTableGn,
+	LocaleGnPY:         localeTableGnPY,
+	LocaleGsw:          localeTableGsw,
+	LocaleGswCH:        localeTableGswCH,
+	LocaleGswFR:        localeTableGswFR,
+	LocaleGswLI:        localeTableGswLI,
+	LocaleGu:           localeTableGu,
+	LocaleGuIN:         localeTableGuIN,
+	LocaleGuz:          localeTableGuz,
+	LocaleGuzKE:        localeTableGuzKE,
+	LocaleGv:           localeTableGv,
+	LocaleGvIM:         localeTableGvIM,
+	LocaleHa:           localeTableHa,
+	LocaleHaArab:       localeTableHaArab,
+	LocaleHaArabNG:     localeTableHaArabNG,
+	LocaleHaArabSD:     localeTableHaArabSD,
+	LocaleHaGH:         localeTableHaGH,
+	LocaleHaNE:         localeTableHaNE,
+	LocaleHaNG:         localeTableHaNG,
+	LocaleHaw:          localeTableHaw,
+	LocaleHawUS:        localeTableHawUS,
+	LocaleHe:           localeTableHe,
+	LocaleHeIL:         localeTableHeIL,
+	LocaleHi:           localeTableHi,
+	LocaleHiIN:         localeTableHiIN,
+	LocaleHiLatn:       localeTableHiLatn,
+	LocaleHiLatnIN:     localeTableHiLatnIN,
+	LocaleHnj:          localeTableHnj,
+	LocaleHr:           localeTableHr,
+	LocaleHrBA:         localeTableHrBA,
+	LocaleHrHR:         localeTableHrHR,
+	LocaleHsb:          localeTableHsb,
+	LocaleHsbDE:        localeTableHsbDE,
+	LocaleHu:           localeTableHu,
+	LocaleHuHU:         localeTableHuHU,
+	LocaleHy:           localeTableHy,
+	LocaleHyAM:         localeTableHyAM,
+	LocaleIa:           localeTableIa,
+	LocaleIa001:        localeTableIa001,
+	LocaleId:           localeTableId,
+	LocaleIdID:         localeTableIdID,
+	LocaleIe:           localeTableIe,
+	LocaleIeEE:         localeTableIeEE,
+	LocaleIg:           localeTableIg,
+	LocaleIgNG:         localeTableIgNG,
+	LocaleIi:           localeTableIi,
+	LocaleIiCN:         localeTableIiCN,
+	LocaleIs:           localeTableIs,
+	LocaleIsIS:         localeTableIsIS,
+	LocaleIt:           localeTableIt,
+	LocaleItCH:         localeTableItCH,
+	LocaleItIT:         localeTableItIT,
+	LocaleItSM:         localeTableItSM,
+	LocaleItVA:         localeTableItVA,
+	LocaleIu:           localeTableIu,
+	LocaleIuCA:         localeTableIuCA,
+	LocaleJa:           localeTableJa,
+	LocaleJaJP:         localeTableJaJP,
+	LocaleJgo:          localeTableJgo,
+	LocaleJgoCM:        localeTableJgoCM,
+	LocaleJmc:          localeTableJmc,
+	LocaleJmcTZ:        localeTableJmcTZ,
+	LocaleJv:           localeTableJv,
+	LocaleJvID:         localeTableJvID,
+	LocaleKa:           localeTableKa,
+	LocaleKaGE:         localeTableKaGE,
+	LocaleKab:          localeTableKab,
+	LocaleKabDZ:        localeTableKabDZ,
+	LocaleKaj:          localeTableKaj,
+	LocaleKajNG:        localeTableKajNG,
+	LocaleKam:          localeTableKam,
+	LocaleKamKE:        localeTableKamKE,
+	LocaleKcg:          localeTableKcg,
+	LocaleKcgNG:        localeTableKcgNG,
+	LocaleKde:          localeTableKde,
+	LocaleKdeTZ:        localeTableKdeTZ,
+	LocaleKea:          localeTableKea,
+	LocaleKeaCV:        localeTableKeaCV,
+	LocaleKgp:          localeTableKgp,
+	LocaleKgpBR:        localeTableKgpBR,
+	LocaleKhq:          localeTableKhq,
+	LocaleKhqML:        localeTableKhqML,
+	LocaleKi:           localeTableKi,
+	LocaleKiKE:         localeTableKiKE,
+	LocaleKk:           localeTableKk,
+	LocaleKkKZ:         localeTableKkKZ,
+	LocaleKkj:          localeTableKkj,
+	LocaleKkjCM:        localeTableKkjCM,
+	LocaleKl:           localeTableKl,
+	LocaleKlGL:         localeTableKlGL,
+	LocaleKln:          localeTableKln,
+	LocaleKlnKE:        localeTableKlnKE,
+	LocaleKm:           localeTableKm,
+	LocaleKmKH:         localeTableKmKH,
+	LocaleKn:           localeTableKn,
+	LocaleKnIN:         localeTableKnIN,
+	LocaleKo:           localeTableKo,
+	LocaleKoCN:         localeTableKoCN,
+	LocaleKoKP:         localeTableKoKP,
+	LocaleKoKR:         localeTableKoKR,
+	LocaleKok:          localeTableKok,
+	LocaleKokIN:        localeTableKokIN,
+	LocaleKs:           localeTableKs,
+	LocaleKsArab:       localeTableKsArab,
+	LocaleKsArabIN:     localeTableKsArabIN,
+	LocaleKsDeva:       localeTableKsDeva,
+	LocaleKsDevaIN:     localeTableKsDevaIN,
+	LocaleKsb:          localeTableKsb,
+	LocaleKsbTZ:        localeTableKsbTZ,
+	LocaleKsf:          localeTableKsf,
+	LocaleKsfCM:        localeTableKsfCM,
+	LocaleKsh:          localeTableKsh,
+	LocaleKshDE:        localeTableKshDE,
+	LocaleKu:           localeTableKu,
+	LocaleKuTR:         localeTableKuTR,
+	LocaleKw:           localeTableKw,
+	LocaleKwGB:         localeTableKwGB,
+	LocaleKxv:          localeTableKxv,
+	LocaleKxvDeva:      localeTableKxvDeva,
+	LocaleKxvDevaIN:    localeTableKxvDevaIN,
+	LocaleKxvOrya:      localeTableKxvOrya,
+	LocaleKxvOryaIN:    localeTableKxvOryaIN,
+	LocaleKxvTelu:      localeTableKxvTelu,
+	LocaleKxvTeluIN:    localeTableKxvTeluIN,
+	LocaleKy:           localeTableKy,
+	LocaleKyKG:         localeTableKyKG,
+	LocaleLa:           localeTableLa,
+	LocaleLaVA:         localeTableLaVA,
+	LocaleLag:          localeTableLag,
+	LocaleLagTZ:        localeTableLagTZ,
+	LocaleLb:           localeTableLb,
+	LocaleLbLU:         localeTableLbLU,
+	LocaleLg:           localeTableLg,
+	LocaleLgUG:         localeTableLgUG,
+	LocaleLij:          localeTableLij,
+	LocaleLijIT:        localeTableLijIT,
+	LocaleLkt:          localeTableLkt,
+	LocaleLktUS:        localeTableLktUS,
+	LocaleLmo:          localeTableLmo,
+	LocaleLmoIT:        localeTableLmoIT,
+	LocaleLn:           localeTableLn,
+	LocaleLnAO:         localeTableLnAO,
+	LocaleLnCD:         localeTableLnCD,
+	LocaleLnCF:         localeTableLnCF,
+	LocaleLnCG:         localeTableLnCG,
+	LocaleLo:           localeTableLo,
+	LocaleLoLA:         localeTableLoLA,
+	LocaleLrc:          localeTableLrc,
+	LocaleLrcIQ:        localeTableLrcIQ,
+	LocaleLrcIR:        localeTableLrcIR,
+	LocaleLt:           localeTableLt,
+	LocaleLtLT:         localeTableLtLT,
+	LocaleLu:           localeTableLu,
+	LocaleLuCD:         localeTableLuCD,
+	LocaleLuo:          localeTableLuo,
+	LocaleLuoKE:        localeTableLuoKE,
+	LocaleLuy:          localeTableLuy,
+	LocaleLuyKE:        localeTableLuyKE,
+	LocaleLv:           localeTableLv,
+	LocaleLvLV:         localeTableLvLV,
+	LocaleMai:          localeTableMai,
+	LocaleMaiIN:        localeTableMaiIN,
+	LocaleMas:          localeTableMas,
+	LocaleMasKE:        localeTableMasKE,
+	LocaleMasTZ:        localeTableMasTZ,
+	LocaleMer:          localeTableMer,
+	LocaleMerKE:        localeTableMerKE,
+	LocaleMfe:          localeTableMfe,
+	LocaleMfeMU:        localeTableMfeMU,
+	LocaleMg:           localeTableMg,
+	LocaleMgMG:         localeTableMgMG,
+	LocaleMgh:          localeTableMgh,
+	LocaleMghMZ:        localeTableMghMZ,
+	LocaleMgo:          localeTableMgo,
+	LocaleMgoCM:        localeTableMgoCM,
+	LocaleMi:           localeTableMi,
+	LocaleMiNZ:         localeTableMiNZ,
+	LocaleMk:           localeTableMk,
+	LocaleMkMK:         localeTableMkMK,
+	LocaleMl:           localeTableMl,
+	LocaleMlIN:         localeTableMlIN,
+	LocaleMn:           localeTableMn,
+	LocaleMnMN:         localeTableMnMN,
+	LocaleMnMongMN:     localeTableMnMongMN,
+	LocaleMni:          localeTableMni,
+	LocaleMniBeng:      localeTableMniBeng,
+	LocaleMniBengIN:    localeTableMniBengIN,
+	LocaleMr:           localeTableMr,
+	LocaleMrIN:         localeTableMrIN,
+	LocaleMs:           localeTableMs,
+	LocaleMsArab:       localeTableMsArab,
+	LocaleMsArabBN:     localeTableMsArabBN,
+	LocaleMsArabMY:     localeTableMsArabMY,
+	LocaleMsBN:         localeTableMsBN,
+	LocaleMsID:         localeTableMsID,
+	LocaleMsMY:         localeTableMsMY,
+	LocaleMsSG:         localeTableMsSG,
+	LocaleMt:           localeTableMt,
+	LocaleMtMT:         localeTableMtMT,
+	LocaleMua:          localeTableMua,
+	LocaleMuaCM:        localeTableMuaCM,
+	LocaleMus:          localeTableMus,
+	LocaleMusUS:        localeTableMusUS,
+	LocaleMy:           localeTableMy,
+	LocaleMyMM:         localeTableMyMM,
+	LocaleMyv:          localeTableMyv,
+	LocaleMyvRU:        localeTableMyvRU,
+	LocaleMzn:          localeTableMzn,
+	LocaleMznIR:        localeTableMznIR,
+	LocaleNaq:          localeTableNaq,
+	LocaleNaqNA:        localeTableNaqNA,
+	LocaleNd:           localeTableNd,
+	LocaleNdZW:         localeTableNdZW,
+	LocaleNds:          localeTableNds,
+	LocaleNdsDE:        localeTableNdsDE,
+	LocaleNdsNL:        localeTableNdsNL,
+	LocaleNe:           localeTableNe,
+	LocaleNeIN:         localeTableNeIN,
+	LocaleNeNP:         localeTableNeNP,
+	LocaleNl:           localeTableNl,
+	LocaleNlAW:         localeTableNlAW,
+	LocaleNlBE:         localeTableNlBE,
+	LocaleNlBQ:         localeTableNlBQ,
+	LocaleNlCW:         localeTableNlCW,
+	LocaleNlNL:         localeTableNlNL,
+	LocaleNlSR:         localeTableNlSR,
+	LocaleNlSX:         localeTableNlSX,
+	LocaleNmg:          localeTableNmg,
+	LocaleNmgCM:        localeTableNmgCM,
+	LocaleNn:           localeTableNn,
+	LocaleNnNO:         localeTableNnNO,
+	LocaleNnh:          localeTableNnh,
+	LocaleNnhCM:        localeTableNnhCM,
+	LocaleNo:           localeTableNo,
+	LocaleNqo:          localeTableNqo,
+	LocaleNqoGN:        localeTableNqoGN,
+	LocaleNr:           localeTableNr,
+	LocaleNrZA:         localeTableNrZA,
+	LocaleNso:          localeTableNso,
+	LocaleNsoZA:        localeTableNsoZA,
+	LocaleNus:          localeTableNus,
+	LocaleNusSS:        localeTableNusSS,
+	LocaleNy:           localeTableNy,
+	LocaleNyMW:         localeTableNyMW,
+	LocaleNyn:          localeTableNyn,
+	LocaleNynUG:        localeTableNynUG,
+	LocaleOc:           localeTableOc,
+	LocaleOcES:         localeTableOcES,
+	LocaleOcFR:         localeTableOcFR,
+	LocaleOm:           localeTableOm,
+	LocaleOmET:         localeTableOmET,
+	LocaleOmKE:         localeTableOmKE,
+	LocaleOr:           localeTableOr,
+	LocaleOrIN:         localeTableOrIN,
+	LocaleOs:           localeTableOs,
+	LocaleOsGE:         localeTableOsGE,
+	LocaleOsRU:         localeTableOsRU,
+	LocaleOsa:          localeTableOsa,
+	LocaleOsaUS:        localeTableOsaUS,
+	LocalePa:           localeTablePa,
+	LocalePaArab:       localeTablePaArab,
+	LocalePaArabPK:     localeTablePaArabPK,
+	LocalePaGuru:       localeTablePaGuru,
+	LocalePaGuruIN:     localeTablePaGuruIN,
+	LocalePap:          localeTablePap,
+	LocalePapAW:        localeTablePapAW,
+	LocalePapCW:        localeTablePapCW,
+	LocalePcm:          localeTablePcm,
+	LocalePcmNG:        localeTablePcmNG,
+	LocalePis:          localeTablePis,
+	LocalePisSB:        localeTablePisSB,
+	LocalePl:           localeTablePl,
+	LocalePlPL:         localeTablePlPL,
+	LocalePrg:          localeTablePrg,
+	LocalePrgPL:        localeTablePrgPL,
+	LocalePs:           localeTablePs,
+	LocalePsAF:         localeTablePsAF,
+	LocalePsPK:         localeTablePsPK,
+	LocalePt:           localeTablePt,
+	LocalePtAO:         localeTablePtAO,
+	LocalePtBR:         localeTablePtBR,
+	LocalePtCH:         localeTablePtCH,
+	LocalePtCV:         localeTablePtCV,
+	LocalePtGQ:         localeTablePtGQ,
+	LocalePtGW:         localeTablePtGW,
+	LocalePtLU:         localeTablePtLU,
+	LocalePtMO:         localeTablePtMO,
+	LocalePtMZ:         localeTablePtMZ,
+	LocalePtPT:         localeTablePtPT,
+	LocalePtST:         localeTablePtST,
+	LocalePtTL:         localeTablePtTL,
+	LocaleQu:           localeTableQu,
+	LocaleQuBO:         localeTableQuBO,
+	LocaleQuEC:         localeTableQuEC,
+	LocaleQuPE:         localeTableQuPE,
+	LocaleRaj:          localeTableRaj,
+	LocaleRajIN:        localeTableRajIN,
+	LocaleRif:          localeTableRif,
+	LocaleRifMA:        localeTableRifMA,
+	LocaleRm:           localeTableRm,
+	LocaleRmCH:         localeTableRmCH,
+	LocaleRn:           localeTableRn,
+	LocaleRnBI:         localeTableRnBI,
+	LocaleRo:           localeTableRo,
+	LocaleRoMD:         localeTableRoMD,
+	LocaleRoRO:         localeTableRoRO,
+	LocaleRof:          localeTableRof,
+	LocaleRofTZ:        localeTableRofTZ,
+	LocaleRu:           localeTableRu,
+	LocaleRuBY:         localeTableRuBY,
+	LocaleRuKG:         localeTableRuKG,
+	LocaleRuKZ:         localeTableRuKZ,
+	LocaleRuMD:         localeTableRuMD,
+	LocaleRuRU:         localeTableRuRU,
+	LocaleRuUA:         localeTableRuUA,
+	LocaleRw:           localeTableRw,
+	LocaleRwRW:         localeTableRwRW,
+	LocaleRwk:          localeTableRwk,
+	LocaleRwkTZ:        localeTableRwkTZ,
+	LocaleSa:           localeTableSa,
+	LocaleSaIN:         localeTableSaIN,
+	LocaleSah:          localeTableSah,
+	LocaleSahRU:        localeTableSahRU,
+	LocaleSaq:          localeTableSaq,
+	LocaleSaqKE:        localeTableSaqKE,
+	LocaleSat:          localeTableSat,
+	LocaleSbp:          localeTableSbp,
+	LocaleSbpTZ:        localeTableSbpTZ,
+	LocaleSc:           localeTableSc,
+	LocaleScIT:         localeTableScIT,
+	LocaleScn:          localeTableScn,
+	LocaleScnIT:        localeTableScnIT,
+	LocaleSd:           localeTableSd,
+	LocaleSdArab:       localeTableSdArab,
+	LocaleSdArabPK:     localeTableSdArabPK,
+	LocaleSdDeva:       localeTableSdDeva,
+	LocaleSdDevaIN:     localeTableSdDevaIN,
+	LocaleSe:           localeTableSe,
+	LocaleSeFI:         localeTableSeFI,
+	LocaleSeNO:         localeTableSeNO,
+	LocaleSeSE:         localeTableSeSE,
+	LocaleSeh:          localeTableSeh,
+	LocaleSehMZ:        localeTableSehMZ,
+	LocaleSes:          localeTableSes,
+	LocaleSesML:        localeTableSesML,
+	LocaleSg:           localeTableSg,
+	LocaleSgCF:         localeTableSgCF,
+	LocaleShi:          localeTableShi,
+	LocaleShiLatn:      localeTableShiLatn,
+	LocaleShiLatnMA:    localeTableShiLatnMA,
+	LocaleShiTfng:      localeTableShiTfng,
+	LocaleShiTfngMA:    localeTableShiTfngMA,
+	LocaleSi:           localeTableSi,
+	LocaleSiLK:         localeTableSiLK,
+	LocaleSid:          localeTableSid,
+	LocaleSidET:        localeTableSidET,
+	LocaleSk:           localeTableSk,
+	LocaleSkSK:         localeTableSkSK,
+	LocaleSkr:          localeTableSkr,
+	LocaleSkrPK:        localeTableSkrPK,
+	LocaleSl:           localeTableSl,
+	LocaleSlSI:         localeTableSlSI,
+	LocaleSmn:          localeTableSmn,
+	LocaleSmnFI:        localeTableSmnFI,
+	LocaleSn:           localeTableSn,
+	LocaleSnZW:         localeTableSnZW,
+	LocaleSo:           localeTableSo,
+	LocaleSoDJ:         localeTableSoDJ,
+	LocaleSoET:         localeTableSoET,
+	LocaleSoKE:         localeTableSoKE,
+	LocaleSoSO:         localeTableSoSO,
+	LocaleSq:           localeTableSq,
+	LocaleSqAL:         localeTableSqAL,
+	LocaleSqMK:         localeTableSqMK,
+	LocaleSqXK:         localeTableSqXK,
+	LocaleSr:           localeTableSr,
+	LocaleSrCyrl:       localeTableSrCyrl,
+	LocaleSrCyrlBA:     localeTableSrCyrlBA,
+	LocaleSrCyrlME:     localeTableSrCyrlME,
+	LocaleSrCyrlRS:     localeTableSrCyrlRS,
+	LocaleSrCyrlXK:     localeTableSrCyrlXK,
+	LocaleSrLatn:       localeTableSrLatn,
+	LocaleSrLatnBA:     localeTableSrLatnBA,
+	LocaleSrLatnME:     localeTableSrLatnME,
+	LocaleSrLatnRS:     localeTableSrLatnRS,
+	LocaleSrLatnXK:     localeTableSrLatnXK,
+	LocaleSs:           localeTableSs,
+	LocaleSsSZ:         localeTableSsSZ,
+	LocaleSsZA:         localeTableSsZA,
+	LocaleSsy:          localeTableSsy,
+	LocaleSsyER:        localeTableSsyER,
+	LocaleSt:           localeTableSt,
+	LocaleStLS:         localeTableStLS,
+	LocaleStZA:         localeTableStZA,
+	LocaleSu:           localeTableSu,
+	LocaleSuLatn:       localeTableSuLatn,
+	LocaleSuLatnID:     localeTableSuLatnID,
+	LocaleSv:           localeTableSv,
+	LocaleSvAX:         localeTableSvAX,
+	LocaleSvFI:         localeTableSvFI,
+	LocaleSvSE:         localeTableSvSE,
+	LocaleSw:           localeTableSw,
+	LocaleSwCD:         localeTableSwCD,
+	LocaleSwKE:         localeTableSwKE,
+	LocaleSwTZ:         localeTableSwTZ,
+	LocaleSwUG:         localeTableSwUG,
+	LocaleSyr:          localeTableSyr,
+	LocaleSyrIQ:        localeTableSyrIQ,
+	LocaleSyrSY:        localeTableSyrSY,
+	LocaleSzl:          localeTableSzl,
+	LocaleSzlPL:        localeTableSzlPL,
+	LocaleTa:           localeTableTa,
+	LocaleTaIN:         localeTableTaIN,
+	LocaleTaLK:         localeTableTaLK,
+	LocaleTaMY:         localeTableTaMY,
+	LocaleTaSG:         localeTableTaSG,
+	LocaleTe:           localeTableTe,
+	LocaleTeIN:         localeTableTeIN,
+	LocaleTeo:          localeTableTeo,
+	LocaleTeoKE:        localeTableTeoKE,
+	LocaleTeoUG:        localeTableTeoUG,
+	LocaleTg:           localeTableTg,
+	LocaleTgTJ:         localeTableTgTJ,
+	LocaleTh:           localeTableTh,
+	LocaleThTH:         localeTableThTH,
+	LocaleTi:           localeTableTi,
+	LocaleTiER:         localeTableTiER,
+	LocaleTiET:         localeTableTiET,
+	LocaleTig:          localeTableTig,
+	LocaleTigER:        localeTableTigER,
+	LocaleTk:           localeTableTk,
+	LocaleTkTM:         localeTableTkTM,
+	LocaleTn:           localeTableTn,
+	LocaleTnBW:         localeTableTnBW,
+	LocaleTnZA:         localeTableTnZA,
+	LocaleTo:           localeTableTo,
+	LocaleToTO:         localeTableToTO,
+	LocaleTok:          localeTableTok,
+	LocaleTok001:       localeTableTok001,
+	LocaleTpi:          localeTableTpi,
+	LocaleTpiPG:        localeTableTpiPG,
+	LocaleTr:           localeTableTr,
+	LocaleTrCY:         localeTableTrCY,
+	LocaleTrTR:         localeTableTrTR,
+	LocaleTrv:          localeTableTrv,
+	LocaleTrvTW:        localeTableTrvTW,
+	LocaleTrw:          localeTableTrw,
+	LocaleTrwPK:        localeTableTrwPK,
+	LocaleTs:           localeTableTs,
+	LocaleTsZA:         localeTableTsZA,
+	LocaleTt:           localeTableTt,
+	LocaleTtRU:         localeTableTtRU,
+	LocaleTwq:          localeTableTwq,
+	LocaleTwqNE:        localeTableTwqNE,
+	LocaleTzm:          localeTableTzm,
+	LocaleTzmMA:        localeTableTzmMA,
+	LocaleUg:           localeTableUg,
+	LocaleUgCN:         localeTableUgCN,
+	LocaleUk:           localeTableUk,
+	LocaleUkUA:         localeTableUkUA,
+	LocaleUnd:          localeTableUnd,
+	LocaleUr:           localeTableUr,
+	LocaleUrIN:         localeTableUrIN,
+	LocaleUrPK:         localeTableUrPK,
+	LocaleUz:           localeTableUz,
+	LocaleUzArab:       localeTableUzArab,
+	LocaleUzArabAF:     localeTableUzArabAF,
+	LocaleUzCyrl:       localeTableUzCyrl,
+	LocaleUzCyrlUZ:     localeTableUzCyrlUZ,
+	LocaleUzLatn:       localeTableUzLatn,
+	LocaleUzLatnUZ:     localeTableUzLatnUZ,
+	LocaleVai:          localeTableVai,
+	LocaleVaiLatn:      localeTableVaiLatn,
+	LocaleVaiLatnLR:    localeTableVaiLatnLR,
+	LocaleVaiVaii:      localeTableVaiVaii,
+	LocaleVaiVaiiLR:    localeTableVaiVaiiLR,
+	LocaleVe:           localeTableVe,
+	LocaleVeZA:         localeTableVeZA,
+	LocaleVec:          localeTableVec,
+	LocaleVecIT:        localeTableVecIT,
+	LocaleVi:           localeTableVi,
+	LocaleViVN:         localeTableViVN,
+	LocaleVmw:          localeTableVmw,
+	LocaleVmwMZ:        localeTableVmwMZ,
+	LocaleVo:           localeTableVo,
+	LocaleVo001:        localeTableVo001,
+	LocaleVun:          localeTableVun,
+	LocaleVunTZ:        localeTableVunTZ,
+	LocaleWae:          localeTableWae,
+	LocaleWaeCH:        localeTableWaeCH,
+	LocaleWal:          localeTableWal,
+	LocaleWalET:        localeTableWalET,
+	LocaleWo:           localeTableWo,
+	LocaleWoSN:         localeTableWoSN,
+	LocaleXh:           localeTableXh,
+	LocaleXhZA:         localeTableXhZA,
+	LocaleXnr:          localeTableXnr,
+	LocaleXnrIN:        localeTableXnrIN,
+	LocaleXog:          localeTableXog,
+	LocaleXogUG:        localeTableXogUG,
+	LocaleYav:          localeTableYav,
+	LocaleYavCM:        localeTableYavCM,
+	LocaleYi:           localeTableYi,
+	LocaleYiUA:         localeTableYiUA,
+	LocaleYo:           localeTableYo,
+	LocaleYoBJ:         localeTableYoBJ,
+	LocaleYoNG:         localeTableYoNG,
+	LocaleYrl:          localeTableYrl,
+	LocaleYrlBR:        localeTableYrlBR,
+	LocaleYrlCO:        localeTableYrlCO,
+	LocaleYrlVE:        localeTableYrlVE,
+	LocaleYue:          localeTableYue,
+	LocaleYueHans:      localeTableYueHans,
+	LocaleYueHansCN:    localeTableYueHansCN,
+	LocaleYueHant:      localeTableYueHant,
+	LocaleYueHantHK:    localeTableYueHantHK,
+	LocaleZa:           localeTableZa,
+	LocaleZaCN:         localeTableZaCN,
+	LocaleZgh:          localeTableZgh,
+	LocaleZghMA:        localeTableZghMA,
+	LocaleZh:           localeTableZh,
+	LocaleZhHans:       localeTableZhHans,
+	LocaleZhHansCN:     localeTableZhHansCN,
+	LocaleZhHansHK:     localeTableZhHansHK,
+	LocaleZhHansMO:     localeTableZhHansMO,
+	LocaleZhHansSG:     localeTableZhHansSG,
+	LocaleZhHant:       localeTableZhHant,
+	LocaleZhHantHK:     localeTableZhHantHK,
+	LocaleZhHantMO:     localeTableZhHantMO,
+	LocaleZhHantTW:     localeTableZhHantTW,
+	LocaleZu:           localeTableZu,
+	LocaleZuZA:         localeTableZuZA,
 }
 
 const (
