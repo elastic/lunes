@@ -645,37 +645,6 @@ Contents of probable licence file $GOMODCACHE/go.elastic.co/go-licence-detector@
 
 
 --------------------------------------------------------------------------------
-Dependency : go.uber.org/goleak
-Version: v1.3.0
-Licence type (autodetected): MIT
---------------------------------------------------------------------------------
-
-Contents of probable licence file $GOMODCACHE/go.uber.org/goleak@v1.3.0/LICENSE:
-
-The MIT License (MIT)
-
-Copyright (c) 2018 Uber Technologies, Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
---------------------------------------------------------------------------------
 Dependency : golang.org/x/tools
 Version: v0.23.0
 Licence type (autodetected): BSD-3-Clause
@@ -1289,11 +1258,11 @@ DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------------------
 Dependency : github.com/stretchr/objx
-Version: v0.5.2
+Version: v0.1.0
 Licence type (autodetected): MIT
 --------------------------------------------------------------------------------
 
-Contents of probable licence file $GOMODCACHE/github.com/stretchr/objx@v0.5.2/LICENSE:
+Contents of probable licence file $GOMODCACHE/github.com/stretchr/objx@v0.1.0/LICENSE:
 
 The MIT License
 
@@ -1321,11 +1290,11 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 Dependency : github.com/stretchr/testify
-Version: v1.9.0
+Version: v1.6.1
 Licence type (autodetected): MIT
 --------------------------------------------------------------------------------
 
-Contents of probable licence file $GOMODCACHE/github.com/stretchr/testify@v1.9.0/LICENSE:
+Contents of probable licence file $GOMODCACHE/github.com/stretchr/testify@v1.6.1/LICENSE:
 
 MIT License
 
@@ -1962,11 +1931,11 @@ Contents of probable licence file $GOMODCACHE/gopkg.in/yaml.v2@v2.2.7/LICENSE:
 
 --------------------------------------------------------------------------------
 Dependency : gopkg.in/yaml.v3
-Version: v3.0.1
+Version: v3.0.0-20200313102051-9f266ea9e77c
 Licence type (autodetected): MIT
 --------------------------------------------------------------------------------
 
-Contents of probable licence file $GOMODCACHE/gopkg.in/yaml.v3@v3.0.1/LICENSE:
+Contents of probable licence file $GOMODCACHE/gopkg.in/yaml.v3@v3.0.0-20200313102051-9f266ea9e77c/LICENSE:
 
 
 This project is covered by two different licenses: MIT and Apache.

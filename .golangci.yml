@@ -74,11 +74,7 @@ linters-settings:
     forbid:
       - fmt.Print.* # too much log noise
     # Exclude godoc examples from forbidigo checks.  Default is true.
-    exclude_godoc_examples: true
-
-  gosimple:
-    # Select the Go version to target. The default is '1.13'.
-    go: "1.21.12"
+    exclude-godoc-examples: true
 
   nakedret:
     # make an issue if func has more lines of code than this setting and it has naked returns; default is 30
@@ -87,8 +83,6 @@ linters-settings:
   nolintlint:
     # Enable to ensure that nolint directives are all used. Default is true.
     allow-unused: false
-    # Disable to ensure that nolint directives don't have a leading space. Default is true.
-    allow-leading-space: false
     # Exclude following linters from requiring an explanation.  Default is [].
     allow-no-explanation: []
     # Enable to require an explanation of nonzero length after each nolint directive. Default is false.
@@ -111,18 +105,10 @@ linters-settings:
             reason: "There must be no Beats dependency"
 
   staticcheck:
-    # Select the Go version to target. The default is '1.13'.
-    go: "1.22.5"
     # https://staticcheck.io/docs/options#checks
     checks: ["all"]
 
   stylecheck:
-    # Select the Go version to target. The default is '1.13'.
-    go: "1.22.5"
     # https://staticcheck.io/docs/options#checks
     checks: ["all"]
-
-  unused:
-    # Select the Go version to target. The default is '1.13'.
-    go: "1.22.5"
 
