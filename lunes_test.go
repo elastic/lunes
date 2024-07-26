@@ -876,7 +876,7 @@ func TestAllLocalesReplacements(t *testing.T) {
 		day := month % 7
 		period := month % 2
 
-		shortStdValue := fmt.Sprintf("%s %s 03:04:05%s", shortDayNamesStd[day], shortMonthNamesStd[month], dayPeriodsStd[period])
+		shortStdValue := fmt.Sprintf("%s %s 03:04:05%s", shortDayNamesStd[day], shortMonthNamesStd[month], dayPeriodsStdUpper[period])
 		shortLayoutTests = append(shortLayoutTests, ParseTest{
 			name:     shortStdValue,
 			format:   "Mon Jan 03:04:05PM",
@@ -886,7 +886,7 @@ func TestAllLocalesReplacements(t *testing.T) {
 			locales:  allLocalesTests("%s %s 03:04:05%s", []replacement{{shortDayNamesField, day}, {shortMonthNamesField, month}, {dayPeriodsField, period}}),
 		})
 
-		longStdValue := fmt.Sprintf("%s %s 03:04:05%s", longDayNamesStd[day], longMonthNamesStd[month], dayPeriodsStd[period])
+		longStdValue := fmt.Sprintf("%s %s 03:04:05%s", longDayNamesStd[day], longMonthNamesStd[month], dayPeriodsStdUpper[period])
 		longLayoutTests = append(longLayoutTests, ParseTest{
 			format:   "Monday January 03:04:05PM",
 			stdValue: longStdValue,

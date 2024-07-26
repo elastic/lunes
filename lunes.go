@@ -75,7 +75,7 @@ var longMonthNamesStd = []string{
 	"December",
 }
 
-var dayPeriodsStd = []string{
+var dayPeriodsStdUpper = []string{
 	"AM",
 	"PM",
 }
@@ -251,7 +251,7 @@ func TranslateWithLocale(layout string, value string, locale Locale) (string, er
 					stdTab = dayPeriodsStdLower
 				} else {
 					layoutElem = "PM"
-					stdTab = dayPeriodsStd
+					stdTab = dayPeriodsStdUpper
 				}
 
 				lookupTab = locale.DayPeriods()
