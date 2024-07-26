@@ -75,9 +75,14 @@ var longMonthNamesStd = []string{
 	"December",
 }
 
-var dayPeriodsStd = []string{
+var dayPeriodsStdUpper = []string{
 	"AM",
 	"PM",
+}
+
+var dayPeriodsStdLower = []string{
+	"am",
+	"pm",
 }
 
 // Parse parses a formatted string in foreign language and returns the [time.Time] value
@@ -239,13 +244,23 @@ func TranslateWithLocale(layout string, value string, locale Locale) (string, er
 			}
 		case 'P', 'p': // PM, pm
 			if len(layout) >= layoutOffset+2 && unicode.ToUpper(rune(layout[layoutOffset+1])) == 'M' {
+				var layoutElem string
+				// day-periods case matters for the time package parsing functions
+				if c == 'p' {
+					layoutElem = "pm"
+					stdTab = dayPeriodsStdLower
+				} else {
+					layoutElem = "PM"
+					stdTab = dayPeriodsStdUpper
+				}
+
 				lookupTab = locale.DayPeriods()
 				if len(lookupTab) == 0 {
-					return "", newUnsupportedLayoutElemError("PM", locale)
+					return "", newUnsupportedLayoutElemError(layoutElem, locale)
 				}
 
 				layoutOffset += 2
-				valueOffset, err = writeLayoutValue("PM", lookupTab, dayPeriodsStd, valueOffset, value, &sb)
+				valueOffset, err = writeLayoutValue(layoutElem, lookupTab, stdTab, valueOffset, value, &sb)
 				if err != nil {
 					return "", err
 				}

@@ -818,6 +818,56 @@ func TestParsingWithUnsupportedLocale(t *testing.T) {
 	})
 }
 
+func TestDayPeriodsLayoutCase(t *testing.T) {
+	tests := []struct {
+		name   string
+		format string
+		value  string
+		lang   string
+	}{
+		{
+			name:   "AllLowerPm",
+			format: "Monday January 03:04:05pm",
+			value:  "lunes enero 03:04:05a.m.",
+			lang:   LocaleEs,
+		},
+		{
+			name:   "AllUpperPm",
+			format: "Monday January 03:04:05PM",
+			value:  "Monday January 03:04:05AM",
+			lang:   LocaleEnUS,
+		},
+		{
+			name:   "UpperPmLowerValue",
+			format: "Monday January 03:04:05PM",
+			value:  "Monday January 03:04:05am",
+			lang:   LocaleEnUS,
+		},
+		{
+			name:   "LowerPmUpperValue",
+			format: "Monday January 03:04:05pm",
+			value:  "Monday January 03:04:05AM",
+			lang:   LocaleEnUS,
+		},
+	}
+
+	for _, test := range tests {
+		t.Run(fmt.Sprintf("ParseWith%s", test.name), func(t *testing.T) {
+			_, err := Parse(test.format, test.value, test.lang)
+			if err != nil {
+				t.Errorf("no error expected, got: '%v'", err)
+			}
+		})
+
+		t.Run(fmt.Sprintf("ParseInLocationWith%s", test.name), func(t *testing.T) {
+			_, err := ParseInLocation(test.format, test.value, test.lang, defaultLocation)
+			if err != nil {
+				t.Errorf("no error expected, got: '%v'", err)
+			}
+		})
+	}
+}
+
 func TestAllLocalesReplacements(t *testing.T) {
 	var shortLayoutTests []ParseTest
 	var longLayoutTests []ParseTest
@@ -826,7 +876,7 @@ func TestAllLocalesReplacements(t *testing.T) {
 		day := month % 7
 		period := month % 2
 
-		shortStdValue := fmt.Sprintf("%s %s 03:04:05%s", shortDayNamesStd[day], shortMonthNamesStd[month], dayPeriodsStd[period])
+		shortStdValue := fmt.Sprintf("%s %s 03:04:05%s", shortDayNamesStd[day], shortMonthNamesStd[month], dayPeriodsStdUpper[period])
 		shortLayoutTests = append(shortLayoutTests, ParseTest{
 			name:     shortStdValue,
 			format:   "Mon Jan 03:04:05PM",
@@ -836,7 +886,7 @@ func TestAllLocalesReplacements(t *testing.T) {
 			locales:  allLocalesTests("%s %s 03:04:05%s", []replacement{{shortDayNamesField, day}, {shortMonthNamesField, month}, {dayPeriodsField, period}}),
 		})
 
-		longStdValue := fmt.Sprintf("%s %s 03:04:05%s", longDayNamesStd[day], longMonthNamesStd[month], dayPeriodsStd[period])
+		longStdValue := fmt.Sprintf("%s %s 03:04:05%s", longDayNamesStd[day], longMonthNamesStd[month], dayPeriodsStdUpper[period])
 		longLayoutTests = append(longLayoutTests, ParseTest{
 			format:   "Monday January 03:04:05PM",
 			stdValue: longStdValue,

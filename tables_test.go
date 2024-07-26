@@ -32,7 +32,7 @@ func TestLocaleTableEn(t *testing.T) {
 		longDayNamesStd,
 		shortMonthNamesStd,
 		longMonthNamesStd,
-		dayPeriodsStd,
+		dayPeriodsStdUpper,
 	}
 
 	lang := "en"
