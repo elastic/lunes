@@ -111,4 +111,3 @@ linters-settings:
   stylecheck:
     # https://staticcheck.io/docs/options#checks
     checks: ["all"]
-
