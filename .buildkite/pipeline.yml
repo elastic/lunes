@@ -13,6 +13,13 @@ steps:
   - label: ":buildkite: Lint"
     command: |
       export PATH=${PATH}:`go env GOPATH`/bin
+
+      mkdir -p "${WORKSPACE}/bin"
+      export PATH="${WORKSPACE}/bin:${PATH}"
+      retry 5 curl -sL -o "${WORKSPACE}/bin/mage.tar.gz" "https://github.com/magefile/mage/releases/download/v${SETUP_MAGE_VERSION}/mage_${SETUP_MAGE_VERSION}_Linux-64bit.tar.gz"
+      tar -xvf "${WORKSPACE}/bin/mage.tar.gz" -C "${WORKSPACE}/bin"
+      chmod +x "${WORKSPACE}/bin/mage"
+      
       set -euo pipefail
       echo "--- Mage notice"
       mage notice
