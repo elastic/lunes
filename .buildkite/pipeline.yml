@@ -12,6 +12,7 @@ env:
 steps:
   - label: ":buildkite: Lint"
     command: |
+      export PATH=${PATH}:`go env GOPATH`/bin
       set -euo pipefail
       echo "--- Mage notice"
       mage notice
