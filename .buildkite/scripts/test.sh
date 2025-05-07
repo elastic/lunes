@@ -10,15 +10,17 @@ add_bin_path
 with_go_junit_report
 
 echo "--- Go Test"
-set +e
+set +ex
 go test -race -v ./... > tests-report.txt
 exit_code=$?
-set -e
+set -ex
 
 # Buildkite collapse logs under --- symbols
 # need to change --- to anything else or switch off collapsing (note: not available at the moment of this commit)
+echo "--- Test Results"
 awk '{gsub("---", "----"); print }' tests-report.txt
 
 # Create Junit report for junit annotation plugin
+echo "--- Generate Report"
 go-junit-report > "${junitfile:-junit-report-linux.xml}" < tests-report.txt
 exit $exit_code
