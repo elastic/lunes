@@ -9,6 +9,8 @@ steps:
       - ".buildkite/scripts/lint.sh"
     agents:
       image: golang:${GO_VERSION}
+      cpu: "8"
+      memory: "4G"
 
   - label: ":linux: Test Linux"
     key: test-lin
@@ -16,6 +18,8 @@ steps:
       - ".buildkite/scripts/test.sh"
     agents:
       image: golang:${GO_VERSION}
+      cpu: "8"
+      memory: "4G"
     artifact_paths:
       - "junit-*.xml"
 
@@ -26,6 +30,8 @@ steps:
     agents:
       provider: "gcp"
       image: "family/core-windows-2019"
+      cpu: "8"
+      memory: "4G"
     artifact_paths:
       - "junit-*.xml"
 
