@@ -2,8 +2,6 @@
 env:
   SETUP_MAGE_VERSION: '1.15.0'
   SETUP_GVM_VERSION: 'v0.5.0'
-  GCP_DEFAULT_MACHINE_TYPE: "c2d-highcpu-8"
-  GCP_WIN_MACHINE_TYPE: "n2-standard-8"
 
 steps:
   - label: ":buildkite: Lint"
@@ -19,9 +17,9 @@ steps:
     command:
       - ".buildkite/scripts/test.sh"
     agents:
-      provider: "gcp"
       image: golang:${GO_VERSION}
-      machineType: "${GCP_DEFAULT_MACHINE_TYPE}"
+      cpu: "8"
+      memory: "12G"
     artifact_paths:
       - "junit-*.xml"
 
@@ -32,9 +30,8 @@ steps:
     agents:
       provider: "gcp"
       image: "family/core-windows-2019"
-      machine_type: "${GCP_WIN_MACHINE_TYPE}"
-      disk_size: 200
-      disk_type: "pd-ssd"
+      cpu: "8"
+      memory: "12G"
     artifact_paths:
       - "junit-*.xml"
 
