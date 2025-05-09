@@ -1,5 +1,4 @@
 #!/bin/bash
-junitfile=$1 # filename for junit annotation plugin
 
 set -euo pipefail
 
@@ -7,7 +6,6 @@ echo "--- Pre install"
 source .buildkite/scripts/pre-install-command.sh
 go version
 add_bin_path
-with_go_junit_report
 
 echo "--- Go Test"
 set +ex
@@ -20,7 +18,4 @@ set -ex
 echo "--- Test Results"
 awk '{gsub("---", "----"); print }' tests-report.txt
 
-# Create Junit report for junit annotation plugin
-echo "--- Generate Report"
-go-junit-report > "${junitfile:-junit-report-linux.xml}" < tests-report.txt
 exit $exit_code

@@ -8,20 +8,14 @@ function fixCRLF {
     git reset --quiet --hard
 }
 
-function withGoJUnitReport {
-    Write-Host "-- Install go-junit-report --"
-    go install github.com/jstemmer/go-junit-report/v2@latest
-}
-
-Write-Host "--- Prepare enviroment"
+Write-Host "--- Prepare environment"
 fixCRLF
-withGoJUnitReport
 
 Write-Host "--- Run test"
 $ErrorActionPreference = "Continue" # set +e
 mkdir -p build
 $OUT_FILE="output-report.out"
-go test -tags integration "./..." -v > $OUT_FILE
+go test "./..." -v > $OUT_FILE
 $EXITCODE=$LASTEXITCODE
 $ErrorActionPreference = "Stop"
 
@@ -32,9 +26,5 @@ foreach ($line in $contest) {
     $changed = $line -replace '---', '----'
     Write-Host $changed
 }
-
-Get-Content $OUT_FILE | go-junit-report > "uni-junit-win.xml"
-Get-Content "uni-junit-win.xml" -Encoding Unicode | Set-Content -Encoding UTF8 "junit-win.xml"
-Remove-Item "uni-junit-win.xml", "$OUT_FILE"
 
 Exit $EXITCODE
