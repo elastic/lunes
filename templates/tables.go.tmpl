@@ -19,19 +19,22 @@
 
 package lunes
 
+import "sync"
+
 var CLDRVersion = {{ .CLDRVersion }}
 
 {{ range .Tables -}}
-var localeTable{{ .Name }} = [5][]string{
-    {{"{"}}{{if .ShortDaysNames}}{{StringSliceValue .ShortDaysNames}}{{end}}{{"}"}},
-    {{"{"}}{{if .LongDaysNames}}{{StringSliceValue .LongDaysNames}}{{end}}{{"}"}},
-    {{"{"}}{{if .ShortMonthNames}}{{StringSliceValue .ShortMonthNames}}{{end}}{{"}"}},
-    {{"{"}}{{if .LongMonthNames}}{{StringSliceValue .LongMonthNames}}{{end}}{{"}"}},
-    {{"{"}}{{if .DayPeriods}}{{StringSliceValue .DayPeriods}}{{end}}{{"}"}},
+func localeTable{{ .Name }}() [5][]string {
+    return [5][]string{
+        {{"{"}}{{if .ShortDaysNames}}{{StringSliceValue .ShortDaysNames}}{{end}}{{"}"}},
+        {{"{"}}{{if .LongDaysNames}}{{StringSliceValue .LongDaysNames}}{{end}}{{"}"}},
+        {{"{"}}{{if .ShortMonthNames}}{{StringSliceValue .ShortMonthNames}}{{end}}{{"}"}},
+        {{"{"}}{{if .LongMonthNames}}{{StringSliceValue .LongMonthNames}}{{end}}{{"}"}},
+        {{"{"}}{{if .DayPeriods}}{{StringSliceValue .DayPeriods}}{{end}}{{"}"}},
+    }
 }
 
 {{ end -}}
-
 
 const (
     {{ range .Tables -}}
@@ -39,11 +42,45 @@ const (
     {{ end -}}
 )
 
+var (
+	tablesMu     sync.RWMutex
+	tablesCache  = make(map[string][5][]string)
+	tableLoaders = map[string]func() [5][]string{
+        {{ range .Tables -}}
+		Locale{{  .Name }}: localeTable{{  .Name }},
+        {{ end -}}
+	}
+)
 
-var tables = map[string][5][]string{
-    {{ range .Tables -}}
-	Locale{{  .Name }}: localeTable{{  .Name }},
-    {{ end -}}
+// getTable retrieves a locale table, loading it lazily on first access.
+// Subsequent accesses return the cached table.
+func getTable(lang string) ([5][]string, bool) {
+	// Fast path: check if already cached (read lock)
+	tablesMu.RLock()
+	table, ok := tablesCache[lang]
+	tablesMu.RUnlock()
+	if ok {
+		return table, true
+	}
+
+	// Slow path: load and cache (write lock)
+	tablesMu.Lock()
+	defer tablesMu.Unlock()
+
+	// Double-check after acquiring write lock
+	if table, ok := tablesCache[lang]; ok {
+		return table, true
+	}
+
+	// Load the table
+	loader, ok := tableLoaders[lang]
+	if !ok {
+		return [5][]string{}, false
+	}
+
+	table = loader()
+	tablesCache[lang] = table
+	return table, true
 }
 
 
