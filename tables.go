@@ -21,7 +21,7 @@ package lunes
 
 import "sync"
 
-var CLDRVersion = 45
+var CLDRVersion = 48
 
 func localeTableAa() [5][]string {
 	return [5][]string{
@@ -135,21 +135,21 @@ func localeTableAgqCM() [5][]string {
 
 func localeTableAk() [5][]string {
 	return [5][]string{
-		{"Kwe", "Dwo", "Ben", "Wuk", "Yaw", "Fia", "Mem"},
-		{"Kwesida", "Dwowda", "Benada", "Wukuda", "Yawda", "Fida", "Memeneda"},
-		{"S-Ɔ", "K-Ɔ", "E-Ɔ", "E-O", "E-K", "O-A", "A-K", "D-Ɔ", "F-Ɛ", "Ɔ-A", "Ɔ-O", "M-Ɔ"},
-		{"Sanda-Ɔpɛpɔn", "Kwakwar-Ɔgyefuo", "Ebɔw-Ɔbenem", "Ebɔbira-Oforisuo", "Esusow Aketseaba-Kɔtɔnimba", "Obirade-Ayɛwohomumu", "Ayɛwoho-Kitawonsa", "Difuu-Ɔsandaa", "Fankwa-Ɛbɔ", "Ɔbɛsɛ-Ahinime", "Ɔberɛfɛw-Obubuo", "Mumu-Ɔpɛnimba"},
-		{"AN", "EW"},
+		{"Kwa", "Dwo", "Ben", "Wuk", "Yaw", "Fia", "Mem"},
+		{"Sun", "Dwoada", "Benada", "Wukuada", "Yawoada", "Fiada", "Memeneda"},
+		{},
+		{"Ɔpɛpɔn", "Ɔgyefoɔ", "Ɔbɛnem", "Oforisuo", "Kɔtɔnimma", "Ayɛwohomumu", "Kutawonsa", "Ɔsanaa", "Ɛbɔ", "Ahinime", "Obubuo", "Ɔpɛnimma"},
+		{"AN", "ANW"},
 	}
 }
 
 func localeTableAkGH() [5][]string {
 	return [5][]string{
-		{"Kwe", "Dwo", "Ben", "Wuk", "Yaw", "Fia", "Mem"},
-		{"Kwesida", "Dwowda", "Benada", "Wukuda", "Yawda", "Fida", "Memeneda"},
-		{"S-Ɔ", "K-Ɔ", "E-Ɔ", "E-O", "E-K", "O-A", "A-K", "D-Ɔ", "F-Ɛ", "Ɔ-A", "Ɔ-O", "M-Ɔ"},
-		{"Sanda-Ɔpɛpɔn", "Kwakwar-Ɔgyefuo", "Ebɔw-Ɔbenem", "Ebɔbira-Oforisuo", "Esusow Aketseaba-Kɔtɔnimba", "Obirade-Ayɛwohomumu", "Ayɛwoho-Kitawonsa", "Difuu-Ɔsandaa", "Fankwa-Ɛbɔ", "Ɔbɛsɛ-Ahinime", "Ɔberɛfɛw-Obubuo", "Mumu-Ɔpɛnimba"},
-		{"AN", "EW"},
+		{"Kwa", "Dwo", "Ben", "Wuk", "Yaw", "Fia", "Mem"},
+		{"Sun", "Dwoada", "Benada", "Wukuada", "Yawoada", "Fiada", "Memeneda"},
+		{},
+		{"Ɔpɛpɔn", "Ɔgyefoɔ", "Ɔbɛnem", "Oforisuo", "Kɔtɔnimma", "Ayɛwohomumu", "Kutawonsa", "Ɔsanaa", "Ɛbɔ", "Ahinime", "Obubuo", "Ɔpɛnimma"},
+		{"AN", "ANW"},
 	}
 }
 
@@ -613,6 +613,26 @@ func localeTableAzLatnAZ() [5][]string {
 	}
 }
 
+func localeTableBa() [5][]string {
+	return [5][]string{
+		{"йәк.", "дүш.", "шиш.", "шар.", "кес.", "йом.", "шәм."},
+		{"йәкшәмбе", "дүшәмбе", "шишәмбе", "шаршамбы", "кесаҙна", "йома", "шәмбе"},
+		{"ғин.", "фев.", "мар.", "апр.", "май", "июн.", "июл.", "авг.", "сент.", "окт.", "нояб.", "дек."},
+		{"ғинуар", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"},
+		{},
+	}
+}
+
+func localeTableBaRU() [5][]string {
+	return [5][]string{
+		{"йәк.", "дүш.", "шиш.", "шар.", "кес.", "йом.", "шәм."},
+		{"йәкшәмбе", "дүшәмбе", "шишәмбе", "шаршамбы", "кесаҙна", "йома", "шәмбе"},
+		{"ғин.", "фев.", "мар.", "апр.", "май", "июн.", "июл.", "авг.", "сент.", "окт.", "нояб.", "дек."},
+		{"ғинуар", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"},
+		{},
+	}
+}
+
 func localeTableBal() [5][]string {
 	return [5][]string{
 		{"یک", "دو", "سئے", "چار", "پنچ", "جمه", "شم"},
@@ -649,7 +669,7 @@ func localeTableBalLatn() [5][]string {
 		{"Yakshambeh", "Doshambeh", "Sayshambeh", "Chárshambeh", "Panchshambeh", "Jomah", "Shambeh"},
 		{"Jan", "Par", "Már", "Apr", "Mai", "Jun", "Jól", "Aga", "Sat", "Akt", "Naw", "Das"},
 		{"Janwari", "Parwari", "Márch", "Aprél", "Mai", "Jun", "Jólái", "Agast", "Satambar", "Aktubar", "Nawambar", "Dasambar"},
-		{},
+		{"am", "pm"},
 	}
 }
 
@@ -659,7 +679,7 @@ func localeTableBalLatnPK() [5][]string {
 		{"Yakshambeh", "Doshambeh", "Sayshambeh", "Chárshambeh", "Panchshambeh", "Jomah", "Shambeh"},
 		{"Jan", "Par", "Már", "Apr", "Mai", "Jun", "Jól", "Aga", "Sat", "Akt", "Naw", "Das"},
 		{"Janwari", "Parwari", "Márch", "Aprél", "Mai", "Jun", "Jólái", "Agast", "Satambar", "Aktubar", "Nawambar", "Dasambar"},
-		{},
+		{"am", "pm"},
 	}
 }
 
@@ -878,7 +898,7 @@ func localeTableBn() [5][]string {
 		{"রবি", "সোম", "মঙ্গল", "বুধ", "বৃহস্পতি", "শুক্র", "শনি"},
 		{"রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"},
 		{"জানু", "ফেব", "মার্চ", "এপ্রি", "মে", "জুন", "জুল", "আগ", "সেপ", "অক্টো", "নভে", "ডিসে"},
-		{"জানুয়ারী", "ফেব্রুয়ারী", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"},
+		{"জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"},
 		{},
 	}
 }
@@ -888,7 +908,7 @@ func localeTableBnBD() [5][]string {
 		{"রবি", "সোম", "মঙ্গল", "বুধ", "বৃহস্পতি", "শুক্র", "শনি"},
 		{"রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"},
 		{"জানু", "ফেব", "মার্চ", "এপ্রি", "মে", "জুন", "জুল", "আগ", "সেপ", "অক্টো", "নভে", "ডিসে"},
-		{"জানুয়ারী", "ফেব্রুয়ারী", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"},
+		{"জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"},
 		{},
 	}
 }
@@ -898,7 +918,7 @@ func localeTableBnIN() [5][]string {
 		{"রবি", "সোম", "মঙ্গল", "বুধ", "বৃহস্পতি", "শুক্র", "শনি"},
 		{"রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"},
 		{"জানু", "ফেব", "মার্চ", "এপ্রি", "মে", "জুন", "জুল", "আগ", "সেপ্টেঃ", "অক্টোঃ", "নভেঃ", "ডিসেঃ"},
-		{"জানুয়ারী", "ফেব্রুয়ারী", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"},
+		{"জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"},
 		{},
 	}
 }
@@ -930,6 +950,26 @@ func localeTableBoIN() [5][]string {
 		{"ཟླ་༡", "ཟླ་༢", "ཟླ་༣", "ཟླ་༤", "ཟླ་༥", "ཟླ་༦", "ཟླ་༧", "ཟླ་༨", "ཟླ་༩", "ཟླ་༡༠", "ཟླ་༡༡", "ཟླ་༡༢"},
 		{"ཟླ་བ་དང་པོ", "ཟླ་བ་གཉིས་པ", "ཟླ་བ་གསུམ་པ", "ཟླ་བ་བཞི་པ", "ཟླ་བ་ལྔ་པ", "ཟླ་བ་དྲུག་པ", "ཟླ་བ་བདུན་པ", "ཟླ་བ་བརྒྱད་པ", "ཟླ་བ་དགུ་པ", "ཟླ་བ་བཅུ་པ", "ཟླ་བ་བཅུ་གཅིག་པ", "ཟླ་བ་བཅུ་གཉིས་པ"},
 		{"སྔ་དྲོ་", "ཕྱི་དྲོ་"},
+	}
+}
+
+func localeTableBqi() [5][]string {
+	return [5][]string{
+		{},
+		{"یه شمبه", "دوشمبه", "سه شمبه", "چار شمبه", "پنجشمبه", "جومه", "شمبه"},
+		{},
+		{"ژانویه", "فوریه", "مارس", "آوریل", "مهٔ", "ژوئن", "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"},
+		{},
+	}
+}
+
+func localeTableBqiIR() [5][]string {
+	return [5][]string{
+		{},
+		{"یه شمبه", "دوشمبه", "سه شمبه", "چار شمبه", "پنجشمبه", "جومه", "شمبه"},
+		{},
+		{"ژانویه", "فوریه", "مارس", "آوریل", "مهٔ", "ژوئن", "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"},
+		{},
 	}
 }
 
@@ -979,7 +1019,7 @@ func localeTableBs() [5][]string {
 		{"nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"},
 		{"jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
 		{"januar", "februar", "mart", "april", "maj", "juni", "juli", "august", "septembar", "oktobar", "novembar", "decembar"},
-		{"prijepodne", "popodne"},
+		{"a.m.", "p.m."},
 	}
 }
 
@@ -1009,7 +1049,7 @@ func localeTableBsLatn() [5][]string {
 		{"nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"},
 		{"jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
 		{"januar", "februar", "mart", "april", "maj", "juni", "juli", "august", "septembar", "oktobar", "novembar", "decembar"},
-		{"prijepodne", "popodne"},
+		{"a.m.", "p.m."},
 	}
 }
 
@@ -1019,7 +1059,27 @@ func localeTableBsLatnBA() [5][]string {
 		{"nedjelja", "ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota"},
 		{"jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec"},
 		{"januar", "februar", "mart", "april", "maj", "juni", "juli", "august", "septembar", "oktobar", "novembar", "decembar"},
-		{"prijepodne", "popodne"},
+		{"a.m.", "p.m."},
+	}
+}
+
+func localeTableBua() [5][]string {
+	return [5][]string{
+		{},
+		{"нима", "дабаа", "мигмар", "һарба", "пүрбэ", "баасан", "бимба"},
+		{},
+		{"нэгэдүгээр һара", "хоёрдугаар һара", "гурбадугаар һара", "дүрбэдүгээр һара", "табадугаар һара", "зургадугаар һара", "долодугаар һара", "наймадугаар һара", "юһэдүгээр һара", "арбадугаар һара", "арбан нэгэдүгээр һара", "арбан хоёрдугаар һара"},
+		{},
+	}
+}
+
+func localeTableBuaRU() [5][]string {
+	return [5][]string{
+		{},
+		{"нима", "дабаа", "мигмар", "һарба", "пүрбэ", "баасан", "бимба"},
+		{},
+		{"нэгэдүгээр һара", "хоёрдугаар һара", "гурбадугаар һара", "дүрбэдүгээр һара", "табадугаар һара", "зургадугаар һара", "долодугаар һара", "наймадугаар һара", "юһэдүгээр һара", "арбадугаар һара", "арбан нэгэдүгээр һара", "арбан хоёрдугаар һара"},
+		{},
 	}
 }
 
@@ -1323,6 +1383,26 @@ func localeTableCoFR() [5][]string {
 	}
 }
 
+func localeTableCop() [5][]string {
+	return [5][]string{
+		{"ⲡⲓⲁ̅", "ⲡⲓⲃ̅", "ⲡⲓⲅ̅", "ⲡⲓⲇ̅", "ⲡⲓⲉ̅", "ⲡⲓⲋ̅", "ⲡⲓⲍ̅"},
+		{"ⲡⲓⲟⲩⲁⲓ", "ⲡⲓⲥ̀ⲛⲁⲩ", "ⲡⲓϣⲟⲙⲧ", "ⲡⲓϥ̀ⲧⲟⲩ", "ⲡⲓⲧ̀ⲓⲟⲩ", "ⲡⲓⲥⲟⲟⲩ", "ⲡⲓϣⲁϣϥ"},
+		{"ⲓⲁⲛⲟⲩⲁⲣⲓ", "ⲫⲉⲃⲣⲟⲩⲁⲣⲓ", "ⲙⲁⲣⲧⲓ", "ⲁⲡⲣⲓⲗⲓ", "ⲙⲁⲓⲟ", "ⲓⲟⲩⲛⲓⲟⲩ", "ⲓⲟⲩⲗⲓⲟⲩ", "ⲁⲩⲅⲟⲩⲥⲑⲟⲩ", "ⲥⲉⲡⲧⲉⲙⲃⲣⲓ", "ⲟⲕⲧⲱⲃⲣⲓ", "ⲛⲟⲉⲙⲃⲣⲓ", "ⲇⲉⲕⲉⲙⲃⲣⲓ"},
+		{"ⲓⲁⲛⲟⲩⲁⲣⲓ", "ⲫⲉⲃⲣⲟⲩⲁⲣⲓ", "ⲙⲁⲣⲧⲓ", "ⲁⲡⲣⲓⲗⲓ", "ⲙⲁⲓⲟ", "ⲓⲟⲩⲛⲓⲟⲩ", "ⲓⲟⲩⲗⲓⲟⲩ", "ⲁⲩⲅⲟⲩⲥⲑⲟⲩ", "ⲥⲉⲡⲧⲉⲙⲃⲣⲓ", "ⲟⲕⲧⲱⲃⲣⲓ", "ⲛⲟⲉⲙⲃⲣⲓ", "ⲇⲉⲕⲉⲙⲃⲣⲓ"},
+		{"Ϧ︦Ⲙ︦", "Ⲙ︦Ⲙ︦"},
+	}
+}
+
+func localeTableCopEG() [5][]string {
+	return [5][]string{
+		{"ⲡⲓⲁ̅", "ⲡⲓⲃ̅", "ⲡⲓⲅ̅", "ⲡⲓⲇ̅", "ⲡⲓⲉ̅", "ⲡⲓⲋ̅", "ⲡⲓⲍ̅"},
+		{"ⲡⲓⲟⲩⲁⲓ", "ⲡⲓⲥ̀ⲛⲁⲩ", "ⲡⲓϣⲟⲙⲧ", "ⲡⲓϥ̀ⲧⲟⲩ", "ⲡⲓⲧ̀ⲓⲟⲩ", "ⲡⲓⲥⲟⲟⲩ", "ⲡⲓϣⲁϣϥ"},
+		{"ⲓⲁⲛⲟⲩⲁⲣⲓ", "ⲫⲉⲃⲣⲟⲩⲁⲣⲓ", "ⲙⲁⲣⲧⲓ", "ⲁⲡⲣⲓⲗⲓ", "ⲙⲁⲓⲟ", "ⲓⲟⲩⲛⲓⲟⲩ", "ⲓⲟⲩⲗⲓⲟⲩ", "ⲁⲩⲅⲟⲩⲥⲑⲟⲩ", "ⲥⲉⲡⲧⲉⲙⲃⲣⲓ", "ⲟⲕⲧⲱⲃⲣⲓ", "ⲛⲟⲉⲙⲃⲣⲓ", "ⲇⲉⲕⲉⲙⲃⲣⲓ"},
+		{"ⲓⲁⲛⲟⲩⲁⲣⲓ", "ⲫⲉⲃⲣⲟⲩⲁⲣⲓ", "ⲙⲁⲣⲧⲓ", "ⲁⲡⲣⲓⲗⲓ", "ⲙⲁⲓⲟ", "ⲓⲟⲩⲛⲓⲟⲩ", "ⲓⲟⲩⲗⲓⲟⲩ", "ⲁⲩⲅⲟⲩⲥⲑⲟⲩ", "ⲥⲉⲡⲧⲉⲙⲃⲣⲓ", "ⲟⲕⲧⲱⲃⲣⲓ", "ⲛⲟⲉⲙⲃⲣⲓ", "ⲇⲉⲕⲉⲙⲃⲣⲓ"},
+		{"Ϧ︦Ⲙ︦", "Ⲙ︦Ⲙ︦"},
+	}
+}
+
 func localeTableCs() [5][]string {
 	return [5][]string{
 		{"ne", "po", "út", "st", "čt", "pá", "so"},
@@ -1345,21 +1425,21 @@ func localeTableCsCZ() [5][]string {
 
 func localeTableCsw() [5][]string {
 	return [5][]string{
-		{},
-		{"ᐊᔭᒥᐦᐁᐃ ᑭᓯᑲᐤ", "ᐯᔭᐠᑭᓯᑲᐤ", "ᓂᓱᑭᓯᑲᐤ", "ᐊᐱᐦᑕᐘᐣ", "ᓀᐓᑭᓯᑲᐤ", "ᓂᔭᓇᓄᑭᓯᑲᐤ", "ᒪᑎᓄᐏᑭᓯᑲᐤ"},
-		{},
-		{"ᑭᓴᐱᓯᒼ", "ᒥᑭᓯᐏᐱᓯᒼ", "ᓂᐢᑭᐱᓯᒼ", "ᐊᓂᑭᐱᓯᒼ", "ᓴᑭᐸᑲᐏᐱᓯᒼ", "ᐸᐢᑲᐍᐦᐅᐱᓯᒼ", "ᐸᐢᑯᐏᐱᓯᒼ", "ᐅᐸᐦᐅᐏᐱᓯᒼ", "ᑕᐦᑿᑭᐱᓯᒼ", "ᐱᒪᐦᐊᒧᐏᐱᓯᒼ", "ᐊᑿᑎᓄᐏᐱᓯᒼ", "ᐸᐘᐢᒐᑲᓂᓹᐱᓯᒼ"},
-		{},
+		{"ᐊᔭᒥᐦᐁᑮᓯᑳᐤ", "ᐴᓂ ᐊᔭᒥᐦᐁᑮᓯᑳᐤ", "ᓃᓱᑮᓯᑳᐤ", "ᐋᐱᐦᑕᐘᐣ", "ᐴᓂᐋᐱᐦᑕᐘᐣ", "ᑫᑳᐨ ᒫᑎᓇᐍᑮᓯᑳᐤ", "ᒫᑎᓇᐍᑮᓯᑳᐤ"},
+		{"ᐊᔭᒥᐦᐁᑮᓯᑳᐤ", "ᐴᓂ ᐊᔭᒥᐦᐁᑮᓯᑳᐤ", "ᓃᓱᑮᓯᑳᐤ", "ᐋᐱᐦᑕᐘᐣ", "ᐴᓂᐋᐱᐦᑕᐘᐣ", "ᑫᑳᐨ ᒫᑎᓇᐍᑮᓯᑳᐤ", "ᒫᑎᓇᐍᑮᓯᑳᐤ"},
+		{"ᐅᒉᒥᑮᓯᑳᐏᐲᓯᒼ", "ᐸᐚᐦᒐᑭᓇᓰᐢ", "ᒥᑭᓯᐏᐲᓯᒼ", "ᓂᐢᑭᐲᓯᒼ", "ᐊᓃᑭᐲᓯᒼ", "ᐚᐏᐲᓯᒼ", "ᐹᐢᑲᐦᐋᐏᐲᓯᒼ", "ᐅᐸᐦᐅᐏᐲᓯᒼ", "ᓄᒌᑐᐏᐲᓯᒼ", "ᐱᓈᐢᑯᐏᐲᓯᒼ", "ᐋᕽᐘᑎᓄᐏᐲᓯᒼ", "ᒪᑯᓭᑮᓭᑳᐏᐲᓯᒼ"},
+		{"ᐅᒉᒥᑮᓯᑳᐏᐲᓯᒼ", "ᐸᐚᐦᒐᑭᓇᓰᐢ", "ᒥᑭᓯᐏᐲᓯᒼ", "ᓂᐢᑭᐲᓯᒼ", "ᐊᓃᑭᐲᓯᒼ", "ᐚᐏᐲᓯᒼ", "ᐹᐢᑲᐦᐋᐏᐲᓯᒼ", "ᐅᐸᐦᐅᐏᐲᓯᒼ", "ᓄᒌᑐᐏᐲᓯᒼ", "ᐱᓈᐢᑯᐏᐲᓯᒼ", "ᐋᕽᐘᑎᓄᐏᐲᓯᒼ", "ᒪᑯᓭᑮᓭᑳᐏᐲᓯᒼ"},
+		{"ᐊᒼ", "ᐲᒼ"},
 	}
 }
 
 func localeTableCswCA() [5][]string {
 	return [5][]string{
-		{},
-		{"ᐊᔭᒥᐦᐁᐃ ᑭᓯᑲᐤ", "ᐯᔭᐠᑭᓯᑲᐤ", "ᓂᓱᑭᓯᑲᐤ", "ᐊᐱᐦᑕᐘᐣ", "ᓀᐓᑭᓯᑲᐤ", "ᓂᔭᓇᓄᑭᓯᑲᐤ", "ᒪᑎᓄᐏᑭᓯᑲᐤ"},
-		{},
-		{"ᑭᓴᐱᓯᒼ", "ᒥᑭᓯᐏᐱᓯᒼ", "ᓂᐢᑭᐱᓯᒼ", "ᐊᓂᑭᐱᓯᒼ", "ᓴᑭᐸᑲᐏᐱᓯᒼ", "ᐸᐢᑲᐍᐦᐅᐱᓯᒼ", "ᐸᐢᑯᐏᐱᓯᒼ", "ᐅᐸᐦᐅᐏᐱᓯᒼ", "ᑕᐦᑿᑭᐱᓯᒼ", "ᐱᒪᐦᐊᒧᐏᐱᓯᒼ", "ᐊᑿᑎᓄᐏᐱᓯᒼ", "ᐸᐘᐢᒐᑲᓂᓹᐱᓯᒼ"},
-		{},
+		{"ᐊᔭᒥᐦᐁᑮᓯᑳᐤ", "ᐴᓂ ᐊᔭᒥᐦᐁᑮᓯᑳᐤ", "ᓃᓱᑮᓯᑳᐤ", "ᐋᐱᐦᑕᐘᐣ", "ᐴᓂᐋᐱᐦᑕᐘᐣ", "ᑫᑳᐨ ᒫᑎᓇᐍᑮᓯᑳᐤ", "ᒫᑎᓇᐍᑮᓯᑳᐤ"},
+		{"ᐊᔭᒥᐦᐁᑮᓯᑳᐤ", "ᐴᓂ ᐊᔭᒥᐦᐁᑮᓯᑳᐤ", "ᓃᓱᑮᓯᑳᐤ", "ᐋᐱᐦᑕᐘᐣ", "ᐴᓂᐋᐱᐦᑕᐘᐣ", "ᑫᑳᐨ ᒫᑎᓇᐍᑮᓯᑳᐤ", "ᒫᑎᓇᐍᑮᓯᑳᐤ"},
+		{"ᐅᒉᒥᑮᓯᑳᐏᐲᓯᒼ", "ᐸᐚᐦᒐᑭᓇᓰᐢ", "ᒥᑭᓯᐏᐲᓯᒼ", "ᓂᐢᑭᐲᓯᒼ", "ᐊᓃᑭᐲᓯᒼ", "ᐚᐏᐲᓯᒼ", "ᐹᐢᑲᐦᐋᐏᐲᓯᒼ", "ᐅᐸᐦᐅᐏᐲᓯᒼ", "ᓄᒌᑐᐏᐲᓯᒼ", "ᐱᓈᐢᑯᐏᐲᓯᒼ", "ᐋᕽᐘᑎᓄᐏᐲᓯᒼ", "ᒪᑯᓭᑮᓭᑳᐏᐲᓯᒼ"},
+		{"ᐅᒉᒥᑮᓯᑳᐏᐲᓯᒼ", "ᐸᐚᐦᒐᑭᓇᓰᐢ", "ᒥᑭᓯᐏᐲᓯᒼ", "ᓂᐢᑭᐲᓯᒼ", "ᐊᓃᑭᐲᓯᒼ", "ᐚᐏᐲᓯᒼ", "ᐹᐢᑲᐦᐋᐏᐲᓯᒼ", "ᐅᐸᐦᐅᐏᐲᓯᒼ", "ᓄᒌᑐᐏᐲᓯᒼ", "ᐱᓈᐢᑯᐏᐲᓯᒼ", "ᐋᕽᐘᑎᓄᐏᐲᓯᒼ", "ᒪᑯᓭᑮᓭᑳᐏᐲᓯᒼ"},
+		{"ᐊᒼ", "ᐲᒼ"},
 	}
 }
 
@@ -1385,21 +1465,21 @@ func localeTableCuRU() [5][]string {
 
 func localeTableCv() [5][]string {
 	return [5][]string{
-		{"выр.", "тун.", "ытл.", "юн.", "кӗҫ.", "эр.", "шӑм."},
-		{"вырсарникун", "тунтикун", "ытларикун", "юнкун", "кӗҫнерникун", "эрнекун", "шӑматкун"},
-		{"кӑр.", "нар.", "пуш", "ака", "ҫу", "ҫӗр.", "утӑ", "ҫур.", "авӑн", "юпа", "чӳк", "раш."},
+		{"вр", "тн", "ыт", "юн", "кҫ", "эр", "шм"},
+		{"вырсарни кун", "тунти кун", "ытлари кун", "юн кун", "кӗҫнерни кун", "эрне кун", "шӑмат кун"},
+		{"кӑр.", "нар.", "пуш", "ака", "ҫу", "ҫӗрт.", "утӑ", "ҫур.", "авӑн", "юпа", "чӳк", "раш."},
 		{"кӑрлач", "нарӑс", "пуш", "ака", "ҫу", "ҫӗртме", "утӑ", "ҫурла", "авӑн", "юпа", "чӳк", "раштав"},
-		{},
+		{"к.у.", "к.х."},
 	}
 }
 
 func localeTableCvRU() [5][]string {
 	return [5][]string{
-		{"выр.", "тун.", "ытл.", "юн.", "кӗҫ.", "эр.", "шӑм."},
-		{"вырсарникун", "тунтикун", "ытларикун", "юнкун", "кӗҫнерникун", "эрнекун", "шӑматкун"},
-		{"кӑр.", "нар.", "пуш", "ака", "ҫу", "ҫӗр.", "утӑ", "ҫур.", "авӑн", "юпа", "чӳк", "раш."},
+		{"вр", "тн", "ыт", "юн", "кҫ", "эр", "шм"},
+		{"вырсарни кун", "тунти кун", "ытлари кун", "юн кун", "кӗҫнерни кун", "эрне кун", "шӑмат кун"},
+		{"кӑр.", "нар.", "пуш", "ака", "ҫу", "ҫӗрт.", "утӑ", "ҫур.", "авӑн", "юпа", "чӳк", "раш."},
 		{"кӑрлач", "нарӑс", "пуш", "ака", "ҫу", "ҫӗртме", "утӑ", "ҫурла", "авӑн", "юпа", "чӳк", "раштав"},
-		{},
+		{"к.у.", "к.х."},
 	}
 }
 
@@ -1698,7 +1778,7 @@ func localeTableEe() [5][]string {
 		{"kɔs", "dzo", "bla", "kuɖ", "yaw", "fiɖ", "mem"},
 		{"kɔsiɖa", "dzoɖa", "blaɖa", "kuɖa", "yawoɖa", "fiɖa", "memleɖa"},
 		{"dzv", "dzd", "ted", "afɔ", "dam", "mas", "sia", "dea", "any", "kel", "ade", "dzm"},
-		{"dzove", "dzodze", "tedoxe", "afɔfĩe", "dama", "masa", "siamlɔm", "deasiamime", "anyɔnyɔ", "kele", "adeɛmekpɔxe", "dzome"},
+		{"dzove", "dzodze", "tedoxe", "afɔfĩe", "dame", "masa", "siamlɔm", "deasiamime", "anyɔnyɔ", "kele", "adeɛmekpɔxe", "dzome"},
 		{"ŋdi", "ɣetrɔ"},
 	}
 }
@@ -1708,7 +1788,7 @@ func localeTableEeGH() [5][]string {
 		{"kɔs", "dzo", "bla", "kuɖ", "yaw", "fiɖ", "mem"},
 		{"kɔsiɖa", "dzoɖa", "blaɖa", "kuɖa", "yawoɖa", "fiɖa", "memleɖa"},
 		{"dzv", "dzd", "ted", "afɔ", "dam", "mas", "sia", "dea", "any", "kel", "ade", "dzm"},
-		{"dzove", "dzodze", "tedoxe", "afɔfĩe", "dama", "masa", "siamlɔm", "deasiamime", "anyɔnyɔ", "kele", "adeɛmekpɔxe", "dzome"},
+		{"dzove", "dzodze", "tedoxe", "afɔfĩe", "dame", "masa", "siamlɔm", "deasiamime", "anyɔnyɔ", "kele", "adeɛmekpɔxe", "dzome"},
 		{"ŋdi", "ɣetrɔ"},
 	}
 }
@@ -1718,7 +1798,7 @@ func localeTableEeTG() [5][]string {
 		{"kɔs", "dzo", "bla", "kuɖ", "yaw", "fiɖ", "mem"},
 		{"kɔsiɖa", "dzoɖa", "blaɖa", "kuɖa", "yawoɖa", "fiɖa", "memleɖa"},
 		{"dzv", "dzd", "ted", "afɔ", "dam", "mas", "sia", "dea", "any", "kel", "ade", "dzm"},
-		{"dzove", "dzodze", "tedoxe", "afɔfĩe", "dama", "masa", "siamlɔm", "deasiamime", "anyɔnyɔ", "kele", "adeɛmekpɔxe", "dzome"},
+		{"dzove", "dzodze", "tedoxe", "afɔfĩe", "dame", "masa", "siamlɔm", "deasiamime", "anyɔnyɔ", "kele", "adeɛmekpɔxe", "dzome"},
 		{"ŋdi", "ɣetrɔ"},
 	}
 }
@@ -1993,6 +2073,16 @@ func localeTableEnCY() [5][]string {
 	}
 }
 
+func localeTableEnCZ() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
 func localeTableEnDE() [5][]string {
 	return [5][]string{
 		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
@@ -2053,6 +2143,16 @@ func localeTableEnDsrtUS() [5][]string {
 	}
 }
 
+func localeTableEnEE() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
 func localeTableEnER() [5][]string {
 	return [5][]string{
 		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
@@ -2060,6 +2160,16 @@ func localeTableEnER() [5][]string {
 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
 		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
 		{"am", "pm"},
+	}
+}
+
+func localeTableEnES() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
 	}
 }
 
@@ -2103,6 +2213,16 @@ func localeTableEnFM() [5][]string {
 	}
 }
 
+func localeTableEnFR() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
 func localeTableEnGB() [5][]string {
 	return [5][]string{
 		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
@@ -2120,6 +2240,16 @@ func localeTableEnGD() [5][]string {
 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
 		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
 		{"am", "pm"},
+	}
+}
+
+func localeTableEnGE() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
 	}
 }
 
@@ -2163,6 +2293,16 @@ func localeTableEnGM() [5][]string {
 	}
 }
 
+func localeTableEnGS() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
 func localeTableEnGU() [5][]string {
 	return [5][]string{
 		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
@@ -2190,6 +2330,16 @@ func localeTableEnHK() [5][]string {
 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
 		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
 		{"am", "pm"},
+	}
+}
+
+func localeTableEnHU() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
 	}
 }
 
@@ -2253,6 +2403,16 @@ func localeTableEnIO() [5][]string {
 	}
 }
 
+func localeTableEnIT() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
 func localeTableEnJE() [5][]string {
 	return [5][]string{
 		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
@@ -2270,6 +2430,16 @@ func localeTableEnJM() [5][]string {
 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
 		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
 		{"am", "pm"},
+	}
+}
+
+func localeTableEnJP() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
 	}
 }
 
@@ -2340,6 +2510,26 @@ func localeTableEnLS() [5][]string {
 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
 		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
 		{"am", "pm"},
+	}
+}
+
+func localeTableEnLT() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
+func localeTableEnLV() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
 	}
 }
 
@@ -2483,6 +2673,16 @@ func localeTableEnNL() [5][]string {
 	}
 }
 
+func localeTableEnNO() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
 func localeTableEnNR() [5][]string {
 	return [5][]string{
 		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
@@ -2543,6 +2743,16 @@ func localeTableEnPK() [5][]string {
 	}
 }
 
+func localeTableEnPL() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
 func localeTableEnPN() [5][]string {
 	return [5][]string{
 		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
@@ -2563,6 +2773,16 @@ func localeTableEnPR() [5][]string {
 	}
 }
 
+func localeTableEnPT() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
+	}
+}
+
 func localeTableEnPW() [5][]string {
 	return [5][]string{
 		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
@@ -2570,6 +2790,16 @@ func localeTableEnPW() [5][]string {
 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
 		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
 		{"am", "pm"},
+	}
+}
+
+func localeTableEnRO() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
 	}
 }
 
@@ -2650,6 +2880,16 @@ func localeTableEnSI() [5][]string {
 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
 		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
 		{"am", "pm"},
+	}
+}
+
+func localeTableEnSK() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
 	}
 }
 
@@ -2770,6 +3010,16 @@ func localeTableEnTZ() [5][]string {
 		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"},
 		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
 		{"am", "pm"},
+	}
+}
+
+func localeTableEnUA() [5][]string {
+	return [5][]string{
+		{"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"},
+		{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"},
+		{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"},
+		{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
+		{"AM", "PM"},
 	}
 }
 
@@ -3567,7 +3817,7 @@ func localeTableFi() [5][]string {
 	return [5][]string{
 		{"su", "ma", "ti", "ke", "to", "pe", "la"},
 		{"sunnuntaina", "maanantaina", "tiistaina", "keskiviikkona", "torstaina", "perjantaina", "lauantaina"},
-		{"tammik.", "helmik.", "maalisk.", "huhtik.", "toukok.", "kesäk.", "heinäk.", "elok.", "syysk.", "lokak.", "marrask.", "jouluk."},
+		{"tammi", "helmi", "maalis", "huhti", "touko", "kesä", "heinä", "elo", "syys", "loka", "marras", "joulu"},
 		{"tammikuuta", "helmikuuta", "maaliskuuta", "huhtikuuta", "toukokuuta", "kesäkuuta", "heinäkuuta", "elokuuta", "syyskuuta", "lokakuuta", "marraskuuta", "joulukuuta"},
 		{"ap.", "ip."},
 	}
@@ -3577,7 +3827,7 @@ func localeTableFiFI() [5][]string {
 	return [5][]string{
 		{"su", "ma", "ti", "ke", "to", "pe", "la"},
 		{"sunnuntaina", "maanantaina", "tiistaina", "keskiviikkona", "torstaina", "perjantaina", "lauantaina"},
-		{"tammik.", "helmik.", "maalisk.", "huhtik.", "toukok.", "kesäk.", "heinäk.", "elok.", "syysk.", "lokak.", "marrask.", "jouluk."},
+		{"tammi", "helmi", "maalis", "huhti", "touko", "kesä", "heinä", "elo", "syys", "loka", "marras", "joulu"},
 		{"tammikuuta", "helmikuuta", "maaliskuuta", "huhtikuuta", "toukokuuta", "kesäkuuta", "heinäkuuta", "elokuuta", "syyskuuta", "lokakuuta", "marraskuuta", "joulukuuta"},
 		{"ap.", "ip."},
 	}
@@ -4198,7 +4448,7 @@ func localeTableGaa() [5][]string {
 		{"Hɔg", "Ju", "Juf", "Shɔ", "Soo", "Soh", "Hɔɔ"},
 		{"Hɔgbaa", "Ju", "Jufɔ", "Shɔ", "Soo", "Sohaa", "Hɔɔ"},
 		{"Aha", "Ofl", "Ots", "Abe", "Agb", "Otu", "Maa", "Man", "Gbo", "Ant", "Ale", "Afu"},
-		{"Aharabata", "Oflɔ", "Otsokrikri", "Abeibe", "Agbiɛnaa", "Otukwajaŋ", "Maawɛ", "Manyawale", "Gbo", "Antɔŋ", "Alemle", "Afuabe"},
+		{"Aharabata", "Oflɔ", "Otsokrikri", "Abɛibe", "Agbiɛnaa", "Otukwajaŋ", "Maawɛ", "Manyawale", "Gbo", "Antɔŋ", "Alemle", "Afuabe"},
 		{"LB", "SN"},
 	}
 }
@@ -4208,7 +4458,7 @@ func localeTableGaaGH() [5][]string {
 		{"Hɔg", "Ju", "Juf", "Shɔ", "Soo", "Soh", "Hɔɔ"},
 		{"Hɔgbaa", "Ju", "Jufɔ", "Shɔ", "Soo", "Sohaa", "Hɔɔ"},
 		{"Aha", "Ofl", "Ots", "Abe", "Agb", "Otu", "Maa", "Man", "Gbo", "Ant", "Ale", "Afu"},
-		{"Aharabata", "Oflɔ", "Otsokrikri", "Abeibe", "Agbiɛnaa", "Otukwajaŋ", "Maawɛ", "Manyawale", "Gbo", "Antɔŋ", "Alemle", "Afuabe"},
+		{"Aharabata", "Oflɔ", "Otsokrikri", "Abɛibe", "Agbiɛnaa", "Otukwajaŋ", "Maawɛ", "Manyawale", "Gbo", "Antɔŋ", "Alemle", "Afuabe"},
 		{"LB", "SN"},
 	}
 }
@@ -4499,7 +4749,7 @@ func localeTableHe() [5][]string {
 		{"יום ראשון", "יום שני", "יום שלישי", "יום רביעי", "יום חמישי", "יום שישי", "יום שבת"},
 		{"ינו׳", "פבר׳", "מרץ", "אפר׳", "מאי", "יוני", "יולי", "אוג׳", "ספט׳", "אוק׳", "נוב׳", "דצמ׳"},
 		{"ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"},
-		{"לפנה״צ", "אחה״צ"},
+		{},
 	}
 }
 
@@ -4509,7 +4759,7 @@ func localeTableHeIL() [5][]string {
 		{"יום ראשון", "יום שני", "יום שלישי", "יום רביעי", "יום חמישי", "יום שישי", "יום שבת"},
 		{"ינו׳", "פבר׳", "מרץ", "אפר׳", "מאי", "יוני", "יולי", "אוג׳", "ספט׳", "אוק׳", "נוב׳", "דצמ׳"},
 		{"ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"},
-		{"לפנה״צ", "אחה״צ"},
+		{},
 	}
 }
 
@@ -4517,8 +4767,8 @@ func localeTableHi() [5][]string {
 	return [5][]string{
 		{"रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"},
 		{"रविवार", "सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार"},
-		{"जन॰", "फ़र॰", "मार्च", "अप्रैल", "मई", "जून", "जुल॰", "अग॰", "सित॰", "अक्तू॰", "नव॰", "दिस॰"},
-		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितंबर", "अक्तूबर", "नवंबर", "दिसंबर"},
+		{"जन॰", "फ़र॰", "मार्च", "अप्रैल", "मई", "जून", "जुल॰", "अग॰", "सित॰", "अक्टू॰", "नव॰", "दिस॰"},
+		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितंबर", "अक्टूबर", "नवंबर", "दिसंबर"},
 		{"am", "pm"},
 	}
 }
@@ -4527,8 +4777,8 @@ func localeTableHiIN() [5][]string {
 	return [5][]string{
 		{"रवि", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"},
 		{"रविवार", "सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार"},
-		{"जन॰", "फ़र॰", "मार्च", "अप्रैल", "मई", "जून", "जुल॰", "अग॰", "सित॰", "अक्तू॰", "नव॰", "दिस॰"},
-		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितंबर", "अक्तूबर", "नवंबर", "दिसंबर"},
+		{"जन॰", "फ़र॰", "मार्च", "अप्रैल", "मई", "जून", "जुल॰", "अग॰", "सित॰", "अक्टू॰", "नव॰", "दिस॰"},
+		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितंबर", "अक्टूबर", "नवंबर", "दिसंबर"},
 		{"am", "pm"},
 	}
 }
@@ -4718,8 +4968,8 @@ func localeTableIg() [5][]string {
 		{"Sọn", "Mọn", "Tiu", "Wen", "Tọọ", "Fraị", "Sat"},
 		{"Sọndee", "Mọnde", "Tiuzdee", "Wenezdee", "Tọọzdee", "Fraịdee", "Satọdee"},
 		{"Jen", "Feb", "Maa", "Epr", "Mee", "Juu", "Jul", "Ọgọ", "Sep", "Ọkt", "Nov", "Dis"},
-		{"Jenụwarị", "Febrụwarị", "Maachị", "Epreel", "Mee", "Juun", "Julaị", "Ọgọọst", "Septemba", "Ọktoba", "Novemba", "Disemba"},
-		{"A.M.", "P.M."},
+		{"Jenụwarị", "Febrụwarị", "Maachị", "Epreel", "Mee", "Jun", "Julaị", "Ọgọọst", "Septemba", "Ọktoba", "Novemba", "Disemba"},
+		{"N’ụtụtụ", "N’abalị"},
 	}
 }
 
@@ -4728,27 +4978,27 @@ func localeTableIgNG() [5][]string {
 		{"Sọn", "Mọn", "Tiu", "Wen", "Tọọ", "Fraị", "Sat"},
 		{"Sọndee", "Mọnde", "Tiuzdee", "Wenezdee", "Tọọzdee", "Fraịdee", "Satọdee"},
 		{"Jen", "Feb", "Maa", "Epr", "Mee", "Juu", "Jul", "Ọgọ", "Sep", "Ọkt", "Nov", "Dis"},
-		{"Jenụwarị", "Febrụwarị", "Maachị", "Epreel", "Mee", "Juun", "Julaị", "Ọgọọst", "Septemba", "Ọktoba", "Novemba", "Disemba"},
-		{"A.M.", "P.M."},
+		{"Jenụwarị", "Febrụwarị", "Maachị", "Epreel", "Mee", "Jun", "Julaị", "Ọgọọst", "Septemba", "Ọktoba", "Novemba", "Disemba"},
+		{"N’ụtụtụ", "N’abalị"},
 	}
 }
 
 func localeTableIi() [5][]string {
 	return [5][]string{
-		{"ꑭꆏ", "ꆏꋍ", "ꆏꑍ", "ꆏꌕ", "ꆏꇖ", "ꆏꉬ", "ꆏꃘ"},
-		{"ꑭꆏꑍ", "ꆏꊂꋍ", "ꆏꊂꑍ", "ꆏꊂꌕ", "ꆏꊂꇖ", "ꆏꊂꉬ", "ꆏꊂꃘ"},
+		{"ꑬꆏ", "ꆏꋍ", "ꆏꑍ", "ꆏꌕ", "ꆏꇖ", "ꆏꉬ", "ꆏꃘ"},
+		{"ꑬꆏꑍ", "ꆏꊂꋍ", "ꆏꊂꑍ", "ꆏꊂꌕ", "ꆏꊂꇖ", "ꆏꊂꉬ", "ꆏꊂꃘ"},
 		{},
-		{"ꋍꆪ", "ꑍꆪ", "ꌕꆪ", "ꇖꆪ", "ꉬꆪ", "ꃘꆪ", "ꏃꆪ", "ꉆꆪ", "ꈬꆪ", "ꊰꆪ", "ꊰꊪꆪ", "ꊰꑋꆪ"},
+		{"ꋍꆪ", "ꑍꆪ", "ꌕꆪ", "ꇖꆪ", "ꉬꆪ", "ꃘꆪ", "ꏃꆪ", "ꉆꆪ", "ꈬꆪ", "ꊰꆪ", "ꊯꊪꆪ", "ꊰꑋꆪ"},
 		{"ꎸꄑ", "ꁯꋒ"},
 	}
 }
 
 func localeTableIiCN() [5][]string {
 	return [5][]string{
-		{"ꑭꆏ", "ꆏꋍ", "ꆏꑍ", "ꆏꌕ", "ꆏꇖ", "ꆏꉬ", "ꆏꃘ"},
-		{"ꑭꆏꑍ", "ꆏꊂꋍ", "ꆏꊂꑍ", "ꆏꊂꌕ", "ꆏꊂꇖ", "ꆏꊂꉬ", "ꆏꊂꃘ"},
+		{"ꑬꆏ", "ꆏꋍ", "ꆏꑍ", "ꆏꌕ", "ꆏꇖ", "ꆏꉬ", "ꆏꃘ"},
+		{"ꑬꆏꑍ", "ꆏꊂꋍ", "ꆏꊂꑍ", "ꆏꊂꌕ", "ꆏꊂꇖ", "ꆏꊂꉬ", "ꆏꊂꃘ"},
 		{},
-		{"ꋍꆪ", "ꑍꆪ", "ꌕꆪ", "ꇖꆪ", "ꉬꆪ", "ꃘꆪ", "ꏃꆪ", "ꉆꆪ", "ꈬꆪ", "ꊰꆪ", "ꊰꊪꆪ", "ꊰꑋꆪ"},
+		{"ꋍꆪ", "ꑍꆪ", "ꌕꆪ", "ꇖꆪ", "ꉬꆪ", "ꃘꆪ", "ꏃꆪ", "ꉆꆪ", "ꈬꆪ", "ꊰꆪ", "ꊯꊪꆪ", "ꊰꑋꆪ"},
 		{"ꎸꄑ", "ꁯꋒ"},
 	}
 }
@@ -4943,10 +5193,40 @@ func localeTableKaGE() [5][]string {
 	}
 }
 
+func localeTableKaa() [5][]string {
+	return [5][]string{
+		{"Екш", "Дүй", "Сий", "Сәр", "Пий", "Жум", "Шем"},
+		{"екшемби", "дүйшемби", "сийшемби", "сәршемби", "пийшемби", "жума", "шемби"},
+		{"янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"},
+		{"январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"},
+		{},
+	}
+}
+
+func localeTableKaaCyrl() [5][]string {
+	return [5][]string{
+		{"Екш", "Дүй", "Сий", "Сәр", "Пий", "Жум", "Шем"},
+		{"екшемби", "дүйшемби", "сийшемби", "сәршемби", "пийшемби", "жума", "шемби"},
+		{"янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"},
+		{"январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"},
+		{},
+	}
+}
+
+func localeTableKaaCyrlUZ() [5][]string {
+	return [5][]string{
+		{"Екш", "Дүй", "Сий", "Сәр", "Пий", "Жум", "Шем"},
+		{"екшемби", "дүйшемби", "сийшемби", "сәршемби", "пийшемби", "жума", "шемби"},
+		{"янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"},
+		{"январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"},
+		{},
+	}
+}
+
 func localeTableKab() [5][]string {
 	return [5][]string{
-		{"Yan", "San", "Kraḍ", "Kuẓ", "Sam", "Sḍis", "Say"},
-		{"Yanass", "Sanass", "Kraḍass", "Kuẓass", "Samass", "Sḍisass", "Sayass"},
+		{"Acer", "Arim", "Aram", "Ahad", "Amhad", "Sem", "Sed"},
+		{"Acer", "Arim", "Aram", "Ahad", "Amhad", "Sem", "Sed"},
 		{"Yen", "Fur", "Meɣ", "Yeb", "May", "Yun", "Yul", "Ɣuc", "Cte", "Tub", "Nun", "Duǧ"},
 		{"Yennayer", "Fuṛar", "Meɣres", "Yebrir", "Mayyu", "Yunyu", "Yulyu", "Ɣuct", "Ctembeṛ", "Tubeṛ", "Nunembeṛ", "Duǧembeṛ"},
 		{"ntufat", "ntmeddit"},
@@ -4955,8 +5235,8 @@ func localeTableKab() [5][]string {
 
 func localeTableKabDZ() [5][]string {
 	return [5][]string{
-		{"Yan", "San", "Kraḍ", "Kuẓ", "Sam", "Sḍis", "Say"},
-		{"Yanass", "Sanass", "Kraḍass", "Kuẓass", "Samass", "Sḍisass", "Sayass"},
+		{"Acer", "Arim", "Aram", "Ahad", "Amhad", "Sem", "Sed"},
+		{"Acer", "Arim", "Aram", "Ahad", "Amhad", "Sem", "Sed"},
 		{"Yen", "Fur", "Meɣ", "Yeb", "May", "Yun", "Yul", "Ɣuc", "Cte", "Tub", "Nun", "Duǧ"},
 		{"Yennayer", "Fuṛar", "Meɣres", "Yebrir", "Mayyu", "Yunyu", "Yulyu", "Ɣuct", "Ctembeṛ", "Tubeṛ", "Nunembeṛ", "Duǧembeṛ"},
 		{"ntufat", "ntmeddit"},
@@ -5063,6 +5343,26 @@ func localeTableKeaCV() [5][]string {
 	}
 }
 
+func localeTableKek() [5][]string {
+	return [5][]string{
+		{},
+		{"Doʼkutan", "LuʼKutan", "MarʼKutan", "MerʼKutan", "JueʼKutan", "VierʼKutan", "SabʼKutan"},
+		{},
+		{"Xbʼeen Po", "Xkabʼ Po", "Rox Po", "Xkaa Po", "Roʼ Po", "Xwaq Po", "Xwuuq Po", "Xwaqxaq Po", "Xbʼelee Po", "Xlajee Po", "Xjunlaj Po", "Xkabʼlaj Po"},
+		{},
+	}
+}
+
+func localeTableKekGT() [5][]string {
+	return [5][]string{
+		{},
+		{"Doʼkutan", "LuʼKutan", "MarʼKutan", "MerʼKutan", "JueʼKutan", "VierʼKutan", "SabʼKutan"},
+		{},
+		{"Xbʼeen Po", "Xkabʼ Po", "Rox Po", "Xkaa Po", "Roʼ Po", "Xwaq Po", "Xwuuq Po", "Xwaqxaq Po", "Xbʼelee Po", "Xlajee Po", "Xjunlaj Po", "Xkabʼlaj Po"},
+		{},
+	}
+}
+
 func localeTableKgp() [5][]string {
 	return [5][]string{
 		{"num.", "pir.", "rég.", "tẽg.", "vẽn.", "pén.", "sav."},
@@ -5124,6 +5424,46 @@ func localeTableKiKE() [5][]string {
 }
 
 func localeTableKk() [5][]string {
+	return [5][]string{
+		{"жс", "дс", "сс", "ср", "бс", "жм", "сб"},
+		{"жексенбі", "дүйсенбі", "сейсенбі", "сәрсенбі", "бейсенбі", "жұма", "сенбі"},
+		{"қаң.", "ақп.", "нау.", "сәу.", "мам.", "мау.", "шіл.", "там.", "қыр.", "қаз.", "қар.", "жел."},
+		{"қаңтар", "ақпан", "наурыз", "сәуір", "мамыр", "маусым", "шілде", "тамыз", "қыркүйек", "қазан", "қараша", "желтоқсан"},
+		{},
+	}
+}
+
+func localeTableKkArab() [5][]string {
+	return [5][]string{
+		{"جەك", "دۇي", "سەي", "سار", "بەي", "جۇم", "سەن"},
+		{"جەكسەنبى", "دۇيسەنبى", "سەيسەنبى", "سارسەنبى", "بەيسەنبى", "جۇما", "سەنبى"},
+		{},
+		{"قاڭتار", "اقپان", "ناۋرىز", "ءساۋىر", "مامىر", "ماۋسىم", "شىلدە", "تامىز", "قىركۇيەك", "قازان", "قاراشا", "جەلتوقسان"},
+		{"تد", "تك"},
+	}
+}
+
+func localeTableKkArabCN() [5][]string {
+	return [5][]string{
+		{"جەك", "دۇي", "سەي", "سار", "بەي", "جۇم", "سەن"},
+		{"جەكسەنبى", "دۇيسەنبى", "سەيسەنبى", "سارسەنبى", "بەيسەنبى", "جۇما", "سەنبى"},
+		{},
+		{"قاڭتار", "اقپان", "ناۋرىز", "ءساۋىر", "مامىر", "ماۋسىم", "شىلدە", "تامىز", "قىركۇيەك", "قازان", "قاراشا", "جەلتوقسان"},
+		{"تد", "تك"},
+	}
+}
+
+func localeTableKkCyrl() [5][]string {
+	return [5][]string{
+		{"жс", "дс", "сс", "ср", "бс", "жм", "сб"},
+		{"жексенбі", "дүйсенбі", "сейсенбі", "сәрсенбі", "бейсенбі", "жұма", "сенбі"},
+		{"қаң.", "ақп.", "нау.", "сәу.", "мам.", "мау.", "шіл.", "там.", "қыр.", "қаз.", "қар.", "жел."},
+		{"қаңтар", "ақпан", "наурыз", "сәуір", "мамыр", "маусым", "шілде", "тамыз", "қыркүйек", "қазан", "қараша", "желтоқсан"},
+		{},
+	}
+}
+
+func localeTableKkCyrlKZ() [5][]string {
 	return [5][]string{
 		{"жс", "дс", "сс", "ср", "бс", "жм", "сб"},
 		{"жексенбі", "дүйсенбі", "сейсенбі", "сәрсенбі", "бейсенбі", "жұма", "сенбі"},
@@ -5227,9 +5567,9 @@ func localeTableKn() [5][]string {
 	return [5][]string{
 		{"ಭಾನು", "ಸೋಮ", "ಮಂಗಳ", "ಬುಧ", "ಗುರು", "ಶುಕ್ರ", "ಶನಿ"},
 		{"ಭಾನುವಾರ", "ಸೋಮವಾರ", "ಮಂಗಳವಾರ", "ಬುಧವಾರ", "ಗುರುವಾರ", "ಶುಕ್ರವಾರ", "ಶನಿವಾರ"},
-		{"ಜನವರಿ", "ಫೆಬ್ರವರಿ", "ಮಾರ್ಚ್", "ಏಪ್ರಿ", "ಮೇ", "ಜೂನ್", "ಜುಲೈ", "ಆಗಸ್ಟ್", "ಸೆಪ್ಟೆಂ", "ಅಕ್ಟೋ", "ನವೆಂ", "ಡಿಸೆಂ"},
+		{"ಜನ", "ಫೆಬ್ರ", "ಮಾರ್ಚ್", "ಏಪ್ರಿ", "ಮೇ", "ಜೂನ್", "ಜುಲೈ", "ಆಗ", "ಸೆಪ್ಟೆಂ", "ಅಕ್ಟೋ", "ನವೆಂ", "ಡಿಸೆಂ"},
 		{"ಜನವರಿ", "ಫೆಬ್ರವರಿ", "ಮಾರ್ಚ್", "ಏಪ್ರಿಲ್", "ಮೇ", "ಜೂನ್", "ಜುಲೈ", "ಆಗಸ್ಟ್", "ಸೆಪ್ಟೆಂಬರ್", "ಅಕ್ಟೋಬರ್", "ನವೆಂಬರ್", "ಡಿಸೆಂಬರ್"},
-		{"ಪೂರ್ವಾಹ್ನ", "ಅಪರಾಹ್ನ"},
+		{"a", "p"},
 	}
 }
 
@@ -5237,9 +5577,9 @@ func localeTableKnIN() [5][]string {
 	return [5][]string{
 		{"ಭಾನು", "ಸೋಮ", "ಮಂಗಳ", "ಬುಧ", "ಗುರು", "ಶುಕ್ರ", "ಶನಿ"},
 		{"ಭಾನುವಾರ", "ಸೋಮವಾರ", "ಮಂಗಳವಾರ", "ಬುಧವಾರ", "ಗುರುವಾರ", "ಶುಕ್ರವಾರ", "ಶನಿವಾರ"},
-		{"ಜನವರಿ", "ಫೆಬ್ರವರಿ", "ಮಾರ್ಚ್", "ಏಪ್ರಿ", "ಮೇ", "ಜೂನ್", "ಜುಲೈ", "ಆಗಸ್ಟ್", "ಸೆಪ್ಟೆಂ", "ಅಕ್ಟೋ", "ನವೆಂ", "ಡಿಸೆಂ"},
+		{"ಜನ", "ಫೆಬ್ರ", "ಮಾರ್ಚ್", "ಏಪ್ರಿ", "ಮೇ", "ಜೂನ್", "ಜುಲೈ", "ಆಗ", "ಸೆಪ್ಟೆಂ", "ಅಕ್ಟೋ", "ನವೆಂ", "ಡಿಸೆಂ"},
 		{"ಜನವರಿ", "ಫೆಬ್ರವರಿ", "ಮಾರ್ಚ್", "ಏಪ್ರಿಲ್", "ಮೇ", "ಜೂನ್", "ಜುಲೈ", "ಆಗಸ್ಟ್", "ಸೆಪ್ಟೆಂಬರ್", "ಅಕ್ಟೋಬರ್", "ನವೆಂಬರ್", "ಡಿಸೆಂಬರ್"},
-		{"ಪೂರ್ವಾಹ್ನ", "ಅಪರಾಹ್ನ"},
+		{"a", "p"},
 	}
 }
 
@@ -5287,18 +5627,48 @@ func localeTableKok() [5][]string {
 	return [5][]string{
 		{},
 		{"आयतार", "सोमार", "मंगळार", "बुधवार", "बिरेस्तार", "शुक्रार", "शेनवार"},
-		{},
+		{"जाने", "फेब्रु", "मार्च", "एप्री", "मे", "जून", "जुल", "ऑग", "सप्टें", "ऑक्टो", "नोव्हें", "डिसें"},
 		{"जानेवारी", "फेब्रुवारी", "मार्च", "एप्रील", "मे", "जून", "जुलय", "ऑगस्ट", "सप्टेंबर", "ऑक्टोबर", "नोव्हेंबर", "डिसेंबर"},
+		{"a", "PM"},
+	}
+}
+
+func localeTableKokDeva() [5][]string {
+	return [5][]string{
+		{},
+		{"आयतार", "सोमार", "मंगळार", "बुधवार", "बिरेस्तार", "शुक्रार", "शेनवार"},
+		{"जाने", "फेब्रु", "मार्च", "एप्री", "मे", "जून", "जुल", "ऑग", "सप्टें", "ऑक्टो", "नोव्हें", "डिसें"},
+		{"जानेवारी", "फेब्रुवारी", "मार्च", "एप्रील", "मे", "जून", "जुलय", "ऑगस्ट", "सप्टेंबर", "ऑक्टोबर", "नोव्हेंबर", "डिसेंबर"},
+		{"a", "PM"},
+	}
+}
+
+func localeTableKokDevaIN() [5][]string {
+	return [5][]string{
+		{},
+		{"आयतार", "सोमार", "मंगळार", "बुधवार", "बिरेस्तार", "शुक्रार", "शेनवार"},
+		{"जाने", "फेब्रु", "मार्च", "एप्री", "मे", "जून", "जुल", "ऑग", "सप्टें", "ऑक्टो", "नोव्हें", "डिसें"},
+		{"जानेवारी", "फेब्रुवारी", "मार्च", "एप्रील", "मे", "जून", "जुलय", "ऑगस्ट", "सप्टेंबर", "ऑक्टोबर", "नोव्हेंबर", "डिसेंबर"},
+		{"a", "PM"},
+	}
+}
+
+func localeTableKokLatn() [5][]string {
+	return [5][]string{
+		{"Ait", "Som", "Mon", "Bud", "Bre", "Suk", "Son"},
+		{"Aitar", "Somar", "Mongllar", "Budhvar", "Birestar", "Sukrar", "Sonvar"},
+		{"Jan", "Feb", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Otu", "Nov", "Dez"},
+		{"Janer", "Febrer", "Mars", "Abril", "Mai", "Jun", "Julai", "Agost", "Setembr", "Otubr", "Novembr", "Dezembr"},
 		{"a", "p"},
 	}
 }
 
-func localeTableKokIN() [5][]string {
+func localeTableKokLatnIN() [5][]string {
 	return [5][]string{
-		{},
-		{"आयतार", "सोमार", "मंगळार", "बुधवार", "बिरेस्तार", "शुक्रार", "शेनवार"},
-		{},
-		{"जानेवारी", "फेब्रुवारी", "मार्च", "एप्रील", "मे", "जून", "जुलय", "ऑगस्ट", "सप्टेंबर", "ऑक्टोबर", "नोव्हेंबर", "डिसेंबर"},
+		{"Ait", "Som", "Mon", "Bud", "Bre", "Suk", "Son"},
+		{"Aitar", "Somar", "Mongllar", "Budhvar", "Birestar", "Sukrar", "Sonvar"},
+		{"Jan", "Feb", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Otu", "Nov", "Dez"},
+		{"Janer", "Febrer", "Mars", "Abril", "Mai", "Jun", "Julai", "Agost", "Setembr", "Otubr", "Novembr", "Dezembr"},
 		{"a", "p"},
 	}
 }
@@ -5337,8 +5707,8 @@ func localeTableKsDeva() [5][]string {
 	return [5][]string{
 		{"आथवार", "चंदिरवार", "बुवार", "बोदवार", "ब्रेसवार", "जुमा", "बटवार"},
 		{"आथवार", "च़ंदिरवार", "बोमवार", "बोदवार", "ब्रेसवार", "जुमा", "बटवार"},
-		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मे", "जून", "जुलाई", "अगस्त", "सतुंबर", "अक्तूबर", "नवूमबर", "दसूमबर"},
-		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मे", "जून", "जुलाई", "अगस्त", "सतमबर", "अक्तूबर", "नवमबर", "दसमबर"},
+		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सतुंबर", "अक्तूबर", "नवूमबर", "दसमबर"},
+		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सतमबर", "अक्तूबर", "नवमबर", "दसमबर"},
 		{},
 	}
 }
@@ -5347,8 +5717,8 @@ func localeTableKsDevaIN() [5][]string {
 	return [5][]string{
 		{"आथवार", "चंदिरवार", "बुवार", "बोदवार", "ब्रेसवार", "जुमा", "बटवार"},
 		{"आथवार", "च़ंदिरवार", "बोमवार", "बोदवार", "ब्रेसवार", "जुमा", "बटवार"},
-		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मे", "जून", "जुलाई", "अगस्त", "सतुंबर", "अक्तूबर", "नवूमबर", "दसूमबर"},
-		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मे", "जून", "जुलाई", "अगस्त", "सतमबर", "अक्तूबर", "नवमबर", "दसमबर"},
+		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सतुंबर", "अक्तूबर", "नवूमबर", "दसमबर"},
+		{"जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सतमबर", "अक्तूबर", "नवमबर", "दसमबर"},
 		{},
 	}
 }
@@ -5423,6 +5793,46 @@ func localeTableKu() [5][]string {
 	}
 }
 
+func localeTableKuLatn() [5][]string {
+	return [5][]string{
+		{"yşm", "dşm", "sşm", "çşm", "pşm", "înî", "şem"},
+		{"yekşem", "duşem", "sêşem", "çarşem", "pêncşem", "înî", "şemî"},
+		{"rbn", "sbt", "adr", "nsn", "gln", "hzr", "trm", "tbx", "îln", "cot", "mjd", "brf"},
+		{"rêbendan", "sibat", "adar", "nîsan", "gulan", "hezîran", "tîrmeh", "tebax", "îlon", "cotmeh", "mijdar", "berfanbar"},
+		{"BN", "PN"},
+	}
+}
+
+func localeTableKuLatnIQ() [5][]string {
+	return [5][]string{
+		{"yşm", "dşm", "sşm", "çşm", "pşm", "înî", "şem"},
+		{"yekşem", "duşem", "sêşem", "çarşem", "pêncşem", "înî", "şemî"},
+		{"rbn", "sbt", "adr", "nsn", "gln", "hzr", "trm", "tbx", "îln", "cot", "mjd", "brf"},
+		{"rêbendan", "sibat", "adar", "nîsan", "gulan", "hezîran", "tîrmeh", "tebax", "îlon", "cotmeh", "mijdar", "berfanbar"},
+		{"BN", "PN"},
+	}
+}
+
+func localeTableKuLatnSY() [5][]string {
+	return [5][]string{
+		{"yşm", "dşm", "sşm", "çşm", "pşm", "înî", "şem"},
+		{"yekşem", "duşem", "sêşem", "çarşem", "pêncşem", "înî", "şemî"},
+		{"rbn", "sbt", "adr", "nsn", "gln", "hzr", "trm", "tbx", "îln", "cot", "mjd", "brf"},
+		{"rêbendan", "sibat", "adar", "nîsan", "gulan", "hezîran", "tîrmeh", "tebax", "îlon", "cotmeh", "mijdar", "berfanbar"},
+		{"BN", "PN"},
+	}
+}
+
+func localeTableKuLatnTR() [5][]string {
+	return [5][]string{
+		{"yşm", "dşm", "sşm", "çşm", "pşm", "înî", "şem"},
+		{"yekşem", "duşem", "sêşem", "çarşem", "pêncşem", "înî", "şemî"},
+		{"rbn", "sbt", "adr", "nsn", "gln", "hzr", "trm", "tbx", "îln", "cot", "mjd", "brf"},
+		{"rêbendan", "sibat", "adar", "nîsan", "gulan", "hezîran", "tîrmeh", "tebax", "îlon", "cotmeh", "mijdar", "berfanbar"},
+		{"BN", "PN"},
+	}
+}
+
 func localeTableKuTR() [5][]string {
 	return [5][]string{
 		{"yşm", "dşm", "sşm", "çşm", "pşm", "înî", "şem"},
@@ -5465,41 +5875,41 @@ func localeTableKxv() [5][]string {
 
 func localeTableKxvDeva() [5][]string {
 	return [5][]string{
-		{},
+		{"आदि", "साॅम्मा", "मान्गा", "पूदा", "लाक्की", "सुकुरु", "सान्नि"},
 		{"आदि वारा", "साॅम्वारा", "मंगाड़ा", "पुद्दारा", "लाक्कि वारा", "सुकुरु वारा", "सान्नि वारा"},
-		{},
+		{"पुसु", "माहा", "पागु", "हिर्रे", "बेसे", "जाट्टा", "आसाड़ी", "स्राबाँ", "बाॅदो", "दासारा", "दिवी", "पान्डे"},
 		{"पुसु लेञ्जु", "माहाका लेञ्जु", "पागुणी लेञ्जु", "हिरे लेञ्जु", "बेसे लेञ्जु", "जाटा लेञ्जु", "आसाड़ी लेञ्जु", "स्राबाँ लेञ्जु", "बोदो लेञ्जु", "दसारा लेञ्जु", "दिवी लेञ्जु", "पान्डे लेञ्जु"},
-		{},
+		{"एएम", "पीएम"},
 	}
 }
 
 func localeTableKxvDevaIN() [5][]string {
 	return [5][]string{
-		{},
+		{"आदि", "साॅम्मा", "मान्गा", "पूदा", "लाक्की", "सुकुरु", "सान्नि"},
 		{"आदि वारा", "साॅम्वारा", "मंगाड़ा", "पुद्दारा", "लाक्कि वारा", "सुकुरु वारा", "सान्नि वारा"},
-		{},
+		{"पुसु", "माहा", "पागु", "हिर्रे", "बेसे", "जाट्टा", "आसाड़ी", "स्राबाँ", "बाॅदो", "दासारा", "दिवी", "पान्डे"},
 		{"पुसु लेञ्जु", "माहाका लेञ्जु", "पागुणी लेञ्जु", "हिरे लेञ्जु", "बेसे लेञ्जु", "जाटा लेञ्जु", "आसाड़ी लेञ्जु", "स्राबाँ लेञ्जु", "बोदो लेञ्जु", "दसारा लेञ्जु", "दिवी लेञ्जु", "पान्डे लेञ्जु"},
-		{},
+		{"एएम", "पीएम"},
 	}
 }
 
 func localeTableKxvOrya() [5][]string {
 	return [5][]string{
-		{},
+		{"ଆଦି", "ସମ୍ବା", "ମାଙ୍ଗା", "ପୁଦା", "ଲାକି", "ସୁକ୍ରୁ", "ସାନି"},
 		{"ଆଦି ୱାରା", "ସମ୍ବାରା", "ମାଙ୍ଗାଡ଼ା", "ପୁଦାରା", "ଲାକି ୱାରା", "ସୁକ୍ରୁ ୱାରା", "ସାନି ୱାରା"},
-		{},
+		{"ପୁସୁ", "ମାହା", "ପାଗୁ", "ହିରେ", "ବେସେ", "ଜାଟା", "ଆସାଡ଼ି", "ସ୍ରାବାଁ", "ବଦ", "ଦାସାରା", "ଦିୱି", "ପାଣ୍ଡେ"},
 		{"ପୁସୁ ଲେଞ୍ଜୁ", "ମାହାକା ଲେଞ୍ଜୁ", "ପାଗୁଣି ଲେଞ୍ଜୁ", "ହିରେ ଲେଞ୍ଜୁ", "ବେସେ ଲେଞ୍ଜୁ", "ଜାଟା ଲେଞ୍ଜୁ", "ଆସାଡ଼ି ଲେଞ୍ଜୁ", "ସ୍ରାବାଁ ଲେଞ୍ଜୁ", "ବଦ ଲେଞ୍ଜୁ", "ଦାସାରା ଲେଞ୍ଜୁ", "ଦିୱିଡ଼ି ଲେଞ୍ଜୁ", "ପାଣ୍ଡେ ଲେଞ୍ଜୁ"},
-		{},
+		{"ଏଏମ", "ପିଏମ"},
 	}
 }
 
 func localeTableKxvOryaIN() [5][]string {
 	return [5][]string{
-		{},
+		{"ଆଦି", "ସମ୍ବା", "ମାଙ୍ଗା", "ପୁଦା", "ଲାକି", "ସୁକ୍ରୁ", "ସାନି"},
 		{"ଆଦି ୱାରା", "ସମ୍ବାରା", "ମାଙ୍ଗାଡ଼ା", "ପୁଦାରା", "ଲାକି ୱାରା", "ସୁକ୍ରୁ ୱାରା", "ସାନି ୱାରା"},
-		{},
+		{"ପୁସୁ", "ମାହା", "ପାଗୁ", "ହିରେ", "ବେସେ", "ଜାଟା", "ଆସାଡ଼ି", "ସ୍ରାବାଁ", "ବଦ", "ଦାସାରା", "ଦିୱି", "ପାଣ୍ଡେ"},
 		{"ପୁସୁ ଲେଞ୍ଜୁ", "ମାହାକା ଲେଞ୍ଜୁ", "ପାଗୁଣି ଲେଞ୍ଜୁ", "ହିରେ ଲେଞ୍ଜୁ", "ବେସେ ଲେଞ୍ଜୁ", "ଜାଟା ଲେଞ୍ଜୁ", "ଆସାଡ଼ି ଲେଞ୍ଜୁ", "ସ୍ରାବାଁ ଲେଞ୍ଜୁ", "ବଦ ଲେଞ୍ଜୁ", "ଦାସାରା ଲେଞ୍ଜୁ", "ଦିୱିଡ଼ି ଲେଞ୍ଜୁ", "ପାଣ୍ଡେ ଲେଞ୍ଜୁ"},
-		{},
+		{"ଏଏମ", "ପିଏମ"},
 	}
 }
 
@@ -5509,7 +5919,7 @@ func localeTableKxvTelu() [5][]string {
 		{"వారమి", "నమారా", "మాంగాడా", "వుదారా", "లాకివరా", "నుక్ వరా", "సానివరా"},
 		{},
 		{"మాగ", "గుండు", "హిరెఇ", "బెసెకి", "లండి", "రాత", "బాన్దపాణా", "బార్సి", "అస్ర", "దివెడి", "పాండు", "పుసు"},
-		{},
+		{"ఎఎమ్", "పిఎమ్"},
 	}
 }
 
@@ -5519,7 +5929,7 @@ func localeTableKxvTeluIN() [5][]string {
 		{"వారమి", "నమారా", "మాంగాడా", "వుదారా", "లాకివరా", "నుక్ వరా", "సానివరా"},
 		{},
 		{"మాగ", "గుండు", "హిరెఇ", "బెసెకి", "లండి", "రాత", "బాన్దపాణా", "బార్సి", "అస్ర", "దివెడి", "పాండు", "పుసు"},
-		{},
+		{"ఎఎమ్", "పిఎమ్"},
 	}
 }
 
@@ -5663,6 +6073,26 @@ func localeTableLktUS() [5][]string {
 	}
 }
 
+func localeTableLld() [5][]string {
+	return [5][]string{
+		{"dom", "lön", "mert", "merc", "jöb", "vën", "sab"},
+		{"domënia", "lönesc", "mertesc", "mercui", "jöbia", "vëndres", "sabeda"},
+		{},
+		{"de jená", "de forá", "de merz", "d’aurí", "de ma", "de jügn", "de messé", "d’aost", "de setëmber", "d’otober", "de novëmber", "de dezëmber"},
+		{},
+	}
+}
+
+func localeTableLldIT() [5][]string {
+	return [5][]string{
+		{"dom", "lön", "mert", "merc", "jöb", "vën", "sab"},
+		{"domënia", "lönesc", "mertesc", "mercui", "jöbia", "vëndres", "sabeda"},
+		{},
+		{"de jená", "de forá", "de merz", "d’aurí", "de ma", "de jügn", "de messé", "d’aost", "de setëmber", "d’otober", "de novëmber", "de dezëmber"},
+		{},
+	}
+}
+
 func localeTableLmo() [5][]string {
 	return [5][]string{
 		{},
@@ -5800,6 +6230,26 @@ func localeTableLtLT() [5][]string {
 		{"saus.", "vas.", "kov.", "bal.", "geg.", "birž.", "liep.", "rugp.", "rugs.", "spal.", "lapkr.", "gruod."},
 		{"sausio", "vasario", "kovo", "balandžio", "gegužės", "birželio", "liepos", "rugpjūčio", "rugsėjo", "spalio", "lapkričio", "gruodžio"},
 		{"priešpiet", "popiet"},
+	}
+}
+
+func localeTableLtg() [5][]string {
+	return [5][]string{
+		{},
+		{"svātdīne", "pyrmūdīne", "ūtardīne", "trešdīne", "catūrtdīne", "pīktdīne", "sastdīne"},
+		{},
+		{"janvars", "februars", "marts", "apreļs", "majs", "juņs", "juļs", "augusts", "septembris", "oktobris", "novembris", "decembris"},
+		{},
+	}
+}
+
+func localeTableLtgLV() [5][]string {
+	return [5][]string{
+		{},
+		{"svātdīne", "pyrmūdīne", "ūtardīne", "trešdīne", "catūrtdīne", "pīktdīne", "sastdīne"},
+		{},
+		{"janvars", "februars", "marts", "apreļs", "majs", "juņs", "juļs", "augusts", "septembris", "oktobris", "novembris", "decembris"},
+		{},
 	}
 }
 
@@ -6313,6 +6763,16 @@ func localeTableMusUS() [5][]string {
 	}
 }
 
+func localeTableMww() [5][]string {
+	return [5][]string{
+		{},
+		{},
+		{},
+		{"𞄆𞄬", "𞄛𞄨𞄱𞄄𞄤𞄲𞄨", "𞄒𞄫𞄰𞄒𞄪𞄱", "𞄤𞄨𞄱", "𞄀𞄪𞄴", "𞄛𞄤𞄱𞄞𞄤𞄦", "𞄔𞄩𞄴𞄆𞄨𞄰", "𞄕𞄩𞄲𞄔𞄄𞄰𞄤", "𞄛𞄤𞄱𞄒𞄤𞄰", "𞄪𞄱𞄀𞄤𞄴", "𞄚𞄦𞄲𞄤𞄚𞄄𞄰𞄫", "𞄒𞄩𞄱𞄔𞄬𞄴"},
+		{},
+	}
+}
+
 func localeTableMy() [5][]string {
 	return [5][]string{
 		{},
@@ -6666,9 +7126,9 @@ func localeTableNrZA() [5][]string {
 func localeTableNso() [5][]string {
 	return [5][]string{
 		{"Lam", "Mos", "Bed", "Rar", "Ne", "Hla", "Mok"},
-		{"Lamorena", "Musopologo", "Labobedi", "Laboraro", "Labone", "Labohlano", "Mokibelo"},
-		{"Phere", "Dibo", "Hlak", "Mora", "Mopi", "Phupu", "Mose", "Phato", "Lewe", "Dipha", "Diba", "Manth"},
-		{"Pherekgong", "Dibokwane", "Hlakola", "Moranang", "Mopitlo", "Phupu", "Mosegemanye", "Phato", "Lewedi", "Diphalane", "Dibatsela", "Manthole"},
+		{"Lamorena", "Mošupologo", "Labobedi", "Laboraro", "Labone", "Labohlano", "Mokibelo"},
+		{"Jan", "Feb", "Mat", "Apo", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nof", "Dis"},
+		{"Janeware", "Febereware", "Matšhe", "Aporele", "Mei", "June", "Julae", "Agosetose", "Setemere", "Oktobore", "Nofemere", "Disemere"},
 		{"a", "p"},
 	}
 }
@@ -6676,9 +7136,9 @@ func localeTableNso() [5][]string {
 func localeTableNsoZA() [5][]string {
 	return [5][]string{
 		{"Lam", "Mos", "Bed", "Rar", "Ne", "Hla", "Mok"},
-		{"Lamorena", "Musopologo", "Labobedi", "Laboraro", "Labone", "Labohlano", "Mokibelo"},
-		{"Phere", "Dibo", "Hlak", "Mora", "Mopi", "Phupu", "Mose", "Phato", "Lewe", "Dipha", "Diba", "Manth"},
-		{"Pherekgong", "Dibokwane", "Hlakola", "Moranang", "Mopitlo", "Phupu", "Mosegemanye", "Phato", "Lewedi", "Diphalane", "Dibatsela", "Manthole"},
+		{"Lamorena", "Mošupologo", "Labobedi", "Laboraro", "Labone", "Labohlano", "Mokibelo"},
+		{"Jan", "Feb", "Mat", "Apo", "Mei", "Jun", "Jul", "Ago", "Sep", "Okt", "Nof", "Dis"},
+		{"Janeware", "Febereware", "Matšhe", "Aporele", "Mei", "June", "Julae", "Agosetose", "Setemere", "Oktobore", "Nofemere", "Disemere"},
 		{"a", "p"},
 	}
 }
@@ -6775,30 +7235,30 @@ func localeTableOcFR() [5][]string {
 
 func localeTableOm() [5][]string {
 	return [5][]string{
-		{"Dil", "Wix", "Qib", "Rob", "Kam", "Jim", "San"},
-		{"Dilbata", "Wiixata", "Qibxata", "Roobii", "Kamiisa", "Jimaata", "Sanbata"},
-		{"Ama", "Gur", "Bit", "Elb", "Cam", "Wax", "Ado", "Hag", "Ful", "Onk", "Sad", "Mud"},
-		{"Amajjii", "Guraandhala", "Bitooteessa", "Elba", "Caamsa", "Waxabajjii", "Adooleessa", "Hagayya", "Fuulbana", "Onkololeessa", "Sadaasa", "Muddee"},
+		{"Dil", "Wix", "Kib", "Rob", "Kam", "Jim", "San"},
+		{"Dilbata", "Wiixata", "Kibxata", "Roobii", "Kamisa", "Jimaata", "Sanbata"},
+		{"Ama", "Gur", "Bitootessa", "Elb", "Cam", "Wax", "Ado", "Hag", "Ful", "Onk", "Sadaasa", "Mud"},
+		{"Amajjii", "Guraandhala", "Bitootessa", "Eebila", "Caamsaa", "Waxabajjii", "Adoolessa", "Hagayya", "Fulbaana", "Onkoloolessa", "Sadaasa", "Mudde"},
 		{"WD", "WB"},
 	}
 }
 
 func localeTableOmET() [5][]string {
 	return [5][]string{
-		{"Dil", "Wix", "Qib", "Rob", "Kam", "Jim", "San"},
-		{"Dilbata", "Wiixata", "Qibxata", "Roobii", "Kamiisa", "Jimaata", "Sanbata"},
-		{"Ama", "Gur", "Bit", "Elb", "Cam", "Wax", "Ado", "Hag", "Ful", "Onk", "Sad", "Mud"},
-		{"Amajjii", "Guraandhala", "Bitooteessa", "Elba", "Caamsa", "Waxabajjii", "Adooleessa", "Hagayya", "Fuulbana", "Onkololeessa", "Sadaasa", "Muddee"},
+		{"Dil", "Wix", "Kib", "Rob", "Kam", "Jim", "San"},
+		{"Dilbata", "Wiixata", "Kibxata", "Roobii", "Kamisa", "Jimaata", "Sanbata"},
+		{"Ama", "Gur", "Bitootessa", "Elb", "Cam", "Wax", "Ado", "Hag", "Ful", "Onk", "Sadaasa", "Mud"},
+		{"Amajjii", "Guraandhala", "Bitootessa", "Eebila", "Caamsaa", "Waxabajjii", "Adoolessa", "Hagayya", "Fulbaana", "Onkoloolessa", "Sadaasa", "Mudde"},
 		{"WD", "WB"},
 	}
 }
 
 func localeTableOmKE() [5][]string {
 	return [5][]string{
-		{"Dil", "Wix", "Qib", "Rob", "Kam", "Jim", "San"},
-		{"Dilbata", "Wiixata", "Qibxata", "Roobii", "Kamiisa", "Jimaata", "Sanbata"},
-		{"Ama", "Gur", "Bit", "Elb", "Cam", "Wax", "Ado", "Hag", "Ful", "Onk", "Sad", "Mud"},
-		{"Amajjii", "Guraandhala", "Bitooteessa", "Elba", "Caamsa", "Waxabajjii", "Adooleessa", "Hagayya", "Fuulbana", "Onkololeessa", "Sadaasa", "Muddee"},
+		{"Dil", "Wix", "Kib", "Rob", "Kam", "Jim", "San"},
+		{"Dilbata", "Wiixata", "Kibxata", "Roobii", "Kamisa", "Jimaata", "Sanbata"},
+		{"Ama", "Gur", "Bitootessa", "Elb", "Cam", "Wax", "Ado", "Hag", "Ful", "Onk", "Sadaasa", "Mud"},
+		{"Amajjii", "Guraandhala", "Bitootessa", "Eebila", "Caamsaa", "Waxabajjii", "Adoolessa", "Hagayya", "Fulbaana", "Onkoloolessa", "Sadaasa", "Mudde"},
 		{"WD", "WB"},
 	}
 }
@@ -6809,7 +7269,7 @@ func localeTableOr() [5][]string {
 		{"ରବିବାର", "ସୋମବାର", "ମଙ୍ଗଳବାର", "ବୁଧବାର", "ଗୁରୁବାର", "ଶୁକ୍ରବାର", "ଶନିବାର"},
 		{},
 		{"ଜାନୁଆରୀ", "ଫେବୃଆରୀ", "ମାର୍ଚ୍ଚ", "ଅପ୍ରେଲ", "ମଇ", "ଜୁନ", "ଜୁଲାଇ", "ଅଗଷ୍ଟ", "ସେପ୍ଟେମ୍ବର", "ଅକ୍ଟୋବର", "ନଭେମ୍ବର", "ଡିସେମ୍ବର"},
-		{"ପୂ", "ଅ"},
+		{},
 	}
 }
 
@@ -6819,7 +7279,7 @@ func localeTableOrIN() [5][]string {
 		{"ରବିବାର", "ସୋମବାର", "ମଙ୍ଗଳବାର", "ବୁଧବାର", "ଗୁରୁବାର", "ଶୁକ୍ରବାର", "ଶନିବାର"},
 		{},
 		{"ଜାନୁଆରୀ", "ଫେବୃଆରୀ", "ମାର୍ଚ୍ଚ", "ଅପ୍ରେଲ", "ମଇ", "ଜୁନ", "ଜୁଲାଇ", "ଅଗଷ୍ଟ", "ସେପ୍ଟେମ୍ବର", "ଅକ୍ଟୋବର", "ନଭେମ୍ବର", "ଡିସେମ୍ବର"},
-		{"ପୂ", "ଅ"},
+		{},
 	}
 }
 
@@ -6875,11 +7335,11 @@ func localeTableOsaUS() [5][]string {
 
 func localeTablePa() [5][]string {
 	return [5][]string{
-		{"ਐਤ", "ਸੋਮ", "ਮੰਗਲ", "ਬੁੱਧ", "ਵੀਰ", "ਸ਼ੁੱਕਰ", "ਸ਼ਨਿੱਚਰ"},
-		{"ਐਤਵਾਰ", "ਸੋਮਵਾਰ", "ਮੰਗਲਵਾਰ", "ਬੁੱਧਵਾਰ", "ਵੀਰਵਾਰ", "ਸ਼ੁੱਕਰਵਾਰ", "ਸ਼ਨਿੱਚਰਵਾਰ"},
+		{"ਐਤ", "ਸੋਮ", "ਮੰਗਲ", "ਬੁੱਧ", "ਵੀਰ", "ਸ਼ੁੱਕਰ", "ਸ਼ਨੀ"},
+		{"ਐਤਵਾਰ", "ਸੋਮਵਾਰ", "ਮੰਗਲਵਾਰ", "ਬੁੱਧਵਾਰ", "ਵੀਰਵਾਰ", "ਸ਼ੁੱਕਰਵਾਰ", "ਸ਼ਨੀਵਾਰ"},
 		{"ਜਨ", "ਫ਼ਰ", "ਮਾਰਚ", "ਅਪ੍ਰੈ", "ਮਈ", "ਜੂਨ", "ਜੁਲਾ", "ਅਗ", "ਸਤੰ", "ਅਕਤੂ", "ਨਵੰ", "ਦਸੰ"},
 		{"ਜਨਵਰੀ", "ਫ਼ਰਵਰੀ", "ਮਾਰਚ", "ਅਪ੍ਰੈਲ", "ਮਈ", "ਜੂਨ", "ਜੁਲਾਈ", "ਅਗਸਤ", "ਸਤੰਬਰ", "ਅਕਤੂਬਰ", "ਨਵੰਬਰ", "ਦਸੰਬਰ"},
-		{"ਪੂ.ਦੁ.", "ਬਾ.ਦੁ."},
+		{"AM", "PM"},
 	}
 }
 
@@ -6905,21 +7365,21 @@ func localeTablePaArabPK() [5][]string {
 
 func localeTablePaGuru() [5][]string {
 	return [5][]string{
-		{"ਐਤ", "ਸੋਮ", "ਮੰਗਲ", "ਬੁੱਧ", "ਵੀਰ", "ਸ਼ੁੱਕਰ", "ਸ਼ਨਿੱਚਰ"},
-		{"ਐਤਵਾਰ", "ਸੋਮਵਾਰ", "ਮੰਗਲਵਾਰ", "ਬੁੱਧਵਾਰ", "ਵੀਰਵਾਰ", "ਸ਼ੁੱਕਰਵਾਰ", "ਸ਼ਨਿੱਚਰਵਾਰ"},
+		{"ਐਤ", "ਸੋਮ", "ਮੰਗਲ", "ਬੁੱਧ", "ਵੀਰ", "ਸ਼ੁੱਕਰ", "ਸ਼ਨੀ"},
+		{"ਐਤਵਾਰ", "ਸੋਮਵਾਰ", "ਮੰਗਲਵਾਰ", "ਬੁੱਧਵਾਰ", "ਵੀਰਵਾਰ", "ਸ਼ੁੱਕਰਵਾਰ", "ਸ਼ਨੀਵਾਰ"},
 		{"ਜਨ", "ਫ਼ਰ", "ਮਾਰਚ", "ਅਪ੍ਰੈ", "ਮਈ", "ਜੂਨ", "ਜੁਲਾ", "ਅਗ", "ਸਤੰ", "ਅਕਤੂ", "ਨਵੰ", "ਦਸੰ"},
 		{"ਜਨਵਰੀ", "ਫ਼ਰਵਰੀ", "ਮਾਰਚ", "ਅਪ੍ਰੈਲ", "ਮਈ", "ਜੂਨ", "ਜੁਲਾਈ", "ਅਗਸਤ", "ਸਤੰਬਰ", "ਅਕਤੂਬਰ", "ਨਵੰਬਰ", "ਦਸੰਬਰ"},
-		{"ਪੂ.ਦੁ.", "ਬਾ.ਦੁ."},
+		{"AM", "PM"},
 	}
 }
 
 func localeTablePaGuruIN() [5][]string {
 	return [5][]string{
-		{"ਐਤ", "ਸੋਮ", "ਮੰਗਲ", "ਬੁੱਧ", "ਵੀਰ", "ਸ਼ੁੱਕਰ", "ਸ਼ਨਿੱਚਰ"},
-		{"ਐਤਵਾਰ", "ਸੋਮਵਾਰ", "ਮੰਗਲਵਾਰ", "ਬੁੱਧਵਾਰ", "ਵੀਰਵਾਰ", "ਸ਼ੁੱਕਰਵਾਰ", "ਸ਼ਨਿੱਚਰਵਾਰ"},
+		{"ਐਤ", "ਸੋਮ", "ਮੰਗਲ", "ਬੁੱਧ", "ਵੀਰ", "ਸ਼ੁੱਕਰ", "ਸ਼ਨੀ"},
+		{"ਐਤਵਾਰ", "ਸੋਮਵਾਰ", "ਮੰਗਲਵਾਰ", "ਬੁੱਧਵਾਰ", "ਵੀਰਵਾਰ", "ਸ਼ੁੱਕਰਵਾਰ", "ਸ਼ਨੀਵਾਰ"},
 		{"ਜਨ", "ਫ਼ਰ", "ਮਾਰਚ", "ਅਪ੍ਰੈ", "ਮਈ", "ਜੂਨ", "ਜੁਲਾ", "ਅਗ", "ਸਤੰ", "ਅਕਤੂ", "ਨਵੰ", "ਦਸੰ"},
 		{"ਜਨਵਰੀ", "ਫ਼ਰਵਰੀ", "ਮਾਰਚ", "ਅਪ੍ਰੈਲ", "ਮਈ", "ਜੂਨ", "ਜੁਲਾਈ", "ਅਗਸਤ", "ਸਤੰਬਰ", "ਅਕਤੂਬਰ", "ਨਵੰਬਰ", "ਦਸੰਬਰ"},
-		{"ਪੂ.ਦੁ.", "ਬਾ.ਦੁ."},
+		{"AM", "PM"},
 	}
 }
 
@@ -7010,6 +7470,26 @@ func localeTablePlPL() [5][]string {
 		{"sty", "lut", "mar", "kwi", "maj", "cze", "lip", "sie", "wrz", "paź", "lis", "gru"},
 		{"stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia", "września", "października", "listopada", "grudnia"},
 		{"a", "p"},
+	}
+}
+
+func localeTablePms() [5][]string {
+	return [5][]string{
+		{},
+		{"dumìnica", "lun-es", "màrtes", "merco", "giòbia", "vënner", "saba"},
+		{},
+		{"gené", "fërvé", "mars", "avril", "magg", "giugn", "lugn", "agost", "stèmber", "utuber", "novèmber", "dzèmber"},
+		{},
+	}
+}
+
+func localeTablePmsIT() [5][]string {
+	return [5][]string{
+		{},
+		{"dumìnica", "lun-es", "màrtes", "merco", "giòbia", "vënner", "saba"},
+		{},
+		{"gené", "fërvé", "mars", "avril", "magg", "giugn", "lugn", "agost", "stèmber", "utuber", "novèmber", "dzèmber"},
+		{},
 	}
 }
 
@@ -7258,7 +7738,7 @@ func localeTableRif() [5][]string {
 		{"lḥe", "let", "ttl", "lar", "lex", "jje", "sse"},
 		{"lḥed", "letnayen", "ttlat", "larbeɛ", "lexmis", "jjemɛa", "ssebt"},
 		{"yen", "feb", "mar", "yeb", "may", "yun", "yul", "ɣuc", "cut", "kṭu", "nuw", "duj"},
-		{"yennayer", "febrayer", "mars", "yebril", "mayyu", "yunyu", "yulyuz", "ɣucct", "cutenber", "kṭuber", "nuwember", "dujember"},
+		{"yennayer", "febrayer", "mars", "yebril", "mayyu", "yunyu", "yulyu", "ɣuccet", "cutembir", "kṭuber", "nuwembir", "dujembir"},
 		{"a", "p"},
 	}
 }
@@ -7268,7 +7748,7 @@ func localeTableRifMA() [5][]string {
 		{"lḥe", "let", "ttl", "lar", "lex", "jje", "sse"},
 		{"lḥed", "letnayen", "ttlat", "larbeɛ", "lexmis", "jjemɛa", "ssebt"},
 		{"yen", "feb", "mar", "yeb", "may", "yun", "yul", "ɣuc", "cut", "kṭu", "nuw", "duj"},
-		{"yennayer", "febrayer", "mars", "yebril", "mayyu", "yunyu", "yulyuz", "ɣucct", "cutenber", "kṭuber", "nuwember", "dujember"},
+		{"yennayer", "febrayer", "mars", "yebril", "mayyu", "yunyu", "yulyu", "ɣuccet", "cutembir", "kṭuber", "nuwembir", "dujembir"},
 		{"a", "p"},
 	}
 }
@@ -7279,7 +7759,7 @@ func localeTableRm() [5][]string {
 		{"dumengia", "glindesdi", "mardi", "mesemna", "gievgia", "venderdi", "sonda"},
 		{"schan.", "favr.", "mars", "avr.", "matg", "zercl.", "fan.", "avust", "sett.", "oct.", "nov.", "dec."},
 		{"da schaner", "da favrer", "da mars", "d’avrigl", "da matg", "da zercladur", "da fanadur", "d’avust", "da settember", "d’october", "da november", "da december"},
-		{},
+		{"a", "p"},
 	}
 }
 
@@ -7289,7 +7769,7 @@ func localeTableRmCH() [5][]string {
 		{"dumengia", "glindesdi", "mardi", "mesemna", "gievgia", "venderdi", "sonda"},
 		{"schan.", "favr.", "mars", "avr.", "matg", "zercl.", "fan.", "avust", "sett.", "oct.", "nov.", "dec."},
 		{"da schaner", "da favrer", "da mars", "d’avrigl", "da matg", "da zercladur", "da fanadur", "d’avust", "da settember", "d’october", "da november", "da december"},
-		{},
+		{"a", "p"},
 	}
 }
 
@@ -7435,20 +7915,20 @@ func localeTableRuUA() [5][]string {
 
 func localeTableRw() [5][]string {
 	return [5][]string{
-		{"cyu.", "mbe.", "kab.", "gtu.", "kan.", "gnu.", "gnd."},
+		{"Cyu.", "Mbe.", "Kab.", "Gtu.", "Kan.", "Gnu.", "Gnd."},
 		{"Ku cyumweru", "Kuwa mbere", "Kuwa kabiri", "Kuwa gatatu", "Kuwa kane", "Kuwa gatanu", "Kuwa gatandatu"},
-		{"mut.", "gas.", "wer.", "mat.", "gic.", "kam.", "nya.", "kan.", "nze.", "ukw.", "ugu.", "uku."},
-		{"Mutarama", "Gashyantare", "Werurwe", "Mata", "Gicurasi", "Kamena", "Nyakanga", "Kanama", "Nzeli", "Ukwakira", "Ugushyingo", "Ukuboza"},
+		{"Mut.", "Gas.", "Wer.", "Mat.", "Gic.", "Kam.", "Nya.", "Kan.", "Nze.", "Ukw.", "Ugu.", "Uku."},
+		{"Mutarama", "Gashyantare", "Werurwe", "Mata", "Gicurasi", "Kamena", "Nyakanga", "Kanama", "Nzeri", "Ukwakira", "Ugushyingo", "Ukuboza"},
 		{},
 	}
 }
 
 func localeTableRwRW() [5][]string {
 	return [5][]string{
-		{"cyu.", "mbe.", "kab.", "gtu.", "kan.", "gnu.", "gnd."},
+		{"Cyu.", "Mbe.", "Kab.", "Gtu.", "Kan.", "Gnu.", "Gnd."},
 		{"Ku cyumweru", "Kuwa mbere", "Kuwa kabiri", "Kuwa gatatu", "Kuwa kane", "Kuwa gatanu", "Kuwa gatandatu"},
-		{"mut.", "gas.", "wer.", "mat.", "gic.", "kam.", "nya.", "kan.", "nze.", "ukw.", "ugu.", "uku."},
-		{"Mutarama", "Gashyantare", "Werurwe", "Mata", "Gicurasi", "Kamena", "Nyakanga", "Kanama", "Nzeli", "Ukwakira", "Ugushyingo", "Ukuboza"},
+		{"Mut.", "Gas.", "Wer.", "Mat.", "Gic.", "Kam.", "Nya.", "Kan.", "Nze.", "Ukw.", "Ugu.", "Uku."},
+		{"Mutarama", "Gashyantare", "Werurwe", "Mata", "Gicurasi", "Kamena", "Nyakanga", "Kanama", "Nzeri", "Ukwakira", "Ugushyingo", "Ukuboza"},
 		{},
 	}
 }
@@ -7585,20 +8065,20 @@ func localeTableScIT() [5][]string {
 
 func localeTableScn() [5][]string {
 	return [5][]string{
-		{},
-		{"dumìnica", "lunnidìa", "martidìa", "mercuridìa", "jovidìa", "vennidìa", "sàbbatu"},
+		{"dum", "lun", "mar", "mer", "jov", "ven", "sab"},
+		{"dumìnica", "lunnidìa", "martidìa", "mercuridìa", "jovidìa", "venniridìa", "sàbbatu"},
 		{"jin", "fri", "mar", "apr", "maj", "giu", "gnt", "agu", "sit", "utt", "nuv", "dic"},
-		{"jinnaru", "frivaru", "marzu", "aprili", "maju", "giugnu", "giugnettu", "agustu", "sittèmmiru", "uttòviru", "nuvèmmiru", "dicèmmiru"},
+		{"jinnaru", "frivaru", "marzu", "aprili", "maju", "giugnu", "giugnettu", "agustu", "sittèmmiru", "uttùviru", "nuvèmmiru", "dicèmmiru"},
 		{},
 	}
 }
 
 func localeTableScnIT() [5][]string {
 	return [5][]string{
-		{},
-		{"dumìnica", "lunnidìa", "martidìa", "mercuridìa", "jovidìa", "vennidìa", "sàbbatu"},
+		{"dum", "lun", "mar", "mer", "jov", "ven", "sab"},
+		{"dumìnica", "lunnidìa", "martidìa", "mercuridìa", "jovidìa", "venniridìa", "sàbbatu"},
 		{"jin", "fri", "mar", "apr", "maj", "giu", "gnt", "agu", "sit", "utt", "nuv", "dic"},
-		{"jinnaru", "frivaru", "marzu", "aprili", "maju", "giugnu", "giugnettu", "agustu", "sittèmmiru", "uttòviru", "nuvèmmiru", "dicèmmiru"},
+		{"jinnaru", "frivaru", "marzu", "aprili", "maju", "giugnu", "giugnettu", "agustu", "sittèmmiru", "uttùviru", "nuvèmmiru", "dicèmmiru"},
 		{},
 	}
 }
@@ -7609,7 +8089,7 @@ func localeTableSd() [5][]string {
 		{"آچر", "سومر", "اڱارو", "اربع", "خميس", "جمعو", "ڇنڇر"},
 		{},
 		{"جنوري", "فيبروري", "مارچ", "اپريل", "مئي", "جون", "جولاءِ", "آگسٽ", "سيپٽمبر", "آڪٽوبر", "نومبر", "ڊسمبر"},
-		{"صبح،منجهند", "شام،منجهند"},
+		{"صبح", "شام"},
 	}
 }
 
@@ -7619,7 +8099,7 @@ func localeTableSdArab() [5][]string {
 		{"آچر", "سومر", "اڱارو", "اربع", "خميس", "جمعو", "ڇنڇر"},
 		{},
 		{"جنوري", "فيبروري", "مارچ", "اپريل", "مئي", "جون", "جولاءِ", "آگسٽ", "سيپٽمبر", "آڪٽوبر", "نومبر", "ڊسمبر"},
-		{"صبح،منجهند", "شام،منجهند"},
+		{"صبح", "شام"},
 	}
 }
 
@@ -7629,26 +8109,26 @@ func localeTableSdArabPK() [5][]string {
 		{"آچر", "سومر", "اڱارو", "اربع", "خميس", "جمعو", "ڇنڇر"},
 		{},
 		{"جنوري", "فيبروري", "مارچ", "اپريل", "مئي", "جون", "جولاءِ", "آگسٽ", "سيپٽمبر", "آڪٽوبر", "نومبر", "ڊسمبر"},
-		{"صبح،منجهند", "شام،منجهند"},
+		{"صبح", "شام"},
 	}
 }
 
 func localeTableSdDeva() [5][]string {
 	return [5][]string{
-		{"आर्त", "सू", "मंग", "बु॒ध", "विस", "जुम", "छंछ"},
-		{"आर्तवार", "सूमर", "मंगलु", "बु॒धर", "विस्पत", "जुमो", "छंछर"},
+		{"आर्त", "सू", "मंग", "ॿुध", "विस", "जुम", "छंछ"},
+		{"आर्तवार", "सूमर", "मंगलु", "ॿुधर", "विस्पत", "जुमो", "छंछर"},
 		{"जन", "फर", "मार्च", "अप्रै", "मई", "जून", "जु", "अग", "सप्टे", "ऑक्टो", "नवं", "डिसं"},
-		{"जनवरी", "फरवरी", "मार्चु", "अप्रैल", "मई", "जून", "जुलाई", "अगस्ट", "सप्टेंबर", "ओक्टोबर", "नवंबर", "डिसंबर"},
+		{"जनवरी", "फेबरवरी", "मार्चु", "अप्रेल", "मई", "जून", "जुलाई", "आगस्ट", "सप्टेंबर", "आक्टोबर", "नवंबर", "डिसंबर"},
 		{},
 	}
 }
 
 func localeTableSdDevaIN() [5][]string {
 	return [5][]string{
-		{"आर्त", "सू", "मंग", "बु॒ध", "विस", "जुम", "छंछ"},
-		{"आर्तवार", "सूमर", "मंगलु", "बु॒धर", "विस्पत", "जुमो", "छंछर"},
+		{"आर्त", "सू", "मंग", "ॿुध", "विस", "जुम", "छंछ"},
+		{"आर्तवार", "सूमर", "मंगलु", "ॿुधर", "विस्पत", "जुमो", "छंछर"},
 		{"जन", "फर", "मार्च", "अप्रै", "मई", "जून", "जु", "अग", "सप्टे", "ऑक्टो", "नवं", "डिसं"},
-		{"जनवरी", "फरवरी", "मार्चु", "अप्रैल", "मई", "जून", "जुलाई", "अगस्ट", "सप्टेंबर", "ओक्टोबर", "नवंबर", "डिसंबर"},
+		{"जनवरी", "फेबरवरी", "मार्चु", "अप्रेल", "मई", "जून", "जुलाई", "आगस्ट", "सप्टेंबर", "आक्टोबर", "नवंबर", "डिसंबर"},
 		{},
 	}
 }
@@ -7803,12 +8283,42 @@ func localeTableShiTfngMA() [5][]string {
 	}
 }
 
+func localeTableShn() [5][]string {
+	return [5][]string{
+		{"တိတ်ႉ", "ၸၼ်", "ၵၢၼ်း", "ပုတ်ႉ", "ၽတ်း", "သုၵ်း", "သဝ်"},
+		{"ဝၼ်းဢႃးတိတ်ႉ", "ဝၼ်းၸၼ်", "ဝၼ်းဢင်းၵၢၼ်း", "ဝၼ်းပုတ်ႉ", "ဝၼ်းၽတ်း", "ဝၼ်းသုၵ်း", "ဝၼ်းသဝ်"},
+		{"ၸၼ်ႇ", "ၾႅပ်ႇ", "မၢတ်ႉၶ်ျ", "ဢေႇ", "မေႇ", "ၸုၼ်ႇ", "ၸူႇ", "ဢေႃး", "သႅပ်ႇ", "ဢွၵ်ႇ", "ၼူဝ်ႇ", "တီႇ"},
+		{"ၸၼ်ႇဝႃႇရီႇ", "ၾႅပ်ႇဝႃႇရီႇ", "မၢတ်ႉၶ်ျ", "ဢေႇပရႄႇ", "မေႇ", "ၸုၼ်ႇ", "ၸူႇလၢႆႇ", "ဢေႃးၵၢတ်ႉ", "သႅပ်ႇထႅမ်ႇပႃႇ", "ဢွၵ်ႇထူဝ်ႇပႃႇ", "ၼူဝ်ႇဝႅမ်ႇပႃႇ", "တီႇသႅမ်ႇပႃႇ"},
+		{"တၸ.", "တလ."},
+	}
+}
+
+func localeTableShnMM() [5][]string {
+	return [5][]string{
+		{"တိတ်ႉ", "ၸၼ်", "ၵၢၼ်း", "ပုတ်ႉ", "ၽတ်း", "သုၵ်း", "သဝ်"},
+		{"ဝၼ်းဢႃးတိတ်ႉ", "ဝၼ်းၸၼ်", "ဝၼ်းဢင်းၵၢၼ်း", "ဝၼ်းပုတ်ႉ", "ဝၼ်းၽတ်း", "ဝၼ်းသုၵ်း", "ဝၼ်းသဝ်"},
+		{"ၸၼ်ႇ", "ၾႅပ်ႇ", "မၢတ်ႉၶ်ျ", "ဢေႇ", "မေႇ", "ၸုၼ်ႇ", "ၸူႇ", "ဢေႃး", "သႅပ်ႇ", "ဢွၵ်ႇ", "ၼူဝ်ႇ", "တီႇ"},
+		{"ၸၼ်ႇဝႃႇရီႇ", "ၾႅပ်ႇဝႃႇရီႇ", "မၢတ်ႉၶ်ျ", "ဢေႇပရႄႇ", "မေႇ", "ၸုၼ်ႇ", "ၸူႇလၢႆႇ", "ဢေႃးၵၢတ်ႉ", "သႅပ်ႇထႅမ်ႇပႃႇ", "ဢွၵ်ႇထူဝ်ႇပႃႇ", "ၼူဝ်ႇဝႅမ်ႇပႃႇ", "တီႇသႅမ်ႇပႃႇ"},
+		{"တၸ.", "တလ."},
+	}
+}
+
+func localeTableShnTH() [5][]string {
+	return [5][]string{
+		{"တိတ်ႉ", "ၸၼ်", "ၵၢၼ်း", "ပုတ်ႉ", "ၽတ်း", "သုၵ်း", "သဝ်"},
+		{"ဝၼ်းဢႃးတိတ်ႉ", "ဝၼ်းၸၼ်", "ဝၼ်းဢင်းၵၢၼ်း", "ဝၼ်းပုတ်ႉ", "ဝၼ်းၽတ်း", "ဝၼ်းသုၵ်း", "ဝၼ်းသဝ်"},
+		{"ၸၼ်ႇ", "ၾႅပ်ႇ", "မၢတ်ႉၶ်ျ", "ဢေႇ", "မေႇ", "ၸုၼ်ႇ", "ၸူႇ", "ဢေႃး", "သႅပ်ႇ", "ဢွၵ်ႇ", "ၼူဝ်ႇ", "တီႇ"},
+		{"ၸၼ်ႇဝႃႇရီႇ", "ၾႅပ်ႇဝႃႇရီႇ", "မၢတ်ႉၶ်ျ", "ဢေႇပရႄႇ", "မေႇ", "ၸုၼ်ႇ", "ၸူႇလၢႆႇ", "ဢေႃးၵၢတ်ႉ", "သႅပ်ႇထႅမ်ႇပႃႇ", "ဢွၵ်ႇထူဝ်ႇပႃႇ", "ၼူဝ်ႇဝႅမ်ႇပႃႇ", "တီႇသႅမ်ႇပႃႇ"},
+		{"တၸ.", "တလ."},
+	}
+}
+
 func localeTableSi() [5][]string {
 	return [5][]string{
 		{"ඉරිදා", "සඳුදා", "අඟහ", "බදාදා", "බ්‍රහස්", "සිකු", "සෙන"},
 		{"ඉරිදා", "සඳුදා", "අඟහරුවාදා", "බදාදා", "බ්‍රහස්පතින්දා", "සිකුරාදා", "සෙනසුරාදා"},
-		{"ජන", "පෙබ", "මාර්තු", "අප්‍රේල්", "මැයි", "ජූනි", "ජූලි", "අගෝ", "සැප්", "ඔක්", "නොවැ", "දෙසැ"},
-		{"ජනවාරි", "පෙබරවාරි", "මාර්තු", "අප්‍රේල්", "මැයි", "ජූනි", "ජූලි", "අගෝස්තු", "සැප්තැම්බර්", "ඔක්තෝබර්", "නොවැම්බර්", "දෙසැම්බර්"},
+		{"දුරුතු", "නවම්", "මැදින්", "බක්", "වෙසක්", "පොසොන්", "ඇසළ", "නිකිණි", "බිනර", "වප්", "ඉල්", "උඳුවප්"},
+		{"දුරුතු", "නවම්", "මැදින්", "බක්", "වෙසක්", "පොසොන්", "ඇසළ", "නිකිණි", "බිනර", "වප්", "ඉල්", "උඳුවප්"},
 		{"පෙ.ව.", "ප.ව."},
 	}
 }
@@ -7817,8 +8327,8 @@ func localeTableSiLK() [5][]string {
 	return [5][]string{
 		{"ඉරිදා", "සඳුදා", "අඟහ", "බදාදා", "බ්‍රහස්", "සිකු", "සෙන"},
 		{"ඉරිදා", "සඳුදා", "අඟහරුවාදා", "බදාදා", "බ්‍රහස්පතින්දා", "සිකුරාදා", "සෙනසුරාදා"},
-		{"ජන", "පෙබ", "මාර්තු", "අප්‍රේල්", "මැයි", "ජූනි", "ජූලි", "අගෝ", "සැප්", "ඔක්", "නොවැ", "දෙසැ"},
-		{"ජනවාරි", "පෙබරවාරි", "මාර්තු", "අප්‍රේල්", "මැයි", "ජූනි", "ජූලි", "අගෝස්තු", "සැප්තැම්බර්", "ඔක්තෝබර්", "නොවැම්බර්", "දෙසැම්බර්"},
+		{"දුරුතු", "නවම්", "මැදින්", "බක්", "වෙසක්", "පොසොන්", "ඇසළ", "නිකිණි", "බිනර", "වප්", "ඉල්", "උඳුවප්"},
+		{"දුරුතු", "නවම්", "මැදින්", "බක්", "වෙසක්", "පොසොන්", "ඇසළ", "නිකිණි", "බිනර", "වප්", "ඉල්", "උඳුවප්"},
 		{"පෙ.ව.", "ප.ව."},
 	}
 }
@@ -7948,7 +8458,7 @@ func localeTableSo() [5][]string {
 		{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 		{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 		{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
-		{"Bisha Koobaad", "Bisha Labaad", "Bisha Saddexaad", "Bisha Afraad", "Bisha Shanaad", "Bisha Lixaad", "Bisha Todobaad", "Bisha Sideedaad", "Bisha Sagaalaad", "Bisha Tobnaad", "Bisha Kow iyo Tobnaad", "Bisha Laba iyo Tobnaad"},
+		{"Janaayo", "Febraayo", "Maarso", "Abriil", "Maayo", "Juun", "Luulyo", "Agosto", "Sebtembar", "Oktoobar", "Noofeembar", "Diseembar"},
 		{"GH", "GD"},
 	}
 }
@@ -7958,7 +8468,7 @@ func localeTableSoDJ() [5][]string {
 		{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 		{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 		{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
-		{"Bisha Koobaad", "Bisha Labaad", "Bisha Saddexaad", "Bisha Afraad", "Bisha Shanaad", "Bisha Lixaad", "Bisha Todobaad", "Bisha Sideedaad", "Bisha Sagaalaad", "Bisha Tobnaad", "Bisha Kow iyo Tobnaad", "Bisha Laba iyo Tobnaad"},
+		{"Janaayo", "Febraayo", "Maarso", "Abriil", "Maayo", "Juun", "Luulyo", "Agosto", "Sebtembar", "Oktoobar", "Noofeembar", "Diseembar"},
 		{"GH", "GD"},
 	}
 }
@@ -7968,7 +8478,7 @@ func localeTableSoET() [5][]string {
 		{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 		{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 		{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
-		{"Bisha Koobaad", "Bisha Labaad", "Bisha Saddexaad", "Bisha Afraad", "Bisha Shanaad", "Bisha Lixaad", "Bisha Todobaad", "Bisha Sideedaad", "Bisha Sagaalaad", "Bisha Tobnaad", "Bisha Kow iyo Tobnaad", "Bisha Laba iyo Tobnaad"},
+		{"Janaayo", "Febraayo", "Maarso", "Abriil", "Maayo", "Juun", "Luulyo", "Agosto", "Sebtembar", "Oktoobar", "Noofeembar", "Diseembar"},
 		{"GH", "GD"},
 	}
 }
@@ -7978,7 +8488,7 @@ func localeTableSoKE() [5][]string {
 		{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 		{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 		{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
-		{"Bisha Koobaad", "Bisha Labaad", "Bisha Saddexaad", "Bisha Afraad", "Bisha Shanaad", "Bisha Lixaad", "Bisha Todobaad", "Bisha Sideedaad", "Bisha Sagaalaad", "Bisha Tobnaad", "Bisha Kow iyo Tobnaad", "Bisha Laba iyo Tobnaad"},
+		{"Janaayo", "Febraayo", "Maarso", "Abriil", "Maayo", "Juun", "Luulyo", "Agosto", "Sebtembar", "Oktoobar", "Noofeembar", "Diseembar"},
 		{"GH", "GD"},
 	}
 }
@@ -7988,7 +8498,7 @@ func localeTableSoSO() [5][]string {
 		{"Axd", "Isn", "Tldo", "Arbc", "Khms", "Jmc", "Sbti"},
 		{"Axad", "Isniin", "Talaado", "Arbaco", "Khamiis", "Jimco", "Sabti"},
 		{"Jan", "Feb", "Mar", "Abr", "May", "Jun", "Lul", "Ogs", "Seb", "Okt", "Nof", "Dis"},
-		{"Bisha Koobaad", "Bisha Labaad", "Bisha Saddexaad", "Bisha Afraad", "Bisha Shanaad", "Bisha Lixaad", "Bisha Todobaad", "Bisha Sideedaad", "Bisha Sagaalaad", "Bisha Tobnaad", "Bisha Kow iyo Tobnaad", "Bisha Laba iyo Tobnaad"},
+		{"Janaayo", "Febraayo", "Maarso", "Abriil", "Maayo", "Juun", "Luulyo", "Agosto", "Sebtembar", "Oktoobar", "Noofeembar", "Diseembar"},
 		{"GH", "GD"},
 	}
 }
@@ -8196,9 +8706,9 @@ func localeTableSsyER() [5][]string {
 func localeTableSt() [5][]string {
 	return [5][]string{
 		{"Son", "Mma", "Bed", "Rar", "Ne", "Hla", "Moq"},
-		{"Sontaha", "Mmantaha", "Labobedi", "Laboraru", "Labone", "Labohlane", "Moqebelo"},
-		{"Phe", "Kol", "Ube", "Mme", "Mot", "Jan", "Upu", "Pha", "Leo", "Mph", "Pun", "Tsh"},
-		{"Phesekgong", "Hlakola", "Hlakubele", "Mmese", "Motsheanong", "Phupjane", "Phupu", "Phata", "Leotshe", "Mphalane", "Pundungwane", "Tshitwe"},
+		{"Sontaha", "Mantaha", "Labobedi", "Laboraro", "Labone", "Labohlano", "Moqebelo"},
+		{"Phe", "Kol", "Hlb", "Mme", "Mot", "Jan", "Upu", "Pha", "Leo", "Mph", "Pun", "Tsh"},
+		{"Pherekgong", "Hlakola", "Hlakubele", "Mmesa", "Motsheanong", "Phupjane", "Phupu", "Phato", "Lwetse", "Mphalane", "Pudungwana", "Tshitwe"},
 		{},
 	}
 }
@@ -8206,9 +8716,9 @@ func localeTableSt() [5][]string {
 func localeTableStLS() [5][]string {
 	return [5][]string{
 		{"Son", "Mma", "Bed", "Rar", "Ne", "Hla", "Moq"},
-		{"Sontaha", "Mmantaha", "Labobedi", "Laboraru", "Labone", "Labohlane", "Moqebelo"},
-		{"Phe", "Kol", "Ube", "Mme", "Mot", "Jan", "Upu", "Pha", "Leo", "Mph", "Pun", "Tsh"},
-		{"Phesekgong", "Hlakola", "Hlakubele", "Mmese", "Motsheanong", "Phupjane", "Phupu", "Phata", "Leotshe", "Mphalane", "Pundungwane", "Tshitwe"},
+		{"Sontaha", "Mantaha", "Labobedi", "Laboraro", "Labone", "Labohlano", "Moqebelo"},
+		{"Phe", "Kol", "Hlb", "Mme", "Mot", "Jan", "Upu", "Pha", "Leo", "Mph", "Pun", "Tsh"},
+		{"Pherekgong", "Hlakola", "Hlakubele", "Mmesa", "Motsheanong", "Phupjane", "Phupu", "Phato", "Lwetse", "Mphalane", "Pudungwana", "Tshitwe"},
 		{},
 	}
 }
@@ -8216,9 +8726,9 @@ func localeTableStLS() [5][]string {
 func localeTableStZA() [5][]string {
 	return [5][]string{
 		{"Son", "Mma", "Bed", "Rar", "Ne", "Hla", "Moq"},
-		{"Sontaha", "Mmantaha", "Labobedi", "Laboraru", "Labone", "Labohlane", "Moqebelo"},
-		{"Phe", "Kol", "Ube", "Mme", "Mot", "Jan", "Upu", "Pha", "Leo", "Mph", "Pun", "Tsh"},
-		{"Phesekgong", "Hlakola", "Hlakubele", "Mmese", "Motsheanong", "Phupjane", "Phupu", "Phata", "Leotshe", "Mphalane", "Pundungwane", "Tshitwe"},
+		{"Sontaha", "Mantaha", "Labobedi", "Laboraro", "Labone", "Labohlano", "Moqebelo"},
+		{"Phe", "Kol", "Hlb", "Mme", "Mot", "Jan", "Upu", "Pha", "Leo", "Mph", "Pun", "Tsh"},
+		{"Pherekgong", "Hlakola", "Hlakubele", "Mmesa", "Motsheanong", "Phupjane", "Phupu", "Phato", "Lwetse", "Mphalane", "Pudungwana", "Tshitwe"},
 		{},
 	}
 }
@@ -8449,7 +8959,7 @@ func localeTableTe() [5][]string {
 		{"ఆదివారం", "సోమవారం", "మంగళవారం", "బుధవారం", "గురువారం", "శుక్రవారం", "శనివారం"},
 		{"జన", "ఫిబ్ర", "మార్చి", "ఏప్రి", "మే", "జూన్", "జులై", "ఆగ", "సెప్టెం", "అక్టో", "నవం", "డిసెం"},
 		{"జనవరి", "ఫిబ్రవరి", "మార్చి", "ఏప్రిల్", "మే", "జూన్", "జులై", "ఆగస్టు", "సెప్టెంబర్", "అక్టోబర్", "నవంబర్", "డిసెంబర్"},
-		{"ఉ", "సా"},
+		{},
 	}
 }
 
@@ -8459,7 +8969,7 @@ func localeTableTeIN() [5][]string {
 		{"ఆదివారం", "సోమవారం", "మంగళవారం", "బుధవారం", "గురువారం", "శుక్రవారం", "శనివారం"},
 		{"జన", "ఫిబ్ర", "మార్చి", "ఏప్రి", "మే", "జూన్", "జులై", "ఆగ", "సెప్టెం", "అక్టో", "నవం", "డిసెం"},
 		{"జనవరి", "ఫిబ్రవరి", "మార్చి", "ఏప్రిల్", "మే", "జూన్", "జులై", "ఆగస్టు", "సెప్టెంబర్", "అక్టోబర్", "నవంబర్", "డిసెంబర్"},
-		{"ఉ", "సా"},
+		{},
 	}
 }
 
@@ -8515,7 +9025,7 @@ func localeTableTgTJ() [5][]string {
 
 func localeTableTh() [5][]string {
 	return [5][]string{
-		{"อา.", "จ.", "อ.", "พ.", "พฤ.", "ศ.", "ส."},
+		{"อาทิตย์", "จันทร์", "อังคาร", "พุธ", "พฤหัส", "ศุกร์", "เสาร์"},
 		{"วันอาทิตย์", "วันจันทร์", "วันอังคาร", "วันพุธ", "วันพฤหัสบดี", "วันศุกร์", "วันเสาร์"},
 		{"ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."},
 		{"มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"},
@@ -8525,7 +9035,7 @@ func localeTableTh() [5][]string {
 
 func localeTableThTH() [5][]string {
 	return [5][]string{
-		{"อา.", "จ.", "อ.", "พ.", "พฤ.", "ศ.", "ส."},
+		{"อาทิตย์", "จันทร์", "อังคาร", "พุธ", "พฤหัส", "ศุกร์", "เสาร์"},
 		{"วันอาทิตย์", "วันจันทร์", "วันอังคาร", "วันพุธ", "วันพฤหัสบดี", "วันศุกร์", "วันเสาร์"},
 		{"ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."},
 		{"มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"},
@@ -8538,7 +9048,7 @@ func localeTableTi() [5][]string {
 		{"ሰን", "ሰኑ", "ሰሉ", "ረቡ", "ሓሙ", "ዓር", "ቀዳ"},
 		{"ሰንበት", "ሰኑይ", "ሰሉስ", "ረቡዕ", "ሓሙስ", "ዓርቢ", "ቀዳም"},
 		{"ጥሪ", "ለካ", "መጋ", "ሚያ", "ግን", "ሰነ", "ሓም", "ነሓ", "መስ", "ጥቅ", "ሕዳ", "ታሕ"},
-		{"ጥሪ", "ለካቲት", "መጋቢት", "ሚያዝያ", "ግንቦት", "ሰነ", "ሓምለ", "ነሓሰ", "መስከረም", "ጥቅምቲ", "ሕዳር", "ታሕሳስ"},
+		{"ጥሪ", "ለካቲት", "መጋቢት", "ሚያዝያ", "ጉንበት", "ሰነ", "ሓምለ", "ነሓሰ", "መስከረም", "ጥቅምቲ", "ሕዳር", "ታሕሳስ"},
 		{"ቅ.ቀ.", "ድ.ቀ."},
 	}
 }
@@ -8548,7 +9058,7 @@ func localeTableTiER() [5][]string {
 		{"ሰን", "ሰኑ", "ሰሉ", "ረቡ", "ሓሙ", "ዓር", "ቀዳ"},
 		{"ሰንበት", "ሰኑይ", "ሰሉስ", "ረቡዕ", "ሓሙስ", "ዓርቢ", "ቀዳም"},
 		{"ጥሪ", "ለካ", "መጋ", "ሚያ", "ግን", "ሰነ", "ሓም", "ነሓ", "መስ", "ጥቅ", "ሕዳ", "ታሕ"},
-		{"ጥሪ", "ለካቲት", "መጋቢት", "ሚያዝያ", "ግንቦት", "ሰነ", "ሓምለ", "ነሓሰ", "መስከረም", "ጥቅምቲ", "ሕዳር", "ታሕሳስ"},
+		{"ጥሪ", "ለካቲት", "መጋቢት", "ሚያዝያ", "ጉንበት", "ሰነ", "ሓምለ", "ነሓሰ", "መስከረም", "ጥቅምቲ", "ሕዳር", "ታሕሳስ"},
 		{"ቅ.ቀ.", "ድ.ቀ."},
 	}
 }
@@ -8558,7 +9068,7 @@ func localeTableTiET() [5][]string {
 		{"ሰን", "ሰኑ", "ሰሉ", "ረቡ", "ሓሙ", "ዓር", "ቀዳ"},
 		{"ሰንበት", "ሰኑይ", "ሰሉስ", "ረቡዕ", "ሓሙስ", "ዓርቢ", "ቀዳም"},
 		{"ጥሪ", "ለካ", "መጋ", "ሚያ", "ግን", "ሰነ", "ሓም", "ነሓ", "መስ", "ጥቅ", "ሕዳ", "ታሕ"},
-		{"ጥሪ", "ለካቲት", "መጋቢት", "ሚያዝያ", "ግንቦት", "ሰነ", "ሓምለ", "ነሓሰ", "መስከረም", "ጥቅምቲ", "ሕዳር", "ታሕሳስ"},
+		{"ጥሪ", "ለካቲት", "መጋቢት", "ሚያዝያ", "ጉንበት", "ሰነ", "ሓምለ", "ነሓሰ", "መስከረም", "ጥቅምቲ", "ሕዳር", "ታሕሳስ"},
 		{"ቅ.ቀ.", "ድ.ቀ."},
 	}
 }
@@ -8569,7 +9079,7 @@ func localeTableTig() [5][]string {
 		{"ሰንበት ዓባይ", "ሰኖ", "ታላሸኖ", "ኣረርባዓ", "ከሚሽ", "ጅምዓት", "ሰንበት ንኢሽ"},
 		{"ጃንዩ", "ፌብሩ", "ማርች", "ኤፕረ", "ሜይ", "ጁን", "ጁላይ", "ኦገስ", "ሴፕቴ", "ኦክተ", "ኖቬም", "ዲሴም"},
 		{"ጃንዩወሪ", "ፌብሩወሪ", "ማርች", "ኤፕረል", "ሜይ", "ጁን", "ጁላይ", "ኦገስት", "ሴፕቴምበር", "ኦክተውበር", "ኖቬምበር", "ዲሴምበር"},
-		{"ቀደምሰርምዕል", "ሓቆስርምዕል"},
+		{},
 	}
 }
 
@@ -8579,7 +9089,7 @@ func localeTableTigER() [5][]string {
 		{"ሰንበት ዓባይ", "ሰኖ", "ታላሸኖ", "ኣረርባዓ", "ከሚሽ", "ጅምዓት", "ሰንበት ንኢሽ"},
 		{"ጃንዩ", "ፌብሩ", "ማርች", "ኤፕረ", "ሜይ", "ጁን", "ጁላይ", "ኦገስ", "ሴፕቴ", "ኦክተ", "ኖቬም", "ዲሴም"},
 		{"ጃንዩወሪ", "ፌብሩወሪ", "ማርች", "ኤፕረል", "ሜይ", "ጁን", "ጁላይ", "ኦገስት", "ሴፕቴምበር", "ኦክተውበር", "ኖቬምበር", "ዲሴምበር"},
-		{"ቀደምሰርምዕል", "ሓቆስርምዕል"},
+		{},
 	}
 }
 
@@ -8606,7 +9116,7 @@ func localeTableTkTM() [5][]string {
 func localeTableTn() [5][]string {
 	return [5][]string{
 		{"Tsh", "Mos", "Labb", "Labr", "Labn", "Labt", "Mat"},
-		{"Tshipi", "Mosopulogo", "Labobedi", "Laboraro", "Labone", "Labotlhano", "Matlhatso"},
+		{"Tshipi", "Mosupologo", "Labobedi", "Laboraro", "Labone", "Labotlhano", "Matlhatso"},
 		{"Fer", "Tlh", "Mop", "Mor", "Mot", "See", "Phu", "Pha", "Lwe", "Dip", "Ngw", "Sed"},
 		{"Ferikgong", "Tlhakole", "Mopitlo", "Moranang", "Motsheganang", "Seetebosigo", "Phukwi", "Phatwe", "Lwetse", "Diphalane", "Ngwanatsele", "Sedimonthole"},
 		{"a", "p"},
@@ -8616,7 +9126,7 @@ func localeTableTn() [5][]string {
 func localeTableTnBW() [5][]string {
 	return [5][]string{
 		{"Tsh", "Mos", "Labb", "Labr", "Labn", "Labt", "Mat"},
-		{"Tshipi", "Mosopulogo", "Labobedi", "Laboraro", "Labone", "Labotlhano", "Matlhatso"},
+		{"Tshipi", "Mosupologo", "Labobedi", "Laboraro", "Labone", "Labotlhano", "Matlhatso"},
 		{"Fer", "Tlh", "Mop", "Mor", "Mot", "See", "Phu", "Pha", "Lwe", "Dip", "Ngw", "Sed"},
 		{"Ferikgong", "Tlhakole", "Mopitlo", "Moranang", "Motsheganang", "Seetebosigo", "Phukwi", "Phatwe", "Lwetse", "Diphalane", "Ngwanatsele", "Sedimonthole"},
 		{"a", "p"},
@@ -8626,7 +9136,7 @@ func localeTableTnBW() [5][]string {
 func localeTableTnZA() [5][]string {
 	return [5][]string{
 		{"Tsh", "Mos", "Labb", "Labr", "Labn", "Labt", "Mat"},
-		{"Tshipi", "Mosopulogo", "Labobedi", "Laboraro", "Labone", "Labotlhano", "Matlhatso"},
+		{"Tshipi", "Mosupologo", "Labobedi", "Laboraro", "Labone", "Labotlhano", "Matlhatso"},
 		{"Fer", "Tlh", "Mop", "Mor", "Mot", "See", "Phu", "Pha", "Lwe", "Dip", "Ngw", "Sed"},
 		{"Ferikgong", "Tlhakole", "Mopitlo", "Moranang", "Motsheganang", "Seetebosigo", "Phukwi", "Phatwe", "Lwetse", "Diphalane", "Ngwanatsele", "Sedimonthole"},
 		{"a", "p"},
@@ -8658,7 +9168,7 @@ func localeTableTok() [5][]string {
 		{},
 		{"suno esun #7", "suno esun #1", "suno esun #2", "suno esun #3", "suno esun #4", "suno esun #5", "suno esun #6"},
 		{},
-		{"mun #1", "mun #2", "mun #3", "mun #4", "mun #5", "mun #6", "mun #7", "mun #8", "mun #9", "mun #10", "mun #11", "mun #12"},
+		{"tenpo mun #1", "tenpo mun #2", "tenpo mun #3", "tenpo mun #4", "tenpo mun #5", "tenpo mun #6", "tenpo mun #7", "tenpo mun #8", "tenpo mun #9", "tenpo mun #10", "tenpo mun #11", "tenpo mun #12"},
 		{},
 	}
 }
@@ -8668,7 +9178,7 @@ func localeTableTok001() [5][]string {
 		{},
 		{"suno esun #7", "suno esun #1", "suno esun #2", "suno esun #3", "suno esun #4", "suno esun #5", "suno esun #6"},
 		{},
-		{"mun #1", "mun #2", "mun #3", "mun #4", "mun #5", "mun #6", "mun #7", "mun #8", "mun #9", "mun #10", "mun #11", "mun #12"},
+		{"tenpo mun #1", "tenpo mun #2", "tenpo mun #3", "tenpo mun #4", "tenpo mun #5", "tenpo mun #6", "tenpo mun #7", "tenpo mun #8", "tenpo mun #9", "tenpo mun #10", "tenpo mun #11", "tenpo mun #12"},
 		{},
 	}
 }
@@ -8823,6 +9333,26 @@ func localeTableTwqNE() [5][]string {
 	}
 }
 
+func localeTableTyv() [5][]string {
+	return [5][]string{
+		{"УХ", "ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ"},
+		{"Улуг-хүн", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"},
+		{"Янв.", "Февр.", "Мар.", "Апр.", "Май", "Июн.", "Июл.", "Авг.", "Сент.", "Окт.", "Нояб.", "Дек."},
+		{"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"},
+		{},
+	}
+}
+
+func localeTableTyvRU() [5][]string {
+	return [5][]string{
+		{"УХ", "ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ"},
+		{"Улуг-хүн", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"},
+		{"Янв.", "Февр.", "Мар.", "Апр.", "Май", "Июн.", "Июл.", "Авг.", "Сент.", "Окт.", "Нояб.", "Дек."},
+		{"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"},
+		{},
+	}
+}
+
 func localeTableTzm() [5][]string {
 	return [5][]string{
 		{"Asa", "Ayn", "Asn", "Akr", "Akw", "Asm", "Asḍ"},
@@ -8866,7 +9396,7 @@ func localeTableUgCN() [5][]string {
 func localeTableUk() [5][]string {
 	return [5][]string{
 		{"нд", "пн", "вт", "ср", "чт", "пт", "сб"},
-		{"неділю", "понеділок", "вівторок", "середу", "четвер", "пʼятницю", "суботу"},
+		{"неділя", "понеділок", "вівторок", "середа", "четвер", "пʼятниця", "субота"},
 		{"січ.", "лют.", "бер.", "квіт.", "трав.", "черв.", "лип.", "серп.", "вер.", "жовт.", "лист.", "груд."},
 		{"січня", "лютого", "березня", "квітня", "травня", "червня", "липня", "серпня", "вересня", "жовтня", "листопада", "грудня"},
 		{"дп", "пп"},
@@ -8876,7 +9406,7 @@ func localeTableUk() [5][]string {
 func localeTableUkUA() [5][]string {
 	return [5][]string{
 		{"нд", "пн", "вт", "ср", "чт", "пт", "сб"},
-		{"неділю", "понеділок", "вівторок", "середу", "четвер", "пʼятницю", "суботу"},
+		{"неділя", "понеділок", "вівторок", "середа", "четвер", "пʼятниця", "субота"},
 		{"січ.", "лют.", "бер.", "квіт.", "трав.", "черв.", "лип.", "серп.", "вер.", "жовт.", "лист.", "груд."},
 		{"січня", "лютого", "березня", "квітня", "травня", "червня", "липня", "серпня", "вересня", "жовтня", "листопада", "грудня"},
 		{"дп", "пп"},
@@ -9067,8 +9597,8 @@ func localeTableVec() [5][]string {
 	return [5][]string{
 		{"dom", "lun", "mar", "mer", "zob", "vèn", "sab"},
 		{"doménega", "luni", "marti", "mèrcore", "zoba", "vènare", "sabo"},
-		{"jen", "feb", "mar", "apr", "maj", "jug", "luj", "ago", "set", "oto", "nov", "des"},
-		{"jenaro", "febraro", "marso", "aprile", "majo", "jugno", "lujo", "agosto", "setenbre", "otobre", "novenbre", "desenbre"},
+		{"jen", "feb", "mar", "apr", "maj", "jug", "luj", "ago", "set", "oto", "nov", "dez"},
+		{"jenaro", "febraro", "marso", "aprile", "majo", "jugno", "lujo", "agosto", "setenbre", "otobre", "novenbre", "dezenbre"},
 		{},
 	}
 }
@@ -9077,15 +9607,15 @@ func localeTableVecIT() [5][]string {
 	return [5][]string{
 		{"dom", "lun", "mar", "mer", "zob", "vèn", "sab"},
 		{"doménega", "luni", "marti", "mèrcore", "zoba", "vènare", "sabo"},
-		{"jen", "feb", "mar", "apr", "maj", "jug", "luj", "ago", "set", "oto", "nov", "des"},
-		{"jenaro", "febraro", "marso", "aprile", "majo", "jugno", "lujo", "agosto", "setenbre", "otobre", "novenbre", "desenbre"},
+		{"jen", "feb", "mar", "apr", "maj", "jug", "luj", "ago", "set", "oto", "nov", "dez"},
+		{"jenaro", "febraro", "marso", "aprile", "majo", "jugno", "lujo", "agosto", "setenbre", "otobre", "novenbre", "dezenbre"},
 		{},
 	}
 }
 
 func localeTableVi() [5][]string {
 	return [5][]string{
-		{"CN", "Th 2", "Th 3", "Th 4", "Th 5", "Th 6", "Th 7"},
+		{"CN", "Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7"},
 		{"Chủ Nhật", "Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy"},
 		{"thg 1", "thg 2", "thg 3", "thg 4", "thg 5", "thg 6", "thg 7", "thg 8", "thg 9", "thg 10", "thg 11", "thg 12"},
 		{"tháng 1", "tháng 2", "tháng 3", "tháng 4", "tháng 5", "tháng 6", "tháng 7", "tháng 8", "tháng 9", "tháng 10", "tháng 11", "tháng 12"},
@@ -9095,7 +9625,7 @@ func localeTableVi() [5][]string {
 
 func localeTableViVN() [5][]string {
 	return [5][]string{
-		{"CN", "Th 2", "Th 3", "Th 4", "Th 5", "Th 6", "Th 7"},
+		{"CN", "Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7"},
 		{"Chủ Nhật", "Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy"},
 		{"thg 1", "thg 2", "thg 3", "thg 4", "thg 5", "thg 6", "thg 7", "thg 8", "thg 9", "thg 10", "thg 11", "thg 12"},
 		{"tháng 1", "tháng 2", "tháng 3", "tháng 4", "tháng 5", "tháng 6", "tháng 7", "tháng 8", "tháng 9", "tháng 10", "tháng 11", "tháng 12"},
@@ -9325,9 +9855,9 @@ func localeTableYiUA() [5][]string {
 
 func localeTableYo() [5][]string {
 	return [5][]string{
-		{"Àìk", "Aj", "Ìsẹ́g", "Ọjọ́r", "Ọjọ́b", "Ẹt", "Àbám"},
+		{"Àìkú", "Ajé", "Ìsẹ́gun", "Ọjọ́rú", "Ọjọ́bọ", "Ẹtì", "Àbámẹ́ta"},
 		{"Ọjọ́ Àìkú", "Ọjọ́ Ajé", "Ọjọ́ Ìsẹ́gun", "Ọjọ́rú", "Ọjọ́bọ", "Ọjọ́ Ẹtì", "Ọjọ́ Àbámẹ́ta"},
-		{"Ṣẹ́r", "Èrèl", "Ẹrẹ̀n", "Ìgb", "Ẹ̀bi", "Òkú", "Agẹ", "Ògú", "Owe", "Ọ̀wà", "Bél", "Ọ̀pẹ"},
+		{},
 		{"Oṣù Ṣẹ́rẹ́", "Oṣù Èrèlè", "Oṣù Ẹrẹ̀nà", "Oṣù Ìgbé", "Oṣù Ẹ̀bibi", "Oṣù Òkúdu", "Oṣù Agẹmọ", "Oṣù Ògún", "Oṣù Owewe", "Oṣù Ọ̀wàrà", "Oṣù Bélú", "Oṣù Ọ̀pẹ̀"},
 		{"Àárọ̀", "Ọ̀sán"},
 	}
@@ -9335,9 +9865,9 @@ func localeTableYo() [5][]string {
 
 func localeTableYoBJ() [5][]string {
 	return [5][]string{
-		{"Àìk", "Aj", "Ìsɛ́g", "Ɔjɔ́r", "Ɔjɔ́b", "Ɛt", "Àbám"},
+		{"Àìkú", "Ajé", "Ìsɛ́gun", "Ɔjɔ́rú", "Ɔjɔ́bɔ", "Ɛtì", "Àbámɛ́ta"},
 		{"Ɔjɔ́ Àìkú", "Ɔjɔ́ Ajé", "Ɔjɔ́ Ìsɛ́gun", "Ɔjɔ́rú", "Ɔjɔ́bɔ", "Ɔjɔ́ Ɛtì", "Ɔjɔ́ Àbámɛ́ta"},
-		{"Shɛ́r", "Èrèl", "Ɛrɛ̀n", "Ìgb", "Ɛ̀bi", "Òkú", "Agɛ", "Ògú", "Owe", "Ɔ̀wà", "Bél", "Ɔ̀pɛ"},
+		{},
 		{"Oshù Shɛ́rɛ́", "Oshù Èrèlè", "Oshù Ɛrɛ̀nà", "Oshù Ìgbé", "Oshù Ɛ̀bibi", "Oshù Òkúdu", "Oshù Agɛmɔ", "Oshù Ògún", "Oshù Owewe", "Oshù Ɔ̀wàrà", "Oshù Bélú", "Oshù Ɔ̀pɛ̀"},
 		{"Àárɔ̀", "Ɔ̀sán"},
 	}
@@ -9345,9 +9875,9 @@ func localeTableYoBJ() [5][]string {
 
 func localeTableYoNG() [5][]string {
 	return [5][]string{
-		{"Àìk", "Aj", "Ìsẹ́g", "Ọjọ́r", "Ọjọ́b", "Ẹt", "Àbám"},
+		{"Àìkú", "Ajé", "Ìsẹ́gun", "Ọjọ́rú", "Ọjọ́bọ", "Ẹtì", "Àbámẹ́ta"},
 		{"Ọjọ́ Àìkú", "Ọjọ́ Ajé", "Ọjọ́ Ìsẹ́gun", "Ọjọ́rú", "Ọjọ́bọ", "Ọjọ́ Ẹtì", "Ọjọ́ Àbámẹ́ta"},
-		{"Ṣẹ́r", "Èrèl", "Ẹrẹ̀n", "Ìgb", "Ẹ̀bi", "Òkú", "Agẹ", "Ògú", "Owe", "Ọ̀wà", "Bél", "Ọ̀pẹ"},
+		{},
 		{"Oṣù Ṣẹ́rẹ́", "Oṣù Èrèlè", "Oṣù Ẹrẹ̀nà", "Oṣù Ìgbé", "Oṣù Ẹ̀bibi", "Oṣù Òkúdu", "Oṣù Agẹmọ", "Oṣù Ògún", "Oṣù Owewe", "Oṣù Ọ̀wàrà", "Oṣù Bélú", "Oṣù Ọ̀pẹ̀"},
 		{"Àárọ̀", "Ọ̀sán"},
 	}
@@ -9399,27 +9929,27 @@ func localeTableYue() [5][]string {
 		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 		{},
 		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
-		{"上午", "下午"},
+		{"上晝", "下晝"},
 	}
 }
 
 func localeTableYueHans() [5][]string {
 	return [5][]string{
-		{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
+		{},
 		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
+		{},
 		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
-		{"一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"},
-		{"上午", "下午"},
+		{"上昼", "下昼"},
 	}
 }
 
 func localeTableYueHansCN() [5][]string {
 	return [5][]string{
-		{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
+		{},
 		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
+		{},
 		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
-		{"一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"},
-		{"上午", "下午"},
+		{"上昼", "下昼"},
 	}
 }
 
@@ -9429,7 +9959,17 @@ func localeTableYueHant() [5][]string {
 		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 		{},
 		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
-		{"上午", "下午"},
+		{"上晝", "下晝"},
+	}
+}
+
+func localeTableYueHantCN() [5][]string {
+	return [5][]string{
+		{},
+		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
+		{},
+		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
+		{"上晝", "下晝"},
 	}
 }
 
@@ -9439,7 +9979,17 @@ func localeTableYueHantHK() [5][]string {
 		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
 		{},
 		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
-		{"上午", "下午"},
+		{"上晝", "下晝"},
+	}
+}
+
+func localeTableYueHantMO() [5][]string {
+	return [5][]string{
+		{},
+		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
+		{},
+		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
+		{"上晝", "下晝"},
 	}
 }
 
@@ -9533,6 +10083,16 @@ func localeTableZhHansMO() [5][]string {
 	}
 }
 
+func localeTableZhHansMY() [5][]string {
+	return [5][]string{
+		{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
+		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
+		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
+		{"一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"},
+		{"上午", "下午"},
+	}
+}
+
 func localeTableZhHansSG() [5][]string {
 	return [5][]string{
 		{"周日", "周一", "周二", "周三", "周四", "周五", "周六"},
@@ -9564,6 +10124,16 @@ func localeTableZhHantHK() [5][]string {
 }
 
 func localeTableZhHantMO() [5][]string {
+	return [5][]string{
+		{"週日", "週一", "週二", "週三", "週四", "週五", "週六"},
+		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
+		{},
+		{"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"},
+		{"上午", "下午"},
+	}
+}
+
+func localeTableZhHantMY() [5][]string {
 	return [5][]string{
 		{"週日", "週一", "週二", "週三", "週四", "週五", "週六"},
 		{"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"},
@@ -9663,6 +10233,8 @@ const (
 	LocaleAzCyrlAZ     = "az-Cyrl-AZ"
 	LocaleAzLatn       = "az-Latn"
 	LocaleAzLatnAZ     = "az-Latn-AZ"
+	LocaleBa           = "ba"
+	LocaleBaRU         = "ba-RU"
 	LocaleBal          = "bal"
 	LocaleBalArab      = "bal-Arab"
 	LocaleBalArabPK    = "bal-Arab-PK"
@@ -9695,6 +10267,8 @@ const (
 	LocaleBo           = "bo"
 	LocaleBoCN         = "bo-CN"
 	LocaleBoIN         = "bo-IN"
+	LocaleBqi          = "bqi"
+	LocaleBqiIR        = "bqi-IR"
 	LocaleBr           = "br"
 	LocaleBrFR         = "br-FR"
 	LocaleBrx          = "brx"
@@ -9704,6 +10278,8 @@ const (
 	LocaleBsCyrlBA     = "bs-Cyrl-BA"
 	LocaleBsLatn       = "bs-Latn"
 	LocaleBsLatnBA     = "bs-Latn-BA"
+	LocaleBua          = "bua"
+	LocaleBuaRU        = "bua-RU"
 	LocaleByn          = "byn"
 	LocaleBynER        = "byn-ER"
 	LocaleCa           = "ca"
@@ -9734,6 +10310,8 @@ const (
 	LocaleCkbIR        = "ckb-IR"
 	LocaleCo           = "co"
 	LocaleCoFR         = "co-FR"
+	LocaleCop          = "cop"
+	LocaleCopEG        = "cop-EG"
 	LocaleCs           = "cs"
 	LocaleCsCZ         = "cs-CZ"
 	LocaleCsw          = "csw"
@@ -9801,34 +10379,43 @@ const (
 	LocaleEnCM         = "en-CM"
 	LocaleEnCX         = "en-CX"
 	LocaleEnCY         = "en-CY"
+	LocaleEnCZ         = "en-CZ"
 	LocaleEnDE         = "en-DE"
 	LocaleEnDG         = "en-DG"
 	LocaleEnDK         = "en-DK"
 	LocaleEnDM         = "en-DM"
 	LocaleEnDsrt       = "en-Dsrt"
 	LocaleEnDsrtUS     = "en-Dsrt-US"
+	LocaleEnEE         = "en-EE"
 	LocaleEnER         = "en-ER"
+	LocaleEnES         = "en-ES"
 	LocaleEnFI         = "en-FI"
 	LocaleEnFJ         = "en-FJ"
 	LocaleEnFK         = "en-FK"
 	LocaleEnFM         = "en-FM"
+	LocaleEnFR         = "en-FR"
 	LocaleEnGB         = "en-GB"
 	LocaleEnGD         = "en-GD"
+	LocaleEnGE         = "en-GE"
 	LocaleEnGG         = "en-GG"
 	LocaleEnGH         = "en-GH"
 	LocaleEnGI         = "en-GI"
 	LocaleEnGM         = "en-GM"
+	LocaleEnGS         = "en-GS"
 	LocaleEnGU         = "en-GU"
 	LocaleEnGY         = "en-GY"
 	LocaleEnHK         = "en-HK"
+	LocaleEnHU         = "en-HU"
 	LocaleEnID         = "en-ID"
 	LocaleEnIE         = "en-IE"
 	LocaleEnIL         = "en-IL"
 	LocaleEnIM         = "en-IM"
 	LocaleEnIN         = "en-IN"
 	LocaleEnIO         = "en-IO"
+	LocaleEnIT         = "en-IT"
 	LocaleEnJE         = "en-JE"
 	LocaleEnJM         = "en-JM"
+	LocaleEnJP         = "en-JP"
 	LocaleEnKE         = "en-KE"
 	LocaleEnKI         = "en-KI"
 	LocaleEnKN         = "en-KN"
@@ -9836,6 +10423,8 @@ const (
 	LocaleEnLC         = "en-LC"
 	LocaleEnLR         = "en-LR"
 	LocaleEnLS         = "en-LS"
+	LocaleEnLT         = "en-LT"
+	LocaleEnLV         = "en-LV"
 	LocaleEnMG         = "en-MG"
 	LocaleEnMH         = "en-MH"
 	LocaleEnMO         = "en-MO"
@@ -9850,15 +10439,19 @@ const (
 	LocaleEnNF         = "en-NF"
 	LocaleEnNG         = "en-NG"
 	LocaleEnNL         = "en-NL"
+	LocaleEnNO         = "en-NO"
 	LocaleEnNR         = "en-NR"
 	LocaleEnNU         = "en-NU"
 	LocaleEnNZ         = "en-NZ"
 	LocaleEnPG         = "en-PG"
 	LocaleEnPH         = "en-PH"
 	LocaleEnPK         = "en-PK"
+	LocaleEnPL         = "en-PL"
 	LocaleEnPN         = "en-PN"
 	LocaleEnPR         = "en-PR"
+	LocaleEnPT         = "en-PT"
 	LocaleEnPW         = "en-PW"
+	LocaleEnRO         = "en-RO"
 	LocaleEnRW         = "en-RW"
 	LocaleEnSB         = "en-SB"
 	LocaleEnSC         = "en-SC"
@@ -9867,6 +10460,7 @@ const (
 	LocaleEnSG         = "en-SG"
 	LocaleEnSH         = "en-SH"
 	LocaleEnSI         = "en-SI"
+	LocaleEnSK         = "en-SK"
 	LocaleEnSL         = "en-SL"
 	LocaleEnSS         = "en-SS"
 	LocaleEnSX         = "en-SX"
@@ -9879,6 +10473,7 @@ const (
 	LocaleEnTT         = "en-TT"
 	LocaleEnTV         = "en-TV"
 	LocaleEnTZ         = "en-TZ"
+	LocaleEnUA         = "en-UA"
 	LocaleEnUG         = "en-UG"
 	LocaleEnUM         = "en-UM"
 	LocaleEnUS         = "en-US"
@@ -10096,6 +10691,9 @@ const (
 	LocaleJvID         = "jv-ID"
 	LocaleKa           = "ka"
 	LocaleKaGE         = "ka-GE"
+	LocaleKaa          = "kaa"
+	LocaleKaaCyrl      = "kaa-Cyrl"
+	LocaleKaaCyrlUZ    = "kaa-Cyrl-UZ"
 	LocaleKab          = "kab"
 	LocaleKabDZ        = "kab-DZ"
 	LocaleKaj          = "kaj"
@@ -10108,6 +10706,8 @@ const (
 	LocaleKdeTZ        = "kde-TZ"
 	LocaleKea          = "kea"
 	LocaleKeaCV        = "kea-CV"
+	LocaleKek          = "kek"
+	LocaleKekGT        = "kek-GT"
 	LocaleKgp          = "kgp"
 	LocaleKgpBR        = "kgp-BR"
 	LocaleKhq          = "khq"
@@ -10115,6 +10715,10 @@ const (
 	LocaleKi           = "ki"
 	LocaleKiKE         = "ki-KE"
 	LocaleKk           = "kk"
+	LocaleKkArab       = "kk-Arab"
+	LocaleKkArabCN     = "kk-Arab-CN"
+	LocaleKkCyrl       = "kk-Cyrl"
+	LocaleKkCyrlKZ     = "kk-Cyrl-KZ"
 	LocaleKkKZ         = "kk-KZ"
 	LocaleKkj          = "kkj"
 	LocaleKkjCM        = "kkj-CM"
@@ -10131,7 +10735,10 @@ const (
 	LocaleKoKP         = "ko-KP"
 	LocaleKoKR         = "ko-KR"
 	LocaleKok          = "kok"
-	LocaleKokIN        = "kok-IN"
+	LocaleKokDeva      = "kok-Deva"
+	LocaleKokDevaIN    = "kok-Deva-IN"
+	LocaleKokLatn      = "kok-Latn"
+	LocaleKokLatnIN    = "kok-Latn-IN"
 	LocaleKs           = "ks"
 	LocaleKsArab       = "ks-Arab"
 	LocaleKsArabIN     = "ks-Arab-IN"
@@ -10144,6 +10751,10 @@ const (
 	LocaleKsh          = "ksh"
 	LocaleKshDE        = "ksh-DE"
 	LocaleKu           = "ku"
+	LocaleKuLatn       = "ku-Latn"
+	LocaleKuLatnIQ     = "ku-Latn-IQ"
+	LocaleKuLatnSY     = "ku-Latn-SY"
+	LocaleKuLatnTR     = "ku-Latn-TR"
 	LocaleKuTR         = "ku-TR"
 	LocaleKw           = "kw"
 	LocaleKwGB         = "kw-GB"
@@ -10168,6 +10779,8 @@ const (
 	LocaleLijIT        = "lij-IT"
 	LocaleLkt          = "lkt"
 	LocaleLktUS        = "lkt-US"
+	LocaleLld          = "lld"
+	LocaleLldIT        = "lld-IT"
 	LocaleLmo          = "lmo"
 	LocaleLmoIT        = "lmo-IT"
 	LocaleLn           = "ln"
@@ -10182,6 +10795,8 @@ const (
 	LocaleLrcIR        = "lrc-IR"
 	LocaleLt           = "lt"
 	LocaleLtLT         = "lt-LT"
+	LocaleLtg          = "ltg"
+	LocaleLtgLV        = "ltg-LV"
 	LocaleLu           = "lu"
 	LocaleLuCD         = "lu-CD"
 	LocaleLuo          = "luo"
@@ -10233,6 +10848,7 @@ const (
 	LocaleMuaCM        = "mua-CM"
 	LocaleMus          = "mus"
 	LocaleMusUS        = "mus-US"
+	LocaleMww          = "mww"
 	LocaleMy           = "my"
 	LocaleMyMM         = "my-MM"
 	LocaleMyv          = "myv"
@@ -10303,6 +10919,8 @@ const (
 	LocalePisSB        = "pis-SB"
 	LocalePl           = "pl"
 	LocalePlPL         = "pl-PL"
+	LocalePms          = "pms"
+	LocalePmsIT        = "pms-IT"
 	LocalePrg          = "prg"
 	LocalePrgPL        = "prg-PL"
 	LocalePs           = "ps"
@@ -10382,6 +11000,9 @@ const (
 	LocaleShiLatnMA    = "shi-Latn-MA"
 	LocaleShiTfng      = "shi-Tfng"
 	LocaleShiTfngMA    = "shi-Tfng-MA"
+	LocaleShn          = "shn"
+	LocaleShnMM        = "shn-MM"
+	LocaleShnTH        = "shn-TH"
 	LocaleSi           = "si"
 	LocaleSiLK         = "si-LK"
 	LocaleSid          = "sid"
@@ -10484,6 +11105,8 @@ const (
 	LocaleTtRU         = "tt-RU"
 	LocaleTwq          = "twq"
 	LocaleTwqNE        = "twq-NE"
+	LocaleTyv          = "tyv"
+	LocaleTyvRU        = "tyv-RU"
 	LocaleTzm          = "tzm"
 	LocaleTzmMA        = "tzm-MA"
 	LocaleUg           = "ug"
@@ -10545,7 +11168,9 @@ const (
 	LocaleYueHans      = "yue-Hans"
 	LocaleYueHansCN    = "yue-Hans-CN"
 	LocaleYueHant      = "yue-Hant"
+	LocaleYueHantCN    = "yue-Hant-CN"
 	LocaleYueHantHK    = "yue-Hant-HK"
+	LocaleYueHantMO    = "yue-Hant-MO"
 	LocaleZa           = "za"
 	LocaleZaCN         = "za-CN"
 	LocaleZgh          = "zgh"
@@ -10555,10 +11180,12 @@ const (
 	LocaleZhHansCN     = "zh-Hans-CN"
 	LocaleZhHansHK     = "zh-Hans-HK"
 	LocaleZhHansMO     = "zh-Hans-MO"
+	LocaleZhHansMY     = "zh-Hans-MY"
 	LocaleZhHansSG     = "zh-Hans-SG"
 	LocaleZhHant       = "zh-Hant"
 	LocaleZhHantHK     = "zh-Hant-HK"
 	LocaleZhHantMO     = "zh-Hant-MO"
+	LocaleZhHantMY     = "zh-Hant-MY"
 	LocaleZhHantTW     = "zh-Hant-TW"
 	LocaleZu           = "zu"
 	LocaleZuZA         = "zu-ZA"
@@ -10627,6 +11254,8 @@ var (
 		LocaleAzCyrlAZ:     localeTableAzCyrlAZ,
 		LocaleAzLatn:       localeTableAzLatn,
 		LocaleAzLatnAZ:     localeTableAzLatnAZ,
+		LocaleBa:           localeTableBa,
+		LocaleBaRU:         localeTableBaRU,
 		LocaleBal:          localeTableBal,
 		LocaleBalArab:      localeTableBalArab,
 		LocaleBalArabPK:    localeTableBalArabPK,
@@ -10659,6 +11288,8 @@ var (
 		LocaleBo:           localeTableBo,
 		LocaleBoCN:         localeTableBoCN,
 		LocaleBoIN:         localeTableBoIN,
+		LocaleBqi:          localeTableBqi,
+		LocaleBqiIR:        localeTableBqiIR,
 		LocaleBr:           localeTableBr,
 		LocaleBrFR:         localeTableBrFR,
 		LocaleBrx:          localeTableBrx,
@@ -10668,6 +11299,8 @@ var (
 		LocaleBsCyrlBA:     localeTableBsCyrlBA,
 		LocaleBsLatn:       localeTableBsLatn,
 		LocaleBsLatnBA:     localeTableBsLatnBA,
+		LocaleBua:          localeTableBua,
+		LocaleBuaRU:        localeTableBuaRU,
 		LocaleByn:          localeTableByn,
 		LocaleBynER:        localeTableBynER,
 		LocaleCa:           localeTableCa,
@@ -10698,6 +11331,8 @@ var (
 		LocaleCkbIR:        localeTableCkbIR,
 		LocaleCo:           localeTableCo,
 		LocaleCoFR:         localeTableCoFR,
+		LocaleCop:          localeTableCop,
+		LocaleCopEG:        localeTableCopEG,
 		LocaleCs:           localeTableCs,
 		LocaleCsCZ:         localeTableCsCZ,
 		LocaleCsw:          localeTableCsw,
@@ -10765,34 +11400,43 @@ var (
 		LocaleEnCM:         localeTableEnCM,
 		LocaleEnCX:         localeTableEnCX,
 		LocaleEnCY:         localeTableEnCY,
+		LocaleEnCZ:         localeTableEnCZ,
 		LocaleEnDE:         localeTableEnDE,
 		LocaleEnDG:         localeTableEnDG,
 		LocaleEnDK:         localeTableEnDK,
 		LocaleEnDM:         localeTableEnDM,
 		LocaleEnDsrt:       localeTableEnDsrt,
 		LocaleEnDsrtUS:     localeTableEnDsrtUS,
+		LocaleEnEE:         localeTableEnEE,
 		LocaleEnER:         localeTableEnER,
+		LocaleEnES:         localeTableEnES,
 		LocaleEnFI:         localeTableEnFI,
 		LocaleEnFJ:         localeTableEnFJ,
 		LocaleEnFK:         localeTableEnFK,
 		LocaleEnFM:         localeTableEnFM,
+		LocaleEnFR:         localeTableEnFR,
 		LocaleEnGB:         localeTableEnGB,
 		LocaleEnGD:         localeTableEnGD,
+		LocaleEnGE:         localeTableEnGE,
 		LocaleEnGG:         localeTableEnGG,
 		LocaleEnGH:         localeTableEnGH,
 		LocaleEnGI:         localeTableEnGI,
 		LocaleEnGM:         localeTableEnGM,
+		LocaleEnGS:         localeTableEnGS,
 		LocaleEnGU:         localeTableEnGU,
 		LocaleEnGY:         localeTableEnGY,
 		LocaleEnHK:         localeTableEnHK,
+		LocaleEnHU:         localeTableEnHU,
 		LocaleEnID:         localeTableEnID,
 		LocaleEnIE:         localeTableEnIE,
 		LocaleEnIL:         localeTableEnIL,
 		LocaleEnIM:         localeTableEnIM,
 		LocaleEnIN:         localeTableEnIN,
 		LocaleEnIO:         localeTableEnIO,
+		LocaleEnIT:         localeTableEnIT,
 		LocaleEnJE:         localeTableEnJE,
 		LocaleEnJM:         localeTableEnJM,
+		LocaleEnJP:         localeTableEnJP,
 		LocaleEnKE:         localeTableEnKE,
 		LocaleEnKI:         localeTableEnKI,
 		LocaleEnKN:         localeTableEnKN,
@@ -10800,6 +11444,8 @@ var (
 		LocaleEnLC:         localeTableEnLC,
 		LocaleEnLR:         localeTableEnLR,
 		LocaleEnLS:         localeTableEnLS,
+		LocaleEnLT:         localeTableEnLT,
+		LocaleEnLV:         localeTableEnLV,
 		LocaleEnMG:         localeTableEnMG,
 		LocaleEnMH:         localeTableEnMH,
 		LocaleEnMO:         localeTableEnMO,
@@ -10814,15 +11460,19 @@ var (
 		LocaleEnNF:         localeTableEnNF,
 		LocaleEnNG:         localeTableEnNG,
 		LocaleEnNL:         localeTableEnNL,
+		LocaleEnNO:         localeTableEnNO,
 		LocaleEnNR:         localeTableEnNR,
 		LocaleEnNU:         localeTableEnNU,
 		LocaleEnNZ:         localeTableEnNZ,
 		LocaleEnPG:         localeTableEnPG,
 		LocaleEnPH:         localeTableEnPH,
 		LocaleEnPK:         localeTableEnPK,
+		LocaleEnPL:         localeTableEnPL,
 		LocaleEnPN:         localeTableEnPN,
 		LocaleEnPR:         localeTableEnPR,
+		LocaleEnPT:         localeTableEnPT,
 		LocaleEnPW:         localeTableEnPW,
+		LocaleEnRO:         localeTableEnRO,
 		LocaleEnRW:         localeTableEnRW,
 		LocaleEnSB:         localeTableEnSB,
 		LocaleEnSC:         localeTableEnSC,
@@ -10831,6 +11481,7 @@ var (
 		LocaleEnSG:         localeTableEnSG,
 		LocaleEnSH:         localeTableEnSH,
 		LocaleEnSI:         localeTableEnSI,
+		LocaleEnSK:         localeTableEnSK,
 		LocaleEnSL:         localeTableEnSL,
 		LocaleEnSS:         localeTableEnSS,
 		LocaleEnSX:         localeTableEnSX,
@@ -10843,6 +11494,7 @@ var (
 		LocaleEnTT:         localeTableEnTT,
 		LocaleEnTV:         localeTableEnTV,
 		LocaleEnTZ:         localeTableEnTZ,
+		LocaleEnUA:         localeTableEnUA,
 		LocaleEnUG:         localeTableEnUG,
 		LocaleEnUM:         localeTableEnUM,
 		LocaleEnUS:         localeTableEnUS,
@@ -11060,6 +11712,9 @@ var (
 		LocaleJvID:         localeTableJvID,
 		LocaleKa:           localeTableKa,
 		LocaleKaGE:         localeTableKaGE,
+		LocaleKaa:          localeTableKaa,
+		LocaleKaaCyrl:      localeTableKaaCyrl,
+		LocaleKaaCyrlUZ:    localeTableKaaCyrlUZ,
 		LocaleKab:          localeTableKab,
 		LocaleKabDZ:        localeTableKabDZ,
 		LocaleKaj:          localeTableKaj,
@@ -11072,6 +11727,8 @@ var (
 		LocaleKdeTZ:        localeTableKdeTZ,
 		LocaleKea:          localeTableKea,
 		LocaleKeaCV:        localeTableKeaCV,
+		LocaleKek:          localeTableKek,
+		LocaleKekGT:        localeTableKekGT,
 		LocaleKgp:          localeTableKgp,
 		LocaleKgpBR:        localeTableKgpBR,
 		LocaleKhq:          localeTableKhq,
@@ -11079,6 +11736,10 @@ var (
 		LocaleKi:           localeTableKi,
 		LocaleKiKE:         localeTableKiKE,
 		LocaleKk:           localeTableKk,
+		LocaleKkArab:       localeTableKkArab,
+		LocaleKkArabCN:     localeTableKkArabCN,
+		LocaleKkCyrl:       localeTableKkCyrl,
+		LocaleKkCyrlKZ:     localeTableKkCyrlKZ,
 		LocaleKkKZ:         localeTableKkKZ,
 		LocaleKkj:          localeTableKkj,
 		LocaleKkjCM:        localeTableKkjCM,
@@ -11095,7 +11756,10 @@ var (
 		LocaleKoKP:         localeTableKoKP,
 		LocaleKoKR:         localeTableKoKR,
 		LocaleKok:          localeTableKok,
-		LocaleKokIN:        localeTableKokIN,
+		LocaleKokDeva:      localeTableKokDeva,
+		LocaleKokDevaIN:    localeTableKokDevaIN,
+		LocaleKokLatn:      localeTableKokLatn,
+		LocaleKokLatnIN:    localeTableKokLatnIN,
 		LocaleKs:           localeTableKs,
 		LocaleKsArab:       localeTableKsArab,
 		LocaleKsArabIN:     localeTableKsArabIN,
@@ -11108,6 +11772,10 @@ var (
 		LocaleKsh:          localeTableKsh,
 		LocaleKshDE:        localeTableKshDE,
 		LocaleKu:           localeTableKu,
+		LocaleKuLatn:       localeTableKuLatn,
+		LocaleKuLatnIQ:     localeTableKuLatnIQ,
+		LocaleKuLatnSY:     localeTableKuLatnSY,
+		LocaleKuLatnTR:     localeTableKuLatnTR,
 		LocaleKuTR:         localeTableKuTR,
 		LocaleKw:           localeTableKw,
 		LocaleKwGB:         localeTableKwGB,
@@ -11132,6 +11800,8 @@ var (
 		LocaleLijIT:        localeTableLijIT,
 		LocaleLkt:          localeTableLkt,
 		LocaleLktUS:        localeTableLktUS,
+		LocaleLld:          localeTableLld,
+		LocaleLldIT:        localeTableLldIT,
 		LocaleLmo:          localeTableLmo,
 		LocaleLmoIT:        localeTableLmoIT,
 		LocaleLn:           localeTableLn,
@@ -11146,6 +11816,8 @@ var (
 		LocaleLrcIR:        localeTableLrcIR,
 		LocaleLt:           localeTableLt,
 		LocaleLtLT:         localeTableLtLT,
+		LocaleLtg:          localeTableLtg,
+		LocaleLtgLV:        localeTableLtgLV,
 		LocaleLu:           localeTableLu,
 		LocaleLuCD:         localeTableLuCD,
 		LocaleLuo:          localeTableLuo,
@@ -11197,6 +11869,7 @@ var (
 		LocaleMuaCM:        localeTableMuaCM,
 		LocaleMus:          localeTableMus,
 		LocaleMusUS:        localeTableMusUS,
+		LocaleMww:          localeTableMww,
 		LocaleMy:           localeTableMy,
 		LocaleMyMM:         localeTableMyMM,
 		LocaleMyv:          localeTableMyv,
@@ -11267,6 +11940,8 @@ var (
 		LocalePisSB:        localeTablePisSB,
 		LocalePl:           localeTablePl,
 		LocalePlPL:         localeTablePlPL,
+		LocalePms:          localeTablePms,
+		LocalePmsIT:        localeTablePmsIT,
 		LocalePrg:          localeTablePrg,
 		LocalePrgPL:        localeTablePrgPL,
 		LocalePs:           localeTablePs,
@@ -11346,6 +12021,9 @@ var (
 		LocaleShiLatnMA:    localeTableShiLatnMA,
 		LocaleShiTfng:      localeTableShiTfng,
 		LocaleShiTfngMA:    localeTableShiTfngMA,
+		LocaleShn:          localeTableShn,
+		LocaleShnMM:        localeTableShnMM,
+		LocaleShnTH:        localeTableShnTH,
 		LocaleSi:           localeTableSi,
 		LocaleSiLK:         localeTableSiLK,
 		LocaleSid:          localeTableSid,
@@ -11448,6 +12126,8 @@ var (
 		LocaleTtRU:         localeTableTtRU,
 		LocaleTwq:          localeTableTwq,
 		LocaleTwqNE:        localeTableTwqNE,
+		LocaleTyv:          localeTableTyv,
+		LocaleTyvRU:        localeTableTyvRU,
 		LocaleTzm:          localeTableTzm,
 		LocaleTzmMA:        localeTableTzmMA,
 		LocaleUg:           localeTableUg,
@@ -11509,7 +12189,9 @@ var (
 		LocaleYueHans:      localeTableYueHans,
 		LocaleYueHansCN:    localeTableYueHansCN,
 		LocaleYueHant:      localeTableYueHant,
+		LocaleYueHantCN:    localeTableYueHantCN,
 		LocaleYueHantHK:    localeTableYueHantHK,
+		LocaleYueHantMO:    localeTableYueHantMO,
 		LocaleZa:           localeTableZa,
 		LocaleZaCN:         localeTableZaCN,
 		LocaleZgh:          localeTableZgh,
@@ -11519,10 +12201,12 @@ var (
 		LocaleZhHansCN:     localeTableZhHansCN,
 		LocaleZhHansHK:     localeTableZhHansHK,
 		LocaleZhHansMO:     localeTableZhHansMO,
+		LocaleZhHansMY:     localeTableZhHansMY,
 		LocaleZhHansSG:     localeTableZhHansSG,
 		LocaleZhHant:       localeTableZhHant,
 		LocaleZhHantHK:     localeTableZhHantHK,
 		LocaleZhHantMO:     localeTableZhHantMO,
+		LocaleZhHantMY:     localeTableZhHantMY,
 		LocaleZhHantTW:     localeTableZhHantTW,
 		LocaleZu:           localeTableZu,
 		LocaleZuZA:         localeTableZuZA,
