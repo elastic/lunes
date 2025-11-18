@@ -87,9 +87,10 @@ func allLocalesTests(valuePattern string, replacements []replacement) *[]ParseTe
 
 func genAllLocalesTests(valuePattern string, replacements []replacement, formatter func(v string) string) *[]ParseTestLocale {
 	var tests []ParseTestLocale
-	for lang := range tables {
+	for lang := range tableLoaders {
 		test := ParseTestLocale{lang: lang}
-		locale := genericLocale{lang: lang, table: tables[lang]}
+		table, _ := getTable(lang)
+		locale := genericLocale{lang: lang, table: table}
 
 		args := make([]any, 0, len(replacements)/2)
 		var unsupportedElem string
@@ -97,7 +98,8 @@ func genAllLocalesTests(valuePattern string, replacements []replacement, formatt
 			fieldVal := getLocaleFieldValue(&locale, repl.field)
 			if len(fieldVal) == 0 {
 				// fallback to english so it replaces the placeholders with any value
-				fieldVal = tables["en"][repl.field]
+				enTable, _ := getTable("en")
+				fieldVal = enTable[repl.field]
 				if unsupportedElem == "" {
 					switch repl.field {
 					case shortDayNamesField, longDayNamesField:

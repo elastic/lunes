@@ -124,7 +124,7 @@ var dayPeriodsStdMap = map[string]string{
 var localesData = map[string]*cldrLocaleData{}
 
 func main() {
-	cldrVersion := flag.Int("cldr", 45, "CLDR version")
+	cldrVersion := flag.Int("cldr", 48, "CLDR version")
 	cldrZipFilePath := flag.String("file", "", "CLDR core.zip path")
 	flag.Parse()
 
