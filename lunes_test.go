@@ -778,6 +778,44 @@ func checkParsedTime(value time.Time, expected time.Time, test ParseTest, t *tes
 	}
 }
 
+func TestLayoutMismatchForUnderscoreFields(t *testing.T) {
+	tests := []struct {
+		name       string
+		layout     string
+		value      string
+		layoutElem string
+	}{
+		{
+			name:       "Underscore2",
+			layout:     "_2 2006",
+			value:      "  ",
+			layoutElem: "_2",
+		},
+		{
+			name:       "Underscore2006",
+			layout:     "_2006-01-02",
+			value:      "     ",
+			layoutElem: "_2006",
+		},
+		{
+			name:       "DoubleUnderscore2",
+			layout:     "__2 2006",
+			value:      "\t\t\t",
+			layoutElem: "__2",
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			want := newLayoutMismatchError(tt.layoutElem, tt.value)
+			_, err := Translate(tt.layout, tt.value, LocaleEn)
+			if err == nil || !errors.Is(err, want) {
+				t.Fatalf("want %v, got %v", want, err)
+			}
+		})
+	}
+}
+
 func TestLayoutMismatch(t *testing.T) {
 	format := "Mon January 03:04:05PM"
 	value := "February Mon 03:04:05PM"
@@ -903,11 +941,11 @@ func TestAllLocalesReplacements(t *testing.T) {
 	})
 
 	t.Run("ParseLongNames", func(t *testing.T) {
-		testParseFunc(t, shortLayoutTests, time.Parse, Parse)
+		testParseFunc(t, longLayoutTests, time.Parse, Parse)
 	})
 
 	t.Run("ParseInLocationShortNames", func(t *testing.T) {
-		testParseFunc(t, longLayoutTests, func(format, value string) (time.Time, error) {
+		testParseFunc(t, shortLayoutTests, func(format, value string) (time.Time, error) {
 			return time.ParseInLocation(format, value, defaultLocation)
 		}, func(format string, value string, locale string) (time.Time, error) {
 			return ParseInLocation(format, value, locale, defaultLocation)
@@ -968,7 +1006,7 @@ func TestUnsupportedLayoutElements(t *testing.T) {
 func TestTranslate(t *testing.T) {
 	translate, err := Translate("Monday _2 2006 27", "viernes 15 2006 27", LocaleEsES)
 	if err != nil {
-		return
+		t.Fatalf("expected no error, got: '%v'", err)
 	}
 
 	if translate != "Friday 15 2006 27" {
@@ -979,16 +1017,154 @@ func TestTranslate(t *testing.T) {
 func TestTranslateSpacedValue(t *testing.T) {
 	locale, err := NewDefaultLocale(LocaleEsES)
 	if err != nil {
-		return
+		t.Fatalf("expected no error, got: '%v'", err)
 	}
 
 	translate, err := TranslateWithLocale("Monday _2 2006 27", "    viernes   15  2006 27 ", locale)
 	if err != nil {
-		return
+		t.Fatalf("expected no error, got: '%v'", err)
 	}
 
 	if translate != "    Friday   15  2006 27 " {
 		t.Errorf("expected spced value '    Friday   15  2006 27 ', got: '%s'", translate)
+	}
+}
+
+func TestTranslateFlexibleClock(t *testing.T) {
+	tests := []struct {
+		name             string
+		layout           string
+		localized        string
+		lang             string
+		wantTranslated   string
+		wantTranslateErr bool
+	}{
+		{
+			name:           "FlexibleTwoDigitHmsPm",
+			layout:         "Monday Jan _2 2006 3:4:5 pm",
+			localized:      "lunes oct 27 1988 8:53:29 p.m.",
+			lang:           LocaleEsES,
+			wantTranslated: "Monday Oct 27 1988 8:53:29 pm",
+		},
+		{
+			name:           "FlexibleSingleDigitHmsPm",
+			layout:         "Monday Jan _2 2006 3:4:5 pm",
+			localized:      "lunes oct 27 1988 1:2:3 p.m.",
+			lang:           LocaleEsES,
+			wantTranslated: "Monday Oct 27 1988 1:2:3 pm",
+		},
+		{
+			name:           "FlexibleMixedDigitWidths",
+			layout:         "Monday Jan _2 2006 3:4:5 pm",
+			localized:      "lunes oct 27 1988 9:05:7 p.m.",
+			lang:           LocaleEsES,
+			wantTranslated: "Monday Oct 27 1988 9:05:7 pm",
+		},
+		{
+			name:           "FixedWidth030405Layout",
+			layout:         "Monday Jan _2 2006 03:04:05 pm",
+			localized:      "lunes oct 27 1988 08:53:29 p.m.",
+			lang:           LocaleEsES,
+			wantTranslated: "Monday Oct 27 1988 08:53:29 pm",
+		},
+		{
+			name:           "FlexibleLeadingSpacesBeforeClock",
+			layout:         "Monday Jan _2 2006 3:4:5 pm",
+			localized:      "lunes oct 27 1988   8:53:29 p.m.",
+			lang:           LocaleEsES,
+			wantTranslated: "Monday Oct 27 1988   8:53:29 pm",
+		},
+		{
+			name:           "UpperPmLowerSpanishPeriod",
+			layout:         "Monday Jan _2 2006 3:4:5 PM",
+			localized:      "lunes oct 27 1988 8:53:29 p.m.",
+			lang:           LocaleEsES,
+			wantTranslated: "Monday Oct 27 1988 8:53:29 PM",
+		},
+		{
+			name:           "EnglishPassthrough",
+			layout:         "Monday Jan _2 2006 3:4:5 pm",
+			localized:      "Monday Oct 27 1988 8:53:29 pm",
+			lang:           LocaleEn,
+			wantTranslated: "Monday Oct 27 1988 8:53:29 pm",
+		},
+		{
+			name:           "EnglishFlexibleSingleDigitsAm",
+			layout:         "Monday Jan _2 2006 3:4:5 pm",
+			localized:      "Monday Oct 27 1988 1:2:3 am",
+			lang:           LocaleEn,
+			wantTranslated: "Monday Oct 27 1988 1:2:3 am",
+		},
+		{
+			name:             "NonDigitFlexibleHour",
+			layout:           "Monday Jan _2 2006 3:4:5 pm",
+			localized:        "lunes oct 27 1988 x:53:29 p.m.",
+			lang:             LocaleEsES,
+			wantTranslateErr: true,
+		},
+		{
+			name:             "TruncatedAfterDate",
+			layout:           "Monday Jan _2 2006 3:4:5 pm",
+			localized:        "lunes oct 27 1988 ",
+			lang:             LocaleEsES,
+			wantTranslateErr: true,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			t.Run("Translate", func(t *testing.T) {
+				got, err := Translate(tt.layout, tt.localized, tt.lang)
+				if tt.wantTranslateErr {
+					if err == nil {
+						t.Fatal("expected error, got nil")
+					}
+					var lm *ErrLayoutMismatch
+					if !errors.As(err, &lm) {
+						t.Fatalf("expected ErrLayoutMismatch, got %v", err)
+					}
+					return
+				}
+				if err != nil {
+					t.Fatal(err)
+				}
+				if got != tt.wantTranslated {
+					t.Fatalf("got %q, want %q", got, tt.wantTranslated)
+				}
+			})
+
+			if tt.wantTranslateErr {
+				return
+			}
+
+			t.Run("Parse", func(t *testing.T) {
+				parsed, err := Parse(tt.layout, tt.localized, tt.lang)
+				if err != nil {
+					t.Fatal(err)
+				}
+				wantTime, err := time.Parse(tt.layout, tt.wantTranslated)
+				if err != nil {
+					t.Fatalf("time.Parse(wantTranslated): %v", err)
+				}
+				if !parsed.Equal(wantTime) {
+					t.Fatalf("got %v, want %v", parsed, wantTime)
+				}
+			})
+
+			t.Run("ParseInLocation", func(t *testing.T) {
+				gotLoc, err := ParseInLocation(tt.layout, tt.localized, tt.lang, defaultLocation)
+				if err != nil {
+					t.Fatal(err)
+				}
+				wantLoc, err := time.ParseInLocation(tt.layout, tt.wantTranslated, defaultLocation)
+				if err != nil {
+					t.Fatalf("time.ParseInLocation(wantTranslated): %v", err)
+				}
+				if !gotLoc.Equal(wantLoc) {
+					t.Fatalf("got %v, want %v", gotLoc, wantLoc)
+				}
+			})
+		})
 	}
 }
 
